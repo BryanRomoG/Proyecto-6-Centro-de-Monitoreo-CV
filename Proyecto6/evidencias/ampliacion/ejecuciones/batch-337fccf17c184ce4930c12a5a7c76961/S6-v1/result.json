@@ -1,0 +1,23 @@
+{
+  "scenario": "S6-v1",
+  "run_id": "run-2123986acf4f4530b6e38a8d382cde3e",
+  "expectation": "Configuración inicial identificada",
+  "observed": true,
+  "event_statuses": [
+    "ok",
+    "ok"
+  ],
+  "event_ids": [
+    "evt-a2b87cc8371148728ec4ab9224af5cc3",
+    "evt-230cf3165fa74ad3b1df29597a9bdafc"
+  ],
+  "alert_ids": [
+    "alert-1a70f4dcd7a24889babf4801563928a3",
+    "alert-a7f8ba8104b14a8abdba8bc1c4eb9d46"
+  ],
+  "config_sha256": "eaf483835d99fe54c1979f84114db7aabcc5345892825c19fee18e6f8b5727e9",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

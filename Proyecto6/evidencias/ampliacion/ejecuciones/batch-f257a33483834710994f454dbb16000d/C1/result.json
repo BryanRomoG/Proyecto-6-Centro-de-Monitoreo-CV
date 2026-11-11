@@ -1,0 +1,47 @@
+{
+  "scenario": "C1",
+  "run_id": "run-0584836099f54a7eaceec13d30ca2084",
+  "expectation": "Fuente progresiva y 10 inferencias reales persistidas",
+  "observed": true,
+  "event_statuses": [
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+  ],
+  "event_ids": [
+    "evt-c598cd305dd34cdfae2c1e3a56338262",
+    "evt-fc5be9e9f5a5485f918a27d5c78f0faa",
+    "evt-390d0408db344003bb5966c285ae0a52",
+    "evt-d3b437add2c64b49a6192b73b5717e78",
+    "evt-2570e8073a3e4f9990138067b9b43525",
+    "evt-14c12d98fddb4fdb9d73bc935e9cc6e7",
+    "evt-ea835fc92ce14f61b828fa72b2556355",
+    "evt-59aa707ac7a14f79b23a810a726ad513",
+    "evt-442fa9c4cd2b4f1fa14960c604eea633",
+    "evt-92307b6b4df946e7ace605c3425bbb3d"
+  ],
+  "alert_ids": [
+    "alert-923b7961f5234319aaece0695df460af",
+    "alert-15575be1749b46789db9beee06317447",
+    "alert-8b6da59a7c5547cbaa5de6eaeefd92e9",
+    "alert-25525dbc02b0476b97f143d10750748f",
+    "alert-cdc204e28a7a44ffba336f4ec2a41311",
+    "alert-a8c6d44865004dae9891ddee71f574e3",
+    "alert-de975a01970f4d2b88d7c95a353beed2",
+    "alert-cc3ee5c1380b4489addcd9add8fa5c93",
+    "alert-e37e2ccfe1ff4acfba31a04ade07b89f",
+    "alert-e8a6919e16f04ee4af64ca52313183ef"
+  ],
+  "config_sha256": "adb83bf43ab7c4d9cdb5755765203730ab5f7ec9eaf6523993c8c4859f94cb61",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

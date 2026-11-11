@@ -1,0 +1,84 @@
+[
+  {
+    "active_alert_ids": [
+      "alert-ecf83ef7fdca44cfa97d1e323b65347b",
+      "alert-525b230c492c4cbb91ded6235e76b7bc"
+    ],
+    "event_ids": [
+      "evt-00a294bc30b54e63b7642d3689a7f1f6",
+      "evt-1e3793771b694b6b87cbae459052c4df"
+    ],
+    "id": "metric-6c79047c375941a595a428ff57ef771e",
+    "last_report_event_id": "evt-00a294bc30b54e63b7642d3689a7f1f6",
+    "primary": {
+      "attempt_elapsed_s": 0.6149488999981259,
+      "eligible_events": 2,
+      "low_detections": 6,
+      "scored_detections": 12,
+      "successful_frames": 2,
+      "traced_events": 2
+    },
+    "run_id": "run-c24e0b08d67446c493b2d1920799c423",
+    "state": "observed",
+    "timestamp": "2026-11-10T23:28:23.634378+00:00",
+    "units": {
+      "G1": "ms",
+      "G2": "frames/s",
+      "G3": "MiB",
+      "G4": "proporción",
+      "G5": "proporción",
+      "G6": "s",
+      "G7": "alertas"
+    },
+    "values": {
+      "G1": 13.321349999387166,
+      "G2": 3.2523027523199004,
+      "G3": 143.939453125,
+      "G4": 0.5,
+      "G5": 1.0,
+      "G6": 0.09436392784118652,
+      "G7": 2
+    },
+    "window_seconds": 60.0
+  },
+  {
+    "active_alert_ids": [
+      "alert-525b230c492c4cbb91ded6235e76b7bc"
+    ],
+    "event_ids": [
+      "evt-1e3793771b694b6b87cbae459052c4df"
+    ],
+    "id": "metric-de238e53429f4fd4a4487f8ede1277ed",
+    "last_report_event_id": "evt-1e3793771b694b6b87cbae459052c4df",
+    "primary": {
+      "attempt_elapsed_s": 0.08021559999906458,
+      "eligible_events": 1,
+      "low_detections": 4,
+      "scored_detections": 7,
+      "successful_frames": 1,
+      "traced_events": 1
+    },
+    "run_id": "run-c24e0b08d67446c493b2d1920799c423",
+    "state": "observed",
+    "timestamp": "2026-11-10T23:28:23.099725+00:00",
+    "units": {
+      "G1": "ms",
+      "G2": "frames/s",
+      "G3": "MiB",
+      "G4": "proporción",
+      "G5": "proporción",
+      "G6": "s",
+      "G7": "alertas"
+    },
+    "values": {
+      "G1": 13.324799998372328,
+      "G2": 12.466403043942343,
+      "G3": 142.640625,
+      "G4": 0.5714285714285714,
+      "G5": 1.0,
+      "G6": 0.08222794532775879,
+      "G7": 1
+    },
+    "window_seconds": 60.0
+  }
+]

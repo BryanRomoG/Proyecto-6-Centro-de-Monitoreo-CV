@@ -1,0 +1,102 @@
+﻿<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }} · Monitor CV</title><link rel="stylesheet" href="/static/css/portal.css?v=0.3.1"></head>
+<body data-view="{{ view }}"><a class="skip" href="#contenido">Saltar al contenido</a>
+<aside><a class="brand" href="/">◉ Monitor CV</a><p class="eyebrow">PROYECTO 6 · ITESO</p><nav aria-label="Navegación principal">
+{% for href,label in [('/','Dashboard'),('/playback','Reproducción'),('/events','Eventos'),('/alerts','Alertas'),('/history','Métricas e históricos'),('/gallery','Galería'),('/sources','Fuentes'),('/runs','Ejecuciones'),('/configuration','Configuración')] %}
+<a href="{{ href }}" {% if (view=='dashboard' and href=='/') or (href=='/'+view) %}aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}
+</nav><small>Entrega individual<br>Nombre y matrícula pendientes<br>Reproducción de archivos locales</small></aside>
+<main id="contenido"><header><div><span class="eyebrow">CENTRO DE MONITOREO / ARCHIVOS LOCALES</span><h1>{{ title }}</h1><p>YOLOX-Nano · Inferencia real · Confianza no equivale a acierto</p></div>
+<span class="tag" id="global-status" role="status">Cargando…</span></header>
+<p id="feedback" role="status" aria-live="polite"></p><p id="app-error" class="error" role="alert" hidden></p>
+{% if view in ['dashboard','playback','sources'] %}
+<section class="panel toolbar" aria-label="Controles de reproducción">
+<label>Fuente registrada<select id="source-select"><option value="">Configuración predeterminada</option></select></label>
+<label>Muestreo (frames/s)<input id="playback-hz" type="number" min=".1" max="60" step=".1" value="2"></label>
+<label class="check"><input id="playback-loop" type="checkbox"> Repetir archivo</label>
+<div class="buttons"><button data-action="start">Iniciar</button><button data-action="pause" class="secondary">Pausar</button><button data-action="resume" class="secondary">Continuar</button><button data-action="stop" class="danger">Detener</button></div>
+</section>{% endif %}
+{% if view == 'dashboard' %}
+<section id="dashboard-cards" class="cards" aria-live="polite"><article>Cargando observaciones…</article></section>
+<section class="two-columns"><article class="panel"><h2>Ejecución y procedencia</h2><dl id="dashboard-details"></dl><a href="/playback">Observar reproducción procesada →</a></article>
+<article class="panel"><h2>Distribución de confianza</h2><div id="dashboard-histogram"></div><p>Detecciones finales después de NMS. La puntuación no confirma acierto.</p></article></section>
+{% elif view == 'playback' %}
+<section class="panel"><div class="section-header"><h2>Frame procesado</h2><span class="tag">Reproducción de archivo · No es cámara en vivo</span></div>
+<div class="viewer"><img id="processed-frame" alt="Frame procesado con detecciones del mismo evento" hidden><p id="frame-empty">Sin datos suficientes. Inicia una fuente de imágenes o video.</p></div>
+<progress id="frame-progress" max="1" value="0" aria-label="Progreso de reproducción"></progress>
+<dl id="frame-details"></dl><p>Rojo: baja confianza · Ámbar: duda · Verde: aceptada por política.</p>
+<div class="table-wrap"><table><thead><tr><th>Clase</th><th>Confianza real</th><th>Zona</th><th>Caja xyxy</th></tr></thead><tbody id="frame-detections"></tbody></table></div></section>
+{% elif view in ['events','alerts','gallery','history'] %}
+<form id="filters" class="panel filters" aria-label="Filtros de consulta">
+<label>ID contiene<input name="q" maxlength="150"></label>
+<label>Desde (hora local)<input name="start" type="datetime-local" step="1"></label><label>Hasta (hora local)<input name="end" type="datetime-local" step="1"></label>
+<label>Ejecución<select name="run_id" class="run-select"><option value="">Todas (series separadas)</option></select></label>
+{% if view in ['events','gallery','history'] %}
+<label>Fuente<input name="source"></label><label>Clase COCO<input name="class_name" placeholder="dog, car…"></label>
+<label>Colección prevista (no predicción)<select id="collection-filter" name="collection"><option value="">Todas las colecciones</option></select></label>
+<label>Zona<select name="zone"><option value="">Todas</option><option value="low">Baja confianza</option><option value="doubt">Duda</option><option value="accepted">Aceptada por política</option></select></label>
+<label>Puntuación mínima<input name="min_score" type="number" min="0" max="1" step=".01"></label><label>Puntuación máxima<input name="max_score" type="number" min="0" max="1" step=".01"></label>
+{% endif %}
+{% if view in ['events','alerts'] %}
+<label>Estado<select name="status"><option value="">Todos</option>
+{% if view=='events' %}<option value="ok">Con detecciones</option><option value="no_detections">Sin detecciones</option><option value="source_error">Error de lectura</option><option value="decode_error">Imagen inválida</option><option value="inference_error">Error de inferencia</option>
+{% else %}<option value="active">Abierta</option><option value="acknowledged">Reconocida</option><option value="resolved">Resuelta</option>{% endif %}</select></label>
+{% endif %}
+{% if view=='alerts' %}
+<label>Regla<input name="rule" placeholder="low-confidence-v1"></label><label>Severidad<select name="severity"><option value="">Todas</option><option value="warning">Advertencia</option><option value="high">Alta</option><option value="info">Informativa</option></select></label><label>Evento de origen<input name="event_id"></label>
+{% endif %}
+{% if view!='history' %}<label>Ordenar<select name="sort"><option value="timestamp">Fecha</option><option value="id">Identificador</option>{% if view=='events' %}<option value="confidence">Confianza máxima</option><option value="detection_count">Detecciones</option>{% endif %}{% if view=='alerts' %}<option value="severity">Severidad</option>{% endif %}</select></label><label>Sentido<select name="order"><option value="desc">Descendente</option><option value="asc">Ascendente</option></select></label>{% endif %}
+<div class="buttons"><button type="submit">Aplicar filtros</button><button type="reset" class="secondary">Limpiar</button></div></form>
+{% if view in ['events','alerts'] %}
+<div class="section-header"><p id="query-count">{{ total }} registros</p><div class="buttons"><a id="export-json" class="button secondary" href="/api/export/{{ view }}?format=json">Exportar JSON</a><a id="export-csv" class="button secondary" href="/api/export/{{ view }}?format=csv">Exportar CSV</a></div></div>
+<div class="table-wrap"><table id="records-table"><thead><tr>{% if view=='events' %}<th>Fecha / evento</th><th>Fuente</th><th>Estado técnico</th><th>Detecciones</th><th>Captura</th>{% else %}<th>Fecha / alerta</th><th>Regla</th><th>Severidad</th><th>Estado</th><th>Motivo</th>{% endif %}</tr></thead><tbody id="query-results">
+{% for item in items %}<tr><td><a href="/{{ view }}/{{ item.id }}">{{ item.timestamp }}</a><small>{{ item.id }}</small></td>
+{% if view=='events' %}<td>{{ item.source_id }}</td><td>{{ item.status|es }}</td><td>{{ item.detections|length }}</td><td>{% if item.image_ref %}<a href="/images/{{ item.id }}">Ver imagen</a>{% else %}Sin captura{% endif %}</td>
+{% else %}<td>{{ item.rule_id }}</td><td>{{ item.severity|es }}</td><td>{{ item.status|es }}</td><td>{{ item.reason }}</td>{% endif %}</tr>
+{% else %}<tr><td colspan="5">No hay {{ 'eventos' if view=='events' else 'alertas' }} para esta consulta.</td></tr>{% endfor %}
+</tbody></table></div><div class="pagination"><button id="previous" class="secondary">Anterior</button><span id="page-label">Página 1</span><button id="next" class="secondary">Siguiente</button></div>
+{% elif view=='gallery' %}
+<div class="toolbar"><label class="check"><input id="show-boxes" type="checkbox" checked> Mostrar detecciones</label><button id="download-selection">Descargar seleccionadas (ZIP)</button><span id="query-count"></span></div>
+<p id="gallery-load-state" role="status" aria-live="polite">Cargando capturas…</p><button id="gallery-retry" class="secondary" hidden>Reintentar carga</button>
+<section id="gallery-grid" class="gallery" aria-busy="true"></section>
+<details id="gallery-issues"><summary id="gallery-issues-count">Eventos técnicos sin captura e incidencias</summary><p>Los fallos de lectura o decodificación no crean imágenes. No se cuentan como capturas disponibles. Las referencias faltantes o con hash incorrecto se muestran por separado.</p><ul id="gallery-issues-list"></ul></details>
+<div class="pagination"><button id="previous" class="secondary">Anterior</button><span id="page-label">Página 1</span><button id="next" class="secondary">Siguiente</button></div>
+{% elif view=='history' %}
+<section class="toolbar"><label>Agrupación (segundos)<input id="interval" type="number" min="1" max="86400" value="10"></label>
+<a id="metrics-json" class="button secondary">Exportar métricas JSON</a><a id="metrics-csv" class="button secondary">Exportar métricas CSV</a><a id="confidence-json" class="button secondary">Exportar ventanas JSON</a><a id="confidence-csv" class="button secondary">Exportar ventanas CSV</a></section>
+<div class="buttons"><a id="extras-json" class="button secondary">Exportar indicadores adicionales JSON</a><a id="extras-csv" class="button secondary">Exportar indicadores adicionales CSV</a></div>
+<p>Selecciona período y ejecución. Pasa el puntero o enfoca un punto para consultar su observación. No se rellenan huecos.</p>
+<section class="charts" id="historical-charts"></section><h2>Indicadores adicionales recalculables</h2><div id="extra-results" class="table-wrap"></div>
+{% endif %}
+{% elif view=='event' %}
+<p><code>{{ item.id }}</code> · <span class="tag">{{ item.status|es }}</span> · {{ item.source_id }}</p>
+<p>Colección prevista: {{ item.collection or 'Fuente local anterior' }}. Las clases de la tabla son predicciones del detector.</p>
+<p>{{ image_reason }}</p>
+{% if item.input_image %}<p>Imagen de dataset {{ item.input_image.image_id }} · <a href="{{ item.input_image.landing_url }}" target="_blank" rel="noopener">Procedencia</a> · <a href="{{ item.input_image.license_url }}" target="_blank" rel="noopener">Licencia</a> · Autor: {{ item.input_image.author or 'No disponible' }}</p>{% endif %}
+{% if item.error %}<p class="error">{{ item.error }}</p>{% endif %}
+{% if image_state=='available' %}<a href="/images/{{ item.id }}"><img class="capture" src="/images/{{ item.id }}/annotated" alt="Captura del evento {{ item.id }}"></a><p><a href="/images/{{ item.id }}?download=true">Descargar imagen original</a></p>{% endif %}
+<div class="table-wrap"><table><thead><tr><th>Clase</th><th>Puntuación real</th><th>Zona</th><th>Caja xyxy</th></tr></thead><tbody>
+{% for d in item.detections %}<tr><td>{{ d.class_name }}</td><td>{{ '%.6f'|format(d.confidence) }}</td><td>{{ d.zone|es }}</td><td>{{ d.bbox }}</td></tr>{% else %}<tr><td colspan="4">Sin detecciones puntuadas. Consulta el estado técnico.</td></tr>{% endfor %}</tbody></table></div>
+<p><a href="/alerts?event_id={{ item.id }}">Consultar alertas de este evento</a></p>
+<details><summary>Observación, modelo y configuración completos</summary><pre>{{ item|tojson(indent=2) }}</pre></details>
+{% elif view=='alert' %}
+<section class="panel"><p><span class="tag {{ item.severity }}">{{ item.severity|es }}</span> <span id="alert-state" class="tag">{{ item.status|es }}</span> · {{ item.timestamp }}</p>
+<h2>{{ item.rule_id }}</h2><p>{{ item.reason }}</p><p><b>Acción sugerida:</b> {{ item.suggested_action }}</p>
+<h3>Eventos de origen</h3><ul>{% for identity in item.event_ids %}<li><a href="/events/{{ identity }}">{{ identity }}</a></li>{% endfor %}</ul>
+<label>Comentario de revisión<textarea id="alert-comment" rows="3" maxlength="2000"></textarea></label><div class="buttons"><button id="acknowledge">Reconocer</button><button id="resolve">Resolver</button><button id="comment" class="secondary">Añadir comentario</button></div>
+<h3>Historial de cambios</h3><ol id="alert-history"></ol></section>
+<script id="alert-data" type="application/json">{{ item|tojson }}</script>
+<details><summary>Regla y configuración de origen</summary><pre>{{ item|tojson(indent=2) }}</pre></details>
+{% elif view=='sources' %}
+<section class="panel"><h2>Registrar medio local</h2><p>Coloca tus archivos dentro de las raíces permitidas que muestra Configuración. La aplicación no explora el resto del disco.</p>
+<form id="source-form" class="filters"><label>Nombre<input name="name" required maxlength="100"></label><label>Tipo<select name="kind"><option value="images">Secuencia de imágenes</option><option value="video">Archivo de video</option></select></label>
+<label>Carpeta o archivo permitido<input name="path" required placeholder="data/media/mi-video.mp4"></label><label>Muestreo (frames/s)<input name="sample_hz" type="number" min=".1" max="60" step=".1" value="2"></label><label class="check"><input name="loop" type="checkbox"> Repetir</label><button type="submit">Registrar y validar</button></form></section>
+<h2>Fuentes disponibles</h2><div id="sources-list" class="cards"></div>
+{% elif view=='runs' %}
+<p>Las ejecuciones conservan su fuente, modelo y configuración. Los resultados de versiones distintas se consultan por separado.</p>
+<div class="buttons"><a href="/api/export/runs?format=json" class="button secondary">Exportar JSON</a><a href="/api/export/runs?format=csv" class="button secondary">Exportar CSV</a></div><div id="runs-list" class="table-wrap"></div>
+{% elif view=='configuration' %}
+<section class="panel"><h2>Configuración versionada por ejecución</h2><p>La fuente principal es un archivo local. No se requiere cámara, carrito, nube ni servicios de pago.</p><p>Los cambios de configuración generan nuevas ejecuciones; no modifican puntuaciones ni resultados anteriores.</p><pre id="configuration-content">Cargando configuración…</pre><a href="/sources">Administrar fuentes y frecuencia de muestreo</a></section>
+{% endif %}
+<footer>YOLOX-Nano CPU · Capturas sin expiración automática · Identidad académica pendiente</footer></main>
+<script src="/static/js/portal.js?v=0.3.1" defer></script></body></html>

@@ -1,0 +1,48 @@
+{
+  "C1": {
+    "run_id": "run-0584836099f54a7eaceec13d30ca2084",
+    "event_id": "evt-c598cd305dd34cdfae2c1e3a56338262",
+    "alert_id": "alert-e8a6919e16f04ee4af64ca52313183ef",
+    "checks": {
+      "event": {
+        "url": "http://127.0.0.1:8006/events/evt-c598cd305dd34cdfae2c1e3a56338262",
+        "ok": true
+      },
+      "alert": {
+        "url": "http://127.0.0.1:8006/alerts/alert-e8a6919e16f04ee4af64ca52313183ef",
+        "ok": true
+      },
+      "image": {
+        "url": "http://127.0.0.1:8006/images/evt-c598cd305dd34cdfae2c1e3a56338262",
+        "ok": true
+      },
+      "annotated": {
+        "url": "http://127.0.0.1:8006/images/evt-c598cd305dd34cdfae2c1e3a56338262/annotated",
+        "ok": true
+      }
+    }
+  },
+  "C2": {
+    "run_id": "run-a1bcc6f11db4465fb54a34f57ee9709c",
+    "event_id": "evt-f8f024591a6944e4b4d6647c83b89f75",
+    "alert_id": "alert-e6d08a8e67534d7996a473131c842731",
+    "checks": {
+      "event": {
+        "url": "http://127.0.0.1:8006/events/evt-f8f024591a6944e4b4d6647c83b89f75",
+        "ok": true
+      },
+      "alert": {
+        "url": "http://127.0.0.1:8006/alerts/alert-e6d08a8e67534d7996a473131c842731",
+        "ok": true
+      },
+      "image": {
+        "url": "http://127.0.0.1:8006/images/evt-f8f024591a6944e4b4d6647c83b89f75",
+        "ok": true
+      },
+      "annotated": {
+        "url": "http://127.0.0.1:8006/images/evt-f8f024591a6944e4b4d6647c83b89f75/annotated",
+        "ok": true
+      }
+    }
+  }
+}

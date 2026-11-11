@@ -1,0 +1,42 @@
+{
+  "run_id": "run-66a68e2135f14873b1552e10fb0ab9f0",
+  "source_id": "source-84443865a3be46ef874831f535c12270",
+  "collection": "escenas_multiples",
+  "events": 10,
+  "detections": 161,
+  "classes": {
+    "person": 106,
+    "car": 2,
+    "bench": 3,
+    "chair": 7,
+    "dining table": 2,
+    "potted plant": 1,
+    "frisbee": 1,
+    "surfboard": 1,
+    "baseball bat": 1,
+    "handbag": 2,
+    "suitcase": 1,
+    "umbrella": 1,
+    "bicycle": 7,
+    "motorcycle": 1,
+    "sports ball": 2,
+    "tie": 2,
+    "zebra": 4,
+    "bird": 1,
+    "cup": 6,
+    "bowl": 8,
+    "pizza": 1,
+    "cake": 1
+  },
+  "zones": {
+    "accepted": 11,
+    "doubt": 27,
+    "low": 123
+  },
+  "no_detections": [],
+  "alerts": 10,
+  "all_real": true,
+  "all_inputs_seen_once": true,
+  "extras_recalculated": true,
+  "mean_inference_ms": 18.05086000022129
+}

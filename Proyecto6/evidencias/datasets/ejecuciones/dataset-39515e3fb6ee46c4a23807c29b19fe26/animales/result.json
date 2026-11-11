@@ -1,0 +1,30 @@
+{
+  "run_id": "run-4e192afbc08b494085f4883c153a06fe",
+  "source_id": "source-1228eedc85084823abf2aa00585ab359",
+  "collection": "animales",
+  "events": 10,
+  "detections": 28,
+  "classes": {
+    "dog": 9,
+    "bed": 2,
+    "cat": 4,
+    "person": 4,
+    "couch": 2,
+    "book": 3,
+    "bench": 1,
+    "sheep": 1,
+    "bear": 1,
+    "bird": 1
+  },
+  "zones": {
+    "accepted": 3,
+    "low": 21,
+    "doubt": 4
+  },
+  "no_detections": [],
+  "alerts": 6,
+  "all_real": true,
+  "all_inputs_seen_once": true,
+  "extras_recalculated": true,
+  "mean_inference_ms": 12.798210000619292
+}

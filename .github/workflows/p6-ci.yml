@@ -1,0 +1,26 @@
+name: Proyecto6 CPU
+on:
+  workflow_dispatch:
+  push:
+    paths: ['Proyecto6/**', '.github/workflows/p6-ci.yml']
+  pull_request:
+    paths: ['Proyecto6/**', '.github/workflows/p6-ci.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Proyecto6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: Proyecto6/requirements.txt
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/download_model.py --destino modelo
+      - run: python scripts/prepare_demo.py
+      - run: python -m pytest --junitxml=data/tmp/pytest.xml

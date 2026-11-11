@@ -1,0 +1,103 @@
+{
+  "events": 480,
+  "with_existing_image": 470,
+  "references_without_image": [
+    {
+      "id": "evt-4610432e4bf54c56bba6763bb478f7b8",
+      "run_id": "run-a22f79462ab541f3a0d599c97bf41c30",
+      "status": "source_error",
+      "error": "Lectura de imagen: [Errno 2] No such file or directory: 'C:\\\\Users\\\\enano\\\\OneDrive - ITESO\\\\8vo Semestre\\\\MACHINE LEARNING\\\\Proyecto 6\\\\Proyecto-6-Centro-de-Monitoreo-CV\\\\Proyecto6\\\\data\\\\scenarios\\\\batch-337fccf17c184ce4930c12a5a7c76961\\\\S1\\\\001.png'",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-25e95926464742a3b8959c2ab1328e22",
+      "run_id": "run-a3905705d9634bf58242ff810a273a78",
+      "status": "decode_error",
+      "error": "Imagen recibida no decodificable",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-ac1580f3f8614497991af26f1ecc9fd0",
+      "run_id": "run-9bbf63620ba2433ebd48ac612009b0e1",
+      "status": "source_error",
+      "error": "Lectura de imagen: [Errno 2] No such file or directory: 'C:\\\\Users\\\\enano\\\\OneDrive - ITESO\\\\8vo Semestre\\\\MACHINE LEARNING\\\\Proyecto 6\\\\Proyecto-6-Centro-de-Monitoreo-CV\\\\Proyecto6\\\\data\\\\scenarios\\\\suite-9eccd87f74d648ac9a5841ab2fffa15f\\\\S1\\\\001.png'",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-a06be883d9b74293b2b307312dd402eb",
+      "run_id": "run-ae6e1d7e1b4e49cd8f662d5cf718914d",
+      "status": "decode_error",
+      "error": "Imagen recibida no decodificable",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-e014a5181f9d473d9dd2fd5c94e172a3",
+      "run_id": "run-e65a6272c5184496b1eb84cdcd243c66",
+      "status": "source_error",
+      "error": "Lectura de imagen: [Errno 2] No such file or directory: 'C:\\\\Users\\\\enano\\\\OneDrive - ITESO\\\\8vo Semestre\\\\MACHINE LEARNING\\\\Proyecto 6\\\\Proyecto-6-Centro-de-Monitoreo-CV\\\\Proyecto6\\\\data\\\\scenarios\\\\suite-c2194e173ca0478bb4ab44de77014388\\\\S1\\\\001.png'",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-37c68f779d5348e98d77c13f0e6be16e",
+      "run_id": "run-3925a3817b8b4d47b5ed37ec7a3dbcaa",
+      "status": "decode_error",
+      "error": "Imagen recibida no decodificable",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-b1a2340941ff4b7997cced6a9686e2cf",
+      "run_id": "run-5537f01575dc4e3194e13b7743c24bbc",
+      "status": "source_error",
+      "error": "Lectura de imagen: [Errno 2] No such file or directory: 'C:\\\\Users\\\\enano\\\\OneDrive - ITESO\\\\8vo Semestre\\\\MACHINE LEARNING\\\\Proyecto 6\\\\Proyecto-6-Centro-de-Monitoreo-CV\\\\Proyecto6\\\\data\\\\scenarios\\\\batch-f257a33483834710994f454dbb16000d\\\\S1\\\\001.png'",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-77841a77c917480f8ad1daaf72c2f22a",
+      "run_id": "run-caf7236291d44e90bd06210f96104d82",
+      "status": "decode_error",
+      "error": "Imagen recibida no decodificable",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-182910b9360a487191ac6791cf1dd786",
+      "run_id": "run-899bc01b49794f92b80e457c8a6e37ea",
+      "status": "source_error",
+      "error": "Lectura de imagen: [Errno 2] No such file or directory: 'C:\\\\Users\\\\enano\\\\OneDrive - ITESO\\\\8vo Semestre\\\\MACHINE LEARNING\\\\Proyecto 6\\\\Proyecto-6-Centro-de-Monitoreo-CV\\\\Proyecto6\\\\data\\\\scenarios\\\\suite-0e4d05124acf4790a9184e4de1a45f41\\\\S1\\\\001.png'",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    },
+    {
+      "id": "evt-b9595e4a5e11409eb28304313506e530",
+      "run_id": "run-1a327959d7754c64b8bfe9a9551d1c3d",
+      "status": "decode_error",
+      "error": "Imagen recibida no decodificable",
+      "image_ref": null,
+      "image_sha256": null,
+      "inference_executed": false
+    }
+  ],
+  "statuses": {
+    "ok": 450,
+    "source_error": 5,
+    "no_detections": 15,
+    "decode_error": 5,
+    "inference_error": 5
+  }
+}

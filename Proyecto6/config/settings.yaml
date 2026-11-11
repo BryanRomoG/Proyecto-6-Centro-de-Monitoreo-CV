@@ -1,0 +1,39 @@
+version: 1
+source:
+  kind: images
+  source_id: fuente-local-01
+  images_dir: data/demo/normal
+  video_file: data/media/demo.mp4
+  sample_hz: 2.0
+  loop: false
+  timeout_seconds: 5.0
+  retry_seconds: 2.0
+detector:
+  model: modelo/yolox_nano.onnx
+  descriptor: modelo/descriptor.yaml
+  input_size: 416
+  padding: 114
+  score_floor: 0.10
+  nms_iou: 0.45
+  max_detections: 100
+confidence:
+  lower: 0.60
+  upper: 0.80
+  window_frames: 5
+  min_detections: 5
+  reference_windows: 2
+  sustained_windows: 2
+  increase: 0.20
+alerts:
+  low_min_detections: 1
+metrics:
+  window_seconds: 60.0
+storage:
+  data_dir: data/runtime
+  database: monitor.sqlite3
+server:
+  autostart: false
+media_roots:
+  - data/demo
+  - data/media
+  - data/scenarios

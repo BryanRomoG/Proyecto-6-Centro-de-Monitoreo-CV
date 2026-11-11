@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-11-10T22:04:34.355793+00:00",
+  "run_id": "run-02611233986c44e7bc84a568aff98a87",
+  "event_id": "evt-8dc816d8d72448d2a7ad99bdd77ade9f",
+  "alert_id": "alert-46f7efdb4e2244e784d5711146f8dc08",
+  "checks": {
+    "events": {
+      "url": "http://127.0.0.1:8006/events?run_id=run-02611233986c44e7bc84a568aff98a87",
+      "status_code": 200,
+      "ok": true
+    },
+    "event": {
+      "url": "http://127.0.0.1:8006/events/evt-8dc816d8d72448d2a7ad99bdd77ade9f",
+      "status_code": 200,
+      "ok": true
+    },
+    "alerts": {
+      "url": "http://127.0.0.1:8006/alerts?run_id=run-02611233986c44e7bc84a568aff98a87",
+      "status_code": 200,
+      "ok": true
+    },
+    "image": {
+      "url": "http://127.0.0.1:8006/images/evt-8dc816d8d72448d2a7ad99bdd77ade9f",
+      "status_code": 200,
+      "ok": true
+    },
+    "alert": {
+      "url": "http://127.0.0.1:8006/alerts/alert-46f7efdb4e2244e784d5711146f8dc08",
+      "status_code": 200,
+      "ok": true
+    },
+    "missing": {
+      "ok": true
+    },
+    "empty": {
+      "ok": true
+    }
+  },
+  "ok": true,
+  "level": "HTML e imagen por HTTP; navegador se registra por separado"
+}

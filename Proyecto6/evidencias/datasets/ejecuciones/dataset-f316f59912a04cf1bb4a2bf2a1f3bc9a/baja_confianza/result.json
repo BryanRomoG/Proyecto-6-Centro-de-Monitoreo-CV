@@ -1,0 +1,32 @@
+{
+  "run_id": "run-6aa2c20d06074541b95cd9f195ccf982",
+  "source_id": "source-be88f031dbee47298b7e9050faa1ce9e",
+  "collection": "baja_confianza",
+  "events": 10,
+  "detections": 86,
+  "classes": {
+    "car": 37,
+    "person": 24,
+    "truck": 15,
+    "parking meter": 1,
+    "motorcycle": 3,
+    "bus": 1,
+    "dog": 1,
+    "chair": 1,
+    "kite": 1,
+    "boat": 2
+  },
+  "zones": {
+    "accepted": 6,
+    "doubt": 10,
+    "low": 70
+  },
+  "no_detections": [
+    "evt-e4bf762105544ee390326ffa3e6cbefe"
+  ],
+  "alerts": 9,
+  "all_real": true,
+  "all_inputs_seen_once": true,
+  "extras_recalculated": true,
+  "mean_inference_ms": 19.295369999599643
+}

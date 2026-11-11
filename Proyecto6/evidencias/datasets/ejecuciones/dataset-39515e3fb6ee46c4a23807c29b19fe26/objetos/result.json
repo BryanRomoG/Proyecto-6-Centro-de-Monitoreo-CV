@@ -1,0 +1,38 @@
+{
+  "run_id": "run-78e7ea204107497d84c7f6599c4beaa6",
+  "source_id": "source-56fa891ef6a1407c8d1063dab34945bd",
+  "collection": "objetos",
+  "events": 10,
+  "detections": 80,
+  "classes": {
+    "bottle": 9,
+    "cup": 7,
+    "dining table": 8,
+    "clock": 3,
+    "chair": 24,
+    "person": 4,
+    "parking meter": 1,
+    "bed": 2,
+    "carrot": 1,
+    "bowl": 1,
+    "couch": 2,
+    "book": 7,
+    "potted plant": 1,
+    "suitcase": 1,
+    "vase": 3,
+    "wine glass": 1,
+    "tv": 3,
+    "oven": 1,
+    "bench": 1
+  },
+  "zones": {
+    "low": 70,
+    "doubt": 10
+  },
+  "no_detections": [],
+  "alerts": 10,
+  "all_real": true,
+  "all_inputs_seen_once": true,
+  "extras_recalculated": true,
+  "mean_inference_ms": 13.572629999544006
+}

@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "matches": {
+    "M01": true,
+    "M02": true,
+    "M03": true,
+    "M04": true,
+    "M05": true,
+    "M06": true,
+    "M07": true,
+    "M08": true,
+    "M09": true,
+    "M10": true,
+    "M11": true,
+    "M12": true,
+    "M13": true,
+    "M14": true,
+    "M15": true,
+    "M16": true,
+    "M17": true,
+    "M18": true,
+    "M19": true,
+    "M20": true
+  },
+  "values": {
+    "M01": {
+      "p50": 13.26254999912635,
+      "p95": 14.972805000616063
+    },
+    "M02": 0.0,
+    "M03": 0,
+    "M04": 4.146529048341989,
+    "M05": 0,
+    "M06": 71.91636318218137,
+    "M07": 111.85546875,
+    "M08": {
+      "person": 106,
+      "car": 2,
+      "bench": 3,
+      "chair": 7,
+      "dining table": 2,
+      "potted plant": 1,
+      "frisbee": 1,
+      "surfboard": 1,
+      "baseball bat": 1,
+      "handbag": 2,
+      "suitcase": 1,
+      "umbrella": 1,
+      "bicycle": 7,
+      "motorcycle": 1,
+      "sports ball": 2,
+      "tie": 2,
+      "zebra": 4,
+      "bird": 1,
+      "cup": 6,
+      "bowl": 8,
+      "pizza": 1,
+      "cake": 1
+    },
+    "M09": {
+      "edges": [
+        0.0,
+        0.1,
+        0.2,
+        0.30000000000000004,
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "counts": [
+        0,
+        42,
+        30,
+        23,
+        18,
+        10,
+        14,
+        13,
+        9,
+        2
+      ]
+    },
+    "M10": 0.0,
+    "M11": 16.1,
+    "M12": 0.16770186335403728,
+    "M13": 0.0,
+    "M14": 1.0,
+    "M15": {
+      "source-84443865a3be46ef874831f535c12270 / run-d0bb928b2162438c911b60f3490ca7b5": 10
+    },
+    "M16": 248.79174290051932,
+    "M17": null,
+    "M18": null,
+    "M19": 9,
+    "M20": [
+      {
+        "run_id": "run-d0bb928b2162438c911b60f3490ca7b5",
+        "window_id": "window-38d483beed884e1b816144de88e030d7",
+        "reference_window_ids": [
+          "window-38d483beed884e1b816144de88e030d7",
+          "window-402baf3142c841dcbe52510c38948bd6"
+        ],
+        "event_ids": [
+          "evt-41b4cd85803e4e5c9820f77f6cf21d51",
+          "evt-623305edddb1439da684d6395429a8ea",
+          "evt-689ec13107044f25856f4bde744bf001",
+          "evt-385a0fb53c8540e3b9f3e5e95f1a88f1",
+          "evt-8fe96d00ed4547c5bd20dfd609bf8245"
+        ],
+        "reference_event_ids": [
+          "evt-41b4cd85803e4e5c9820f77f6cf21d51",
+          "evt-623305edddb1439da684d6395429a8ea",
+          "evt-689ec13107044f25856f4bde744bf001",
+          "evt-385a0fb53c8540e3b9f3e5e95f1a88f1",
+          "evt-8fe96d00ed4547c5bd20dfd609bf8245",
+          "evt-7e764cc15e8a436eac85ff4c2cffbcb3",
+          "evt-7d3743128c3742678e8db5de695fb0c2",
+          "evt-3240e87935674feb9292a740d37cde16",
+          "evt-036e949e7dcb4715b5ef1124a3cbb592",
+          "evt-104ba57106da418cab415952188a6706"
+        ],
+        "reference_count": 161,
+        "sample_count": 86,
+        "state": "reference",
+        "distance": null
+      },
+      {
+        "run_id": "run-d0bb928b2162438c911b60f3490ca7b5",
+        "window_id": "window-402baf3142c841dcbe52510c38948bd6",
+        "reference_window_ids": [
+          "window-38d483beed884e1b816144de88e030d7",
+          "window-402baf3142c841dcbe52510c38948bd6"
+        ],
+        "event_ids": [
+          "evt-7e764cc15e8a436eac85ff4c2cffbcb3",
+          "evt-7d3743128c3742678e8db5de695fb0c2",
+          "evt-3240e87935674feb9292a740d37cde16",
+          "evt-036e949e7dcb4715b5ef1124a3cbb592",
+          "evt-104ba57106da418cab415952188a6706"
+        ],
+        "reference_event_ids": [
+          "evt-41b4cd85803e4e5c9820f77f6cf21d51",
+          "evt-623305edddb1439da684d6395429a8ea",
+          "evt-689ec13107044f25856f4bde744bf001",
+          "evt-385a0fb53c8540e3b9f3e5e95f1a88f1",
+          "evt-8fe96d00ed4547c5bd20dfd609bf8245",
+          "evt-7e764cc15e8a436eac85ff4c2cffbcb3",
+          "evt-7d3743128c3742678e8db5de695fb0c2",
+          "evt-3240e87935674feb9292a740d37cde16",
+          "evt-036e949e7dcb4715b5ef1124a3cbb592",
+          "evt-104ba57106da418cab415952188a6706"
+        ],
+        "reference_count": 161,
+        "sample_count": 75,
+        "state": "reference",
+        "distance": null
+      }
+    ]
+  },
+  "event_ids": [
+    "evt-41b4cd85803e4e5c9820f77f6cf21d51",
+    "evt-623305edddb1439da684d6395429a8ea",
+    "evt-689ec13107044f25856f4bde744bf001",
+    "evt-385a0fb53c8540e3b9f3e5e95f1a88f1",
+    "evt-8fe96d00ed4547c5bd20dfd609bf8245",
+    "evt-7e764cc15e8a436eac85ff4c2cffbcb3",
+    "evt-7d3743128c3742678e8db5de695fb0c2",
+    "evt-3240e87935674feb9292a740d37cde16",
+    "evt-036e949e7dcb4715b5ef1124a3cbb592",
+    "evt-104ba57106da418cab415952188a6706"
+  ],
+  "alert_ids": [
+    "alert-c18948a3ce8f407b9f221a822135d00b",
+    "alert-636d0f0da6464dd6bb33113a6d5a7410",
+    "alert-9ad8e56f5ef24687978a83fab328ffb5",
+    "alert-338c2d3539c64a7e948f5eee4710a950",
+    "alert-a5ab783a3a4348f1991b0b11d716f04a",
+    "alert-b159b2127010467dab1b26a80fe60a97",
+    "alert-9f6c879a2a9541029455fc2db19fe280",
+    "alert-b72d1916c77d44fdabbe6c7681415213",
+    "alert-2e27130f54d149ed86b8abf9be5a60df",
+    "alert-328acc866bb947a4a2119edd4edffb7b"
+  ]
+}

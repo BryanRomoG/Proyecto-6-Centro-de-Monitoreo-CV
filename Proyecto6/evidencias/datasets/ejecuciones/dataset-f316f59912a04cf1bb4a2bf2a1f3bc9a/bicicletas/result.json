@@ -1,0 +1,32 @@
+{
+  "run_id": "run-bdc71983a9bf46c9a80e7858df169f4f",
+  "source_id": "source-8c1805223f9d4743b2c73486838fe1ef",
+  "collection": "bicicletas",
+  "events": 10,
+  "detections": 53,
+  "classes": {
+    "bicycle": 6,
+    "motorcycle": 3,
+    "person": 14,
+    "potted plant": 1,
+    "boat": 16,
+    "kite": 1,
+    "umbrella": 1,
+    "car": 6,
+    "truck": 2,
+    "bus": 1,
+    "bird": 1,
+    "bottle": 1
+  },
+  "zones": {
+    "doubt": 10,
+    "low": 39,
+    "accepted": 4
+  },
+  "no_detections": [],
+  "alerts": 10,
+  "all_real": true,
+  "all_inputs_seen_once": true,
+  "extras_recalculated": true,
+  "mean_inference_ms": 18.641510000816197
+}

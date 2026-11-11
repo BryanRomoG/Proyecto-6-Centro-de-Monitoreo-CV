@@ -1,0 +1,2254 @@
+{
+  "timestamp": "2026-11-11T01:32:56.500412+00:00",
+  "selected_batch": "ejecuciones/dataset-f316f59912a04cf1bb4a2bf2a1f3bc9a",
+  "images": 80,
+  "distinct_original_urls": 80,
+  "unique_input_sha256": 80,
+  "exact_duplicates": 0,
+  "near_duplicates": 0,
+  "per_image_licenses": {
+    "https://creativecommons.org/licenses/by/2.0/": 80
+  },
+  "registered_sources": [
+    {
+      "collection": "escenas_despejadas",
+      "created_at": "2026-11-11T01:00:15.128338+00:00",
+      "dataset_manifest": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\datasets\\manifest.json",
+      "id": "source-e42e079d54784bfd83111081d126a9c3",
+      "invalid_images": [],
+      "kind": "images",
+      "loop": false,
+      "manifest": [
+        {
+          "name": "0d2511cb18af9beb.jpg",
+          "sha256": "77a84f82b87aeb1380dc8e75497f6463e0acd1e1af68621baac7e0ea95a9dfb0"
+        },
+        {
+          "name": "3e01ca21fb4fd86e.jpg",
+          "sha256": "4784af69ef4aaaf42ac969a15c7a64388919431a427f68487b67fde1ab533785"
+        },
+        {
+          "name": "53c93a2c1825ae4b.jpg",
+          "sha256": "7c89e61430d2929be2fbc94c2cd68b2bad713cb8b2e54aaddecaad961abb7474"
+        },
+        {
+          "name": "6326a56a4639ab40.jpg",
+          "sha256": "a1de96308f5d2b8ee890310e50fc7273750a3b28c26cb363626c1e9c2c3a4e06"
+        },
+        {
+          "name": "890fb7cf89a435ba.jpg",
+          "sha256": "6add2d50b2a799e8b83a2253cc5eafee50d724a3234fac98c8b6dccf8b64937c"
+        },
+        {
+          "name": "9d67e0779ade6975.jpg",
+          "sha256": "7c0584ca1f215d90d313aab8753400987d0ae73bc1a3184d61144011f17abd78"
+        },
+        {
+          "name": "a2c00378a4c34811.jpg",
+          "sha256": "425c6bc398b0c01e8a5fa9336db8fe0bccb029fe7857b4dc62d0a1b4c754e1b5"
+        },
+        {
+          "name": "aa89c2f098416d87.jpg",
+          "sha256": "22d65e1cd254fb534f801d8a521c62c09ecfa77fe6fb36ec9cd531bd4c6ed9d1"
+        },
+        {
+          "name": "adad22cf678d94c1.jpg",
+          "sha256": "fc671f0b5f73294a4d9f66264d0e8c41ab96b537a24f8d42cc7430c9bf5f096b"
+        },
+        {
+          "name": "b7f09ff2d8d5de62.jpg",
+          "sha256": "ef4f8003126c121491f5aea56a736afbff882cff04511ae4401962aa4a8c9790"
+        }
+      ],
+      "name": "Pocos objetos previstos (no garantiza cero detecciones)",
+      "path": "data/media/datasets/escenas_despejadas",
+      "sample_hz": 2.0,
+      "total_frames": 10
+    },
+    {
+      "collection": "baja_confianza",
+      "created_at": "2026-11-11T01:00:15.028219+00:00",
+      "dataset_manifest": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\datasets\\manifest.json",
+      "id": "source-be88f031dbee47298b7e9050faa1ce9e",
+      "invalid_images": [],
+      "kind": "images",
+      "loop": false,
+      "manifest": [
+        {
+          "name": "00e5682d509f4b26.jpg",
+          "sha256": "d3cb048e1186ceff4901b19f86a81a99a7b38021ae71f7495fc02498cb27286b"
+        },
+        {
+          "name": "0438dea0e3cd161a.jpg",
+          "sha256": "abd79c390d11842116b50683fa3b562c8b45a67b35bd7b41f032a8356144636d"
+        },
+        {
+          "name": "0727983dd5f9e4e6.jpg",
+          "sha256": "7642aa3d981ca7cd97b198cfb58ae4677432171b6a0ce1605c2e8061b8e4d757"
+        },
+        {
+          "name": "0cce331e7f66f6ea.jpg",
+          "sha256": "a6526160dbd0e59668faf19807b964f2f1546e098fee70a6031e33e1bad6db40"
+        },
+        {
+          "name": "4fecd2bd6904a731.jpg",
+          "sha256": "1c308f1c3093224718e52577abe376a872fc5b4df309792adf126b1592060390"
+        },
+        {
+          "name": "c3d40b7732cc566b.jpg",
+          "sha256": "e39272650f3547b90af31c547293da67f6aacb0eb8c88c7ac42b429f282b1586"
+        },
+        {
+          "name": "cf0ce8fb5da5c0f4.jpg",
+          "sha256": "ba70e751d1732ad4e23d6a98d45c59da2481e8b6e0f84bf8e59333f85b19f7f5"
+        },
+        {
+          "name": "dbee805a3f0a0b7c.jpg",
+          "sha256": "990b53457e4b9e389511c42c86b21ff6f53c295ee31dbdd44baaf112983a2ad4"
+        },
+        {
+          "name": "ee919c85410376f1.jpg",
+          "sha256": "2bd8ae92c795ea539461108a036657583cd3f8f28da939e84485c226977004dc"
+        },
+        {
+          "name": "f91c08e69ab7d786.jpg",
+          "sha256": "652db55ef8681ee6ed09ba13c8f004591e369d4e63e3159a7a0eb79cd3f2d797"
+        }
+      ],
+      "name": "Escenas difíciles: oclusión anotada (no predicción)",
+      "path": "data/media/datasets/baja_confianza",
+      "sample_hz": 2.0,
+      "total_frames": 10
+    },
+    {
+      "collection": "escenas_multiples",
+      "created_at": "2026-11-11T01:00:14.930626+00:00",
+      "dataset_manifest": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\datasets\\manifest.json",
+      "id": "source-84443865a3be46ef874831f535c12270",
+      "invalid_images": [],
+      "kind": "images",
+      "loop": false,
+      "manifest": [
+        {
+          "name": "10e35627dac58772.jpg",
+          "sha256": "22befb5c691665a68558177cac01b87b0aac81d8bd4ed7d018c083893ec37cd3"
+        },
+        {
+          "name": "147bc1b2a07abe88.jpg",
+          "sha256": "91e4c09d2ca5482cb9dd381755ecc0232811235ee6e24dc3de76b8b8f90b76c4"
+        },
+        {
+          "name": "1bea4a97a9cfe442.jpg",
+          "sha256": "4b591b887580aaa9df1a43247ca9938395e8bf3db55fe58c32ba2dc12c2e8859"
+        },
+        {
+          "name": "26557008b4fcf408.jpg",
+          "sha256": "803c246822dbf27f51204f0f9fcf80a4a20ab9447d592a4d459e8894ae0f2974"
+        },
+        {
+          "name": "33425d3e9058ce29.jpg",
+          "sha256": "53d0b5e2330a1cb408ec987d61225086b9250c727554cfed7e2f5c4292ba6036"
+        },
+        {
+          "name": "8987951815d36f77.jpg",
+          "sha256": "fe6d50eb104e533322591eb81412f61eaaf1bf0e61c0899ff13b4fce01ec5ec3"
+        },
+        {
+          "name": "be67e17ec45f009e.jpg",
+          "sha256": "059aa95a634a0ab9489e21af667cb096f8561ebf56e3746c64e72953bb123107"
+        },
+        {
+          "name": "c94d9db0b0191c20.jpg",
+          "sha256": "83e9f7d7d1dfe0ae69165e91ee7ba0a0c94453f8e7a417b909928b850df70867"
+        },
+        {
+          "name": "e4b0c13b5e349670.jpg",
+          "sha256": "45fb6999da16cca2232d4887ac70eab7c87eabbcd03edb7b60155563c57ac344"
+        },
+        {
+          "name": "ec2afeae6f6fcbf9.jpg",
+          "sha256": "aad43ccf4d7ea5af5cee80bfb18968145500a738f39c5aaefcdabe99f06f14d4"
+        }
+      ],
+      "name": "Varias clases anotadas",
+      "path": "data/media/datasets/escenas_multiples",
+      "sample_hz": 2.0,
+      "total_frames": 10
+    },
+    {
+      "collection": "objetos",
+      "created_at": "2026-11-11T01:00:14.853551+00:00",
+      "dataset_manifest": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\datasets\\manifest.json",
+      "id": "source-56fa891ef6a1407c8d1063dab34945bd",
+      "invalid_images": [],
+      "kind": "images",
+      "loop": false,
+      "manifest": [
+        {
+          "name": "179f6966eec24e2a.jpg",
+          "sha256": "aa87b78851d08510cde5d4eac74755e938cc3e6113424c33f284abb9ca9674c5"
+        },
+        {
+          "name": "208fcde7b90bcbf8.jpg",
+          "sha256": "da185591cfee3304609158176b2a614ae476fe31fbd5d7308867ab810dfa72a2"
+        },
+        {
+          "name": "2110e5d8ca7e5a99.jpg",
+          "sha256": "e2e26291317aae9aa831909d924a4fbfbecf0106c546363808ff3bd56211125c"
+        },
+        {
+          "name": "23c4936af39bedc9.jpg",
+          "sha256": "a00fbce79f3fee7a261a79fc2a657fc5de1b9752006db940f10b1d281f29f23a"
+        },
+        {
+          "name": "34aebaebe39bfaf0.jpg",
+          "sha256": "b43cc96718b4edee827705d4bf11859cf044bd3e3e28540cd4233122bd3a3b1d"
+        },
+        {
+          "name": "5ea13fbbd1a1474f.jpg",
+          "sha256": "315441acb69ea0944856677553b1cc8d21db7bf3fdd568bc3b284547d5bfa8c7"
+        },
+        {
+          "name": "720bb6cc50390263.jpg",
+          "sha256": "22987221d94fa9a32d65b462ae146f6d80ab4eefdf62ca0094f9c8f3f2a70303"
+        },
+        {
+          "name": "ee322603860d9c7a.jpg",
+          "sha256": "fd41eb48afa0280736ac670ecc1f7d9cbc46e97d6d3b4f56f1dc77974b00f3d1"
+        },
+        {
+          "name": "fcd24d055c332d81.jpg",
+          "sha256": "d17d7155dbcc190b477aa9ff515826882762e9b4a718cfdb1e95b205fb121efe"
+        },
+        {
+          "name": "fdd6b016045ea8bf.jpg",
+          "sha256": "d3f29623a732d146f06fb567a71edc767e13f0aea9715f9e4d29662fd4ea13fb"
+        }
+      ],
+      "name": "Objetos domésticos",
+      "path": "data/media/datasets/objetos",
+      "sample_hz": 2.0,
+      "total_frames": 10
+    },
+    {
+      "collection": "bicicletas",
+      "created_at": "2026-11-11T01:00:14.763660+00:00",
+      "dataset_manifest": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\datasets\\manifest.json",
+      "id": "source-8c1805223f9d4743b2c73486838fe1ef",
+      "invalid_images": [],
+      "kind": "images",
+      "loop": false,
+      "manifest": [
+        {
+          "name": "049b2fae5ca8aa8b.jpg",
+          "sha256": "84e893a43360b5b49f0934d48fa372b81264aee3050476f01e992fe368bca7d0"
+        },
+        {
+          "name": "1456ab6503fda3b7.jpg",
+          "sha256": "8f98beb7f0b608323bcb5e5aa9cd91384c560203579a1d9392a8305059ecad3d"
+        },
+        {
+          "name": "272781f2753c00a1.jpg",
+          "sha256": "549f0cb8736cf17033e3ccaaea00758290e3a03c9fea12b6a91c9c3d8c35af43"
+        },
+        {
+          "name": "30b2dd3d699128e6.jpg",
+          "sha256": "12eb83bcfa39cb505da236e09b7dcbc28bdac27a30e9952dbdebefc38fb4a96b"
+        },
+        {
+          "name": "3bcc6c1f70986de8.jpg",
+          "sha256": "3f0a64c3de752201f886d2ddf51b3e0bb18d8454211e486271373ab4fc88b1b4"
+        },
+        {
+          "name": "4925ad38f1167993.jpg",
+          "sha256": "e83d7dd535083473bb4e4b057e54b92f76f065cefd7438bddd8e48412651eea7"
+        },
+        {
+          "name": "4f76d507fd32eace.jpg",
+          "sha256": "3704906a590343244ce513714134e173a84fe9ecfa68958e8de6955cd1067918"
+        },
+        {
+          "name": "80b0465320aad7b5.jpg",
+          "sha256": "2639df2810b0e0bde1ceba0488dd0733c0c3f2ded4fbba0c5a394a50fc8cdb1c"
+        },
+        {
+          "name": "a0017de072ca374e.jpg",
+          "sha256": "b7fe5c0d32960944954fcf44d78c16b9f341e5f3725e89b239931326bb35bfb4"
+        },
+        {
+          "name": "b7b8279ee5925bbc.jpg",
+          "sha256": "bb55bcf8451e78776ffea40d87552c0fa45d48754892f24dfa7c8ac0c89768b1"
+        }
+      ],
+      "name": "Bicicletas y transporte",
+      "path": "data/media/datasets/bicicletas",
+      "sample_hz": 2.0,
+      "total_frames": 10
+    },
+    {
+      "collection": "vehiculos",
+      "created_at": "2026-11-11T01:00:14.687220+00:00",
+      "dataset_manifest": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\datasets\\manifest.json",
+      "id": "source-cea187e9ce104278a038e242681d1949",
+      "invalid_images": [],
+      "kind": "images",
+      "loop": false,
+      "manifest": [
+        {
+          "name": "0552ac7ed0de822f.jpg",
+          "sha256": "ce3ca0a3cb7b96b01e8e8fe96dc3d9c7ee76a28da1313ecf27acbabc6d9a74c9"
+        },
+        {
+          "name": "22bb6b4ef6c256fe.jpg",
+          "sha256": "7a3646e1a72ea6e461bb519526ec94a5078a7ee1328b2f720c76c89231bc41b4"
+        },
+        {
+          "name": "28c0d7634bf53ab5.jpg",
+          "sha256": "054c87e681882ab86478f7be5dd8348a06c99a026d6268cb09456deab2236ae2"
+        },
+        {
+          "name": "3ec724375056fed7.jpg",
+          "sha256": "80fc89c9efc7769336cc4aaade0b0c382261e6c1a6f06997eec5713981844530"
+        },
+        {
+          "name": "4b345ec8bcf17706.jpg",
+          "sha256": "6ae67a40ab98e8f3690447d340fc8a719791b0ca8802194e0f8f26f4b4299f65"
+        },
+        {
+          "name": "747a3785bf1d3b97.jpg",
+          "sha256": "6b0059e40dced452b48ea1562c30832deb3a3e8c7b845610cd2f93088c3787ce"
+        },
+        {
+          "name": "759bc93ae6cbd7a4.jpg",
+          "sha256": "1c4772388e3cf2ea0bcf8755537039e0a5b7dd1afc66b6037ee4c7c1522b3222"
+        },
+        {
+          "name": "a1011a724439eeb7.jpg",
+          "sha256": "04ca4b23030ff4a6f1f1801ba741a43eca9595ce9eab8cc21f9be6f154c9ce58"
+        },
+        {
+          "name": "e5e277ddc85c291a.jpg",
+          "sha256": "ccf73cfad1825ba70a9e5d357532d3f95c9d31a8d95d038938a7b87092d5e138"
+        },
+        {
+          "name": "ef295afcf17ed57f.jpg",
+          "sha256": "05cb9d2ad263b0fd91ebf6839fd3920df2a0999ed5ac1385a94dc643c0b9e4ba"
+        }
+      ],
+      "name": "Automóviles y motocicletas",
+      "path": "data/media/datasets/vehiculos",
+      "sample_hz": 2.0,
+      "total_frames": 10
+    },
+    {
+      "collection": "animales",
+      "created_at": "2026-11-11T01:00:14.598066+00:00",
+      "dataset_manifest": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\datasets\\manifest.json",
+      "id": "source-1228eedc85084823abf2aa00585ab359",
+      "invalid_images": [],
+      "kind": "images",
+      "loop": false,
+      "manifest": [
+        {
+          "name": "1fd0ea22fe6fcfb6.jpg",
+          "sha256": "e259c6c8aec450dd8efd7bfe859274c4dc8b7ead34d62ad908f1c7e3c3192618"
+        },
+        {
+          "name": "488d4412c71bf3f1.jpg",
+          "sha256": "aa89797fc16b5f2b3bca981e1b1c8a355e7fd73ab1ec48d42c45b0b463b2e4e2"
+        },
+        {
+          "name": "48dc28e785a9479b.jpg",
+          "sha256": "bf349ee86a294db030953609bf5c7407129b74c8d18a3e409274f6259e4ac500"
+        },
+        {
+          "name": "5f07a2aed668c901.jpg",
+          "sha256": "87b0c1d2387da0e924d391451f2670fc95c6087a1966b39979034c8825d9350e"
+        },
+        {
+          "name": "87f4252180bcecc5.jpg",
+          "sha256": "d6f5d64e8f7c701bff3933c8740a4493b672e5514987a96972ae5a37bf5b88a6"
+        },
+        {
+          "name": "97b34e4a6b934a2b.jpg",
+          "sha256": "d760a0c2c1a026abed84c6cb16e9e53476c0627be9e0cbe580d4aa2798b071c2"
+        },
+        {
+          "name": "bbb60c5612dec65e.jpg",
+          "sha256": "c82ea9d2df6c46ba185c4436761d1662e098826ecbda70cca01b44565a6f9994"
+        },
+        {
+          "name": "bdf391a6f4b1840a.jpg",
+          "sha256": "29f217984e75806200272d827c8e09c462740b088e937e8184ecd7dd9c9bdf45"
+        },
+        {
+          "name": "d5e5d445aa2d0cb5.jpg",
+          "sha256": "2f8589d5bdfadac0381faab83e3e1541796061cead6989d5198f34900065b72f"
+        },
+        {
+          "name": "f3cfa3ad09945dea.jpg",
+          "sha256": "cd0fda61b05d18b24ff0a21f0da170ba584b8bf75c464f252ad719cad9f7f233"
+        }
+      ],
+      "name": "Perros y gatos",
+      "path": "data/media/datasets/animales",
+      "sample_hz": 2.0,
+      "total_frames": 10
+    },
+    {
+      "collection": "personas",
+      "created_at": "2026-11-11T01:00:14.515536+00:00",
+      "dataset_manifest": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\datasets\\manifest.json",
+      "id": "source-b4c7d349969347c5aa43ca402d89c1e2",
+      "invalid_images": [],
+      "kind": "images",
+      "loop": false,
+      "manifest": [
+        {
+          "name": "16f352b006a890cd.jpg",
+          "sha256": "1abbc48ba4c08811fa1361a52ec10a0a74a99c98db1e6531e4fe61caf979da7a"
+        },
+        {
+          "name": "226e69267d97c413.jpg",
+          "sha256": "ee25659967e1c3a70de68d2534eb30e8d0ea1485d9a6eebb6c5fd1732af9ecf0"
+        },
+        {
+          "name": "2ed9c820a178c0e8.jpg",
+          "sha256": "4a4a5c8c9001f90031dc4938cb0fece9064b734781a67af57107d59fa03b784d"
+        },
+        {
+          "name": "6d8503ab68ba6fa3.jpg",
+          "sha256": "44e25e7de7842ffa3333a43f7005d9c08ba2fba174c74d84d2d69e692152391b"
+        },
+        {
+          "name": "a561b6cbba31deae.jpg",
+          "sha256": "0e500d611e65f52867ffc07f3f2bc93640091068f18aa97178d7ad166d33c202"
+        },
+        {
+          "name": "ac1d9f4001b2bb0e.jpg",
+          "sha256": "67b2d40d49457b70cf3ae9ae6486c61dc13372451374c4e383f9a542429c9472"
+        },
+        {
+          "name": "c65555e49c2cd626.jpg",
+          "sha256": "c291af0afd8c384f3b82c82f25886f4201951370fba65d981791b26847bc574b"
+        },
+        {
+          "name": "d50348e28655a286.jpg",
+          "sha256": "35a1b8aa42fc3f1e0b271ff6d0e18a503af2c1cee653f5f41ec36b642cf1a491"
+        },
+        {
+          "name": "e8900b7ce86475c5.jpg",
+          "sha256": "6068d21be703d434556bf4d4bcf5a24d040ca660769b561e26c163839f0b9d75"
+        },
+        {
+          "name": "fb9a5a2b70231659.jpg",
+          "sha256": "80b40c7b781130322f4c228531833225e14235658caf665d7e98834dd425f20e"
+        }
+      ],
+      "name": "Personas",
+      "path": "data/media/datasets/personas",
+      "sample_hz": 2.0,
+      "total_frames": 10
+    }
+  ],
+  "recalculation": {
+    "animales": {
+      "base": {
+        "run_id": "run-a304b5fdd4ac49d89381a38b15acaabb",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 17.816329999550362,
+          "G2": 4.0367170091017535,
+          "G3": 112.45,
+          "G4": 0.75,
+          "G7": 6,
+          "G6": 0.36455297470092773,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 17.816329999550362,
+          "G2": 4.0367170091017535,
+          "G3": 112.45,
+          "G4": 0.75,
+          "G5": 1.0,
+          "G6": 0.36455297470092773,
+          "G7": 6
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 17.295999999987544,
+            "p95": 23.010164999323024
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 4.0367170091017535,
+          "M05": 0,
+          "M06": 85.78023644341226,
+          "M07": 114.95703125,
+          "M08": {
+            "dog": 9,
+            "bed": 2,
+            "cat": 4,
+            "person": 4,
+            "couch": 2,
+            "book": 3,
+            "bench": 1,
+            "sheep": 1,
+            "bear": 1,
+            "bird": 1
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              9,
+              5,
+              4,
+              2,
+              1,
+              2,
+              2,
+              1,
+              2
+            ]
+          },
+          "M10": 0.0,
+          "M11": 2.8,
+          "M12": 0.14285714285714285,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "source-1228eedc85084823abf2aa00585ab359 / run-a304b5fdd4ac49d89381a38b15acaabb": 10
+          },
+          "M16": 145.3218123276631,
+          "M17": null,
+          "M18": null,
+          "M19": 5,
+          "M20": [
+            {
+              "run_id": "run-a304b5fdd4ac49d89381a38b15acaabb",
+              "window_id": "window-1b987be42f3741d5acd2d49ea813bb9e",
+              "reference_window_ids": [
+                "window-1b987be42f3741d5acd2d49ea813bb9e",
+                "window-21882ccda7c142de8d6a0fd82ebd140c"
+              ],
+              "event_ids": [
+                "evt-36dc7efdd9b64aad8bc27549fa591e19",
+                "evt-1529c987b2e14d0ba6e7a6c0bc405619",
+                "evt-e4aaf58787cd4224b0e191316bb871f0",
+                "evt-7ff21161d9de4382af7e10f4933c1cfa",
+                "evt-c8555b973e324ef28057fee68cab11a3"
+              ],
+              "reference_event_ids": [
+                "evt-36dc7efdd9b64aad8bc27549fa591e19",
+                "evt-1529c987b2e14d0ba6e7a6c0bc405619",
+                "evt-e4aaf58787cd4224b0e191316bb871f0",
+                "evt-7ff21161d9de4382af7e10f4933c1cfa",
+                "evt-c8555b973e324ef28057fee68cab11a3",
+                "evt-0cfc0ec5227f40ebaa17744112960a2f",
+                "evt-8f6777d06cff42bcb646d8e82e4fc78f",
+                "evt-a29caac65ecb4d6aba7efac3e7b46f3e",
+                "evt-cfe9f27595634bab92a04f68a75e1067",
+                "evt-fe376edef4bf46d3bc9130d392278b0f"
+              ],
+              "reference_count": 28,
+              "sample_count": 9,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-a304b5fdd4ac49d89381a38b15acaabb",
+              "window_id": "window-21882ccda7c142de8d6a0fd82ebd140c",
+              "reference_window_ids": [
+                "window-1b987be42f3741d5acd2d49ea813bb9e",
+                "window-21882ccda7c142de8d6a0fd82ebd140c"
+              ],
+              "event_ids": [
+                "evt-0cfc0ec5227f40ebaa17744112960a2f",
+                "evt-8f6777d06cff42bcb646d8e82e4fc78f",
+                "evt-a29caac65ecb4d6aba7efac3e7b46f3e",
+                "evt-cfe9f27595634bab92a04f68a75e1067",
+                "evt-fe376edef4bf46d3bc9130d392278b0f"
+              ],
+              "reference_event_ids": [
+                "evt-36dc7efdd9b64aad8bc27549fa591e19",
+                "evt-1529c987b2e14d0ba6e7a6c0bc405619",
+                "evt-e4aaf58787cd4224b0e191316bb871f0",
+                "evt-7ff21161d9de4382af7e10f4933c1cfa",
+                "evt-c8555b973e324ef28057fee68cab11a3",
+                "evt-0cfc0ec5227f40ebaa17744112960a2f",
+                "evt-8f6777d06cff42bcb646d8e82e4fc78f",
+                "evt-a29caac65ecb4d6aba7efac3e7b46f3e",
+                "evt-cfe9f27595634bab92a04f68a75e1067",
+                "evt-fe376edef4bf46d3bc9130d392278b0f"
+              ],
+              "reference_count": 28,
+              "sample_count": 19,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-36dc7efdd9b64aad8bc27549fa591e19",
+          "evt-1529c987b2e14d0ba6e7a6c0bc405619",
+          "evt-e4aaf58787cd4224b0e191316bb871f0",
+          "evt-7ff21161d9de4382af7e10f4933c1cfa",
+          "evt-c8555b973e324ef28057fee68cab11a3",
+          "evt-0cfc0ec5227f40ebaa17744112960a2f",
+          "evt-8f6777d06cff42bcb646d8e82e4fc78f",
+          "evt-a29caac65ecb4d6aba7efac3e7b46f3e",
+          "evt-cfe9f27595634bab92a04f68a75e1067",
+          "evt-fe376edef4bf46d3bc9130d392278b0f"
+        ],
+        "alert_ids": [
+          "alert-3b2d7e74e093426b8fb2b4c92e93e71c",
+          "alert-94f73b8e4835428d8e25a859f62d5639",
+          "alert-8aefcb0890964a99b07fbd462be9bfbe",
+          "alert-0776ac208c40422ab6ba3cc29bbcaa01",
+          "alert-32c73beb2e6a448c97be86bee68d87d9",
+          "alert-1b0771c773c34543a06c30f8cfd3493f"
+        ]
+      }
+    },
+    "baja_confianza": {
+      "base": {
+        "run_id": "run-6aa2c20d06074541b95cd9f195ccf982",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 19.295369999599643,
+          "G2": 4.041134710215534,
+          "G3": 107.346875,
+          "G4": 0.813953488372093,
+          "G7": 9,
+          "G6": 0.37879419326782227,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 19.295369999599643,
+          "G2": 4.041134710215534,
+          "G3": 107.346875,
+          "G4": 0.813953488372093,
+          "G5": 1.0,
+          "G6": 0.37879419326782227,
+          "G7": 9
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 18.768349998936174,
+            "p95": 22.581624998201733
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 4.041134710215534,
+          "M05": 0,
+          "M06": 85.8741125920801,
+          "M07": 108.80078125,
+          "M08": {
+            "car": 37,
+            "person": 24,
+            "truck": 15,
+            "parking meter": 1,
+            "motorcycle": 3,
+            "bus": 1,
+            "dog": 1,
+            "chair": 1,
+            "kite": 1,
+            "boat": 2
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              27,
+              16,
+              10,
+              9,
+              8,
+              6,
+              4,
+              5,
+              1
+            ]
+          },
+          "M10": 0.1,
+          "M11": 8.6,
+          "M12": 0.11627906976744186,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "source-be88f031dbee47298b7e9050faa1ce9e / run-6aa2c20d06074541b95cd9f195ccf982": 10
+          },
+          "M16": 218.22127435163884,
+          "M17": null,
+          "M18": null,
+          "M19": 8,
+          "M20": [
+            {
+              "run_id": "run-6aa2c20d06074541b95cd9f195ccf982",
+              "window_id": "window-3f550a405a6047c0b0fd36e464063ab2",
+              "reference_window_ids": [
+                "window-3f550a405a6047c0b0fd36e464063ab2",
+                "window-58a0e81dea0b48aea481b41deb5df11a"
+              ],
+              "event_ids": [
+                "evt-ded5cf89dd7f4e80b4e76818c554392e",
+                "evt-fd6080024c284081b98d0a5c1a3094f4",
+                "evt-301f8d083b8d40b89b324b22c62a5919",
+                "evt-1f34461549dd490280465b95015cf226",
+                "evt-c621dde146694a5ab2b48a8231902c71"
+              ],
+              "reference_event_ids": [
+                "evt-ded5cf89dd7f4e80b4e76818c554392e",
+                "evt-fd6080024c284081b98d0a5c1a3094f4",
+                "evt-301f8d083b8d40b89b324b22c62a5919",
+                "evt-1f34461549dd490280465b95015cf226",
+                "evt-c621dde146694a5ab2b48a8231902c71",
+                "evt-6ec66390fe79418cb9aafd8f43687ebc",
+                "evt-c9c767cd866b43d19e18f4862d6d67ff",
+                "evt-e4bf762105544ee390326ffa3e6cbefe",
+                "evt-f7dca9f65ade4bb9818937e102f86e81",
+                "evt-f0e64358f8b74ce6977d32af0fd39142"
+              ],
+              "reference_count": 86,
+              "sample_count": 58,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-6aa2c20d06074541b95cd9f195ccf982",
+              "window_id": "window-58a0e81dea0b48aea481b41deb5df11a",
+              "reference_window_ids": [
+                "window-3f550a405a6047c0b0fd36e464063ab2",
+                "window-58a0e81dea0b48aea481b41deb5df11a"
+              ],
+              "event_ids": [
+                "evt-6ec66390fe79418cb9aafd8f43687ebc",
+                "evt-c9c767cd866b43d19e18f4862d6d67ff",
+                "evt-e4bf762105544ee390326ffa3e6cbefe",
+                "evt-f7dca9f65ade4bb9818937e102f86e81",
+                "evt-f0e64358f8b74ce6977d32af0fd39142"
+              ],
+              "reference_event_ids": [
+                "evt-ded5cf89dd7f4e80b4e76818c554392e",
+                "evt-fd6080024c284081b98d0a5c1a3094f4",
+                "evt-301f8d083b8d40b89b324b22c62a5919",
+                "evt-1f34461549dd490280465b95015cf226",
+                "evt-c621dde146694a5ab2b48a8231902c71",
+                "evt-6ec66390fe79418cb9aafd8f43687ebc",
+                "evt-c9c767cd866b43d19e18f4862d6d67ff",
+                "evt-e4bf762105544ee390326ffa3e6cbefe",
+                "evt-f7dca9f65ade4bb9818937e102f86e81",
+                "evt-f0e64358f8b74ce6977d32af0fd39142"
+              ],
+              "reference_count": 86,
+              "sample_count": 28,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-ded5cf89dd7f4e80b4e76818c554392e",
+          "evt-fd6080024c284081b98d0a5c1a3094f4",
+          "evt-301f8d083b8d40b89b324b22c62a5919",
+          "evt-1f34461549dd490280465b95015cf226",
+          "evt-c621dde146694a5ab2b48a8231902c71",
+          "evt-6ec66390fe79418cb9aafd8f43687ebc",
+          "evt-c9c767cd866b43d19e18f4862d6d67ff",
+          "evt-e4bf762105544ee390326ffa3e6cbefe",
+          "evt-f7dca9f65ade4bb9818937e102f86e81",
+          "evt-f0e64358f8b74ce6977d32af0fd39142"
+        ],
+        "alert_ids": [
+          "alert-ae08ab353c31451388fe21f53aba344d",
+          "alert-4f3bc956502b46098d7a7736c3613167",
+          "alert-1d09840a5dd94fe6930c27332e028d8f",
+          "alert-73ac85437a89409db88269c1e80c3d19",
+          "alert-89a35092aec143a0968f99aacfbb473e",
+          "alert-a28aca7e94544fb5b946c768db36471a",
+          "alert-8cc03a9335fe4445af75d99e058797e4",
+          "alert-0f3a0323a7da415e9467fe99ba50cb1d",
+          "alert-f65473f338694a5890de0366c3e20cf4"
+        ]
+      }
+    },
+    "bicicletas": {
+      "base": {
+        "run_id": "run-bdc71983a9bf46c9a80e7858df169f4f",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 18.641510000816197,
+          "G2": 3.98164747193648,
+          "G3": 109.1296875,
+          "G4": 0.7358490566037735,
+          "G7": 10,
+          "G6": 0.4346451759338379,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 18.641510000816197,
+          "G2": 3.98164747193648,
+          "G3": 109.1296875,
+          "G4": 0.7358490566037735,
+          "G5": 1.0,
+          "G6": 0.4346451759338379,
+          "G7": 10
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 17.663950002315687,
+            "p95": 23.585469999670746
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 3.98164747193648,
+          "M05": 0,
+          "M06": 91.45346537104102,
+          "M07": 111.9296875,
+          "M08": {
+            "bicycle": 6,
+            "motorcycle": 3,
+            "person": 14,
+            "potted plant": 1,
+            "boat": 16,
+            "kite": 1,
+            "umbrella": 1,
+            "car": 6,
+            "truck": 2,
+            "bus": 1,
+            "bird": 1,
+            "bottle": 1
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              15,
+              9,
+              8,
+              3,
+              4,
+              7,
+              3,
+              4,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 5.3,
+          "M12": 0.18867924528301888,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "source-8c1805223f9d4743b2c73486838fe1ef / run-bdc71983a9bf46c9a80e7858df169f4f": 10
+          },
+          "M16": 238.8988483161888,
+          "M17": null,
+          "M18": null,
+          "M19": 9,
+          "M20": [
+            {
+              "run_id": "run-bdc71983a9bf46c9a80e7858df169f4f",
+              "window_id": "window-aa2b270e68a64682bc01ce2a9b01ad07",
+              "reference_window_ids": [
+                "window-aa2b270e68a64682bc01ce2a9b01ad07",
+                "window-e18b0e7932f6402cb8b3653e74537176"
+              ],
+              "event_ids": [
+                "evt-f8cee58ee70440e5ab715a79ed4d4e0d",
+                "evt-6ddaea1874b04551a5622a3264220ddd",
+                "evt-0472521407ad431c8eeb978d3951ac0a",
+                "evt-278f72de0d5448f3891d8ce0b7fba662",
+                "evt-56b627e6a9e942788bc10575e077dab5"
+              ],
+              "reference_event_ids": [
+                "evt-f8cee58ee70440e5ab715a79ed4d4e0d",
+                "evt-6ddaea1874b04551a5622a3264220ddd",
+                "evt-0472521407ad431c8eeb978d3951ac0a",
+                "evt-278f72de0d5448f3891d8ce0b7fba662",
+                "evt-56b627e6a9e942788bc10575e077dab5",
+                "evt-fc5e003aed914d26b5be571df1d0110f",
+                "evt-cfd7d32560804eda9a190119e26b05a2",
+                "evt-c70c377b8e834d53913c4f2b33ec51bf",
+                "evt-d23b306eeede4d6faafac36628c338f5",
+                "evt-409124834e314a29a062d741abf2d149"
+              ],
+              "reference_count": 53,
+              "sample_count": 33,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-bdc71983a9bf46c9a80e7858df169f4f",
+              "window_id": "window-e18b0e7932f6402cb8b3653e74537176",
+              "reference_window_ids": [
+                "window-aa2b270e68a64682bc01ce2a9b01ad07",
+                "window-e18b0e7932f6402cb8b3653e74537176"
+              ],
+              "event_ids": [
+                "evt-fc5e003aed914d26b5be571df1d0110f",
+                "evt-cfd7d32560804eda9a190119e26b05a2",
+                "evt-c70c377b8e834d53913c4f2b33ec51bf",
+                "evt-d23b306eeede4d6faafac36628c338f5",
+                "evt-409124834e314a29a062d741abf2d149"
+              ],
+              "reference_event_ids": [
+                "evt-f8cee58ee70440e5ab715a79ed4d4e0d",
+                "evt-6ddaea1874b04551a5622a3264220ddd",
+                "evt-0472521407ad431c8eeb978d3951ac0a",
+                "evt-278f72de0d5448f3891d8ce0b7fba662",
+                "evt-56b627e6a9e942788bc10575e077dab5",
+                "evt-fc5e003aed914d26b5be571df1d0110f",
+                "evt-cfd7d32560804eda9a190119e26b05a2",
+                "evt-c70c377b8e834d53913c4f2b33ec51bf",
+                "evt-d23b306eeede4d6faafac36628c338f5",
+                "evt-409124834e314a29a062d741abf2d149"
+              ],
+              "reference_count": 53,
+              "sample_count": 20,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-f8cee58ee70440e5ab715a79ed4d4e0d",
+          "evt-6ddaea1874b04551a5622a3264220ddd",
+          "evt-0472521407ad431c8eeb978d3951ac0a",
+          "evt-278f72de0d5448f3891d8ce0b7fba662",
+          "evt-56b627e6a9e942788bc10575e077dab5",
+          "evt-fc5e003aed914d26b5be571df1d0110f",
+          "evt-cfd7d32560804eda9a190119e26b05a2",
+          "evt-c70c377b8e834d53913c4f2b33ec51bf",
+          "evt-d23b306eeede4d6faafac36628c338f5",
+          "evt-409124834e314a29a062d741abf2d149"
+        ],
+        "alert_ids": [
+          "alert-e5f2e07769a44c50b4d15b5a86b671e3",
+          "alert-053184fe1db143febd65754247c20ad7",
+          "alert-a3143277e1014e128f36399f0524f42c",
+          "alert-0693d39395a7444fa8541c6c239482d8",
+          "alert-d41cbdc6f0f04daf904c0e4d9ffffdeb",
+          "alert-461e8823e96945859337f4c818b43d55",
+          "alert-50956a6a452f45c0b3140f7d34866868",
+          "alert-169f9d489bf142aea47e1408c98b03b7",
+          "alert-c46b2b2b1e47445ab3036e8055d961d4",
+          "alert-64f6ba80c5af48c1a07457088c69601d"
+        ]
+      }
+    },
+    "escenas_despejadas": {
+      "base": {
+        "run_id": "run-00b55429f17f4cb09a1c4c39b65d95b2",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 17.17832000067574,
+          "G2": 4.0375803443191085,
+          "G3": 105.055078125,
+          "G4": 0.8695652173913043,
+          "G7": 8,
+          "G6": 0.38326001167297363,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 17.17832000067574,
+          "G2": 4.0375803443191085,
+          "G3": 105.055078125,
+          "G4": 0.8695652173913043,
+          "G5": 1.0,
+          "G6": 0.38326001167297363,
+          "G7": 8
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 15.907200000583543,
+            "p95": 23.634835000848398
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 4.0375803443191085,
+          "M05": 0,
+          "M06": 73.18114374078384,
+          "M07": 105.9296875,
+          "M08": {
+            "potted plant": 3,
+            "bird": 1,
+            "person": 1,
+            "car": 7,
+            "bed": 1,
+            "cat": 1,
+            "apple": 3,
+            "orange": 3,
+            "elephant": 1,
+            "bear": 1,
+            "cow": 1
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              9,
+              5,
+              3,
+              0,
+              3,
+              1,
+              2,
+              0,
+              0
+            ]
+          },
+          "M10": 0.1,
+          "M11": 2.3,
+          "M12": 0.13043478260869565,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "source-e42e079d54784bfd83111081d126a9c3 / run-00b55429f17f4cb09a1c4c39b65d95b2": 10
+          },
+          "M16": 193.8038565273172,
+          "M17": null,
+          "M18": null,
+          "M19": 7,
+          "M20": [
+            {
+              "run_id": "run-00b55429f17f4cb09a1c4c39b65d95b2",
+              "window_id": "window-ea39913a4be74a609aff2b317cd779f1",
+              "reference_window_ids": [
+                "window-ea39913a4be74a609aff2b317cd779f1",
+                "window-4d1dfe6b9525438690175903dd9b99b5"
+              ],
+              "event_ids": [
+                "evt-71d84c94cad14b89b8b1e2ff6c9faa48",
+                "evt-b5706d0b45d544198a17e29229197fae",
+                "evt-eedb0cea937d404ebb7b5f7e5d3b504d",
+                "evt-4f87771c763046b086efa444ff5fa661",
+                "evt-14c375cc1e2040488441834f29e7a647"
+              ],
+              "reference_event_ids": [
+                "evt-71d84c94cad14b89b8b1e2ff6c9faa48",
+                "evt-b5706d0b45d544198a17e29229197fae",
+                "evt-eedb0cea937d404ebb7b5f7e5d3b504d",
+                "evt-4f87771c763046b086efa444ff5fa661",
+                "evt-14c375cc1e2040488441834f29e7a647",
+                "evt-ab02ecd0d24f4e33a38c1d07e1265ace",
+                "evt-e9cb26ae8a844d8fac2835cc9889bcfc",
+                "evt-fb5a43e0030040779853d489b095d4ea",
+                "evt-4ddf84d38bb0411a8250085c1337b444",
+                "evt-a4a150356bb24abcbfb40d13f077da71"
+              ],
+              "reference_count": 23,
+              "sample_count": 5,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-00b55429f17f4cb09a1c4c39b65d95b2",
+              "window_id": "window-4d1dfe6b9525438690175903dd9b99b5",
+              "reference_window_ids": [
+                "window-ea39913a4be74a609aff2b317cd779f1",
+                "window-4d1dfe6b9525438690175903dd9b99b5"
+              ],
+              "event_ids": [
+                "evt-ab02ecd0d24f4e33a38c1d07e1265ace",
+                "evt-e9cb26ae8a844d8fac2835cc9889bcfc",
+                "evt-fb5a43e0030040779853d489b095d4ea",
+                "evt-4ddf84d38bb0411a8250085c1337b444",
+                "evt-a4a150356bb24abcbfb40d13f077da71"
+              ],
+              "reference_event_ids": [
+                "evt-71d84c94cad14b89b8b1e2ff6c9faa48",
+                "evt-b5706d0b45d544198a17e29229197fae",
+                "evt-eedb0cea937d404ebb7b5f7e5d3b504d",
+                "evt-4f87771c763046b086efa444ff5fa661",
+                "evt-14c375cc1e2040488441834f29e7a647",
+                "evt-ab02ecd0d24f4e33a38c1d07e1265ace",
+                "evt-e9cb26ae8a844d8fac2835cc9889bcfc",
+                "evt-fb5a43e0030040779853d489b095d4ea",
+                "evt-4ddf84d38bb0411a8250085c1337b444",
+                "evt-a4a150356bb24abcbfb40d13f077da71"
+              ],
+              "reference_count": 23,
+              "sample_count": 18,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-71d84c94cad14b89b8b1e2ff6c9faa48",
+          "evt-b5706d0b45d544198a17e29229197fae",
+          "evt-eedb0cea937d404ebb7b5f7e5d3b504d",
+          "evt-4f87771c763046b086efa444ff5fa661",
+          "evt-14c375cc1e2040488441834f29e7a647",
+          "evt-ab02ecd0d24f4e33a38c1d07e1265ace",
+          "evt-e9cb26ae8a844d8fac2835cc9889bcfc",
+          "evt-fb5a43e0030040779853d489b095d4ea",
+          "evt-4ddf84d38bb0411a8250085c1337b444",
+          "evt-a4a150356bb24abcbfb40d13f077da71"
+        ],
+        "alert_ids": [
+          "alert-d023b0a75868412aa5cd62b1cb982d04",
+          "alert-c8a08f314f1a4f299e8ae1045bfd4918",
+          "alert-de7fb3eac1a94922beb5144ad5aa7f0f",
+          "alert-577e0c2cce4645228e801ac49d751160",
+          "alert-8a6ae4e5871d4c58a87741faac8634f3",
+          "alert-c7454ec3b4214517804e547ceb777989",
+          "alert-ac99fe1bd1874e30b641a23f7a52971c",
+          "alert-50cafc6b478241b8a2dc5ae3fe7248da"
+        ]
+      }
+    },
+    "escenas_multiples": {
+      "base": {
+        "run_id": "run-66a68e2135f14873b1552e10fb0ab9f0",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 18.05086000022129,
+          "G2": 3.697678541948178,
+          "G3": 108.05234375,
+          "G4": 0.7639751552795031,
+          "G7": 10,
+          "G6": 0.3925490379333496,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 18.05086000022129,
+          "G2": 3.697678541948178,
+          "G3": 108.05234375,
+          "G4": 0.7639751552795031,
+          "G5": 1.0,
+          "G6": 0.3925490379333496,
+          "G7": 10
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 18.147400000088965,
+            "p95": 21.70305500003451
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 3.697678541948178,
+          "M05": 0,
+          "M06": 77.99790674421939,
+          "M07": 109.77734375,
+          "M08": {
+            "person": 106,
+            "car": 2,
+            "bench": 3,
+            "chair": 7,
+            "dining table": 2,
+            "potted plant": 1,
+            "frisbee": 1,
+            "surfboard": 1,
+            "baseball bat": 1,
+            "handbag": 2,
+            "suitcase": 1,
+            "umbrella": 1,
+            "bicycle": 7,
+            "motorcycle": 1,
+            "sports ball": 2,
+            "tie": 2,
+            "zebra": 4,
+            "bird": 1,
+            "cup": 6,
+            "bowl": 8,
+            "pizza": 1,
+            "cake": 1
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              42,
+              30,
+              23,
+              18,
+              10,
+              14,
+              13,
+              9,
+              2
+            ]
+          },
+          "M10": 0.0,
+          "M11": 16.1,
+          "M12": 0.16770186335403728,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "source-84443865a3be46ef874831f535c12270 / run-66a68e2135f14873b1552e10fb0ab9f0": 10
+          },
+          "M16": 221.86071251689071,
+          "M17": null,
+          "M18": null,
+          "M19": 9,
+          "M20": [
+            {
+              "run_id": "run-66a68e2135f14873b1552e10fb0ab9f0",
+              "window_id": "window-5d63d5704baa4ed3a508b787faea8f8a",
+              "reference_window_ids": [
+                "window-5d63d5704baa4ed3a508b787faea8f8a",
+                "window-d7f9d52133ff4c6fafdacba00d033eb0"
+              ],
+              "event_ids": [
+                "evt-0b627159f4bf49fc8cea3ec3bc6e314b",
+                "evt-361ee75e74294142ac56552ee6acec5b",
+                "evt-259e6bebb41144c6b892e4d6df73470d",
+                "evt-d4ff1431c3264250a88af1584becdf66",
+                "evt-a58d805ee1b7423ba7af4e6b90f3e790"
+              ],
+              "reference_event_ids": [
+                "evt-0b627159f4bf49fc8cea3ec3bc6e314b",
+                "evt-361ee75e74294142ac56552ee6acec5b",
+                "evt-259e6bebb41144c6b892e4d6df73470d",
+                "evt-d4ff1431c3264250a88af1584becdf66",
+                "evt-a58d805ee1b7423ba7af4e6b90f3e790",
+                "evt-1ad6de1f07864737b82c886db78d1961",
+                "evt-0a832daff6d241adba5bff737715b6c5",
+                "evt-f723f2e4957c4165a8d14baf44fcb1ad",
+                "evt-2d003fdab57f49a782463f6ce5714bbb",
+                "evt-b42b4f6a634f4f40802620282a03f1e2"
+              ],
+              "reference_count": 161,
+              "sample_count": 86,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-66a68e2135f14873b1552e10fb0ab9f0",
+              "window_id": "window-d7f9d52133ff4c6fafdacba00d033eb0",
+              "reference_window_ids": [
+                "window-5d63d5704baa4ed3a508b787faea8f8a",
+                "window-d7f9d52133ff4c6fafdacba00d033eb0"
+              ],
+              "event_ids": [
+                "evt-1ad6de1f07864737b82c886db78d1961",
+                "evt-0a832daff6d241adba5bff737715b6c5",
+                "evt-f723f2e4957c4165a8d14baf44fcb1ad",
+                "evt-2d003fdab57f49a782463f6ce5714bbb",
+                "evt-b42b4f6a634f4f40802620282a03f1e2"
+              ],
+              "reference_event_ids": [
+                "evt-0b627159f4bf49fc8cea3ec3bc6e314b",
+                "evt-361ee75e74294142ac56552ee6acec5b",
+                "evt-259e6bebb41144c6b892e4d6df73470d",
+                "evt-d4ff1431c3264250a88af1584becdf66",
+                "evt-a58d805ee1b7423ba7af4e6b90f3e790",
+                "evt-1ad6de1f07864737b82c886db78d1961",
+                "evt-0a832daff6d241adba5bff737715b6c5",
+                "evt-f723f2e4957c4165a8d14baf44fcb1ad",
+                "evt-2d003fdab57f49a782463f6ce5714bbb",
+                "evt-b42b4f6a634f4f40802620282a03f1e2"
+              ],
+              "reference_count": 161,
+              "sample_count": 75,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-0b627159f4bf49fc8cea3ec3bc6e314b",
+          "evt-361ee75e74294142ac56552ee6acec5b",
+          "evt-259e6bebb41144c6b892e4d6df73470d",
+          "evt-d4ff1431c3264250a88af1584becdf66",
+          "evt-a58d805ee1b7423ba7af4e6b90f3e790",
+          "evt-1ad6de1f07864737b82c886db78d1961",
+          "evt-0a832daff6d241adba5bff737715b6c5",
+          "evt-f723f2e4957c4165a8d14baf44fcb1ad",
+          "evt-2d003fdab57f49a782463f6ce5714bbb",
+          "evt-b42b4f6a634f4f40802620282a03f1e2"
+        ],
+        "alert_ids": [
+          "alert-7603a296f4d8402e86cf4695ef962def",
+          "alert-697685a6da0340bf96f9ddb1cfc0b560",
+          "alert-89317eb3f7ff4b31821259c71a8cd8ad",
+          "alert-c79acd313a5543fc8a52824d7ff45fd6",
+          "alert-7518d6ee7e3e4a24bac014c49945ff53",
+          "alert-b5369849b20a4b74bd4fcc9b2953fcbc",
+          "alert-6248c1158f01415db5fe58af4090bf22",
+          "alert-fa69d1a978c94fb5b68bb2e8bf1e511b",
+          "alert-c0d4ec1a2a2f4765a9f1c25c27a7cba9",
+          "alert-7f41c572e2fa49b9ab9400d86c57a377"
+        ]
+      }
+    },
+    "objetos": {
+      "base": {
+        "run_id": "run-c006280c924e42ecbb094c58668c7979",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 17.534130000058212,
+          "G2": 3.9399529112623783,
+          "G3": 106.739453125,
+          "G4": 0.875,
+          "G7": 10,
+          "G6": 0.3936760425567627,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 17.534130000058212,
+          "G2": 3.9399529112623783,
+          "G3": 106.739453125,
+          "G4": 0.875,
+          "G5": 1.0,
+          "G6": 0.3936760425567627,
+          "G7": 10
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 16.969700000117882,
+            "p95": 21.617415000582692
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 3.9399529112623783,
+          "M05": 0,
+          "M06": 93.57388164248148,
+          "M07": 109.59765625,
+          "M08": {
+            "bottle": 9,
+            "cup": 7,
+            "dining table": 8,
+            "clock": 3,
+            "chair": 24,
+            "person": 4,
+            "parking meter": 1,
+            "bed": 2,
+            "carrot": 1,
+            "bowl": 1,
+            "couch": 2,
+            "book": 7,
+            "potted plant": 1,
+            "suitcase": 1,
+            "vase": 3,
+            "wine glass": 1,
+            "tv": 3,
+            "oven": 1,
+            "bench": 1
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              43,
+              9,
+              6,
+              11,
+              1,
+              5,
+              5,
+              0,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 8.0,
+          "M12": 0.125,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "source-56fa891ef6a1407c8d1063dab34945bd / run-c006280c924e42ecbb094c58668c7979": 10
+          },
+          "M16": 236.3971746757427,
+          "M17": null,
+          "M18": null,
+          "M19": 9,
+          "M20": [
+            {
+              "run_id": "run-c006280c924e42ecbb094c58668c7979",
+              "window_id": "window-5582d4ba3ca74bacac911f04eebed8b9",
+              "reference_window_ids": [
+                "window-5582d4ba3ca74bacac911f04eebed8b9",
+                "window-19796c9378aa428daa80b96ad8c0824e"
+              ],
+              "event_ids": [
+                "evt-b1104627f1e84c7fb450e5b6bcc2fd00",
+                "evt-0a6e2cf18b6349a1848793d73eaec0e6",
+                "evt-2ac51e9e29524b58b9c4e0cc907d11b7",
+                "evt-aa25569b65c5422cb5ea8b454df0afd4",
+                "evt-ca2d7cc6cf0049d2b5912546ed1593ac"
+              ],
+              "reference_event_ids": [
+                "evt-b1104627f1e84c7fb450e5b6bcc2fd00",
+                "evt-0a6e2cf18b6349a1848793d73eaec0e6",
+                "evt-2ac51e9e29524b58b9c4e0cc907d11b7",
+                "evt-aa25569b65c5422cb5ea8b454df0afd4",
+                "evt-ca2d7cc6cf0049d2b5912546ed1593ac",
+                "evt-f0edd45b1ef342f58e5b2529d0bc5648",
+                "evt-c7a3f3328ce94b1c8a2c8fc3e5494c66",
+                "evt-1b5eb13d604e4193908ad45032c0aa5a",
+                "evt-95ab4a7e560c460ba610fdb147c7ef78",
+                "evt-117830cfa3df4d90a50549586aa66be4"
+              ],
+              "reference_count": 80,
+              "sample_count": 19,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-c006280c924e42ecbb094c58668c7979",
+              "window_id": "window-19796c9378aa428daa80b96ad8c0824e",
+              "reference_window_ids": [
+                "window-5582d4ba3ca74bacac911f04eebed8b9",
+                "window-19796c9378aa428daa80b96ad8c0824e"
+              ],
+              "event_ids": [
+                "evt-f0edd45b1ef342f58e5b2529d0bc5648",
+                "evt-c7a3f3328ce94b1c8a2c8fc3e5494c66",
+                "evt-1b5eb13d604e4193908ad45032c0aa5a",
+                "evt-95ab4a7e560c460ba610fdb147c7ef78",
+                "evt-117830cfa3df4d90a50549586aa66be4"
+              ],
+              "reference_event_ids": [
+                "evt-b1104627f1e84c7fb450e5b6bcc2fd00",
+                "evt-0a6e2cf18b6349a1848793d73eaec0e6",
+                "evt-2ac51e9e29524b58b9c4e0cc907d11b7",
+                "evt-aa25569b65c5422cb5ea8b454df0afd4",
+                "evt-ca2d7cc6cf0049d2b5912546ed1593ac",
+                "evt-f0edd45b1ef342f58e5b2529d0bc5648",
+                "evt-c7a3f3328ce94b1c8a2c8fc3e5494c66",
+                "evt-1b5eb13d604e4193908ad45032c0aa5a",
+                "evt-95ab4a7e560c460ba610fdb147c7ef78",
+                "evt-117830cfa3df4d90a50549586aa66be4"
+              ],
+              "reference_count": 80,
+              "sample_count": 61,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-b1104627f1e84c7fb450e5b6bcc2fd00",
+          "evt-0a6e2cf18b6349a1848793d73eaec0e6",
+          "evt-2ac51e9e29524b58b9c4e0cc907d11b7",
+          "evt-aa25569b65c5422cb5ea8b454df0afd4",
+          "evt-ca2d7cc6cf0049d2b5912546ed1593ac",
+          "evt-f0edd45b1ef342f58e5b2529d0bc5648",
+          "evt-c7a3f3328ce94b1c8a2c8fc3e5494c66",
+          "evt-1b5eb13d604e4193908ad45032c0aa5a",
+          "evt-95ab4a7e560c460ba610fdb147c7ef78",
+          "evt-117830cfa3df4d90a50549586aa66be4"
+        ],
+        "alert_ids": [
+          "alert-50e5b63dd9b54cfdac188b2ca133165f",
+          "alert-9f5442fd7b4d49b49e3caed5f6ca49e1",
+          "alert-abd8415841b3434baa09a59df52a5747",
+          "alert-ce60b47f7edb4819bc91f8f746bfc600",
+          "alert-5974cdab19af40398703f2b479d5772b",
+          "alert-9c3f1b271cf2439ca037bc7ad37f1f4c",
+          "alert-6e7d309b83b44a2ebb75e4d565017947",
+          "alert-a0c870fba4f643bbb42946b952b58a91",
+          "alert-0f8692d7a5dc4da1b26829d723f7a8b6",
+          "alert-cb29c339af294d30acc5c5e68e94f2d7"
+        ]
+      }
+    },
+    "personas": {
+      "base": {
+        "run_id": "run-72b70fce9e7747cc91295f67eece6a46",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 16.031150000344496,
+          "G2": 4.020544338281249,
+          "G3": 111.9890625,
+          "G4": 0.7142857142857143,
+          "G7": 8,
+          "G6": 0.6328408718109131,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 16.031150000344496,
+          "G2": 4.020544338281249,
+          "G3": 111.9890625,
+          "G4": 0.7142857142857143,
+          "G5": 1.0,
+          "G6": 0.6328408718109131,
+          "G7": 8
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 15.865800000028685,
+            "p95": 18.713069998921124
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 4.020544338281249,
+          "M05": 0,
+          "M06": 73.50057618420408,
+          "M07": 114.078125,
+          "M08": {
+            "person": 36,
+            "potted plant": 2,
+            "couch": 2,
+            "suitcase": 1,
+            "cell phone": 2,
+            "kite": 2,
+            "umbrella": 1,
+            "book": 4,
+            "laptop": 2,
+            "dining table": 1,
+            "boat": 1,
+            "dog": 1,
+            "skis": 1,
+            "baseball bat": 1,
+            "toothbrush": 1,
+            "scissors": 1,
+            "chair": 11
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              31,
+              8,
+              6,
+              2,
+              3,
+              3,
+              6,
+              9,
+              2
+            ]
+          },
+          "M10": 0.0,
+          "M11": 7.0,
+          "M12": 0.12857142857142856,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "source-b4c7d349969347c5aa43ca402d89c1e2 / run-72b70fce9e7747cc91295f67eece6a46": 10
+          },
+          "M16": 192.98612823749997,
+          "M17": null,
+          "M18": null,
+          "M19": 7,
+          "M20": [
+            {
+              "run_id": "run-72b70fce9e7747cc91295f67eece6a46",
+              "window_id": "window-534bf1cba7f94d50b5fd7d20f49c02e9",
+              "reference_window_ids": [
+                "window-534bf1cba7f94d50b5fd7d20f49c02e9",
+                "window-4f10305d8a0a430fb0bdfdc712ce4f47"
+              ],
+              "event_ids": [
+                "evt-20e580fee15a4512aef89574ab9e666f",
+                "evt-f57e6b311b434166aaebcde5c4c2ff30",
+                "evt-8df62b3dd2554d46b7c21f9d8d1f2016",
+                "evt-2102e7883f794577ab90aab0e8d8dc79",
+                "evt-fa603b058fa14685b0328661bfc908fe"
+              ],
+              "reference_event_ids": [
+                "evt-20e580fee15a4512aef89574ab9e666f",
+                "evt-f57e6b311b434166aaebcde5c4c2ff30",
+                "evt-8df62b3dd2554d46b7c21f9d8d1f2016",
+                "evt-2102e7883f794577ab90aab0e8d8dc79",
+                "evt-fa603b058fa14685b0328661bfc908fe",
+                "evt-e5e2ce8b45d740d2ab510816fd585185",
+                "evt-003ab51c88014e8f9e61baf24c94dc8f",
+                "evt-01bf3acbf41b40e79cf3f3dbb4d69c50",
+                "evt-04ec32d2493e467fa5d2a0defa7093ac",
+                "evt-f0172cbc65e64a68bd3dd82986df1037"
+              ],
+              "reference_count": 70,
+              "sample_count": 27,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-72b70fce9e7747cc91295f67eece6a46",
+              "window_id": "window-4f10305d8a0a430fb0bdfdc712ce4f47",
+              "reference_window_ids": [
+                "window-534bf1cba7f94d50b5fd7d20f49c02e9",
+                "window-4f10305d8a0a430fb0bdfdc712ce4f47"
+              ],
+              "event_ids": [
+                "evt-e5e2ce8b45d740d2ab510816fd585185",
+                "evt-003ab51c88014e8f9e61baf24c94dc8f",
+                "evt-01bf3acbf41b40e79cf3f3dbb4d69c50",
+                "evt-04ec32d2493e467fa5d2a0defa7093ac",
+                "evt-f0172cbc65e64a68bd3dd82986df1037"
+              ],
+              "reference_event_ids": [
+                "evt-20e580fee15a4512aef89574ab9e666f",
+                "evt-f57e6b311b434166aaebcde5c4c2ff30",
+                "evt-8df62b3dd2554d46b7c21f9d8d1f2016",
+                "evt-2102e7883f794577ab90aab0e8d8dc79",
+                "evt-fa603b058fa14685b0328661bfc908fe",
+                "evt-e5e2ce8b45d740d2ab510816fd585185",
+                "evt-003ab51c88014e8f9e61baf24c94dc8f",
+                "evt-01bf3acbf41b40e79cf3f3dbb4d69c50",
+                "evt-04ec32d2493e467fa5d2a0defa7093ac",
+                "evt-f0172cbc65e64a68bd3dd82986df1037"
+              ],
+              "reference_count": 70,
+              "sample_count": 43,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-20e580fee15a4512aef89574ab9e666f",
+          "evt-f57e6b311b434166aaebcde5c4c2ff30",
+          "evt-8df62b3dd2554d46b7c21f9d8d1f2016",
+          "evt-2102e7883f794577ab90aab0e8d8dc79",
+          "evt-fa603b058fa14685b0328661bfc908fe",
+          "evt-e5e2ce8b45d740d2ab510816fd585185",
+          "evt-003ab51c88014e8f9e61baf24c94dc8f",
+          "evt-01bf3acbf41b40e79cf3f3dbb4d69c50",
+          "evt-04ec32d2493e467fa5d2a0defa7093ac",
+          "evt-f0172cbc65e64a68bd3dd82986df1037"
+        ],
+        "alert_ids": [
+          "alert-a7e34e3dc8094aef8f9dac3d18d0fcf6",
+          "alert-e8f6003829f44a399a8001ed1dbe2c0e",
+          "alert-0eddea9590b54c2c817c09d7864b0c48",
+          "alert-f01004212f124ea29a87d67961bfb7f7",
+          "alert-aa9e5ad6e86f4c55ae4992ecc7f10e68",
+          "alert-ac993010f2b646af980f2ab78b6b41cf",
+          "alert-dff9dbd4abea4430b80b4bb25e8aba5c",
+          "alert-29b1c9546e9f49f790bc13b587a972e8"
+        ]
+      }
+    },
+    "vehiculos": {
+      "base": {
+        "run_id": "run-a15a53ae11c442cd8fa181a1bfbbd938",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 18.07760000046983,
+          "G2": 4.06897051506044,
+          "G3": 110.95859375,
+          "G4": 0.6911764705882353,
+          "G7": 10,
+          "G6": 0.39185214042663574,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 18.07760000046983,
+          "G2": 4.06897051506044,
+          "G3": 110.95859375,
+          "G4": 0.6911764705882353,
+          "G5": 1.0,
+          "G6": 0.39185214042663574,
+          "G7": 10
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 17.471450000812183,
+            "p95": 23.11549500082037
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 4.06897051506044,
+          "M05": 0,
+          "M06": 80.7436336582306,
+          "M07": 112.91015625,
+          "M08": {
+            "car": 34,
+            "person": 13,
+            "truck": 16,
+            "bus": 1,
+            "airplane": 1,
+            "train": 1,
+            "handbag": 2
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              19,
+              12,
+              8,
+              4,
+              4,
+              4,
+              5,
+              9,
+              3
+            ]
+          },
+          "M10": 0.0,
+          "M11": 6.8,
+          "M12": 0.1323529411764706,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "source-cea187e9ce104278a038e242681d1949 / run-a15a53ae11c442cd8fa181a1bfbbd938": 10
+          },
+          "M16": 244.1382309036264,
+          "M17": null,
+          "M18": null,
+          "M19": 9,
+          "M20": [
+            {
+              "run_id": "run-a15a53ae11c442cd8fa181a1bfbbd938",
+              "window_id": "window-4c948fcb993e41b6a862308fe555b13d",
+              "reference_window_ids": [
+                "window-4c948fcb993e41b6a862308fe555b13d",
+                "window-173f8312ec9f4320b84a07104983247c"
+              ],
+              "event_ids": [
+                "evt-9424721a35644e86b27f172b38e8c041",
+                "evt-191f23dfae634f80b7543f032665469a",
+                "evt-5471b9f6f4124b45b5829fb2b32e31a5",
+                "evt-564b9fbb76124bc9a5bb1eacfa698897",
+                "evt-6dc4d9391b14476aa96dfa46518a6a29"
+              ],
+              "reference_event_ids": [
+                "evt-9424721a35644e86b27f172b38e8c041",
+                "evt-191f23dfae634f80b7543f032665469a",
+                "evt-5471b9f6f4124b45b5829fb2b32e31a5",
+                "evt-564b9fbb76124bc9a5bb1eacfa698897",
+                "evt-6dc4d9391b14476aa96dfa46518a6a29",
+                "evt-9409b2246f894a02948d91b772b7150f",
+                "evt-02238ccecd18423f92f4f0ba09ef7c26",
+                "evt-fb48d90ab3b347178692c8317c8ee98d",
+                "evt-a06057d937ef4134aac73703ae8a1925",
+                "evt-2efdfb475b6e4478bcb00ada05bc9c4c"
+              ],
+              "reference_count": 68,
+              "sample_count": 47,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-a15a53ae11c442cd8fa181a1bfbbd938",
+              "window_id": "window-173f8312ec9f4320b84a07104983247c",
+              "reference_window_ids": [
+                "window-4c948fcb993e41b6a862308fe555b13d",
+                "window-173f8312ec9f4320b84a07104983247c"
+              ],
+              "event_ids": [
+                "evt-9409b2246f894a02948d91b772b7150f",
+                "evt-02238ccecd18423f92f4f0ba09ef7c26",
+                "evt-fb48d90ab3b347178692c8317c8ee98d",
+                "evt-a06057d937ef4134aac73703ae8a1925",
+                "evt-2efdfb475b6e4478bcb00ada05bc9c4c"
+              ],
+              "reference_event_ids": [
+                "evt-9424721a35644e86b27f172b38e8c041",
+                "evt-191f23dfae634f80b7543f032665469a",
+                "evt-5471b9f6f4124b45b5829fb2b32e31a5",
+                "evt-564b9fbb76124bc9a5bb1eacfa698897",
+                "evt-6dc4d9391b14476aa96dfa46518a6a29",
+                "evt-9409b2246f894a02948d91b772b7150f",
+                "evt-02238ccecd18423f92f4f0ba09ef7c26",
+                "evt-fb48d90ab3b347178692c8317c8ee98d",
+                "evt-a06057d937ef4134aac73703ae8a1925",
+                "evt-2efdfb475b6e4478bcb00ada05bc9c4c"
+              ],
+              "reference_count": 68,
+              "sample_count": 21,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-9424721a35644e86b27f172b38e8c041",
+          "evt-191f23dfae634f80b7543f032665469a",
+          "evt-5471b9f6f4124b45b5829fb2b32e31a5",
+          "evt-564b9fbb76124bc9a5bb1eacfa698897",
+          "evt-6dc4d9391b14476aa96dfa46518a6a29",
+          "evt-9409b2246f894a02948d91b772b7150f",
+          "evt-02238ccecd18423f92f4f0ba09ef7c26",
+          "evt-fb48d90ab3b347178692c8317c8ee98d",
+          "evt-a06057d937ef4134aac73703ae8a1925",
+          "evt-2efdfb475b6e4478bcb00ada05bc9c4c"
+        ],
+        "alert_ids": [
+          "alert-7ddc1e361f99450489674465e746b675",
+          "alert-f710c57f85214c6faec3358d979ad66c",
+          "alert-045890033b464ddf9fa21979f7cc28ae",
+          "alert-d434e809b638452f9027492e68d305b5",
+          "alert-21c364633ce044e9b11bb3397d046baf",
+          "alert-b15dd9d08194497d80f4c548f6d67d47",
+          "alert-0730f9a73c294feb9d0b655a63f678a6",
+          "alert-babdd46351c44eac87857f0c00f4470b",
+          "alert-bee0b5def3794602b6a9e6016475867c",
+          "alert-040d8f95963c418b9737453229170d8c"
+        ]
+      }
+    }
+  },
+  "http_checks": {
+    "page_bounded": true,
+    "escenas_despejadas": {
+      "run_id": "run-00b55429f17f4cb09a1c4c39b65d95b2",
+      "total": 10,
+      "thumbnail_bytes": 23090,
+      "etag_304": true,
+      "zip_attribution": true
+    },
+    "baja_confianza": {
+      "run_id": "run-6aa2c20d06074541b95cd9f195ccf982",
+      "total": 10,
+      "thumbnail_bytes": 13776,
+      "etag_304": true,
+      "zip_attribution": true
+    },
+    "escenas_multiples": {
+      "run_id": "run-66a68e2135f14873b1552e10fb0ab9f0",
+      "total": 10,
+      "thumbnail_bytes": 15697,
+      "etag_304": true,
+      "zip_attribution": true
+    },
+    "objetos": {
+      "run_id": "run-c006280c924e42ecbb094c58668c7979",
+      "total": 10,
+      "thumbnail_bytes": 9801,
+      "etag_304": true,
+      "zip_attribution": true
+    },
+    "bicicletas": {
+      "run_id": "run-bdc71983a9bf46c9a80e7858df169f4f",
+      "total": 10,
+      "thumbnail_bytes": 12015,
+      "etag_304": true,
+      "zip_attribution": true
+    },
+    "vehiculos": {
+      "run_id": "run-a15a53ae11c442cd8fa181a1bfbbd938",
+      "total": 10,
+      "thumbnail_bytes": 18074,
+      "etag_304": true,
+      "zip_attribution": true
+    },
+    "animales": {
+      "run_id": "run-a304b5fdd4ac49d89381a38b15acaabb",
+      "total": 10,
+      "thumbnail_bytes": 13438,
+      "etag_304": true,
+      "zip_attribution": true
+    },
+    "personas": {
+      "run_id": "run-72b70fce9e7747cc91295f67eece6a46",
+      "total": 10,
+      "thumbnail_bytes": 14095,
+      "etag_304": true,
+      "zip_attribution": true
+    }
+  },
+  "gallery_timings": [
+    {
+      "milliseconds": 375.6321000000753,
+      "response_bytes": 52609,
+      "items": 25
+    },
+    {
+      "milliseconds": 364.21899999913876,
+      "response_bytes": 52609,
+      "items": 25
+    },
+    {
+      "milliseconds": 446.0813000005146,
+      "response_bytes": 52609,
+      "items": 25
+    },
+    {
+      "milliseconds": 483.2213000008778,
+      "response_bytes": 52609,
+      "items": 25
+    },
+    {
+      "milliseconds": 394.57450000190875,
+      "response_bytes": 52609,
+      "items": 25
+    }
+  ],
+  "gallery": {
+    "total": 1133,
+    "missing_images": 0,
+    "technical_without_image": 18,
+    "pending_images": 0,
+    "image_states": {
+      "available": 1133,
+      "technical_without_image": 18
+    }
+  },
+  "native_browser_report": "navegador/edge-bed24221288d46e49a4109ea6e7f47c6/verification.json",
+  "browser_ok": true,
+  "selected_run_code_matches_current": true
+}

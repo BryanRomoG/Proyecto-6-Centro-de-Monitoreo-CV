@@ -1,0 +1,42 @@
+{
+  "id": "metric-1ba98c8562df48e49ab4c90fcaa56a17",
+  "run_id": "run-899fc094b087402dbed8f89d938c2c8d",
+  "timestamp": "2026-11-10T23:14:58.979243+00:00",
+  "window_seconds": 60.0,
+  "values": {
+    "G1": 13.691650001419475,
+    "G2": 11.64618200310851,
+    "G3": 113.69140625,
+    "G4": 0.625,
+    "G5": 1.0,
+    "G6": 0.15748095512390137,
+    "G7": 2
+  },
+  "units": {
+    "G1": "ms",
+    "G2": "frames/s",
+    "G3": "MiB",
+    "G4": "proporción",
+    "G5": "proporción",
+    "G6": "s",
+    "G7": "alertas"
+  },
+  "event_ids": [
+    "evt-7d8d5fd04c2c46b0a58341cd138c41bb",
+    "evt-159aeb0595454eafa483059366a8b57c"
+  ],
+  "last_report_event_id": "evt-7d8d5fd04c2c46b0a58341cd138c41bb",
+  "active_alert_ids": [
+    "alert-1bfe20785f804c29a36f2921d4b6b548",
+    "alert-55f7981d4afd4c66afce47ac533d91c1"
+  ],
+  "primary": {
+    "successful_frames": 2,
+    "attempt_elapsed_s": 0.1717300999989675,
+    "scored_detections": 16,
+    "low_detections": 10,
+    "traced_events": 2,
+    "eligible_events": 2
+  },
+  "state": "observed"
+}

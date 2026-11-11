@@ -1,0 +1,47 @@
+{
+  "scenario": "C2",
+  "run_id": "run-eb8e788c680c471584fdadd66ed7633f",
+  "expectation": "Puntuaciones bajas reales, capturas y alertas según configuración fija",
+  "observed": true,
+  "event_statuses": [
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+  ],
+  "event_ids": [
+    "evt-718492c462a74d119c3c17424a0f7f0c",
+    "evt-c9023cb44cc944eaba9d3144da326bde",
+    "evt-4e4654dc3c1d4827bdfb491530e9cd84",
+    "evt-8c78522a207d45e39dcc85af5aaad0e7",
+    "evt-26354d7b80f742dba8a667721fc9cfdb",
+    "evt-6c6b5e3e1a08472e89b25e0d1f5cfd02",
+    "evt-e1b24eac06064794b0b24d44dae9de8d",
+    "evt-9168227fa203444fbcfa0ce5712a351f",
+    "evt-d943c4c813054765abb9c8ae823890fc",
+    "evt-66c4928bcdd2470c91e1f9972c699e20"
+  ],
+  "alert_ids": [
+    "alert-0b83745ebf9c4ec59ab511ad2b656f30",
+    "alert-4d716770c6b14c52b3bd92544f55567f",
+    "alert-099958a673004fd8bd522d825cc5f3cf",
+    "alert-19dd6bbb1cc04ca0ad40f54da96c6093",
+    "alert-9fd1b8ed64934beaa05ed511dd225aee",
+    "alert-1ef1a3d5fdd64c00a8ca4a65863ffd9b",
+    "alert-4c9c2c09682348b9bc3bf1e8a9c82406",
+    "alert-1371bc19ab24424e9af828e849a7e56c",
+    "alert-4a96ca0a3998404f8049ed435aee84a4",
+    "alert-d89aab17772443ba972a2b298a3e34d6"
+  ],
+  "config_sha256": "2e3a158ba97745982fce7b34d328c939debb7cac698b68aa7d5ed089468cf103",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

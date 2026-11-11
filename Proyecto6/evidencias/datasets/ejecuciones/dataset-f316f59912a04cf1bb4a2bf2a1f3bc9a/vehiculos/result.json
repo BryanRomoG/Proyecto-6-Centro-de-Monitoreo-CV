@@ -1,0 +1,27 @@
+{
+  "run_id": "run-a15a53ae11c442cd8fa181a1bfbbd938",
+  "source_id": "source-cea187e9ce104278a038e242681d1949",
+  "collection": "vehiculos",
+  "events": 10,
+  "detections": 68,
+  "classes": {
+    "car": 34,
+    "person": 13,
+    "truck": 16,
+    "bus": 1,
+    "airplane": 1,
+    "train": 1,
+    "handbag": 2
+  },
+  "zones": {
+    "accepted": 12,
+    "doubt": 9,
+    "low": 47
+  },
+  "no_detections": [],
+  "alerts": 10,
+  "all_real": true,
+  "all_inputs_seen_once": true,
+  "extras_recalculated": true,
+  "mean_inference_ms": 18.07760000046983
+}

@@ -1,0 +1,24 @@
+{
+  "candidate_files": 2784,
+  "over_20_mib": [],
+  "sensitive_names": [],
+  "pattern_findings": [
+    {
+      "path": "Proyecto5/tests/test_capturas.py",
+      "line": 1277,
+      "rule": "credential_in_url"
+    },
+    {
+      "path": "Proyecto6/tests/test_config_confidence.py",
+      "line": 27,
+      "rule": "credential_in_url"
+    }
+  ],
+  "nested_git": [],
+  "limits": "Escaneo heurístico, no certifica ausencia de información privada en imágenes o texto. Revisar selección antes de commit.",
+  "changed_originals": [],
+  "new_original_paths": [
+    "Proyecto6/Docs/DATASETS.md",
+    "Proyecto6/Docs/EXTRAS.md"
+  ]
+}

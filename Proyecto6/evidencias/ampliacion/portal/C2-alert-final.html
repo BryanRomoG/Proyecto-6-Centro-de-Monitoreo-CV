@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html lang="es"><head><base href="http://127.0.0.1:8006/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Detalle de alerta · Monitor CV</title><link rel="stylesheet" href="/static/css/portal.css?v=0.2.2"></head>
+<body data-view="alert"><a class="skip" href="#contenido">Saltar al contenido</a>
+<aside><a class="brand" href="/">◉ Monitor CV</a><p class="eyebrow">PROYECTO 6 · ITESO</p><nav aria-label="Navegación principal">
+
+<a href="/" >Dashboard</a>
+<a href="/playback" >Reproducción</a>
+<a href="/events" >Eventos</a>
+<a href="/alerts" >Alertas</a>
+<a href="/history" >Métricas e históricos</a>
+<a href="/gallery" >Galería</a>
+<a href="/sources" >Fuentes</a>
+<a href="/runs" >Ejecuciones</a>
+<a href="/configuration" >Configuración</a>
+</nav><small>Entrega individual<br>Nombre y matrícula pendientes<br>Reproducción de archivos locales</small></aside>
+<main id="contenido"><header><div><span class="eyebrow">CENTRO DE MONITOREO / ARCHIVOS LOCALES</span><h1>Detalle de alerta</h1><p>YOLOX-Nano · Inferencia real · Confianza no equivale a acierto</p></div>
+<span class="tag" id="global-status" role="status">Cargando…</span></header>
+<p id="feedback" role="status" aria-live="polite"></p><p id="app-error" class="error" role="alert" hidden></p>
+
+
+<section class="panel"><p><span class="tag warning">Advertencia</span> <span id="alert-state" class="tag">Abierta</span> · 2026-11-10T23:45:43.352065+00:00</p>
+<h2>low-confidence-v1</h2><p>4 detecciones con s &lt; 0.6; mínimo por frame: 1</p><p><b>Acción sugerida:</b> Revisar imágenes, iluminación, oclusión y preprocesamiento; no inferir acierto ni drift solo por confianza.</p>
+<h3>Eventos de origen</h3><ul><li><a href="/events/evt-f8f024591a6944e4b4d6647c83b89f75">evt-f8f024591a6944e4b4d6647c83b89f75</a></li></ul>
+<label>Comentario de revisión<textarea id="alert-comment" rows="3" maxlength="2000"></textarea></label><div class="buttons"><button id="acknowledge">Reconocer</button><button id="resolve">Resolver</button><button id="comment" class="secondary">Añadir comentario</button></div>
+<h3>Historial de cambios</h3><ol id="alert-history"></ol></section>
+<script id="alert-data" type="application/json">{"acknowledged_at": null, "config_sha256": "898d45aec7ff34a20a3b8b072bb0b77222377bc179f077373040cfbe76c47798", "event_id": "evt-f8f024591a6944e4b4d6647c83b89f75", "event_ids": ["evt-f8f024591a6944e4b4d6647c83b89f75"], "history": [], "id": "alert-e6d08a8e67534d7996a473131c842731", "reason": "4 detecciones con s \u003c 0.6; m\u00ednimo por frame: 1", "resolved_at": null, "rule_id": "low-confidence-v1", "run_id": "run-a1bcc6f11db4465fb54a34f57ee9709c", "severity": "warning", "status": "active", "suggested_action": "Revisar im\u00e1genes, iluminaci\u00f3n, oclusi\u00f3n y preprocesamiento; no inferir acierto ni drift solo por confianza.", "timestamp": "2026-11-10T23:45:43.352065+00:00", "version": 0, "window_id": null}</script>
+<details><summary>Regla y configuración de origen</summary><pre>{
+  "acknowledged_at": null,
+  "config_sha256": "898d45aec7ff34a20a3b8b072bb0b77222377bc179f077373040cfbe76c47798",
+  "event_id": "evt-f8f024591a6944e4b4d6647c83b89f75",
+  "event_ids": [
+    "evt-f8f024591a6944e4b4d6647c83b89f75"
+  ],
+  "history": [],
+  "id": "alert-e6d08a8e67534d7996a473131c842731",
+  "reason": "4 detecciones con s \u003c 0.6; m\u00ednimo por frame: 1",
+  "resolved_at": null,
+  "rule_id": "low-confidence-v1",
+  "run_id": "run-a1bcc6f11db4465fb54a34f57ee9709c",
+  "severity": "warning",
+  "status": "active",
+  "suggested_action": "Revisar im\u00e1genes, iluminaci\u00f3n, oclusi\u00f3n y preprocesamiento; no inferir acierto ni drift solo por confianza.",
+  "timestamp": "2026-11-10T23:45:43.352065+00:00",
+  "version": 0,
+  "window_id": null
+}</pre></details>
+
+<footer>YOLOX-Nano CPU · Capturas sin expiración automática · Identidad académica pendiente</footer></main>
+<script src="/static/js/portal.js?v=0.2.2" defer></script></body></html>

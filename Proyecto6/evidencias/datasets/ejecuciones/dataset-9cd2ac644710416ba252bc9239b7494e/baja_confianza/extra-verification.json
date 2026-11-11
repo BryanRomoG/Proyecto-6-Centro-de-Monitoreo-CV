@@ -1,0 +1,175 @@
+{
+  "ok": true,
+  "matches": {
+    "M01": true,
+    "M02": true,
+    "M03": true,
+    "M04": true,
+    "M05": true,
+    "M06": true,
+    "M07": true,
+    "M08": true,
+    "M09": true,
+    "M10": true,
+    "M11": true,
+    "M12": true,
+    "M13": true,
+    "M14": true,
+    "M15": true,
+    "M16": true,
+    "M17": true,
+    "M18": true,
+    "M19": true,
+    "M20": true
+  },
+  "values": {
+    "M01": {
+      "p50": 12.615749999895343,
+      "p95": 13.447884999732196
+    },
+    "M02": 0.0,
+    "M03": 0,
+    "M04": 4.1294873435526345,
+    "M05": 0,
+    "M06": 70.3303313198808,
+    "M07": 108.87890625,
+    "M08": {
+      "car": 37,
+      "person": 24,
+      "truck": 15,
+      "parking meter": 1,
+      "motorcycle": 3,
+      "bus": 1,
+      "dog": 1,
+      "chair": 1,
+      "kite": 1,
+      "boat": 2
+    },
+    "M09": {
+      "edges": [
+        0.0,
+        0.1,
+        0.2,
+        0.30000000000000004,
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "counts": [
+        0,
+        27,
+        16,
+        10,
+        9,
+        8,
+        6,
+        4,
+        5,
+        1
+      ]
+    },
+    "M10": 0.1,
+    "M11": 8.6,
+    "M12": 0.11627906976744186,
+    "M13": 0.0,
+    "M14": 1.0,
+    "M15": {
+      "source-be88f031dbee47298b7e9050faa1ce9e / run-0bcc3014270749f887d0c32cb066986f": 10
+    },
+    "M16": 222.99231655184224,
+    "M17": null,
+    "M18": null,
+    "M19": 8,
+    "M20": [
+      {
+        "run_id": "run-0bcc3014270749f887d0c32cb066986f",
+        "window_id": "window-3e4fc09812dc44f4860b0e8a2a9dce5e",
+        "reference_window_ids": [
+          "window-3e4fc09812dc44f4860b0e8a2a9dce5e",
+          "window-dd2deab4fcf64e8086b0f8e388281711"
+        ],
+        "event_ids": [
+          "evt-2526460bb703400087650fe9df3926c0",
+          "evt-fdce878df6e740a8af6bb081f83d4313",
+          "evt-96c0cb0827b04fb6a22621a54e9537bd",
+          "evt-b0847354ea684896ad6f8b152f2ce80e",
+          "evt-d520cbf8ee9f40f98a2f375014422a03"
+        ],
+        "reference_event_ids": [
+          "evt-2526460bb703400087650fe9df3926c0",
+          "evt-fdce878df6e740a8af6bb081f83d4313",
+          "evt-96c0cb0827b04fb6a22621a54e9537bd",
+          "evt-b0847354ea684896ad6f8b152f2ce80e",
+          "evt-d520cbf8ee9f40f98a2f375014422a03",
+          "evt-66d8a9d6ec354c28b38765867bbb1135",
+          "evt-e4dd45c0fed145ccac89439707f985be",
+          "evt-e61b49280e6047a184fb055e49dbe8d4",
+          "evt-17062b0f623548dfb4242d83ef670ca4",
+          "evt-71b7422de93342b09295871282897904"
+        ],
+        "reference_count": 86,
+        "sample_count": 58,
+        "state": "reference",
+        "distance": null
+      },
+      {
+        "run_id": "run-0bcc3014270749f887d0c32cb066986f",
+        "window_id": "window-dd2deab4fcf64e8086b0f8e388281711",
+        "reference_window_ids": [
+          "window-3e4fc09812dc44f4860b0e8a2a9dce5e",
+          "window-dd2deab4fcf64e8086b0f8e388281711"
+        ],
+        "event_ids": [
+          "evt-66d8a9d6ec354c28b38765867bbb1135",
+          "evt-e4dd45c0fed145ccac89439707f985be",
+          "evt-e61b49280e6047a184fb055e49dbe8d4",
+          "evt-17062b0f623548dfb4242d83ef670ca4",
+          "evt-71b7422de93342b09295871282897904"
+        ],
+        "reference_event_ids": [
+          "evt-2526460bb703400087650fe9df3926c0",
+          "evt-fdce878df6e740a8af6bb081f83d4313",
+          "evt-96c0cb0827b04fb6a22621a54e9537bd",
+          "evt-b0847354ea684896ad6f8b152f2ce80e",
+          "evt-d520cbf8ee9f40f98a2f375014422a03",
+          "evt-66d8a9d6ec354c28b38765867bbb1135",
+          "evt-e4dd45c0fed145ccac89439707f985be",
+          "evt-e61b49280e6047a184fb055e49dbe8d4",
+          "evt-17062b0f623548dfb4242d83ef670ca4",
+          "evt-71b7422de93342b09295871282897904"
+        ],
+        "reference_count": 86,
+        "sample_count": 28,
+        "state": "reference",
+        "distance": null
+      }
+    ]
+  },
+  "event_ids": [
+    "evt-2526460bb703400087650fe9df3926c0",
+    "evt-fdce878df6e740a8af6bb081f83d4313",
+    "evt-96c0cb0827b04fb6a22621a54e9537bd",
+    "evt-b0847354ea684896ad6f8b152f2ce80e",
+    "evt-d520cbf8ee9f40f98a2f375014422a03",
+    "evt-66d8a9d6ec354c28b38765867bbb1135",
+    "evt-e4dd45c0fed145ccac89439707f985be",
+    "evt-e61b49280e6047a184fb055e49dbe8d4",
+    "evt-17062b0f623548dfb4242d83ef670ca4",
+    "evt-71b7422de93342b09295871282897904"
+  ],
+  "alert_ids": [
+    "alert-6dc60beb9da143df8e573ac681062590",
+    "alert-824b77a7a06f4a77b52b55ded46b9992",
+    "alert-13d12f8ba00743d28b4567cce117e319",
+    "alert-95a6e71f350143f3a40b949d502b14db",
+    "alert-48325562826245ae9d5ea3144ba4c8a6",
+    "alert-95ae513231e64707a319665a3a1e1f74",
+    "alert-22d2e2dde4d8492f852d1440c43cfc12",
+    "alert-84b9356f69fc431fbb42188012d1a109",
+    "alert-f9cb93f49ca94265955d049f10c24cae"
+  ]
+}

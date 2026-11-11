@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-11-11T01:18:19.022286+00:00",
+  "available": 1042,
+  "states": {
+    "available": 1042,
+    "technical_without_image": 18
+  },
+  "missing_images": 0,
+  "technical_without_image": 18,
+  "issues": {
+    "total": 18,
+    "items": [
+      {
+        "id": "evt-6b02acd8a7574389ba6f9847474cd037",
+        "run_id": "run-4dcf14336dba49ea85b66eef2212b4ad",
+        "status": "decode_error",
+        "timestamp": "2026-11-11T01:09:58.843445+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-2c205d7623234229b30f4dd2b3340014",
+        "run_id": "run-a5cd342718044dc193a8645d95f6be4b",
+        "status": "source_error",
+        "timestamp": "2026-11-11T01:09:53.320226+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-6686011b03b2441495a09dde26698ff9",
+        "run_id": "run-a8105f2bce1c424891e91ec615a4f91e",
+        "status": "decode_error",
+        "timestamp": "2026-11-11T01:04:11.999102+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-0994bd6a352c4250827363dfb1ee896f",
+        "run_id": "run-f53f92ac87674e38b1e4e10a55502307",
+        "status": "source_error",
+        "timestamp": "2026-11-11T01:04:06.487927+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-7e0787c31137477184065feda388619a",
+        "run_id": "run-c7ac6e9529dc4e939dfe52eea0ad9dd2",
+        "status": "decode_error",
+        "timestamp": "2026-11-11T00:59:03.036309+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-6740176c4311469295715a0fc012628f",
+        "run_id": "run-89e5b7d39a544dfb97b89ef015615da2",
+        "status": "source_error",
+        "timestamp": "2026-11-11T00:58:57.850070+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-870dba765b134be3b388ab005974ae08",
+        "run_id": "run-110a7306e89f4d70ad0c6ae3a09867da",
+        "status": "decode_error",
+        "timestamp": "2026-11-11T00:50:20.634613+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-62a9fbeed0524e17a5b707aa3406af58",
+        "run_id": "run-f58ca137698a46f4b7db0a716391ddef",
+        "status": "source_error",
+        "timestamp": "2026-11-11T00:50:15.170010+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-b9595e4a5e11409eb28304313506e530",
+        "run_id": "run-1a327959d7754c64b8bfe9a9551d1c3d",
+        "status": "decode_error",
+        "timestamp": "2026-11-11T00:42:06.265888+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-182910b9360a487191ac6791cf1dd786",
+        "run_id": "run-899bc01b49794f92b80e457c8a6e37ea",
+        "status": "source_error",
+        "timestamp": "2026-11-11T00:42:01.127092+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-77841a77c917480f8ad1daaf72c2f22a",
+        "run_id": "run-caf7236291d44e90bd06210f96104d82",
+        "status": "decode_error",
+        "timestamp": "2026-11-10T23:46:46.266096+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-b1a2340941ff4b7997cced6a9686e2cf",
+        "run_id": "run-5537f01575dc4e3194e13b7743c24bbc",
+        "status": "source_error",
+        "timestamp": "2026-11-10T23:46:13.155315+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-37c68f779d5348e98d77c13f0e6be16e",
+        "run_id": "run-3925a3817b8b4d47b5ed37ec7a3dbcaa",
+        "status": "decode_error",
+        "timestamp": "2026-11-10T23:44:40.885729+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-e014a5181f9d473d9dd2fd5c94e172a3",
+        "run_id": "run-e65a6272c5184496b1eb84cdcd243c66",
+        "status": "source_error",
+        "timestamp": "2026-11-10T23:44:10.775038+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-a06be883d9b74293b2b307312dd402eb",
+        "run_id": "run-ae6e1d7e1b4e49cd8f662d5cf718914d",
+        "status": "decode_error",
+        "timestamp": "2026-11-10T23:24:22.524180+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-ac1580f3f8614497991af26f1ecc9fd0",
+        "run_id": "run-9bbf63620ba2433ebd48ac612009b0e1",
+        "status": "source_error",
+        "timestamp": "2026-11-10T23:24:16.774418+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-25e95926464742a3b8959c2ab1328e22",
+        "run_id": "run-a3905705d9634bf58242ff810a273a78",
+        "status": "decode_error",
+        "timestamp": "2026-11-10T23:14:57.963785+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      },
+      {
+        "id": "evt-4610432e4bf54c56bba6763bb478f7b8",
+        "run_id": "run-a22f79462ab541f3a0d599c97bf41c30",
+        "status": "source_error",
+        "timestamp": "2026-11-10T23:14:53.159292+00:00",
+        "image_state": "technical_without_image",
+        "reason": "Evento técnico sin captura: no se recibió una imagen decodificable"
+      }
+    ],
+    "offset": 0,
+    "limit": 500
+  },
+  "repairs": [],
+  "historical_payloads_modified": false,
+  "note": "Un evento de source_error/decode_error sin image_ref no declara un archivo perdido. Ninguna imagen se fabrica ni se cambia un SHA."
+}

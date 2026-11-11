@@ -1,0 +1,20 @@
+{
+  "scenario": "S3",
+  "run_id": "run-6329525ad3ec46b9b197c23311c4fcf0",
+  "expectation": "Una muestra no completa la ventana ni declara normalidad",
+  "observed": true,
+  "event_statuses": [
+    "ok"
+  ],
+  "event_ids": [
+    "evt-e321afe1d0f2429ebd596db60ec44f26"
+  ],
+  "alert_ids": [
+    "alert-7dac2ff366984f489e7c053a79a58be2"
+  ],
+  "config_sha256": "2c6bf64b5f4bc45a5a95400a57def55546ee483716b691cd0830766ed603b56c",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

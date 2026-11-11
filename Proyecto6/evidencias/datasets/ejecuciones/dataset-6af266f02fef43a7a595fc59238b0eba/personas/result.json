@@ -1,0 +1,37 @@
+{
+  "run_id": "run-381da60eec5f475180297a68438c901c",
+  "source_id": "source-b4c7d349969347c5aa43ca402d89c1e2",
+  "collection": "personas",
+  "events": 10,
+  "detections": 70,
+  "classes": {
+    "person": 36,
+    "potted plant": 2,
+    "couch": 2,
+    "suitcase": 1,
+    "cell phone": 2,
+    "kite": 2,
+    "umbrella": 1,
+    "book": 4,
+    "laptop": 2,
+    "dining table": 1,
+    "boat": 1,
+    "dog": 1,
+    "skis": 1,
+    "baseball bat": 1,
+    "toothbrush": 1,
+    "scissors": 1,
+    "chair": 11
+  },
+  "zones": {
+    "accepted": 11,
+    "doubt": 9,
+    "low": 50
+  },
+  "no_detections": [],
+  "alerts": 8,
+  "all_real": true,
+  "all_inputs_seen_once": true,
+  "extras_recalculated": true,
+  "mean_inference_ms": 12.941710000450257
+}

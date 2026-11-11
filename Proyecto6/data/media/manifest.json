@@ -1,0 +1,114 @@
+{
+  "path": "data/media/demo.mp4",
+  "fps": 8,
+  "frames": 40,
+  "source": "Archivo generado de im\u00e1genes p\u00fablicas, no c\u00e1mara",
+  "codec": "mp4v",
+  "size": [
+    640,
+    480
+  ],
+  "inputs": [
+    {
+      "path": "data/demo/normal/000.png",
+      "sha256": "4d3266810b258c178340ecbbd30e2ffe50e1ff5d1410a4e553d48c635547949c",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/001.png",
+      "sha256": "d47e3f3a40a7c2edb9f289c464faf797ef73f51ec9f31170451a0a55c054cf47",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/002.png",
+      "sha256": "51c5bb66b9fd846fb783186105d0fec52186dea5da0cf41a4e40642c2446f60e",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/003.png",
+      "sha256": "77060f07835b8f53b8130d6304a873eb72a97067197361a87c2a1ef52c4a9af7",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/004.png",
+      "sha256": "a3de36c0e2de85244cf0b03be49283b252114b7c856130da045a51696c7e7879",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/005.png",
+      "sha256": "77118dbe9ab4baa97c4ed75fd9f2a42ac8d9ce86307702ad550d8a75a73b267c",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/006.png",
+      "sha256": "094b129e7540fbd958d2ca18c1ee09dfa5327373d29d77ba4328cb644401eab4",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/007.png",
+      "sha256": "985e83132cfdaac9a972513a35ffbf9c5616dcda7782dacc85b596fc82bc8a47",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/008.png",
+      "sha256": "36ee3e55866f3018808d79f0c4a6ac4ebe26fa7137de7034f59e641766fb5f5d",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/normal/009.png",
+      "sha256": "4d3266810b258c178340ecbbd30e2ffe50e1ff5d1410a4e553d48c635547949c",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/000.png",
+      "sha256": "d05dd00b41f78a7b3dc8930fb4b1de67522708de474d6b5f23c697ae82929f34",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/001.png",
+      "sha256": "4f64cdae673c8f67643b24f065263018b0124d5f44f14fb5aef69d8edde51090",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/002.png",
+      "sha256": "e58f5e995dadac2bf36627b8937d3f55679d0255a512c08f4930b69d5f5117c4",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/003.png",
+      "sha256": "0aa332404a46d084a592fe428aaff3d9a5f861188b596708f11475a6ae1174c9",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/004.png",
+      "sha256": "217246fe5019754096a852cacac4d85c718318cddc718495a08b4299ace15d02",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/005.png",
+      "sha256": "c1e3f765f0cb2294d22fef715c1b723e3e81b9ad1da8c34ab2eb0cfa7d7cb192",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/006.png",
+      "sha256": "e9e931d05ec9abfa790753e3a811bacf917cb315ea3564e5a1b1bca4fbae368e",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/007.png",
+      "sha256": "0fbd00496400a111a997e08298a2949c363c4645ab615e2d14358463caec4709",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/008.png",
+      "sha256": "634f322753945406d5f060d946ab7033ccbcd91db63e5c9877af2779f089b9af",
+      "repetitions": 2
+    },
+    {
+      "path": "data/demo/baja-confianza/009.png",
+      "sha256": "1da048eb4e7b29261442bc6ea9b43a47d016a76ee7aae5b257ed5969cd8d7ae5",
+      "repetitions": 2
+    }
+  ],
+  "sha256": "501dbd22650fe4920dfb0f3655ec3c6dc6b78f320a7258c3872001ebdedc0583"
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-11-11T01:23:33.315797+00:00",
+  "base_url": "http://127.0.0.1:8006",
+  "ok": false,
+  "checks": {
+    "paged_25": true,
+    "no_full_images_on_open": true,
+    "thumbnail_concurrency_at_most_4": true,
+    "real_validation_error_and_button_retry": true,
+    "rapid_filter_latest_response_wins": true,
+    "reload_keeps_filters": true,
+    "page_2_url_and_backend": true,
+    "rapid_section_navigation_recovers": true,
+    "native_browser_download_and_attribution": true,
+    "eight_collections_registered": true
+  },
+  "mocked_responses": false,
+  "test_sha256": "dd6850470eb9a1b7e6945e8ee3b7305a3be81e6e1768779f5dff72b5a1ec852d",
+  "initial_thumbnail_requests": 3,
+  "maximum_thumbnail_concurrency": 3,
+  "download": {
+    "filename": "capturas.zip",
+    "sha256": "6bcf4a39116e6710bebe82fd0ab4c977acc347e8ba4feb22222c7fd4af814427"
+  }
+}

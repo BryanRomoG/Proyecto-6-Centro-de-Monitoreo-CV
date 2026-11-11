@@ -1,0 +1,1496 @@
+{
+  "timestamp": "2026-11-10T23:14:43.534548+00:00",
+  "model": {
+    "name": "yolox_nano",
+    "version": "0.1.1rc0",
+    "sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+    "descriptor_sha256": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+    "runtime": "onnxruntime==1.22.0",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "classes": [
+      "person",
+      "bicycle",
+      "car",
+      "motorcycle",
+      "airplane",
+      "bus",
+      "train",
+      "truck",
+      "boat",
+      "traffic light",
+      "fire hydrant",
+      "stop sign",
+      "parking meter",
+      "bench",
+      "bird",
+      "cat",
+      "dog",
+      "horse",
+      "sheep",
+      "cow",
+      "elephant",
+      "bear",
+      "zebra",
+      "giraffe",
+      "backpack",
+      "umbrella",
+      "handbag",
+      "tie",
+      "suitcase",
+      "frisbee",
+      "skis",
+      "snowboard",
+      "sports ball",
+      "kite",
+      "baseball bat",
+      "baseball glove",
+      "skateboard",
+      "surfboard",
+      "tennis racket",
+      "bottle",
+      "wine glass",
+      "cup",
+      "fork",
+      "knife",
+      "spoon",
+      "bowl",
+      "banana",
+      "apple",
+      "sandwich",
+      "orange",
+      "broccoli",
+      "carrot",
+      "hot dog",
+      "pizza",
+      "donut",
+      "cake",
+      "chair",
+      "couch",
+      "potted plant",
+      "bed",
+      "dining table",
+      "toilet",
+      "tv",
+      "laptop",
+      "mouse",
+      "remote",
+      "keyboard",
+      "cell phone",
+      "microwave",
+      "oven",
+      "toaster",
+      "sink",
+      "refrigerator",
+      "book",
+      "clock",
+      "vase",
+      "scissors",
+      "teddy bear",
+      "hair drier",
+      "toothbrush"
+    ],
+    "preprocessing": "Pillow bilinear letterbox top-left 416 padding114 BGR NCHW float32 0-255"
+  },
+  "config": {
+    "version": 1,
+    "source": {
+      "kind": "images",
+      "source_id": "fuente-local-01",
+      "url": "http://192.168.68.108:81/stream",
+      "images_dir": "data/demo/normal",
+      "video_file": "data/media/demo.mp4",
+      "sample_hz": 2.0,
+      "loop": false,
+      "timeout_seconds": 5.0,
+      "retry_seconds": 2.0
+    },
+    "detector": {
+      "model": "modelo/yolox_nano.onnx",
+      "descriptor": "modelo/descriptor.yaml",
+      "input_size": 416,
+      "padding": 114,
+      "score_floor": 0.1,
+      "nms_iou": 0.45,
+      "max_detections": 100
+    },
+    "confidence": {
+      "lower": 0.6,
+      "upper": 0.8,
+      "window_frames": 5,
+      "min_detections": 5,
+      "reference_windows": 2,
+      "sustained_windows": 2,
+      "increase": 0.2
+    },
+    "alerts": {
+      "low_min_detections": 1
+    },
+    "metrics": {
+      "window_seconds": 60.0
+    },
+    "storage": {
+      "data_dir": "data/runtime",
+      "database": "monitor.sqlite3"
+    },
+    "server": {
+      "autostart": false
+    },
+    "media_roots": [
+      "data/demo",
+      "data/media",
+      "data/scenarios"
+    ]
+  },
+  "observations": [
+    {
+      "name": "original",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\original.png",
+      "transform": {
+        "identity": true
+      },
+      "sha256": "842eb1d3ef62dbfd47782ca105bdab2fb3cfb9bcb8c1cf243de8297b4afa419b",
+      "detections": [
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.8285252682395168,
+          "bbox": [
+            133.06,
+            206.99,
+            324.58,
+            542.25
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.8094334054050876,
+          "bbox": [
+            466.68,
+            78.19,
+            691.53,
+            171.55
+          ]
+        },
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.8079670357812603,
+          "bbox": [
+            45.61,
+            131.93,
+            571.75,
+            430.56
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.379842508753681,
+          "bbox": [
+            131.24,
+            212.86,
+            321.62,
+            541.05
+          ]
+        },
+        {
+          "class_name": "truck",
+          "class_id": 7,
+          "confidence": 0.2713762258205179,
+          "bbox": [
+            464.1,
+            76.72,
+            682.23,
+            173.46
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.13000215939397464,
+          "bbox": [
+            686.77,
+            114.59,
+            719.37,
+            154.25
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.10504362273162116,
+          "bbox": [
+            424.17,
+            61.14,
+            501.84,
+            139.45
+          ]
+        },
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.1019087121131399,
+          "bbox": [
+            135.44,
+            139.51,
+            256.14,
+            217.99
+          ]
+        }
+      ],
+      "count": 8,
+      "low": 5,
+      "ratio": 0.625
+    },
+    {
+      "name": "dog-crop",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\dog-crop.png",
+      "transform": {
+        "crop": [
+          110,
+          180,
+          350,
+          555
+        ]
+      },
+      "sha256": "350c40e92f53e373585fa2dd5781003ff6d31773869f31e4199870bb15af0ede",
+      "detections": [
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.902738201215314,
+          "bbox": [
+            22.49,
+            34.43,
+            219.76,
+            358.62
+          ]
+        },
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.5340292203426387,
+          "bbox": [
+            14.45,
+            0.78,
+            237.0,
+            190.03
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.17745085691716866,
+          "bbox": [
+            28.62,
+            1.83,
+            239.1,
+            185.3
+          ]
+        },
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.1035493609695628,
+          "bbox": [
+            41.96,
+            0.0,
+            176.26,
+            38.64
+          ]
+        }
+      ],
+      "count": 4,
+      "low": 3,
+      "ratio": 0.75
+    },
+    {
+      "name": "blur-2-brightness-0.35",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-2-brightness-0.35.png",
+      "transform": {
+        "blur": 2,
+        "brightness": 0.35
+      },
+      "sha256": "d017453b84a5e0cec969649479760345fa954bf7babb0d4aa44cadc22661ff34",
+      "detections": [
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.8684551972917234,
+          "bbox": [
+            127.84,
+            130.38,
+            569.64,
+            440.56
+          ]
+        },
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.7682526359086523,
+          "bbox": [
+            133.91,
+            204.67,
+            323.15,
+            541.16
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.719899564358002,
+          "bbox": [
+            466.38,
+            79.24,
+            698.52,
+            171.64
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.5225709703599932,
+          "bbox": [
+            467.66,
+            77.45,
+            586.58,
+            160.88
+          ]
+        },
+        {
+          "class_name": "truck",
+          "class_id": 7,
+          "confidence": 0.40829022637452184,
+          "bbox": [
+            464.76,
+            79.18,
+            695.5,
+            171.5
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.2726217171845846,
+          "bbox": [
+            132.36,
+            211.06,
+            322.41,
+            542.0
+          ]
+        }
+      ],
+      "count": 6,
+      "low": 3,
+      "ratio": 0.5
+    },
+    {
+      "name": "blur-2-brightness-0.65",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-2-brightness-0.65.png",
+      "transform": {
+        "blur": 2,
+        "brightness": 0.65
+      },
+      "sha256": "77ff6e711a93c2e58eacc7b2ab6fd251464daa89de95aef0c070ab5e83c2119a",
+      "detections": [
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.8708282271178405,
+          "bbox": [
+            98.58,
+            131.96,
+            571.04,
+            438.45
+          ]
+        },
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.7994766728074865,
+          "bbox": [
+            133.01,
+            202.85,
+            322.43,
+            541.37
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.6840751832881331,
+          "bbox": [
+            466.15,
+            79.63,
+            689.77,
+            171.91
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.46164816351907945,
+          "bbox": [
+            465.93,
+            78.68,
+            570.05,
+            159.13
+          ]
+        },
+        {
+          "class_name": "truck",
+          "class_id": 7,
+          "confidence": 0.43503773786101974,
+          "bbox": [
+            464.17,
+            78.32,
+            684.57,
+            172.51
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.11010132034424558,
+          "bbox": [
+            130.97,
+            199.83,
+            321.23,
+            541.97
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.10066840360821061,
+          "bbox": [
+            702.98,
+            99.09,
+            767.32,
+            424.47
+          ]
+        }
+      ],
+      "count": 7,
+      "low": 4,
+      "ratio": 0.5714285714285714
+    },
+    {
+      "name": "blur-2-brightness-1.0",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-2-brightness-1.0.png",
+      "transform": {
+        "blur": 2,
+        "brightness": 1.0
+      },
+      "sha256": "284ce0d0471106bbc231fe69f43f34ca5e0a4ee43f6919617a4f8307e17b4dea",
+      "detections": [
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.8594943486487523,
+          "bbox": [
+            80.81,
+            129.79,
+            571.6,
+            434.06
+          ]
+        },
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.8208339610684803,
+          "bbox": [
+            132.06,
+            207.48,
+            322.02,
+            540.46
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.6929078950698795,
+          "bbox": [
+            466.95,
+            79.67,
+            681.47,
+            171.67
+          ]
+        },
+        {
+          "class_name": "truck",
+          "class_id": 7,
+          "confidence": 0.47700022820038157,
+          "bbox": [
+            463.52,
+            78.29,
+            680.55,
+            172.92
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.12371888238220663,
+          "bbox": [
+            702.68,
+            97.68,
+            767.42,
+            423.58
+          ]
+        }
+      ],
+      "count": 5,
+      "low": 2,
+      "ratio": 0.4
+    },
+    {
+      "name": "blur-4-brightness-0.35",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-4-brightness-0.35.png",
+      "transform": {
+        "blur": 4,
+        "brightness": 0.35
+      },
+      "sha256": "10a56244245bf11cedf52f6cd3d6c491058cb759beaa46fdd92543976d395313",
+      "detections": [
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.8026824992175534,
+          "bbox": [
+            116.02,
+            127.79,
+            567.67,
+            438.14
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.7528921363637835,
+          "bbox": [
+            468.66,
+            77.12,
+            651.09,
+            168.37
+          ]
+        },
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.5143801486558353,
+          "bbox": [
+            132.16,
+            197.14,
+            342.82,
+            538.93
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.30567201681358824,
+          "bbox": [
+            132.87,
+            212.0,
+            327.39,
+            541.36
+          ]
+        },
+        {
+          "class_name": "truck",
+          "class_id": 7,
+          "confidence": 0.19919258971460962,
+          "bbox": [
+            468.1,
+            76.78,
+            648.07,
+            163.9
+          ]
+        }
+      ],
+      "count": 5,
+      "low": 3,
+      "ratio": 0.6
+    },
+    {
+      "name": "blur-4-brightness-0.65",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-4-brightness-0.65.png",
+      "transform": {
+        "blur": 4,
+        "brightness": 0.65
+      },
+      "sha256": "33a0060d28f2405202955d16ea714cc956f168da0c7e377c52d825b543f9c73f",
+      "detections": [
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.8581010538630522,
+          "bbox": [
+            122.13,
+            132.98,
+            568.65,
+            445.36
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.6817770699462216,
+          "bbox": [
+            467.75,
+            76.39,
+            657.73,
+            163.78
+          ]
+        },
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.5433223766216351,
+          "bbox": [
+            130.66,
+            188.89,
+            341.63,
+            542.28
+          ]
+        },
+        {
+          "class_name": "truck",
+          "class_id": 7,
+          "confidence": 0.2841713169399043,
+          "bbox": [
+            466.12,
+            76.85,
+            674.74,
+            168.78
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.17567849721541506,
+          "bbox": [
+            130.4,
+            207.73,
+            328.48,
+            547.03
+          ]
+        }
+      ],
+      "count": 5,
+      "low": 3,
+      "ratio": 0.6
+    },
+    {
+      "name": "blur-4-brightness-1.0",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-4-brightness-1.0.png",
+      "transform": {
+        "blur": 4,
+        "brightness": 1.0
+      },
+      "sha256": "d5750de22ae261820af1f887e714755ae30b461f73498fa8b36b5dda34d02ce8",
+      "detections": [
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.8503656131453994,
+          "bbox": [
+            123.64,
+            128.65,
+            568.15,
+            460.79
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.678418415253816,
+          "bbox": [
+            468.08,
+            76.79,
+            664.5,
+            162.85
+          ]
+        },
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.5258235728060754,
+          "bbox": [
+            131.63,
+            220.57,
+            323.1,
+            542.18
+          ]
+        },
+        {
+          "class_name": "truck",
+          "class_id": 7,
+          "confidence": 0.37449604265876246,
+          "bbox": [
+            464.92,
+            77.71,
+            678.85,
+            169.57
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.10857607384160417,
+          "bbox": [
+            147.46,
+            133.71,
+            261.51,
+            213.83
+          ]
+        }
+      ],
+      "count": 5,
+      "low": 3,
+      "ratio": 0.6
+    },
+    {
+      "name": "blur-6-brightness-0.35",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-6-brightness-0.35.png",
+      "transform": {
+        "blur": 6,
+        "brightness": 0.35
+      },
+      "sha256": "01a372df80ade8f76f7c0d6ad2eccafdf4191734f3320d5500f3cf8dd7175a46",
+      "detections": [
+        {
+          "class_name": "person",
+          "class_id": 0,
+          "confidence": 0.266992531725613,
+          "bbox": [
+            130.46,
+            209.2,
+            323.84,
+            524.09
+          ]
+        },
+        {
+          "class_name": "orange",
+          "class_id": 49,
+          "confidence": 0.2154205004185883,
+          "bbox": [
+            308.6,
+            243.05,
+            570.65,
+            417.56
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.17948580704700312,
+          "bbox": [
+            136.42,
+            200.7,
+            326.65,
+            539.48
+          ]
+        },
+        {
+          "class_name": "apple",
+          "class_id": 47,
+          "confidence": 0.13452520180622685,
+          "bbox": [
+            304.77,
+            242.6,
+            570.4,
+            416.31
+          ]
+        },
+        {
+          "class_name": "bowl",
+          "class_id": 45,
+          "confidence": 0.1082168899213709,
+          "bbox": [
+            293.69,
+            235.9,
+            568.63,
+            415.66
+          ]
+        }
+      ],
+      "count": 5,
+      "low": 5,
+      "ratio": 1.0
+    },
+    {
+      "name": "blur-6-brightness-0.65",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-6-brightness-0.65.png",
+      "transform": {
+        "blur": 6,
+        "brightness": 0.65
+      },
+      "sha256": "373dab66426303234f0978753353637c7aa32c35fd60c102afc446996678e461",
+      "detections": [
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.7761376126764645,
+          "bbox": [
+            469.12,
+            74.85,
+            655.76,
+            166.25
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.27154961722521165,
+          "bbox": [
+            136.25,
+            204.3,
+            323.87,
+            542.76
+          ]
+        },
+        {
+          "class_name": "frisbee",
+          "class_id": 29,
+          "confidence": 0.23994788098804065,
+          "bbox": [
+            314.59,
+            239.4,
+            572.72,
+            417.46
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.15452037908724847,
+          "bbox": [
+            153.17,
+            136.75,
+            263.87,
+            216.79
+          ]
+        },
+        {
+          "class_name": "person",
+          "class_id": 0,
+          "confidence": 0.1502014653651358,
+          "bbox": [
+            131.58,
+            212.74,
+            323.53,
+            523.33
+          ]
+        },
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.1486214546331457,
+          "bbox": [
+            129.41,
+            208.51,
+            311.89,
+            541.17
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.13275883714573666,
+          "bbox": [
+            208.09,
+            200.83,
+            456.05,
+            345.39
+          ]
+        },
+        {
+          "class_name": "truck",
+          "class_id": 7,
+          "confidence": 0.11416169453149116,
+          "bbox": [
+            468.84,
+            71.91,
+            662.75,
+            160.14
+          ]
+        },
+        {
+          "class_name": "chair",
+          "class_id": 56,
+          "confidence": 0.10657311132149516,
+          "bbox": [
+            15.8,
+            220.04,
+            228.13,
+            432.78
+          ]
+        },
+        {
+          "class_name": "bowl",
+          "class_id": 45,
+          "confidence": 0.10499198946990163,
+          "bbox": [
+            308.85,
+            233.91,
+            570.81,
+            415.74
+          ]
+        }
+      ],
+      "count": 10,
+      "low": 9,
+      "ratio": 0.9
+    },
+    {
+      "name": "blur-6-brightness-1.0",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-6-brightness-1.0.png",
+      "transform": {
+        "blur": 6,
+        "brightness": 1.0
+      },
+      "sha256": "29a9746687fd760048c6cebc85007ca3fdec9c8ed5321053cb9690920c24bd87",
+      "detections": [
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.791365545199227,
+          "bbox": [
+            469.62,
+            73.94,
+            661.88,
+            162.59
+          ]
+        },
+        {
+          "class_name": "dog",
+          "class_id": 16,
+          "confidence": 0.2748068519784965,
+          "bbox": [
+            132.2,
+            210.95,
+            326.37,
+            542.06
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.2084027306110876,
+          "bbox": [
+            152.82,
+            137.17,
+            263.81,
+            216.03
+          ]
+        },
+        {
+          "class_name": "bicycle",
+          "class_id": 1,
+          "confidence": 0.18227000284420924,
+          "bbox": [
+            173.51,
+            180.75,
+            564.47,
+            422.34
+          ]
+        },
+        {
+          "class_name": "frisbee",
+          "class_id": 29,
+          "confidence": 0.17630941947047063,
+          "bbox": [
+            318.04,
+            240.31,
+            572.52,
+            418.06
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.17001121257277418,
+          "bbox": [
+            130.85,
+            210.81,
+            322.74,
+            549.96
+          ]
+        },
+        {
+          "class_name": "car",
+          "class_id": 2,
+          "confidence": 0.10579571199724747,
+          "bbox": [
+            189.19,
+            198.47,
+            449.64,
+            336.65
+          ]
+        }
+      ],
+      "count": 7,
+      "low": 6,
+      "ratio": 0.8571428571428571
+    },
+    {
+      "name": "blur-8-brightness-0.35",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-8-brightness-0.35.png",
+      "transform": {
+        "blur": 8,
+        "brightness": 0.35
+      },
+      "sha256": "0c4a00a4b8649b1b51c021feeed95f7c77a3ebe0699ec27e83ba5c92aa0257fc",
+      "detections": [
+        {
+          "class_name": "orange",
+          "class_id": 49,
+          "confidence": 0.22603480427950018,
+          "bbox": [
+            550.97,
+            251.62,
+            761.01,
+            414.1
+          ]
+        },
+        {
+          "class_name": "apple",
+          "class_id": 47,
+          "confidence": 0.2163383422672318,
+          "bbox": [
+            313.39,
+            250.85,
+            564.95,
+            408.54
+          ]
+        },
+        {
+          "class_name": "person",
+          "class_id": 0,
+          "confidence": 0.14723157600111492,
+          "bbox": [
+            132.12,
+            204.59,
+            322.06,
+            530.33
+          ]
+        },
+        {
+          "class_name": "orange",
+          "class_id": 49,
+          "confidence": 0.11768842345345831,
+          "bbox": [
+            310.24,
+            250.47,
+            565.84,
+            409.92
+          ]
+        }
+      ],
+      "count": 4,
+      "low": 4,
+      "ratio": 1.0
+    },
+    {
+      "name": "blur-8-brightness-0.65",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-8-brightness-0.65.png",
+      "transform": {
+        "blur": 8,
+        "brightness": 0.65
+      },
+      "sha256": "b3bd72f486363c1ca9842341c41b516e64c7c03196688a11a6ee3dd4e27090b9",
+      "detections": [
+        {
+          "class_name": "orange",
+          "class_id": 49,
+          "confidence": 0.2412089819821972,
+          "bbox": [
+            315.18,
+            247.43,
+            568.0,
+            412.54
+          ]
+        },
+        {
+          "class_name": "apple",
+          "class_id": 47,
+          "confidence": 0.2269677498057998,
+          "bbox": [
+            292.97,
+            245.76,
+            565.33,
+            411.99
+          ]
+        },
+        {
+          "class_name": "person",
+          "class_id": 0,
+          "confidence": 0.19668467814949508,
+          "bbox": [
+            131.78,
+            209.41,
+            315.55,
+            533.71
+          ]
+        },
+        {
+          "class_name": "orange",
+          "class_id": 49,
+          "confidence": 0.1633123321528629,
+          "bbox": [
+            551.85,
+            250.38,
+            762.78,
+            417.09
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.14596941334979618,
+          "bbox": [
+            137.54,
+            200.27,
+            315.64,
+            540.7
+          ]
+        }
+      ],
+      "count": 5,
+      "low": 5,
+      "ratio": 1.0
+    },
+    {
+      "name": "blur-8-brightness-1.0",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-8-brightness-1.0.png",
+      "transform": {
+        "blur": 8,
+        "brightness": 1.0
+      },
+      "sha256": "87123a1b8cde02cf1b2e967d6d34c038d17188ca4444868948d77710ebc049b9",
+      "detections": [
+        {
+          "class_name": "orange",
+          "class_id": 49,
+          "confidence": 0.23291740690154938,
+          "bbox": [
+            317.48,
+            247.71,
+            570.13,
+            414.64
+          ]
+        },
+        {
+          "class_name": "cat",
+          "class_id": 15,
+          "confidence": 0.20816023425349073,
+          "bbox": [
+            135.72,
+            204.04,
+            313.54,
+            542.97
+          ]
+        },
+        {
+          "class_name": "apple",
+          "class_id": 47,
+          "confidence": 0.18751000897111325,
+          "bbox": [
+            314.69,
+            248.32,
+            570.68,
+            414.05
+          ]
+        },
+        {
+          "class_name": "person",
+          "class_id": 0,
+          "confidence": 0.15365250300319477,
+          "bbox": [
+            131.49,
+            214.52,
+            313.41,
+            528.17
+          ]
+        },
+        {
+          "class_name": "banana",
+          "class_id": 46,
+          "confidence": 0.14025626163260796,
+          "bbox": [
+            550.15,
+            246.44,
+            767.06,
+            426.45
+          ]
+        }
+      ],
+      "count": 5,
+      "low": 5,
+      "ratio": 1.0
+    },
+    {
+      "name": "blur-12-brightness-0.35",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-12-brightness-0.35.png",
+      "transform": {
+        "blur": 12,
+        "brightness": 0.35
+      },
+      "sha256": "fde9df3abcd7f7ad33f57a4c3262745c004871b6c538b412315b1eee46c89971",
+      "detections": [],
+      "count": 0,
+      "low": 0,
+      "ratio": null
+    },
+    {
+      "name": "blur-12-brightness-0.65",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-12-brightness-0.65.png",
+      "transform": {
+        "blur": 12,
+        "brightness": 0.65
+      },
+      "sha256": "f0ccd011fb918baa24a2757be6d997d39d8dc15488cf33fdfc552adb88d9312a",
+      "detections": [],
+      "count": 0,
+      "low": 0,
+      "ratio": null
+    },
+    {
+      "name": "blur-12-brightness-1.0",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-12-brightness-1.0.png",
+      "transform": {
+        "blur": 12,
+        "brightness": 1.0
+      },
+      "sha256": "908350d304a95d4b95e07dd72ddba1118fba9e81ee9dcbfa26889d53d0775597",
+      "detections": [
+        {
+          "class_name": "apple",
+          "class_id": 47,
+          "confidence": 0.1323981210987739,
+          "bbox": [
+            312.57,
+            252.44,
+            565.2,
+            402.39
+          ]
+        },
+        {
+          "class_name": "donut",
+          "class_id": 54,
+          "confidence": 0.12733563480975363,
+          "bbox": [
+            309.8,
+            252.82,
+            562.75,
+            401.87
+          ]
+        },
+        {
+          "class_name": "orange",
+          "class_id": 49,
+          "confidence": 0.11644779220950952,
+          "bbox": [
+            550.79,
+            245.25,
+            767.04,
+            415.12
+          ]
+        }
+      ],
+      "count": 3,
+      "low": 3,
+      "ratio": 1.0
+    },
+    {
+      "name": "blur-16-brightness-0.35",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-16-brightness-0.35.png",
+      "transform": {
+        "blur": 16,
+        "brightness": 0.35
+      },
+      "sha256": "b575e5d0f7b22c5054b93f264cfee2d4b13d51a48c37241469ad2f8768e2f367",
+      "detections": [],
+      "count": 0,
+      "low": 0,
+      "ratio": null
+    },
+    {
+      "name": "blur-16-brightness-0.65",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-16-brightness-0.65.png",
+      "transform": {
+        "blur": 16,
+        "brightness": 0.65
+      },
+      "sha256": "09573a4137946cc9004c6dbb93f5b5b709b3b9ff806bac6da3ef3352d50744af",
+      "detections": [],
+      "count": 0,
+      "low": 0,
+      "ratio": null
+    },
+    {
+      "name": "blur-16-brightness-1.0",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\blur-16-brightness-1.0.png",
+      "transform": {
+        "blur": 16,
+        "brightness": 1.0
+      },
+      "sha256": "860bdc127c1bde4fb37584fb24e3a368523f0e78afae23828f4ae969498733b9",
+      "detections": [],
+      "count": 0,
+      "low": 0,
+      "ratio": null
+    },
+    {
+      "name": "background-0",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\background-0.png",
+      "transform": {
+        "crop": [
+          0,
+          520,
+          90,
+          575
+        ],
+        "background_candidate": true
+      },
+      "sha256": "1c8583203f9b809d5d73bb1671c1880e71a3707b13ad458acd79093184aca58e",
+      "detections": [
+        {
+          "class_name": "person",
+          "class_id": 0,
+          "confidence": 0.4082292100472529,
+          "bbox": [
+            0.0,
+            0.21,
+            90.0,
+            55.0
+          ]
+        },
+        {
+          "class_name": "bed",
+          "class_id": 59,
+          "confidence": 0.18560091445443305,
+          "bbox": [
+            0.36,
+            0.0,
+            89.37,
+            53.95
+          ]
+        }
+      ],
+      "count": 2,
+      "low": 2,
+      "ratio": 1.0
+    },
+    {
+      "name": "background-1",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\background-1.png",
+      "transform": {
+        "crop": [
+          0,
+          0,
+          70,
+          70
+        ],
+        "background_candidate": true
+      },
+      "sha256": "536148099631f0fa8f803f68704878005f26235b9d9dfd9a4fbac8d0f047cab7",
+      "detections": [
+        {
+          "class_name": "person",
+          "class_id": 0,
+          "confidence": 0.10223366584996718,
+          "bbox": [
+            1.71,
+            0.22,
+            49.04,
+            69.71
+          ]
+        }
+      ],
+      "count": 1,
+      "low": 1,
+      "ratio": 1.0
+    },
+    {
+      "name": "background-2",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\background-2.png",
+      "transform": {
+        "crop": [
+          600,
+          450,
+          750,
+          570
+        ],
+        "background_candidate": true
+      },
+      "sha256": "13a4f99c5f017089b25d001a671227a9dcbe08e83924a6ff18cc63267f26353d",
+      "detections": [],
+      "count": 0,
+      "low": 0,
+      "ratio": null
+    },
+    {
+      "name": "background-3",
+      "path": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\scenarios\\batch-337fccf17c184ce4930c12a5a7c76961\\calibration\\background-3.png",
+      "transform": {
+        "crop": [
+          10,
+          350,
+          90,
+          430
+        ],
+        "background_candidate": true
+      },
+      "sha256": "38b83ad3b99b0cf4cc63469892ed65a1049e21a7ff5e65c1b6000cdf3266de59",
+      "detections": [
+        {
+          "class_name": "bed",
+          "class_id": 59,
+          "confidence": 0.165311838142145,
+          "bbox": [
+            0.68,
+            45.0,
+            79.98,
+            78.7
+          ]
+        },
+        {
+          "class_name": "bed",
+          "class_id": 59,
+          "confidence": 0.11252706613211316,
+          "bbox": [
+            0.13,
+            0.0,
+            79.93,
+            79.41
+          ]
+        },
+        {
+          "class_name": "toilet",
+          "class_id": 61,
+          "confidence": 0.10640501809746183,
+          "bbox": [
+            0.0,
+            0.22,
+            79.69,
+            77.32
+          ]
+        }
+      ],
+      "count": 3,
+      "low": 3,
+      "ratio": 1.0
+    }
+  ],
+  "reference": "blur-2-brightness-1.0",
+  "changed": "blur-6-brightness-0.35",
+  "gap": 0.6,
+  "empty": "background-2",
+  "method": "Selección por inferencias exploratorias; luego nueva ejecución con política fijada y scores sin cambios."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "metric-d89ec1e16fad48ada32380760009e723",
+  "run_id": "run-5537f01575dc4e3194e13b7743c24bbc",
+  "timestamp": "2026-11-10T23:46:15.450312+00:00",
+  "window_seconds": 60.0,
+  "values": {
+    "G1": 137.67506666651266,
+    "G2": 1.3250451464960142,
+    "G3": 110.1025390625,
+    "G4": 0.625,
+    "G5": 1.0,
+    "G6": 1.3745319843292236,
+    "G7": 3
+  },
+  "units": {
+    "G1": "ms",
+    "G2": "frames/s",
+    "G3": "MiB",
+    "G4": "proporción",
+    "G5": "proporción",
+    "G6": "s",
+    "G7": "alertas"
+  },
+  "event_ids": [
+    "evt-9137fd910d6e46cf9af29ed720f189cb",
+    "evt-830800fc1f934985b1d1c9a39b300e7c",
+    "evt-b1a2340941ff4b7997cced6a9686e2cf",
+    "evt-3510ba917fc748f9934de3de248af43c"
+  ],
+  "last_report_event_id": "evt-9137fd910d6e46cf9af29ed720f189cb",
+  "active_alert_ids": [
+    "alert-b9571ac3b97f4b2fb4f099e0ec4f97cc",
+    "alert-47776078f75f44d2ad70d9e7b694fc33",
+    "alert-791b42e004b94ea2924c911977544ba7"
+  ],
+  "primary": {
+    "successful_frames": 3,
+    "attempt_elapsed_s": 2.264073800000915,
+    "scored_detections": 24,
+    "low_detections": 15,
+    "traced_events": 4,
+    "eligible_events": 4
+  },
+  "state": "observed"
+}

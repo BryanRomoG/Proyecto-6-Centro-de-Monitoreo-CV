@@ -1,0 +1,43 @@
+{
+  "created_code": [
+    "scripts/audit_gallery.py",
+    "scripts/download_demo_dataset.py",
+    "scripts/run_dataset_demo.py",
+    "src/monitor_cv/datasets.py",
+    "src/monitor_cv/gallery.py",
+    "tests/test_datasets_gallery.py"
+  ],
+  "modified_code": [
+    "pyproject.toml",
+    "src/monitor_cv/__init__.py",
+    "src/monitor_cv/application.py",
+    "src/monitor_cv/config.py",
+    "src/monitor_cv/database.py",
+    "src/monitor_cv/images.py",
+    "src/monitor_cv/query.py",
+    "src/monitor_cv/service.py",
+    "src/monitor_cv/sources.py",
+    "web/static/js/portal.js",
+    "web/templates/portal.html"
+  ],
+  "other_new_files": [
+    "browser_tests/test_portal.py",
+    "requirements-browser-test.txt",
+    "config/dataset-selection.json",
+    "Docs/DATASETS.md",
+    "ENTREGA_DATASETS.md",
+    "data/media/datasets/manifest.json",
+    "data/media/datasets/manifest.csv",
+    "data/media/datasets/README.md"
+  ],
+  "other_modified": [
+    "README.md raíz/P6",
+    "MANUAL_USUARIO.md",
+    "MANUAL_EJECUCION.md",
+    "PROCEDENCIA.md",
+    "METRICAS.md",
+    "ARQUITECTURA.md",
+    "Docs/EXTRAS.md"
+  ],
+  "note": "El repositorio sigue sin commit; comparación de código contra manifiesto anterior, no diff Git."
+}

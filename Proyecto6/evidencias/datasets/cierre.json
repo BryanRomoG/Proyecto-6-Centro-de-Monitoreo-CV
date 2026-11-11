@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-11-11T01:32:56.623391+00:00",
+  "preexisting_protected_files": 661,
+  "changed_files": [],
+  "historical_payload_changes": {
+    "events": [],
+    "runs": [],
+    "alerts": [],
+    "windows": [],
+    "metrics": [],
+    "sources": [],
+    "actions": [],
+    "alert_changes": []
+  },
+  "broken_links": [],
+  "tests": {
+    "core": "87",
+    "edge": "1",
+    "failed": 0,
+    "skipped": 0
+  },
+  "application_code_matches_selected_batch": true,
+  "server_state": "stopped",
+  "browser_passed": true
+}

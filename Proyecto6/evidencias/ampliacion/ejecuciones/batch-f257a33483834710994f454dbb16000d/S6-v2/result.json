@@ -1,0 +1,23 @@
+{
+  "scenario": "S6-v2",
+  "run_id": "run-b6b1e03a8e544e3fab803f9d3dd35f85",
+  "expectation": "Otra configuración: mismo modelo/scores, identidad y series distintas",
+  "observed": true,
+  "event_statuses": [
+    "ok",
+    "ok"
+  ],
+  "event_ids": [
+    "evt-8366262e25d14aaa9b95a52d2f2c90c2",
+    "evt-4bdc64b5f0514b99990faa2db1c5750b"
+  ],
+  "alert_ids": [
+    "alert-d814362a4cf64876b6d957e7cab34c54",
+    "alert-de4c7c2b7e5d421894f9e24db8e18327"
+  ],
+  "config_sha256": "669cb6c9833b92e761d60ccf11c2f2b75b6969a4dc4bf2ae5df7f41198f8161d",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

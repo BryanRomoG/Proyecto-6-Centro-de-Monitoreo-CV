@@ -1,0 +1,132 @@
+[
+  {
+    "baseline_ratio": 0.4,
+    "config_sha256": "83aae7664d23794c8760f7639bdc5e07192b65c2428f6882cf150f737ddd407e",
+    "detections": 25,
+    "event_ids": [
+      "evt-0ac0f0be63d04b7cafd61bb2ec400e22",
+      "evt-b9796f5d13ac4c4296844b6bdd6fed54",
+      "evt-412d1c1f19494f1ab38076ddbe1647d3",
+      "evt-0cc34cddf65841d2bf68f389f02b4c8c",
+      "evt-6d419477b2f0492799139d0c1ec79d51"
+    ],
+    "id": "window-943372ab5dd7435c8d9f25093da4295d",
+    "low": 10,
+    "ratio": 0.4,
+    "reference_window_ids": [
+      "window-718a808100d046a683e6e85b17a77420",
+      "window-2c933279eb904da59eec570a7eb51b36"
+    ],
+    "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+    "state": "within_policy",
+    "sustained_event_ids": [],
+    "sustained_window_ids": [],
+    "timestamp": "2026-11-10T23:46:42.761835+00:00"
+  },
+  {
+    "baseline_ratio": 0.4,
+    "config_sha256": "83aae7664d23794c8760f7639bdc5e07192b65c2428f6882cf150f737ddd407e",
+    "detections": 25,
+    "event_ids": [
+      "evt-ee748c05e4e244ca9b6e51df79eccbe7",
+      "evt-8c220714960b41718dcfa316d2bb75a5",
+      "evt-4f823ed717e74aab8617cbc25f136128",
+      "evt-6ff138da6d2f485aa4177691cc56ec6a",
+      "evt-49f491f4a4214422ac99a2b94fbd7242"
+    ],
+    "id": "window-31882679352d406c8c562ec8d24dc20b",
+    "low": 25,
+    "ratio": 1.0,
+    "reference_window_ids": [
+      "window-718a808100d046a683e6e85b17a77420",
+      "window-2c933279eb904da59eec570a7eb51b36"
+    ],
+    "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+    "state": "sustained_change",
+    "sustained_event_ids": [
+      "evt-5ccf5bea8f9343a281ba74508645c1f1",
+      "evt-1ae84859af81457980326d59140065dd",
+      "evt-ab61926b71534f128ac9340787e3ba38",
+      "evt-ce405c54ce3549d490805c1629134401",
+      "evt-fd5217b9505a4aafb9993171c4282124",
+      "evt-ee748c05e4e244ca9b6e51df79eccbe7",
+      "evt-8c220714960b41718dcfa316d2bb75a5",
+      "evt-4f823ed717e74aab8617cbc25f136128",
+      "evt-6ff138da6d2f485aa4177691cc56ec6a",
+      "evt-49f491f4a4214422ac99a2b94fbd7242"
+    ],
+    "sustained_window_ids": [
+      "window-5c5551faa47a42f5847594b54d5e9cf2",
+      "window-31882679352d406c8c562ec8d24dc20b"
+    ],
+    "timestamp": "2026-11-10T23:46:37.765433+00:00"
+  },
+  {
+    "baseline_ratio": 0.4,
+    "config_sha256": "83aae7664d23794c8760f7639bdc5e07192b65c2428f6882cf150f737ddd407e",
+    "detections": 25,
+    "event_ids": [
+      "evt-5ccf5bea8f9343a281ba74508645c1f1",
+      "evt-1ae84859af81457980326d59140065dd",
+      "evt-ab61926b71534f128ac9340787e3ba38",
+      "evt-ce405c54ce3549d490805c1629134401",
+      "evt-fd5217b9505a4aafb9993171c4282124"
+    ],
+    "id": "window-5c5551faa47a42f5847594b54d5e9cf2",
+    "low": 25,
+    "ratio": 1.0,
+    "reference_window_ids": [
+      "window-718a808100d046a683e6e85b17a77420",
+      "window-2c933279eb904da59eec570a7eb51b36"
+    ],
+    "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+    "state": "change_pending",
+    "sustained_event_ids": [],
+    "sustained_window_ids": [],
+    "timestamp": "2026-11-10T23:46:32.200230+00:00"
+  },
+  {
+    "baseline_ratio": null,
+    "config_sha256": "83aae7664d23794c8760f7639bdc5e07192b65c2428f6882cf150f737ddd407e",
+    "detections": 25,
+    "event_ids": [
+      "evt-17429c59bf384dd59c91c4efabf099d2",
+      "evt-88444dcf27c747caa6aeebed33c3ef2e",
+      "evt-f2b194d70269446394f2c365bd8f679c",
+      "evt-c2a6325d80374e918899c5c84af82a31",
+      "evt-01af7f0702c844c093ade1f0214aefa8"
+    ],
+    "id": "window-2c933279eb904da59eec570a7eb51b36",
+    "low": 10,
+    "ratio": 0.4,
+    "reference_window_ids": [
+      "window-718a808100d046a683e6e85b17a77420"
+    ],
+    "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+    "state": "collecting_reference",
+    "sustained_event_ids": [],
+    "sustained_window_ids": [],
+    "timestamp": "2026-11-10T23:46:27.985150+00:00"
+  },
+  {
+    "baseline_ratio": null,
+    "config_sha256": "83aae7664d23794c8760f7639bdc5e07192b65c2428f6882cf150f737ddd407e",
+    "detections": 25,
+    "event_ids": [
+      "evt-5f9c7a00fbf44c03b78c3922219753d1",
+      "evt-27de3aa694c94c38aa37b89f90dc5024",
+      "evt-a23834b456db42ae8562529675645aea",
+      "evt-9a91a0044d4c4da6ae7a140a92605c1a",
+      "evt-045d179d615940c78cab7e07a5c57854"
+    ],
+    "id": "window-718a808100d046a683e6e85b17a77420",
+    "low": 10,
+    "ratio": 0.4,
+    "reference_window_ids": [],
+    "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+    "state": "collecting_reference",
+    "sustained_event_ids": [],
+    "sustained_window_ids": [],
+    "timestamp": "2026-11-10T23:46:24.355441+00:00"
+  }
+]

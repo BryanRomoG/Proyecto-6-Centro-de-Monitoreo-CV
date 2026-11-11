@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head><base href="http://127.0.0.1:8006/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Detalle de alerta · Monitor CV</title><link rel="stylesheet" href="/static/css/portal.css"></head>
+<body><aside><a class="brand" href="/">◉ Monitor CV</a><p>PROYECTO 6 · ITESO</p>
+<nav><a href="/">Vista general</a><a href="/events">Eventos</a><a href="/alerts">Alertas</a><a href="/docs">API</a></nav>
+<small>Inferencias observables.<br>Confianza no equivale a acierto.</small></aside>
+<main><header><span class="eyebrow">CENTRO DE MONITOREO / COMPUTER VISION</span><h1>Detalle de alerta</h1>
+<p>Fuente → modelo → evento → captura → alerta</p></header>
+
+<p><span class="tag warning">warning · active</span> 2026-11-10T22:03:14.625397+00:00</p><h2>low-confidence-v1</h2>
+<p>5 detecciones con s &lt; 0.6; mínimo por frame: 1</p><p><b>Acción sugerida:</b> Revisar imágenes, iluminación, oclusión y preprocesamiento; no inferir acierto ni drift solo por confianza.</p>
+<h2>Eventos de origen</h2><ul><li><a href="/events/evt-8dc816d8d72448d2a7ad99bdd77ade9f">evt-8dc816d8d72448d2a7ad99bdd77ade9f</a></li></ul>
+<details><summary>Regla y trazabilidad completas</summary><pre>{
+  "config_sha256": "47ef8471213b05e3b60aa0a91352aa0d3c76c4c1a036535790954e5cc0367106",
+  "event_id": "evt-8dc816d8d72448d2a7ad99bdd77ade9f",
+  "event_ids": [
+    "evt-8dc816d8d72448d2a7ad99bdd77ade9f"
+  ],
+  "id": "alert-46f7efdb4e2244e784d5711146f8dc08",
+  "reason": "5 detecciones con s \u003c 0.6; m\u00ednimo por frame: 1",
+  "rule_id": "low-confidence-v1",
+  "run_id": "run-02611233986c44e7bc84a568aff98a87",
+  "severity": "warning",
+  "status": "active",
+  "suggested_action": "Revisar im\u00e1genes, iluminaci\u00f3n, oclusi\u00f3n y preprocesamiento; no inferir acierto ni drift solo por confianza.",
+  "timestamp": "2026-11-10T22:03:14.625397+00:00",
+  "window_id": null
+}</pre></details>
+
+
+<footer>YOLOX-Nano · ONNX Runtime CPU · Evidencia conservada sin expiración automática</footer></main>
+<script src="/static/js/portal.js" defer></script></body></html>

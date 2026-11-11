@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-11T00-45-49.542408+00-00",
+  "started_at": "2026-11-11T00:45:49.542408+00:00",
+  "downloaded": 80,
+  "reused": 0,
+  "exact_duplicates": 0,
+  "near_duplicates": 0,
+  "skipped": [],
+  "errors": [],
+  "finished_at": "2026-11-11T00:46:14.479833+00:00",
+  "network_bytes": 77877535,
+  "limit_bytes": 200000000,
+  "accepted": 80,
+  "categories": {
+    "escenas_despejadas": 10,
+    "escenas_multiples": 10,
+    "baja_confianza": 10,
+    "animales": 10,
+    "vehiculos": 10,
+    "bicicletas": 10,
+    "objetos": 10,
+    "personas": 10
+  },
+  "deficits": {
+    "personas": 0,
+    "animales": 0,
+    "vehiculos": 0,
+    "bicicletas": 0,
+    "objetos": 0,
+    "escenas_multiples": 0,
+    "baja_confianza": 0,
+    "escenas_despejadas": 0
+  },
+  "unique_sha256": 80,
+  "manifest_sha256": "e1498a0f69dd0d3a6479e90a5219e1a91fd681e5be46ea84171461e76248a3d6"
+}

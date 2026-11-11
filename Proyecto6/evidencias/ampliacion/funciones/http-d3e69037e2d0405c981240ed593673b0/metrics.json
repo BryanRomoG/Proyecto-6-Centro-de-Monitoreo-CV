@@ -1,0 +1,128 @@
+[
+  {
+    "active_alert_ids": [
+      "alert-ebfc333fdf244ed8b825bd2ca46cbdea",
+      "alert-1daa04602b974fb5bea6e2ba84eb3797",
+      "alert-9c2467ef96f046b381b4523941ee0ec0"
+    ],
+    "event_ids": [
+      "evt-3a18ac5eab1841359de040bc9990d76e",
+      "evt-b2539ed5aa8f48ee912e9f5f82c1cd23",
+      "evt-0b49ae7f5a634481b0cff49b9bc5cb0e"
+    ],
+    "id": "metric-736331477a1840d39b3663623e173a42",
+    "last_report_event_id": "evt-3a18ac5eab1841359de040bc9990d76e",
+    "primary": {
+      "attempt_elapsed_s": 1.4451751000015065,
+      "eligible_events": 3,
+      "low_detections": 9,
+      "scored_detections": 18,
+      "successful_frames": 3,
+      "traced_events": 3
+    },
+    "run_id": "run-9197cff5c13848fb8485d295eca202d6",
+    "state": "observed",
+    "timestamp": "2026-11-11T00:02:33.429112+00:00",
+    "units": {
+      "G1": "ms",
+      "G2": "frames/s",
+      "G3": "MiB",
+      "G4": "proporción",
+      "G5": "proporción",
+      "G6": "s",
+      "G7": "alertas"
+    },
+    "values": {
+      "G1": 69.65116666591105,
+      "G2": 2.07587302050587,
+      "G3": 148.88151041666666,
+      "G4": 0.5,
+      "G5": 1.0,
+      "G6": 0.3319530487060547,
+      "G7": 3
+    },
+    "window_seconds": 60.0
+  },
+  {
+    "active_alert_ids": [
+      "alert-1daa04602b974fb5bea6e2ba84eb3797",
+      "alert-9c2467ef96f046b381b4523941ee0ec0"
+    ],
+    "event_ids": [
+      "evt-b2539ed5aa8f48ee912e9f5f82c1cd23",
+      "evt-0b49ae7f5a634481b0cff49b9bc5cb0e"
+    ],
+    "id": "metric-0bb80d061fb041088be20e82124a20bf",
+    "last_report_event_id": "evt-b2539ed5aa8f48ee912e9f5f82c1cd23",
+    "primary": {
+      "attempt_elapsed_s": 0.8548207000021648,
+      "eligible_events": 2,
+      "low_detections": 6,
+      "scored_detections": 12,
+      "successful_frames": 2,
+      "traced_events": 2
+    },
+    "run_id": "run-9197cff5c13848fb8485d295eca202d6",
+    "state": "observed",
+    "timestamp": "2026-11-11T00:02:32.948465+00:00",
+    "units": {
+      "G1": "ms",
+      "G2": "frames/s",
+      "G3": "MiB",
+      "G4": "proporción",
+      "G5": "proporción",
+      "G6": "s",
+      "G7": "alertas"
+    },
+    "values": {
+      "G1": 67.9315499983204,
+      "G2": 2.3396719335352256,
+      "G3": 147.439453125,
+      "G4": 0.5,
+      "G5": 1.0,
+      "G6": 0.43572306632995605,
+      "G7": 2
+    },
+    "window_seconds": 60.0
+  },
+  {
+    "active_alert_ids": [
+      "alert-9c2467ef96f046b381b4523941ee0ec0"
+    ],
+    "event_ids": [
+      "evt-0b49ae7f5a634481b0cff49b9bc5cb0e"
+    ],
+    "id": "metric-ed089417c08d4ba3917b9af40f1f52b6",
+    "last_report_event_id": "evt-0b49ae7f5a634481b0cff49b9bc5cb0e",
+    "primary": {
+      "attempt_elapsed_s": 0.2620184000006702,
+      "eligible_events": 1,
+      "low_detections": 4,
+      "scored_detections": 7,
+      "successful_frames": 1,
+      "traced_events": 1
+    },
+    "run_id": "run-9197cff5c13848fb8485d295eca202d6",
+    "state": "observed",
+    "timestamp": "2026-11-11T00:02:32.353645+00:00",
+    "units": {
+      "G1": "ms",
+      "G2": "frames/s",
+      "G3": "MiB",
+      "G4": "proporción",
+      "G5": "proporción",
+      "G6": "s",
+      "G7": "alertas"
+    },
+    "values": {
+      "G1": 73.08949999787728,
+      "G2": 3.816525862296091,
+      "G3": 146.25390625,
+      "G4": 0.5714285714285714,
+      "G5": 1.0,
+      "G6": 0.41021299362182617,
+      "G7": 1
+    },
+    "window_seconds": 60.0
+  }
+]

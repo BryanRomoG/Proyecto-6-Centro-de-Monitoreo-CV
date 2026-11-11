@@ -1,0 +1,2229 @@
+{
+  "timestamp": "2026-11-11T00:03:50.761232+00:00",
+  "batch": "ejecuciones/batch-f257a33483834710994f454dbb16000d",
+  "scenarios": {
+    "C1": {
+      "base": {
+        "run_id": "run-0584836099f54a7eaceec13d30ca2084",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 169.16553000046406,
+          "G2": 1.5012801641150355,
+          "G3": 101.2171875,
+          "G4": 0.6052631578947368,
+          "G7": 10,
+          "G6": 1.7830910682678223,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 169.16553000046406,
+          "G2": 1.5012801641150355,
+          "G3": 101.2171875,
+          "G4": 0.6052631578947368,
+          "G5": 1.0,
+          "G6": 1.7830910682678223,
+          "G7": 10
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 172.43869999947492,
+            "p95": 285.316595000222
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 1.5012801641150355,
+          "M05": 0,
+          "M06": 62.162381795388185,
+          "M07": 101.34765625,
+          "M08": {
+            "dog": 10,
+            "car": 30,
+            "bicycle": 15,
+            "cat": 10,
+            "truck": 10,
+            "tv": 1
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              29,
+              7,
+              10,
+              0,
+              0,
+              0,
+              0,
+              30,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 7.6,
+          "M12": 0.0,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "C1-imagenes / run-0584836099f54a7eaceec13d30ca2084": 10
+          },
+          "M16": 90.07680984690212,
+          "M17": null,
+          "M18": null,
+          "M19": 9,
+          "M20": [
+            {
+              "run_id": "run-0584836099f54a7eaceec13d30ca2084",
+              "window_id": "window-8ede2cdc04bd4013a8ff6c62684569a6",
+              "reference_window_ids": [
+                "window-8ede2cdc04bd4013a8ff6c62684569a6",
+                "window-ae54ff9498f3427991776053766f7d68"
+              ],
+              "event_ids": [
+                "evt-c598cd305dd34cdfae2c1e3a56338262",
+                "evt-fc5be9e9f5a5485f918a27d5c78f0faa",
+                "evt-390d0408db344003bb5966c285ae0a52",
+                "evt-d3b437add2c64b49a6192b73b5717e78",
+                "evt-2570e8073a3e4f9990138067b9b43525"
+              ],
+              "reference_event_ids": [
+                "evt-c598cd305dd34cdfae2c1e3a56338262",
+                "evt-fc5be9e9f5a5485f918a27d5c78f0faa",
+                "evt-390d0408db344003bb5966c285ae0a52",
+                "evt-d3b437add2c64b49a6192b73b5717e78",
+                "evt-2570e8073a3e4f9990138067b9b43525",
+                "evt-14c12d98fddb4fdb9d73bc935e9cc6e7",
+                "evt-ea835fc92ce14f61b828fa72b2556355",
+                "evt-59aa707ac7a14f79b23a810a726ad513",
+                "evt-442fa9c4cd2b4f1fa14960c604eea633",
+                "evt-92307b6b4df946e7ace605c3425bbb3d"
+              ],
+              "reference_count": 76,
+              "sample_count": 37,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-0584836099f54a7eaceec13d30ca2084",
+              "window_id": "window-ae54ff9498f3427991776053766f7d68",
+              "reference_window_ids": [
+                "window-8ede2cdc04bd4013a8ff6c62684569a6",
+                "window-ae54ff9498f3427991776053766f7d68"
+              ],
+              "event_ids": [
+                "evt-14c12d98fddb4fdb9d73bc935e9cc6e7",
+                "evt-ea835fc92ce14f61b828fa72b2556355",
+                "evt-59aa707ac7a14f79b23a810a726ad513",
+                "evt-442fa9c4cd2b4f1fa14960c604eea633",
+                "evt-92307b6b4df946e7ace605c3425bbb3d"
+              ],
+              "reference_event_ids": [
+                "evt-c598cd305dd34cdfae2c1e3a56338262",
+                "evt-fc5be9e9f5a5485f918a27d5c78f0faa",
+                "evt-390d0408db344003bb5966c285ae0a52",
+                "evt-d3b437add2c64b49a6192b73b5717e78",
+                "evt-2570e8073a3e4f9990138067b9b43525",
+                "evt-14c12d98fddb4fdb9d73bc935e9cc6e7",
+                "evt-ea835fc92ce14f61b828fa72b2556355",
+                "evt-59aa707ac7a14f79b23a810a726ad513",
+                "evt-442fa9c4cd2b4f1fa14960c604eea633",
+                "evt-92307b6b4df946e7ace605c3425bbb3d"
+              ],
+              "reference_count": 76,
+              "sample_count": 39,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-c598cd305dd34cdfae2c1e3a56338262",
+          "evt-fc5be9e9f5a5485f918a27d5c78f0faa",
+          "evt-390d0408db344003bb5966c285ae0a52",
+          "evt-d3b437add2c64b49a6192b73b5717e78",
+          "evt-2570e8073a3e4f9990138067b9b43525",
+          "evt-14c12d98fddb4fdb9d73bc935e9cc6e7",
+          "evt-ea835fc92ce14f61b828fa72b2556355",
+          "evt-59aa707ac7a14f79b23a810a726ad513",
+          "evt-442fa9c4cd2b4f1fa14960c604eea633",
+          "evt-92307b6b4df946e7ace605c3425bbb3d"
+        ],
+        "alert_ids": [
+          "alert-e8a6919e16f04ee4af64ca52313183ef",
+          "alert-e37e2ccfe1ff4acfba31a04ade07b89f",
+          "alert-cc3ee5c1380b4489addcd9add8fa5c93",
+          "alert-de975a01970f4d2b88d7c95a353beed2",
+          "alert-a8c6d44865004dae9891ddee71f574e3",
+          "alert-cdc204e28a7a44ffba336f4ec2a41311",
+          "alert-25525dbc02b0476b97f143d10750748f",
+          "alert-8b6da59a7c5547cbaa5de6eaeefd92e9",
+          "alert-15575be1749b46789db9beee06317447",
+          "alert-923b7961f5234319aaece0695df460af"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 10
+      },
+      "events": 10,
+      "detections": 76,
+      "alerts": 10,
+      "run_id": "run-0584836099f54a7eaceec13d30ca2084"
+    },
+    "C2": {
+      "base": {
+        "run_id": "run-a1bcc6f11db4465fb54a34f57ee9709c",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 127.7276199994958,
+          "G2": 1.4186289674528283,
+          "G3": 106.499609375,
+          "G4": 0.6615384615384615,
+          "G7": 10,
+          "G6": 1.637868881225586,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 127.7276199994958,
+          "G2": 1.4186289674528283,
+          "G3": 106.499609375,
+          "G4": 0.6615384615384615,
+          "G5": 1.0,
+          "G6": 1.637868881225586,
+          "G7": 10
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 111.6380500006926,
+            "p95": 247.44289499922155
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 1.4186289674528283,
+          "M05": 0,
+          "M06": 62.065017326061245,
+          "M07": 107.1171875,
+          "M08": {
+            "bicycle": 8,
+            "dog": 10,
+            "car": 20,
+            "truck": 10,
+            "cat": 9,
+            "frisbee": 2,
+            "person": 2,
+            "bowl": 2,
+            "chair": 2
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              21,
+              9,
+              1,
+              10,
+              2,
+              10,
+              5,
+              7,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 6.5,
+          "M12": 0.23076923076923078,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "C2-imagenes / run-a1bcc6f11db4465fb54a34f57ee9709c": 10
+          },
+          "M16": 85.11773804716971,
+          "M17": null,
+          "M18": null,
+          "M19": 9,
+          "M20": [
+            {
+              "run_id": "run-a1bcc6f11db4465fb54a34f57ee9709c",
+              "window_id": "window-0e5541d2a01e4ddca3246705daa59daf",
+              "reference_window_ids": [
+                "window-0e5541d2a01e4ddca3246705daa59daf",
+                "window-4153a452997b4bf2bd0a36989116ece7"
+              ],
+              "event_ids": [
+                "evt-f8f024591a6944e4b4d6647c83b89f75",
+                "evt-ae0859241e2944a9a1b3908514599867",
+                "evt-374a32a6c3ad4d9fbef923f720365ff8",
+                "evt-43a73dd11f574dec886a148a4a67baef",
+                "evt-d528c020eb6144b3abf6d1c827a51761"
+              ],
+              "reference_event_ids": [
+                "evt-f8f024591a6944e4b4d6647c83b89f75",
+                "evt-ae0859241e2944a9a1b3908514599867",
+                "evt-374a32a6c3ad4d9fbef923f720365ff8",
+                "evt-43a73dd11f574dec886a148a4a67baef",
+                "evt-d528c020eb6144b3abf6d1c827a51761",
+                "evt-9ea401095a1644068d7b59a5649162ca",
+                "evt-3d22a7479345422493c73c25a0cc4a20",
+                "evt-e5a17a00522240df84393ec51b5e86ca",
+                "evt-a12de73a0ba54b3e9bd6ac8e589d3367",
+                "evt-0da30cb4a691468fa32f6c0bea27a80a"
+              ],
+              "reference_count": 65,
+              "sample_count": 34,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-a1bcc6f11db4465fb54a34f57ee9709c",
+              "window_id": "window-4153a452997b4bf2bd0a36989116ece7",
+              "reference_window_ids": [
+                "window-0e5541d2a01e4ddca3246705daa59daf",
+                "window-4153a452997b4bf2bd0a36989116ece7"
+              ],
+              "event_ids": [
+                "evt-9ea401095a1644068d7b59a5649162ca",
+                "evt-3d22a7479345422493c73c25a0cc4a20",
+                "evt-e5a17a00522240df84393ec51b5e86ca",
+                "evt-a12de73a0ba54b3e9bd6ac8e589d3367",
+                "evt-0da30cb4a691468fa32f6c0bea27a80a"
+              ],
+              "reference_event_ids": [
+                "evt-f8f024591a6944e4b4d6647c83b89f75",
+                "evt-ae0859241e2944a9a1b3908514599867",
+                "evt-374a32a6c3ad4d9fbef923f720365ff8",
+                "evt-43a73dd11f574dec886a148a4a67baef",
+                "evt-d528c020eb6144b3abf6d1c827a51761",
+                "evt-9ea401095a1644068d7b59a5649162ca",
+                "evt-3d22a7479345422493c73c25a0cc4a20",
+                "evt-e5a17a00522240df84393ec51b5e86ca",
+                "evt-a12de73a0ba54b3e9bd6ac8e589d3367",
+                "evt-0da30cb4a691468fa32f6c0bea27a80a"
+              ],
+              "reference_count": 65,
+              "sample_count": 31,
+              "state": "reference",
+              "distance": null
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-f8f024591a6944e4b4d6647c83b89f75",
+          "evt-ae0859241e2944a9a1b3908514599867",
+          "evt-374a32a6c3ad4d9fbef923f720365ff8",
+          "evt-43a73dd11f574dec886a148a4a67baef",
+          "evt-d528c020eb6144b3abf6d1c827a51761",
+          "evt-9ea401095a1644068d7b59a5649162ca",
+          "evt-3d22a7479345422493c73c25a0cc4a20",
+          "evt-e5a17a00522240df84393ec51b5e86ca",
+          "evt-a12de73a0ba54b3e9bd6ac8e589d3367",
+          "evt-0da30cb4a691468fa32f6c0bea27a80a"
+        ],
+        "alert_ids": [
+          "alert-e6d08a8e67534d7996a473131c842731",
+          "alert-8412c9fea3b144729c78511527b59b71",
+          "alert-c8dfcfc49b924911a2a96853347e7ca3",
+          "alert-ee0ca1e850c04e818bad8b20de5a9adf",
+          "alert-e98de9aa5a5b4836ba617edcfcdcd02c",
+          "alert-ee8b158b5f9541d2b5843c0878ddc02a",
+          "alert-ff262bebfc054905b67e8f166459922d",
+          "alert-b7eab7515de5414da50e0a247041eaf2",
+          "alert-5b5c3b69d30042099e66d7a7cf678d2e",
+          "alert-b44fa6f2b60f497898dbbb852b163081"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 10
+      },
+      "events": 10,
+      "detections": 65,
+      "alerts": 10,
+      "run_id": "run-a1bcc6f11db4465fb54a34f57ee9709c"
+    },
+    "S1": {
+      "base": {
+        "run_id": "run-5537f01575dc4e3194e13b7743c24bbc",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 137.67506666651266,
+          "G2": 1.3250451464960142,
+          "G3": 110.1025390625,
+          "G4": 0.625,
+          "G7": 3,
+          "G6": 1.3745319843292236,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 137.67506666651266,
+          "G2": 1.3250451464960142,
+          "G3": 110.1025390625,
+          "G4": 0.625,
+          "G5": 1.0,
+          "G6": 1.3745319843292236,
+          "G7": 3
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 150.34779999768944,
+            "p95": 208.47547000012128
+          },
+          "M02": 0.25,
+          "M03": 0,
+          "M04": 1.3250451464960142,
+          "M05": 1,
+          "M06": 55.210214437333924,
+          "M07": 112.41015625,
+          "M08": {
+            "dog": 3,
+            "car": 9,
+            "bicycle": 6,
+            "cat": 3,
+            "truck": 3
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              9,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              9,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 8.0,
+          "M12": 0.0,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "S1-interrupcion / run-5537f01575dc4e3194e13b7743c24bbc": 4
+          },
+          "M16": 79.50270878976085,
+          "M17": null,
+          "M18": null,
+          "M19": 2,
+          "M20": null
+        },
+        "event_ids": [
+          "evt-3510ba917fc748f9934de3de248af43c",
+          "evt-b1a2340941ff4b7997cced6a9686e2cf",
+          "evt-830800fc1f934985b1d1c9a39b300e7c",
+          "evt-9137fd910d6e46cf9af29ed720f189cb"
+        ],
+        "alert_ids": [
+          "alert-791b42e004b94ea2924c911977544ba7",
+          "alert-47776078f75f44d2ad70d9e7b694fc33",
+          "alert-b9571ac3b97f4b2fb4f099e0ec4f97cc"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 3,
+        "source_error": 1
+      },
+      "events": 4,
+      "detections": 24,
+      "alerts": 3,
+      "run_id": "run-5537f01575dc4e3194e13b7743c24bbc"
+    },
+    "S2": {
+      "base": {
+        "run_id": "run-51db13717933430e802157704194445c",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 254.97026666683573,
+          "G2": 1.9992151081504763,
+          "G3": 109.77994791666667,
+          "G4": null,
+          "G7": 0,
+          "G6": 1.1298549175262451,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 254.97026666683573,
+          "G2": 1.9992151081504763,
+          "G3": 109.77994791666667,
+          "G4": null,
+          "G5": 1.0,
+          "G6": 1.1298549175262451,
+          "G7": 0
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 347.4967000001925,
+            "p95": 358.9710700001888
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 1.9992151081504763,
+          "M05": 0,
+          "M06": 46.85660409727679,
+          "M07": 110.84765625,
+          "M08": {},
+          "M09": null,
+          "M10": 1.0,
+          "M11": 0.0,
+          "M12": null,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "S2-sin-objetos / run-51db13717933430e802157704194445c": 3
+          },
+          "M16": 0.0,
+          "M17": null,
+          "M18": null,
+          "M19": 0,
+          "M20": null
+        },
+        "event_ids": [
+          "evt-b5d9da2387874c46b5586e415e1f0cec",
+          "evt-24d0ca33793c42778363775074324f71",
+          "evt-d063196c66134dc6aea17d76443d7bed"
+        ],
+        "alert_ids": []
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "no_detections": 3
+      },
+      "events": 3,
+      "detections": 0,
+      "alerts": 0,
+      "run_id": "run-51db13717933430e802157704194445c"
+    },
+    "S3": {
+      "base": {
+        "run_id": "run-6329525ad3ec46b9b197c23311c4fcf0",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 282.00769999966724,
+          "G2": 1.4377558127037964,
+          "G3": 109.64453125,
+          "G4": 0.625,
+          "G7": 1,
+          "G6": 1.5416109561920166,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 282.00769999966724,
+          "G2": 1.4377558127037964,
+          "G3": 109.64453125,
+          "G4": 0.625,
+          "G5": 1.0,
+          "G6": 1.5416109561920166,
+          "G7": 1
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 282.00769999966724,
+            "p95": 282.00769999966724
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 1.4377558127037964,
+          "M05": 0,
+          "M06": 44.92986914699364,
+          "M07": 109.64453125,
+          "M08": {
+            "dog": 1,
+            "car": 3,
+            "bicycle": 2,
+            "cat": 1,
+            "truck": 1
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              3,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 8.0,
+          "M12": 0.0,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "S3-poca-evidencia / run-6329525ad3ec46b9b197c23311c4fcf0": 1
+          },
+          "M16": 86.26534876222779,
+          "M17": null,
+          "M18": null,
+          "M19": 0,
+          "M20": null
+        },
+        "event_ids": [
+          "evt-e321afe1d0f2429ebd596db60ec44f26"
+        ],
+        "alert_ids": [
+          "alert-7dac2ff366984f489e7c053a79a58be2"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 1
+      },
+      "events": 1,
+      "detections": 8,
+      "alerts": 1,
+      "run_id": "run-6329525ad3ec46b9b197c23311c4fcf0"
+    },
+    "S4": {
+      "base": {
+        "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 127.00973999977577,
+          "G2": 1.181019742899198,
+          "G3": 112.8546875,
+          "G4": 0.64,
+          "G7": 26,
+          "G6": 2.3999760150909424,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 127.00973999977577,
+          "G2": 1.181019742899198,
+          "G3": 112.8546875,
+          "G4": 0.64,
+          "G5": 1.0,
+          "G6": 2.3999760150909424,
+          "G7": 26
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 159.68749999956344,
+            "p95": 244.36132000191705
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 1.181019742899198,
+          "M05": 0,
+          "M06": 60.01056568606549,
+          "M07": 113.72265625,
+          "M08": {
+            "bicycle": 15,
+            "dog": 15,
+            "car": 30,
+            "truck": 15,
+            "person": 10,
+            "orange": 10,
+            "cat": 10,
+            "apple": 10,
+            "bowl": 10
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              45,
+              20,
+              0,
+              15,
+              0,
+              15,
+              0,
+              30,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 5.0,
+          "M12": 0.12,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "S4-cambio-sostenido / run-747a89d404d942c2bcf761965f760a1b": 25
+          },
+          "M16": 73.69563195690995,
+          "M17": null,
+          "M18": null,
+          "M19": 24,
+          "M20": [
+            {
+              "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+              "window_id": "window-718a808100d046a683e6e85b17a77420",
+              "reference_window_ids": [
+                "window-718a808100d046a683e6e85b17a77420",
+                "window-2c933279eb904da59eec570a7eb51b36"
+              ],
+              "event_ids": [
+                "evt-5f9c7a00fbf44c03b78c3922219753d1",
+                "evt-27de3aa694c94c38aa37b89f90dc5024",
+                "evt-a23834b456db42ae8562529675645aea",
+                "evt-9a91a0044d4c4da6ae7a140a92605c1a",
+                "evt-045d179d615940c78cab7e07a5c57854"
+              ],
+              "reference_event_ids": [
+                "evt-5f9c7a00fbf44c03b78c3922219753d1",
+                "evt-27de3aa694c94c38aa37b89f90dc5024",
+                "evt-a23834b456db42ae8562529675645aea",
+                "evt-9a91a0044d4c4da6ae7a140a92605c1a",
+                "evt-045d179d615940c78cab7e07a5c57854",
+                "evt-17429c59bf384dd59c91c4efabf099d2",
+                "evt-88444dcf27c747caa6aeebed33c3ef2e",
+                "evt-f2b194d70269446394f2c365bd8f679c",
+                "evt-c2a6325d80374e918899c5c84af82a31",
+                "evt-01af7f0702c844c093ade1f0214aefa8"
+              ],
+              "reference_count": 50,
+              "sample_count": 25,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+              "window_id": "window-2c933279eb904da59eec570a7eb51b36",
+              "reference_window_ids": [
+                "window-718a808100d046a683e6e85b17a77420",
+                "window-2c933279eb904da59eec570a7eb51b36"
+              ],
+              "event_ids": [
+                "evt-17429c59bf384dd59c91c4efabf099d2",
+                "evt-88444dcf27c747caa6aeebed33c3ef2e",
+                "evt-f2b194d70269446394f2c365bd8f679c",
+                "evt-c2a6325d80374e918899c5c84af82a31",
+                "evt-01af7f0702c844c093ade1f0214aefa8"
+              ],
+              "reference_event_ids": [
+                "evt-5f9c7a00fbf44c03b78c3922219753d1",
+                "evt-27de3aa694c94c38aa37b89f90dc5024",
+                "evt-a23834b456db42ae8562529675645aea",
+                "evt-9a91a0044d4c4da6ae7a140a92605c1a",
+                "evt-045d179d615940c78cab7e07a5c57854",
+                "evt-17429c59bf384dd59c91c4efabf099d2",
+                "evt-88444dcf27c747caa6aeebed33c3ef2e",
+                "evt-f2b194d70269446394f2c365bd8f679c",
+                "evt-c2a6325d80374e918899c5c84af82a31",
+                "evt-01af7f0702c844c093ade1f0214aefa8"
+              ],
+              "reference_count": 50,
+              "sample_count": 25,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+              "window_id": "window-5c5551faa47a42f5847594b54d5e9cf2",
+              "reference_window_ids": [
+                "window-718a808100d046a683e6e85b17a77420",
+                "window-2c933279eb904da59eec570a7eb51b36"
+              ],
+              "event_ids": [
+                "evt-5ccf5bea8f9343a281ba74508645c1f1",
+                "evt-1ae84859af81457980326d59140065dd",
+                "evt-ab61926b71534f128ac9340787e3ba38",
+                "evt-ce405c54ce3549d490805c1629134401",
+                "evt-fd5217b9505a4aafb9993171c4282124"
+              ],
+              "reference_event_ids": [
+                "evt-5f9c7a00fbf44c03b78c3922219753d1",
+                "evt-27de3aa694c94c38aa37b89f90dc5024",
+                "evt-a23834b456db42ae8562529675645aea",
+                "evt-9a91a0044d4c4da6ae7a140a92605c1a",
+                "evt-045d179d615940c78cab7e07a5c57854",
+                "evt-17429c59bf384dd59c91c4efabf099d2",
+                "evt-88444dcf27c747caa6aeebed33c3ef2e",
+                "evt-f2b194d70269446394f2c365bd8f679c",
+                "evt-c2a6325d80374e918899c5c84af82a31",
+                "evt-01af7f0702c844c093ade1f0214aefa8"
+              ],
+              "reference_count": 50,
+              "sample_count": 25,
+              "state": "observed",
+              "distance": 0.8
+            },
+            {
+              "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+              "window_id": "window-31882679352d406c8c562ec8d24dc20b",
+              "reference_window_ids": [
+                "window-718a808100d046a683e6e85b17a77420",
+                "window-2c933279eb904da59eec570a7eb51b36"
+              ],
+              "event_ids": [
+                "evt-ee748c05e4e244ca9b6e51df79eccbe7",
+                "evt-8c220714960b41718dcfa316d2bb75a5",
+                "evt-4f823ed717e74aab8617cbc25f136128",
+                "evt-6ff138da6d2f485aa4177691cc56ec6a",
+                "evt-49f491f4a4214422ac99a2b94fbd7242"
+              ],
+              "reference_event_ids": [
+                "evt-5f9c7a00fbf44c03b78c3922219753d1",
+                "evt-27de3aa694c94c38aa37b89f90dc5024",
+                "evt-a23834b456db42ae8562529675645aea",
+                "evt-9a91a0044d4c4da6ae7a140a92605c1a",
+                "evt-045d179d615940c78cab7e07a5c57854",
+                "evt-17429c59bf384dd59c91c4efabf099d2",
+                "evt-88444dcf27c747caa6aeebed33c3ef2e",
+                "evt-f2b194d70269446394f2c365bd8f679c",
+                "evt-c2a6325d80374e918899c5c84af82a31",
+                "evt-01af7f0702c844c093ade1f0214aefa8"
+              ],
+              "reference_count": 50,
+              "sample_count": 25,
+              "state": "observed",
+              "distance": 0.8
+            },
+            {
+              "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+              "window_id": "window-943372ab5dd7435c8d9f25093da4295d",
+              "reference_window_ids": [
+                "window-718a808100d046a683e6e85b17a77420",
+                "window-2c933279eb904da59eec570a7eb51b36"
+              ],
+              "event_ids": [
+                "evt-0ac0f0be63d04b7cafd61bb2ec400e22",
+                "evt-b9796f5d13ac4c4296844b6bdd6fed54",
+                "evt-412d1c1f19494f1ab38076ddbe1647d3",
+                "evt-0cc34cddf65841d2bf68f389f02b4c8c",
+                "evt-6d419477b2f0492799139d0c1ec79d51"
+              ],
+              "reference_event_ids": [
+                "evt-5f9c7a00fbf44c03b78c3922219753d1",
+                "evt-27de3aa694c94c38aa37b89f90dc5024",
+                "evt-a23834b456db42ae8562529675645aea",
+                "evt-9a91a0044d4c4da6ae7a140a92605c1a",
+                "evt-045d179d615940c78cab7e07a5c57854",
+                "evt-17429c59bf384dd59c91c4efabf099d2",
+                "evt-88444dcf27c747caa6aeebed33c3ef2e",
+                "evt-f2b194d70269446394f2c365bd8f679c",
+                "evt-c2a6325d80374e918899c5c84af82a31",
+                "evt-01af7f0702c844c093ade1f0214aefa8"
+              ],
+              "reference_count": 50,
+              "sample_count": 25,
+              "state": "observed",
+              "distance": 0.0
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-5f9c7a00fbf44c03b78c3922219753d1",
+          "evt-27de3aa694c94c38aa37b89f90dc5024",
+          "evt-a23834b456db42ae8562529675645aea",
+          "evt-9a91a0044d4c4da6ae7a140a92605c1a",
+          "evt-045d179d615940c78cab7e07a5c57854",
+          "evt-17429c59bf384dd59c91c4efabf099d2",
+          "evt-88444dcf27c747caa6aeebed33c3ef2e",
+          "evt-f2b194d70269446394f2c365bd8f679c",
+          "evt-c2a6325d80374e918899c5c84af82a31",
+          "evt-01af7f0702c844c093ade1f0214aefa8",
+          "evt-5ccf5bea8f9343a281ba74508645c1f1",
+          "evt-1ae84859af81457980326d59140065dd",
+          "evt-ab61926b71534f128ac9340787e3ba38",
+          "evt-ce405c54ce3549d490805c1629134401",
+          "evt-fd5217b9505a4aafb9993171c4282124",
+          "evt-ee748c05e4e244ca9b6e51df79eccbe7",
+          "evt-8c220714960b41718dcfa316d2bb75a5",
+          "evt-4f823ed717e74aab8617cbc25f136128",
+          "evt-6ff138da6d2f485aa4177691cc56ec6a",
+          "evt-49f491f4a4214422ac99a2b94fbd7242",
+          "evt-0ac0f0be63d04b7cafd61bb2ec400e22",
+          "evt-b9796f5d13ac4c4296844b6bdd6fed54",
+          "evt-412d1c1f19494f1ab38076ddbe1647d3",
+          "evt-0cc34cddf65841d2bf68f389f02b4c8c",
+          "evt-6d419477b2f0492799139d0c1ec79d51"
+        ],
+        "alert_ids": [
+          "alert-f6d8c1f89e894591b799a131e3d4a329",
+          "alert-30d335a8cd76488cbc203112a9906885",
+          "alert-5ed759b7533e41c3b8933b551fa02033",
+          "alert-e7ce6b44f71148c5b8856e58e67364cd",
+          "alert-43015e2441e045ab9f747b8f321f6737",
+          "alert-1f781f904a1848b2b8cec28b4d7a6562",
+          "alert-35d562b37f6949ae99082d414396bbbd",
+          "alert-8323384e29a4421f97dfb19fedb43ab6",
+          "alert-1ea26b0ab89e42c0b7e5f978639befa8",
+          "alert-68b6544942b94e1099cba1b2529527b9",
+          "alert-3dd6ad924c4e44b5bbb3f5d0ea70293b",
+          "alert-208b93d007f24f289ffbee9117b3ad6c",
+          "alert-c2b9da3e90ea40169af5e73fa8df7167",
+          "alert-95d96134ebf3404aafa1ec4c09376556",
+          "alert-a6ec35c0ae9848a0b0bd00fdd8cf0e07",
+          "alert-e4646f8f2274485e913aba10a967516c",
+          "alert-9eb93ea97c2545eb9b63c6a972c709a9",
+          "alert-9c3db2a4e4b54f60b09b678ee37cf200",
+          "alert-c5e4f8aebaef4c329f0c38d9b8149152",
+          "alert-6dc1edeca75f4d2bbbafced08c51cf7b",
+          "alert-a605fa46e0414d0dba14557dcbd5b333",
+          "alert-34c95032acb14bcb872dc9198072f7b8",
+          "alert-17d8f88b970d407da1b6dd3d593d0caa",
+          "alert-0ee216e34efd436a89053ca83ba58244",
+          "alert-6fb6ac8fe87b41818b9a62593f1d763c",
+          "alert-f7394664e33d484ab1fa5ff50df73b6e"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 25
+      },
+      "events": 25,
+      "detections": 125,
+      "alerts": 26,
+      "run_id": "run-747a89d404d942c2bcf761965f760a1b"
+    },
+    "S5": {
+      "base": {
+        "run_id": "run-caf7236291d44e90bd06210f96104d82",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 103.31125000084285,
+          "G2": 1.5697867538856118,
+          "G3": 109.15494791666667,
+          "G4": 0.625,
+          "G7": 2,
+          "G6": 1.2603249549865723,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 103.31125000084285,
+          "G2": 1.5697867538856118,
+          "G3": 109.15494791666667,
+          "G4": 0.625,
+          "G5": 1.0,
+          "G6": 1.2603249549865723,
+          "G7": 2
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 103.31125000084285,
+            "p95": 143.18669500098622
+          },
+          "M02": 0.3333333333333333,
+          "M03": 0,
+          "M04": 2.354680130828418,
+          "M05": 0,
+          "M06": 56.414211467764176,
+          "M07": 112.7890625,
+          "M08": {
+            "dog": 2,
+            "car": 6,
+            "bicycle": 4,
+            "cat": 2,
+            "truck": 2
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              6,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              6,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 8.0,
+          "M12": 0.0,
+          "M13": 0.3333333333333333,
+          "M14": 1.0,
+          "M15": {
+            "S5-corrupta / run-caf7236291d44e90bd06210f96104d82": 3
+          },
+          "M16": 94.18720523313671,
+          "M17": null,
+          "M18": null,
+          "M19": 1,
+          "M20": null
+        },
+        "event_ids": [
+          "evt-f844cfdc9d9f43efa720c63ba6bee6a7",
+          "evt-77841a77c917480f8ad1daaf72c2f22a",
+          "evt-536b4485b2fe4ad6b61d3301aad2555b"
+        ],
+        "alert_ids": [
+          "alert-4bdfd50b48b24b37a748affafb445bb7",
+          "alert-01cad13ac8f0499aa84a45338d5564bd"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 2,
+        "decode_error": 1
+      },
+      "events": 3,
+      "detections": 16,
+      "alerts": 2,
+      "run_id": "run-caf7236291d44e90bd06210f96104d82"
+    },
+    "S6-v1": {
+      "base": {
+        "run_id": "run-71379fe9ae7343c9b64aaa82a0808085",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 176.6147500002262,
+          "G2": 1.4849406231668192,
+          "G3": 112.4375,
+          "G4": 0.625,
+          "G7": 2,
+          "G6": 1.3554019927978516,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 176.6147500002262,
+          "G2": 1.4849406231668192,
+          "G3": 112.4375,
+          "G4": 0.625,
+          "G5": 1.0,
+          "G6": 1.3554019927978516,
+          "G7": 2
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 176.6147500002262,
+            "p95": 181.56551500051137
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 1.4849406231668192,
+          "M05": 0,
+          "M06": 56.845383230604796,
+          "M07": 114.64453125,
+          "M08": {
+            "dog": 2,
+            "car": 6,
+            "bicycle": 4,
+            "cat": 2,
+            "truck": 2
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              6,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              6,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 8.0,
+          "M12": 0.0,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "S6-versiones / run-71379fe9ae7343c9b64aaa82a0808085": 2
+          },
+          "M16": 89.09643739000916,
+          "M17": null,
+          "M18": null,
+          "M19": 1,
+          "M20": null
+        },
+        "event_ids": [
+          "evt-5bffc29d61f644dabf4d2a7451540719",
+          "evt-ebbcfe53b24f4b01ac66ad98ecb523f4"
+        ],
+        "alert_ids": [
+          "alert-6dd86c9b59404167a139601e4bbd5a0f",
+          "alert-bebbf46f0da642ec97d7e66924c6277b"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 2
+      },
+      "events": 2,
+      "detections": 16,
+      "alerts": 2,
+      "run_id": "run-71379fe9ae7343c9b64aaa82a0808085"
+    },
+    "S6-v2": {
+      "base": {
+        "run_id": "run-b6b1e03a8e544e3fab803f9d3dd35f85",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 161.20634999970207,
+          "G2": 2.3009211392636475,
+          "G3": 113.34765625,
+          "G4": 0.625,
+          "G7": 2,
+          "G6": 0.8935339450836182,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 161.20634999970207,
+          "G2": 2.3009211392636475,
+          "G3": 113.34765625,
+          "G4": 0.625,
+          "G5": 1.0,
+          "G6": 0.8935339450836182,
+          "G7": 2
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 161.20634999970207,
+            "p95": 171.83368500009237
+          },
+          "M02": 0.0,
+          "M03": 0,
+          "M04": 2.3009211392636475,
+          "M05": 0,
+          "M06": 82.68935344228733,
+          "M07": 114.8671875,
+          "M08": {
+            "dog": 2,
+            "car": 6,
+            "bicycle": 4,
+            "cat": 2,
+            "truck": 2
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              6,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              6,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 8.0,
+          "M12": 0.375,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "S6-versiones / run-b6b1e03a8e544e3fab803f9d3dd35f85": 2
+          },
+          "M16": 138.05526835581884,
+          "M17": null,
+          "M18": null,
+          "M19": 1,
+          "M20": null
+        },
+        "event_ids": [
+          "evt-8366262e25d14aaa9b95a52d2f2c90c2",
+          "evt-4bdc64b5f0514b99990faa2db1c5750b"
+        ],
+        "alert_ids": [
+          "alert-de4c7c2b7e5d421894f9e24db8e18327",
+          "alert-d814362a4cf64876b6d957e7cab34c54"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 2
+      },
+      "events": 2,
+      "detections": 16,
+      "alerts": 2,
+      "run_id": "run-b6b1e03a8e544e3fab803f9d3dd35f85"
+    },
+    "S7": {
+      "base": {
+        "run_id": "run-547d7cf8066f4a15ac71e6e84de3f78a",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 115.65843333422283,
+          "G2": 1.6360060946681967,
+          "G3": 113.9912109375,
+          "G4": 0.625,
+          "G7": 3,
+          "G6": 1.0515620708465576,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 115.65843333422283,
+          "G2": 1.6360060946681967,
+          "G3": 113.9912109375,
+          "G4": 0.625,
+          "G5": 1.0,
+          "G6": 1.0515620708465576,
+          "G7": 3
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 141.54150000103982,
+            "p95": 155.51715000110562
+          },
+          "M02": 0.25,
+          "M03": 0,
+          "M04": 2.1813414595575957,
+          "M05": 0,
+          "M06": 73.27943965701297,
+          "M07": 115.8515625,
+          "M08": {
+            "dog": 3,
+            "car": 9,
+            "bicycle": 6,
+            "cat": 3,
+            "truck": 3
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              9,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              9,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 8.0,
+          "M12": 0.0,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "S7-fallo-inyectado / run-547d7cf8066f4a15ac71e6e84de3f78a": 4
+          },
+          "M16": 98.1603656800918,
+          "M17": null,
+          "M18": null,
+          "M19": 2,
+          "M20": null
+        },
+        "event_ids": [
+          "evt-41aad5d753d84f5ca5a212e9144e782a",
+          "evt-21f5a73e21ab47cc86ca689b6a034136",
+          "evt-58efbaf5f7a24b98b49cbf5daf2d58b0",
+          "evt-60cc24d2a871461a888de076b46825f9"
+        ],
+        "alert_ids": [
+          "alert-9f92f124939c4b878f54ceb5dfbf26b3",
+          "alert-715bd0b9580a426b94a517aed6ea9a57",
+          "alert-698b3256eb6f45fab9ffdb20c523d1a9"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 3,
+        "inference_error": 1
+      },
+      "events": 4,
+      "detections": 24,
+      "alerts": 3,
+      "run_id": "run-547d7cf8066f4a15ac71e6e84de3f78a"
+    },
+    "Video": {
+      "base": {
+        "run_id": "run-fa332eaacd6046bd912f5a1e1a301bda",
+        "matches": {
+          "G1": true,
+          "G2": true,
+          "G3": true,
+          "G4": true,
+          "G5": true,
+          "G6": true,
+          "G7": true
+        },
+        "independent_values": {
+          "G1": 131.37082380957767,
+          "G2": 1.3346368286361017,
+          "G3": 129.78236607142858,
+          "G4": 0.625,
+          "G7": 21,
+          "G6": 3.425244092941284,
+          "G5": 1.0
+        },
+        "independent_ok": true,
+        "values": {
+          "G1": 131.37082380957767,
+          "G2": 1.3346368286361017,
+          "G3": 129.78236607142858,
+          "G4": 0.625,
+          "G5": 1.0,
+          "G6": 3.425244092941284,
+          "G7": 21
+        },
+        "ok": true
+      },
+      "extras": {
+        "ok": true,
+        "matches": {
+          "M01": true,
+          "M02": true,
+          "M03": true,
+          "M04": true,
+          "M05": true,
+          "M06": true,
+          "M07": true,
+          "M08": true,
+          "M09": true,
+          "M10": true,
+          "M11": true,
+          "M12": true,
+          "M13": true,
+          "M14": true,
+          "M15": true,
+          "M16": true,
+          "M17": true,
+          "M18": true,
+          "M19": true,
+          "M20": true
+        },
+        "values": {
+          "M01": {
+            "p50": 158.9358999990509,
+            "p95": 204.4979999991483
+          },
+          "M02": 0.0,
+          "M03": 19,
+          "M04": 2.542165387878289,
+          "M05": 0,
+          "M06": 60.77364130396535,
+          "M07": 130.3984375,
+          "M08": {
+            "dog": 23,
+            "car": 37,
+            "bicycle": 18,
+            "cat": 21,
+            "truck": 21,
+            "person": 2,
+            "tv": 1,
+            "frisbee": 3,
+            "bowl": 2
+          },
+          "M09": {
+            "edges": [
+              0.0,
+              0.1,
+              0.2,
+              0.30000000000000004,
+              0.4,
+              0.5,
+              0.6000000000000001,
+              0.7000000000000001,
+              0.8,
+              0.9,
+              1.0
+            ],
+            "counts": [
+              0,
+              29,
+              22,
+              13,
+              12,
+              4,
+              3,
+              10,
+              35,
+              0
+            ]
+          },
+          "M10": 0.0,
+          "M11": 6.095238095238095,
+          "M12": 0.1015625,
+          "M13": 0.0,
+          "M14": 1.0,
+          "M15": {
+            "video-local / run-fa332eaacd6046bd912f5a1e1a301bda": 21
+          },
+          "M16": 80.07820971816611,
+          "M17": null,
+          "M18": null,
+          "M19": 20,
+          "M20": [
+            {
+              "run_id": "run-fa332eaacd6046bd912f5a1e1a301bda",
+              "window_id": "window-3f4182f95bb2459c9ecc23e847ac3f82",
+              "reference_window_ids": [
+                "window-3f4182f95bb2459c9ecc23e847ac3f82",
+                "window-76dae8a0a2064111a63124635ead2c5c"
+              ],
+              "event_ids": [
+                "evt-d12bc6e0fbe443318bd97b9118b85dde",
+                "evt-62d10d706f1640459cdc495d85f1de34",
+                "evt-683d03f748d24a97abb4bc558c7066bc",
+                "evt-b916b7ef1cef4770bbc3759bc95321c6",
+                "evt-208ae1962ba04c8f84873306f6b82917"
+              ],
+              "reference_event_ids": [
+                "evt-d12bc6e0fbe443318bd97b9118b85dde",
+                "evt-62d10d706f1640459cdc495d85f1de34",
+                "evt-683d03f748d24a97abb4bc558c7066bc",
+                "evt-b916b7ef1cef4770bbc3759bc95321c6",
+                "evt-208ae1962ba04c8f84873306f6b82917",
+                "evt-5609110a6cf04ad895002cd115a3651c",
+                "evt-2cc5681c46b64062a5027a128a5f3777",
+                "evt-784141b6ccd6435dbfbcf2218c1b55c9",
+                "evt-b41cddd5bcbb46e5ba8ee2e0c193d187",
+                "evt-bbb3523d53904c52b177cf14897ac432"
+              ],
+              "reference_count": 61,
+              "sample_count": 30,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-fa332eaacd6046bd912f5a1e1a301bda",
+              "window_id": "window-76dae8a0a2064111a63124635ead2c5c",
+              "reference_window_ids": [
+                "window-3f4182f95bb2459c9ecc23e847ac3f82",
+                "window-76dae8a0a2064111a63124635ead2c5c"
+              ],
+              "event_ids": [
+                "evt-5609110a6cf04ad895002cd115a3651c",
+                "evt-2cc5681c46b64062a5027a128a5f3777",
+                "evt-784141b6ccd6435dbfbcf2218c1b55c9",
+                "evt-b41cddd5bcbb46e5ba8ee2e0c193d187",
+                "evt-bbb3523d53904c52b177cf14897ac432"
+              ],
+              "reference_event_ids": [
+                "evt-d12bc6e0fbe443318bd97b9118b85dde",
+                "evt-62d10d706f1640459cdc495d85f1de34",
+                "evt-683d03f748d24a97abb4bc558c7066bc",
+                "evt-b916b7ef1cef4770bbc3759bc95321c6",
+                "evt-208ae1962ba04c8f84873306f6b82917",
+                "evt-5609110a6cf04ad895002cd115a3651c",
+                "evt-2cc5681c46b64062a5027a128a5f3777",
+                "evt-784141b6ccd6435dbfbcf2218c1b55c9",
+                "evt-b41cddd5bcbb46e5ba8ee2e0c193d187",
+                "evt-bbb3523d53904c52b177cf14897ac432"
+              ],
+              "reference_count": 61,
+              "sample_count": 31,
+              "state": "reference",
+              "distance": null
+            },
+            {
+              "run_id": "run-fa332eaacd6046bd912f5a1e1a301bda",
+              "window_id": "window-4f8b739d034348eb9025fc7e5c1c1d71",
+              "reference_window_ids": [
+                "window-3f4182f95bb2459c9ecc23e847ac3f82",
+                "window-76dae8a0a2064111a63124635ead2c5c"
+              ],
+              "event_ids": [
+                "evt-6681224e22f74a65afa3ad3fefbc82e6",
+                "evt-54f525f4b20d4a8c91608195ec01490c",
+                "evt-f2e6c3b6782243fdbdc66090cd427d76",
+                "evt-f9e68523cfe9440fa2b53bff43cd1782",
+                "evt-9b7f65c058f54e03867e8d8a2faca40a"
+              ],
+              "reference_event_ids": [
+                "evt-d12bc6e0fbe443318bd97b9118b85dde",
+                "evt-62d10d706f1640459cdc495d85f1de34",
+                "evt-683d03f748d24a97abb4bc558c7066bc",
+                "evt-b916b7ef1cef4770bbc3759bc95321c6",
+                "evt-208ae1962ba04c8f84873306f6b82917",
+                "evt-5609110a6cf04ad895002cd115a3651c",
+                "evt-2cc5681c46b64062a5027a128a5f3777",
+                "evt-784141b6ccd6435dbfbcf2218c1b55c9",
+                "evt-b41cddd5bcbb46e5ba8ee2e0c193d187",
+                "evt-bbb3523d53904c52b177cf14897ac432"
+              ],
+              "reference_count": 61,
+              "sample_count": 31,
+              "state": "observed",
+              "distance": 0.3463775780010576
+            },
+            {
+              "run_id": "run-fa332eaacd6046bd912f5a1e1a301bda",
+              "window_id": "window-2b599f269bb047319b198cb76d49de5b",
+              "reference_window_ids": [
+                "window-3f4182f95bb2459c9ecc23e847ac3f82",
+                "window-76dae8a0a2064111a63124635ead2c5c"
+              ],
+              "event_ids": [
+                "evt-a960274e49754aa7a9450908f3f9087c",
+                "evt-909aff13454a450f9db3567478685b80",
+                "evt-264f5e707e0f489b95788ee5428e8a88",
+                "evt-cd1eff592036492c995a4b8e33e08fe7",
+                "evt-848f93cdcc5e4f7dbfb17fd6b481cfd5"
+              ],
+              "reference_event_ids": [
+                "evt-d12bc6e0fbe443318bd97b9118b85dde",
+                "evt-62d10d706f1640459cdc495d85f1de34",
+                "evt-683d03f748d24a97abb4bc558c7066bc",
+                "evt-b916b7ef1cef4770bbc3759bc95321c6",
+                "evt-208ae1962ba04c8f84873306f6b82917",
+                "evt-5609110a6cf04ad895002cd115a3651c",
+                "evt-2cc5681c46b64062a5027a128a5f3777",
+                "evt-784141b6ccd6435dbfbcf2218c1b55c9",
+                "evt-b41cddd5bcbb46e5ba8ee2e0c193d187",
+                "evt-bbb3523d53904c52b177cf14897ac432"
+              ],
+              "reference_count": 61,
+              "sample_count": 29,
+              "state": "observed",
+              "distance": 0.35556811758055396
+            }
+          ]
+        },
+        "event_ids": [
+          "evt-d12bc6e0fbe443318bd97b9118b85dde",
+          "evt-62d10d706f1640459cdc495d85f1de34",
+          "evt-683d03f748d24a97abb4bc558c7066bc",
+          "evt-b916b7ef1cef4770bbc3759bc95321c6",
+          "evt-208ae1962ba04c8f84873306f6b82917",
+          "evt-5609110a6cf04ad895002cd115a3651c",
+          "evt-2cc5681c46b64062a5027a128a5f3777",
+          "evt-784141b6ccd6435dbfbcf2218c1b55c9",
+          "evt-b41cddd5bcbb46e5ba8ee2e0c193d187",
+          "evt-bbb3523d53904c52b177cf14897ac432",
+          "evt-6681224e22f74a65afa3ad3fefbc82e6",
+          "evt-54f525f4b20d4a8c91608195ec01490c",
+          "evt-f2e6c3b6782243fdbdc66090cd427d76",
+          "evt-f9e68523cfe9440fa2b53bff43cd1782",
+          "evt-9b7f65c058f54e03867e8d8a2faca40a",
+          "evt-a960274e49754aa7a9450908f3f9087c",
+          "evt-909aff13454a450f9db3567478685b80",
+          "evt-264f5e707e0f489b95788ee5428e8a88",
+          "evt-cd1eff592036492c995a4b8e33e08fe7",
+          "evt-848f93cdcc5e4f7dbfb17fd6b481cfd5",
+          "evt-683736eb3c56452fbb81894ae463a033"
+        ],
+        "alert_ids": [
+          "alert-68efd4c145bb46e29645cd325bd53503",
+          "alert-ce40c1cf3e9e427f8c02863bbf3c0360",
+          "alert-9748351986c44b899df78ba7aec03ac0",
+          "alert-6d0a98db92f74881a81072b5ef90628d",
+          "alert-5d5c0b842037483eb068048e19e53a9a",
+          "alert-132877271b374f23ad83df2ea22c90a2",
+          "alert-c23ff0570e2b4e9bb48f6a3f369578de",
+          "alert-9462813d9b80455396e18cad7e86f450",
+          "alert-e3de1c138a814298af29365f76d08e6b",
+          "alert-fccda25ab145421fbd757ab759fdcd00",
+          "alert-f79831d3601f415cae596aa21ad2d7e2",
+          "alert-b81343d9fcaa4d6ea473e3a4a629bd76",
+          "alert-7c04fdb0906d4900a5a5ed17846d7372",
+          "alert-12b99daaf1a045c2bb53bc016e38a8f9",
+          "alert-676664a9335b4154aa1104fc383bc241",
+          "alert-35878d0dc0124989972ddbd7d128955a",
+          "alert-9e89ddaa54a64b0c96801c20f12d755b",
+          "alert-2927b91929084ab4bd962bb80851113f",
+          "alert-1032ba22376a4e58901f1acff3bf7be8",
+          "alert-f2eae31e7e834fddbe858791ae96197d",
+          "alert-93f3e50842924348a625111534cff759"
+        ]
+      },
+      "code_matches": true,
+      "observed": true,
+      "event_statuses": {
+        "ok": 21
+      },
+      "events": 21,
+      "detections": 128,
+      "alerts": 21,
+      "run_id": "run-fa332eaacd6046bd912f5a1e1a301bda"
+    }
+  },
+  "composite_S6": {
+    "scenario": "S6",
+    "observed": true,
+    "runs": [
+      "run-71379fe9ae7343c9b64aaa82a0808085",
+      "run-b6b1e03a8e544e3fab803f9d3dd35f85"
+    ],
+    "configs": [
+      "9c1584949b7334eed5bb342ac620e1b650d0c0ce2f189fe6fae32a98b8c0e7ec",
+      "669cb6c9833b92e761d60ccf11c2f2b75b6969a4dc4bf2ae5df7f41198f8161d"
+    ],
+    "expectation": "No mezclar referencias ni series incompatibles"
+  },
+  "tests": {
+    "tests": "68",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "95.190"
+  },
+  "http_reports": [
+    "funciones/http-2b672fa66fe546109b3b698bbcbfd4d2/verification.json",
+    "funciones/http-4211c52d7c024f99b9decca0946640c9/verification.json",
+    "funciones/http-99fab5c316b34f5ba6bcfa94e27a6883/verification.json",
+    "funciones/http-b8cfedd615304ac68142ae0fffda648e/verification.json",
+    "funciones/http-d3e69037e2d0405c981240ed593673b0/verification.json",
+    "funciones/http-e875c88699ad42e7a533beaa51731017/verification.json"
+  ],
+  "exact_model_reproduction": {
+    "C1": {
+      "event_id": "evt-c598cd305dd34cdfae2c1e3a56338262",
+      "exact_detections": true,
+      "model": {
+        "name": "yolox_nano",
+        "version": "0.1.1rc0",
+        "sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+        "descriptor_sha256": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+        "runtime": "onnxruntime==1.22.0",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "classes": [
+          "person",
+          "bicycle",
+          "car",
+          "motorcycle",
+          "airplane",
+          "bus",
+          "train",
+          "truck",
+          "boat",
+          "traffic light",
+          "fire hydrant",
+          "stop sign",
+          "parking meter",
+          "bench",
+          "bird",
+          "cat",
+          "dog",
+          "horse",
+          "sheep",
+          "cow",
+          "elephant",
+          "bear",
+          "zebra",
+          "giraffe",
+          "backpack",
+          "umbrella",
+          "handbag",
+          "tie",
+          "suitcase",
+          "frisbee",
+          "skis",
+          "snowboard",
+          "sports ball",
+          "kite",
+          "baseball bat",
+          "baseball glove",
+          "skateboard",
+          "surfboard",
+          "tennis racket",
+          "bottle",
+          "wine glass",
+          "cup",
+          "fork",
+          "knife",
+          "spoon",
+          "bowl",
+          "banana",
+          "apple",
+          "sandwich",
+          "orange",
+          "broccoli",
+          "carrot",
+          "hot dog",
+          "pizza",
+          "donut",
+          "cake",
+          "chair",
+          "couch",
+          "potted plant",
+          "bed",
+          "dining table",
+          "toilet",
+          "tv",
+          "laptop",
+          "mouse",
+          "remote",
+          "keyboard",
+          "cell phone",
+          "microwave",
+          "oven",
+          "toaster",
+          "sink",
+          "refrigerator",
+          "book",
+          "clock",
+          "vase",
+          "scissors",
+          "teddy bear",
+          "hair drier",
+          "toothbrush"
+        ],
+        "preprocessing": "Pillow bilinear letterbox top-left 416 padding114 BGR NCHW float32 0-255"
+      },
+      "comparison": "JSON canónico: tuplas en memoria y listas persistidas equivalentes"
+    },
+    "C2": {
+      "event_id": "evt-f8f024591a6944e4b4d6647c83b89f75",
+      "exact_detections": true,
+      "model": {
+        "name": "yolox_nano",
+        "version": "0.1.1rc0",
+        "sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+        "descriptor_sha256": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+        "runtime": "onnxruntime==1.22.0",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "classes": [
+          "person",
+          "bicycle",
+          "car",
+          "motorcycle",
+          "airplane",
+          "bus",
+          "train",
+          "truck",
+          "boat",
+          "traffic light",
+          "fire hydrant",
+          "stop sign",
+          "parking meter",
+          "bench",
+          "bird",
+          "cat",
+          "dog",
+          "horse",
+          "sheep",
+          "cow",
+          "elephant",
+          "bear",
+          "zebra",
+          "giraffe",
+          "backpack",
+          "umbrella",
+          "handbag",
+          "tie",
+          "suitcase",
+          "frisbee",
+          "skis",
+          "snowboard",
+          "sports ball",
+          "kite",
+          "baseball bat",
+          "baseball glove",
+          "skateboard",
+          "surfboard",
+          "tennis racket",
+          "bottle",
+          "wine glass",
+          "cup",
+          "fork",
+          "knife",
+          "spoon",
+          "bowl",
+          "banana",
+          "apple",
+          "sandwich",
+          "orange",
+          "broccoli",
+          "carrot",
+          "hot dog",
+          "pizza",
+          "donut",
+          "cake",
+          "chair",
+          "couch",
+          "potted plant",
+          "bed",
+          "dining table",
+          "toilet",
+          "tv",
+          "laptop",
+          "mouse",
+          "remote",
+          "keyboard",
+          "cell phone",
+          "microwave",
+          "oven",
+          "toaster",
+          "sink",
+          "refrigerator",
+          "book",
+          "clock",
+          "vase",
+          "scissors",
+          "teddy bear",
+          "hair drier",
+          "toothbrush"
+        ],
+        "preprocessing": "Pillow bilinear letterbox top-left 416 padding114 BGR NCHW float32 0-255"
+      },
+      "comparison": "JSON canónico: tuplas en memoria y listas persistidas equivalentes"
+    }
+  },
+  "academic_points_confirmed": null
+}

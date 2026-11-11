@@ -1,0 +1,503 @@
+{
+  "timestamp": "2026-11-10T23:14:59.678933+00:00",
+  "scenarios": {
+    "C1": {
+      "scenario": "C1",
+      "run_id": "run-edd727d6a6e44f5fa8923244bce5736e",
+      "expectation": "Fuente progresiva y 10 inferencias reales persistidas",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-8b1592b1c8484ff9bb96a60b5b9c1bd3",
+        "evt-ca0d4f840bc64114b35914f29df07eeb",
+        "evt-7819da15a7a246f3b3aafd89a3a83374",
+        "evt-88a78c88b4ef494e800b62293bc26d0e",
+        "evt-77aa64c2dd284620a870aa0b2dcbe047",
+        "evt-fadb8c8163504e3ea58eee486813be9f",
+        "evt-a934b40b04c748f1ba273973ab83cd96",
+        "evt-a3ef92b431094be387d3bc410d5a2704",
+        "evt-2ae36a9484324792ab64fe9bf7b88129",
+        "evt-ae64e2e8506545689dc6fcf7eda73197"
+      ],
+      "alert_ids": [
+        "alert-c02d02097574453082706cf95633f120",
+        "alert-80cf69616b7b435e8a57e3d48fdb66b3",
+        "alert-d3419b18acf64b33a850df1bef5d0f64",
+        "alert-31c067d56165429d8f696876771251a2",
+        "alert-5e386a09f9444d60a8702b3fa69d0d63",
+        "alert-e3d52b64b4154b6889ada59f3dbb537b",
+        "alert-2824ae0b2cd3479084829435e5aecaa2",
+        "alert-274026eb563147b8a9c046705e9a5302",
+        "alert-d353792232f2468fb3fecedb247b6d5d",
+        "alert-7f5dfe27ea28432dacdbb1f8b9c3b360"
+      ],
+      "config_sha256": "eacd8da907be2c16747f7cad44cf555aa8080d82d036204cb429e55c2b2d5b4e",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "C2": {
+      "scenario": "C2",
+      "run_id": "run-eb8e788c680c471584fdadd66ed7633f",
+      "expectation": "Puntuaciones bajas reales, capturas y alertas según configuración fija",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-718492c462a74d119c3c17424a0f7f0c",
+        "evt-c9023cb44cc944eaba9d3144da326bde",
+        "evt-4e4654dc3c1d4827bdfb491530e9cd84",
+        "evt-8c78522a207d45e39dcc85af5aaad0e7",
+        "evt-26354d7b80f742dba8a667721fc9cfdb",
+        "evt-6c6b5e3e1a08472e89b25e0d1f5cfd02",
+        "evt-e1b24eac06064794b0b24d44dae9de8d",
+        "evt-9168227fa203444fbcfa0ce5712a351f",
+        "evt-d943c4c813054765abb9c8ae823890fc",
+        "evt-66c4928bcdd2470c91e1f9972c699e20"
+      ],
+      "alert_ids": [
+        "alert-0b83745ebf9c4ec59ab511ad2b656f30",
+        "alert-4d716770c6b14c52b3bd92544f55567f",
+        "alert-099958a673004fd8bd522d825cc5f3cf",
+        "alert-19dd6bbb1cc04ca0ad40f54da96c6093",
+        "alert-9fd1b8ed64934beaa05ed511dd225aee",
+        "alert-1ef1a3d5fdd64c00a8ca4a65863ffd9b",
+        "alert-4c9c2c09682348b9bc3bf1e8a9c82406",
+        "alert-1371bc19ab24424e9af828e849a7e56c",
+        "alert-4a96ca0a3998404f8049ed435aee84a4",
+        "alert-d89aab17772443ba972a2b298a3e34d6"
+      ],
+      "config_sha256": "2e3a158ba97745982fce7b34d328c939debb7cac698b68aa7d5ed089468cf103",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "Video": {
+      "scenario": "Video",
+      "run_id": "run-2ec5312a9f544873bf21be685d9678d5",
+      "expectation": "MP4 real, posiciones, muestreo y descarte contable",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-edb103e527b44ce0a7f8186f60320ae2",
+        "evt-a7831188f39542b4aa005800b7b1e41e",
+        "evt-e14147bdb28341abbe0e658ccb3eba19",
+        "evt-37b86fd82aeb44b68d3f3beb97f0daa2",
+        "evt-ac293988080143b781d79f6f02d6d60e",
+        "evt-8abed16356a64312b82fd5113798f8c3",
+        "evt-e46ce86b5f9d4bac8db18ef24615bbde",
+        "evt-73cf939b6bae4c2c8948e74f950f9ef4",
+        "evt-4c5c2a74b69e4492a41151176d67a7fd",
+        "evt-e2763a730df340ea83f780b1c0f07ee5",
+        "evt-feb8cae580d24357b7f30c69e61a66ea",
+        "evt-5af2c4ca3a0f498fadb19fb180394865",
+        "evt-731fe0336f8d4a3daa47e670fe48701c",
+        "evt-a9e84ec2ce984bc69766f7cec311badd",
+        "evt-7b4021796fb14333ba33ef19e0a444eb",
+        "evt-f6fbd72963ef40a78dd9ac84af85411a",
+        "evt-e344cbac8f0a4a28b65cd60e9ea0c801",
+        "evt-f57fbc9f472148a2a3d2cd83fce16598",
+        "evt-adba1e591b1e4d2094a54f0b1c92f55b",
+        "evt-dc2cbed68c304e9db54f9eacf1034aa8",
+        "evt-59f1eda8197f45239d4d1b369bfebcf0"
+      ],
+      "alert_ids": [
+        "alert-00776e08ce8f45fe8ba8be6ee73d697c",
+        "alert-1a366f1e1a4b42ba8d666f622fba4de2",
+        "alert-4afa7880b9a64cbf9f96e856cdafb04c",
+        "alert-e978897ef983472dbddd2846fa3047da",
+        "alert-da90400852c14ea6af5e703e8a9e7b30",
+        "alert-f116f8a196334480a942675e03dc490b",
+        "alert-c9a8b215966b4be1a5144aaf5f158a57",
+        "alert-3eb0e61207f048d98e74dc6baedc42e7",
+        "alert-f11e2ad5c98641f5982522a938321963",
+        "alert-9d48cd8334f14f63a1c821285f34b73d",
+        "alert-490707e48a6a4d85903c4a4baf1fbb35",
+        "alert-d54121c02e204a84abf2c74a60c13973",
+        "alert-032cf71a1ad845519168457f5f735da5",
+        "alert-215b477b185345cfa7704b21c1bbf428",
+        "alert-0b2f1c398d2345a394475c1d87e08604",
+        "alert-428b1d76e2b142cfa9951115a2d6c0bd",
+        "alert-c0b04409092f493cbfcaf3c13ddfb260",
+        "alert-b55f9ab4338d4dcca429fd09f74d9f55",
+        "alert-fd81e8ba543f44e889a5053fa7bc344d",
+        "alert-fe3e6c2e23764cac915f6fb8529841b7",
+        "alert-9501ae89ce9047749d4bfeeb21e15fb7"
+      ],
+      "config_sha256": "8e6f6ee10cff95062497cc40c568e2dc11330ed99cc8f832546b7134394de1cf",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "S1": {
+      "scenario": "S1",
+      "run_id": "run-a22f79462ab541f3a0d599c97bf41c30",
+      "expectation": "Archivo interrumpido produce source_error y siguientes frames reales recuperan el procesamiento",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "source_error",
+        "ok",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-6d868f16bf2c4ee6b86beaddc7a9cdc1",
+        "evt-4610432e4bf54c56bba6763bb478f7b8",
+        "evt-d75e875f6d674ab88d748565276127ef",
+        "evt-f493f8acd0b84e6b81c1fc6271e9e2cb"
+      ],
+      "alert_ids": [
+        "alert-3ca4886feeb74f7dbd64979dbe479477",
+        "alert-f1926b862bf94fd198fa97ba5f13b73b",
+        "alert-93418314f13f4ef1954faa44c3ec36ce"
+      ],
+      "config_sha256": "b0254092df15ee4a4e12d5c083b1a4e3ae92e18bdbdd64c5340a2800054fcf94",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "S2": {
+      "scenario": "S2",
+      "run_id": "run-5c4b0902330c4f19adf5499375a9619c",
+      "expectation": "Recorte fotográfico real sin detecciones ni alerta baja",
+      "observed": true,
+      "event_statuses": [
+        "no_detections",
+        "no_detections",
+        "no_detections"
+      ],
+      "event_ids": [
+        "evt-2b6e1bf8adea4c118e325611a7794ab9",
+        "evt-6a11ee3c207d405e9c96dbc024adbf6e",
+        "evt-119c25efef2c4f08a1c324253643d960"
+      ],
+      "alert_ids": [],
+      "config_sha256": "3b84c3932e25d7fe77f5049644eab63d9347ac645c217f16dfba1ff315df6975",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "S3": {
+      "scenario": "S3",
+      "run_id": "run-4f2cb6ec686b4ceb89eb34ad4565b6e1",
+      "expectation": "Una muestra no completa la ventana ni declara normalidad",
+      "observed": true,
+      "event_statuses": [
+        "ok"
+      ],
+      "event_ids": [
+        "evt-387bd4580a604d8ba9079746744c25fc"
+      ],
+      "alert_ids": [
+        "alert-350235ccbca64c47a42c86cd03a7d506"
+      ],
+      "config_sha256": "986c189d2b5efc878a023a25f397b4572ab92bb3f3db76e0a2d1e3ad9978a4dd",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "S4": {
+      "scenario": "S4",
+      "run_id": "run-4bd92d1ec35341c2ad3fe2dfe7db2ae9",
+      "expectation": "Dos ventanas de referencia, dos de cambio sostenido y recuperación con scores reales",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-8a3803b78e04488f8c6446e815faf47f",
+        "evt-18f42a6ebdaa46cab58fc4f7cc338122",
+        "evt-7c9f99e7f1ee4ac8a36e356f4b634b8d",
+        "evt-9720c7703b964ad0ad77130b1abed0c7",
+        "evt-2bc2e14f20a74962999f1c2858d0c85a",
+        "evt-f49cbf4ce28b47d3956e33eb272e3835",
+        "evt-573cd58d7124404d93b7740e9f217332",
+        "evt-98bbbe4c42c84435bcc6d6669cdfc716",
+        "evt-f7e4984494514e889687416ba9840538",
+        "evt-526d07e34927479490efa25b911d2949",
+        "evt-e0d5c84ee27543fe9036e618de0c62c5",
+        "evt-e5d136bba43140efb6b6d583d2a0e252",
+        "evt-617adfc089bc4cb595f8394a7f30e923",
+        "evt-4420032b7b7b4683a83ab93897f38b44",
+        "evt-ac503d546f6a4b7ebea40f3524d79bea",
+        "evt-ee5dde0025804c598ab0137a91947cc9",
+        "evt-bc9833359eb740be86b0a88a73cdfa6d",
+        "evt-8834a98d1b994dc4a6b1d5c3eac66f82",
+        "evt-93988d96f6834b0ba7c29445f9284ad5",
+        "evt-a7c0fb8a9a194c1f960ccb3856d1a954",
+        "evt-9d082693c4c44483ad782b2a023d7d97",
+        "evt-4a1dd03c04ae4959afc03f849faa6e85",
+        "evt-945e18fb5dc1407fbee22deb9c5e408f",
+        "evt-f469edc065aa4d1abc35d3e13874545a",
+        "evt-392feabfa6ab4fbeb191add589a8a894"
+      ],
+      "alert_ids": [
+        "alert-cea85f8f756149129e9b1ab97a9c57b6",
+        "alert-fe7fceb8640f4b37a3deffaaa179c666",
+        "alert-8227f08523bd4b9397db19df0cbe1213",
+        "alert-ac5f88d4ac0e47a89c7b306e30d6a84c",
+        "alert-08581b077d6d400481a3b13cdb1f9197",
+        "alert-07dc78d11cc34488afd81600f068aab6",
+        "alert-6afbfc3411cd4f44acedd33b9c6c4b63",
+        "alert-ec13c43535fa4bc1993632f561c3ffc6",
+        "alert-b8e26b64e5bd40938a0f36a8308c3870",
+        "alert-2e4f16fe987f4b3080af831eb606667a",
+        "alert-ecaf4d9a1066416ea59541c26b5d23a0",
+        "alert-d2b3dcbf9be849f293c5c5f877fe3187",
+        "alert-4cf26f0a9f0940f3bbab6a4207d68230",
+        "alert-5c39434b00ab45bdad01057fafad5d9a",
+        "alert-ccf0e52e30cb4f2ba1524e6a591c3cf7",
+        "alert-9ebbe34956fa4c658476a66bb8d9dcbe",
+        "alert-a8c4bf3db2be491ab9e55b7f981f80dd",
+        "alert-d2a51ddc1a41421da7953e5c98afee96",
+        "alert-36feefacab2a4b3cba7672647ac6fbda",
+        "alert-fad89b90fc04429fbbc1dc6346bbafc7",
+        "alert-37d16083f02c46aa977261f5aaf49c9a",
+        "alert-f2b81c3ea1104d4fbb0baed0dcb26659",
+        "alert-c0cf5a7fb533483ca2602262d9a363d0",
+        "alert-cb6d65dc77b943e686ddbac6b649ee00",
+        "alert-c7f96dfa03fd4570bad4af24265e62e4",
+        "alert-47f68b1d15dd48e3a685b52822324d60"
+      ],
+      "config_sha256": "ed6a1c08c1e42d6ebe1fabca5edab348a86fa2b432ce17aa3546a8edd70f0723",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "S5": {
+      "scenario": "S5",
+      "run_id": "run-a3905705d9634bf58242ff810a273a78",
+      "expectation": "Imagen corrupta genera decode_error y el siguiente frame sigue con ONNX real",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "decode_error",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-32fc843f53c1494a8337c945746391b1",
+        "evt-25e95926464742a3b8959c2ab1328e22",
+        "evt-32943c7f38d44525839cfeed39c54c54"
+      ],
+      "alert_ids": [
+        "alert-bd2b3173c5e941378a6b801d30b344b8",
+        "alert-6f793f6f8eb34c5193a34b5efce1a06a"
+      ],
+      "config_sha256": "bd1689598a6e64b12b77f427227ab21f8e74f0adecd76f51b80230a43db0c3de",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "S6-v1": {
+      "scenario": "S6-v1",
+      "run_id": "run-2123986acf4f4530b6e38a8d382cde3e",
+      "expectation": "Configuración inicial identificada",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-a2b87cc8371148728ec4ab9224af5cc3",
+        "evt-230cf3165fa74ad3b1df29597a9bdafc"
+      ],
+      "alert_ids": [
+        "alert-1a70f4dcd7a24889babf4801563928a3",
+        "alert-a7f8ba8104b14a8abdba8bc1c4eb9d46"
+      ],
+      "config_sha256": "eaf483835d99fe54c1979f84114db7aabcc5345892825c19fee18e6f8b5727e9",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "S6-v2": {
+      "scenario": "S6-v2",
+      "run_id": "run-899fc094b087402dbed8f89d938c2c8d",
+      "expectation": "Otra configuración: mismo modelo/scores, identidad y series distintas",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-159aeb0595454eafa483059366a8b57c",
+        "evt-7d8d5fd04c2c46b0a58341cd138c41bb"
+      ],
+      "alert_ids": [
+        "alert-1bfe20785f804c29a36f2921d4b6b548",
+        "alert-55f7981d4afd4c66afce47ac533d91c1"
+      ],
+      "config_sha256": "8290a6c1b3aa2aa51f137aa1375d5e5f687f95815a6ff844b0414cb9ea610aa0",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": false,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    },
+    "S6": {
+      "scenario": "S6",
+      "observed": true,
+      "runs": [
+        "run-2123986acf4f4530b6e38a8d382cde3e",
+        "run-899fc094b087402dbed8f89d938c2c8d"
+      ],
+      "configs": [
+        "eaf483835d99fe54c1979f84114db7aabcc5345892825c19fee18e6f8b5727e9",
+        "8290a6c1b3aa2aa51f137aa1375d5e5f687f95815a6ff844b0414cb9ea610aa0"
+      ],
+      "expectation": "No mezclar referencias ni series incompatibles"
+    },
+    "S7": {
+      "scenario": "S7",
+      "run_id": "run-da149d18f295447b98bbb6fce9e147b6",
+      "expectation": "Fallo controlado identificado, captura/diagnóstico y ONNX real antes/después",
+      "observed": true,
+      "event_statuses": [
+        "ok",
+        "inference_error",
+        "ok",
+        "ok"
+      ],
+      "event_ids": [
+        "evt-09951958bda24019b7328224fedcd40e",
+        "evt-55b872ab1e39487e9743e8df0ba28ac4",
+        "evt-3fbb099c740743ae8b934338f686c2fd",
+        "evt-f8f95e980c0b41f39ce3fb4acd338e90"
+      ],
+      "alert_ids": [
+        "alert-589aa7a872c047a89b7d1f2f93153655",
+        "alert-b9a9ef31a326476896301d68c54f9e4b",
+        "alert-965effaa57b44917b1e64cfb9aac7c54"
+      ],
+      "config_sha256": "91fdeea475d8485eafa4dceb3d3d3dafcc3cebf6a192ae76b6e85317e40d7572",
+      "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "fault_simulated": true,
+      "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+      "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+    }
+  },
+  "code": {
+    "config/settings.yaml": "550d75ba3365ef2fdd08fa5e3f7ecbdba3665fa0d947317813e150dfb84674f6",
+    "modelo/descriptor.yaml": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+    "pyproject.toml": "e12a2cd56cd41bfa751801232b702a402bff6822208749b83abd195ade8bf8aa",
+    "requirements-lock-windows.txt": "f24ffd7864efcea5fba8c5efbb2f9a6abc1580cf51b8a445368620a233f2aee9",
+    "requirements.txt": "5654fa3d2e66f585e7a23ceb9fb4c1de68ca830b734abca3994fd2b1dcf29d38",
+    "scripts/audit_repository.py": "1512ca781ddc791478d5d147bf6bc0dd28426836ffba91021f0aeb7fe788120b",
+    "scripts/check_camera.py": "5050b5a89f6e8885dcb67e7bc24faa6b86f853519e2ef9cc34e810ab88bb8e8b",
+    "scripts/download_model.py": "d7adaf60f0146291f20cc984cd0cf188ec402d61ccfaba1bf0574c320dbc20da",
+    "scripts/prepare_demo.py": "9a1c8eb2f6eac556a3b404b5f7a4cf8cecf4a8d21e4b73b307c074fbd1522926",
+    "scripts/prepare_media.py": "469e720b32ea76d718a1e4a07829484fba76d1c8dd28bb31efa5bc7e14a34857",
+    "scripts/run_demo.py": "a467179c6a4d439310da3384c57f1a0ef212f59bc3849bbb8182bbb88cd4af58",
+    "scripts/run_scenarios.py": "6a4474ed0e486400e46e88044e82142e7748b9562b2cc50db72b8d82e4c00ebf",
+    "scripts/verify_metrics.py": "0f97c8bde5a6745bb76a90c55990cea4581c280312848f1b41bedf21601e472e",
+    "scripts/verify_portal.py": "6537ac3dd25a707e6548061459306469fb271ce0ac39b1f5579d9a0c7261a25a",
+    "src/monitor_cv/__init__.py": "f1be67cd19ea055aacb0215609fd130d8ddbbe251ee5e2a9745e02987cb2b492",
+    "src/monitor_cv/_mjpeg.py": "3923c37ccbea6d28ebca22cb2086c34f4f6c4a981a0c71ca4571d16fb15a1271",
+    "src/monitor_cv/_yolox.py": "4b2f6cfef5c3d7aa59a333cd66e157d9f8a90d6d15033b60cc90ffa97fd7ea23",
+    "src/monitor_cv/alerts.py": "93e5734b553706655ac9143b2516f04f38afd71b3443316dc77fd937fdc00b35",
+    "src/monitor_cv/analytics.py": "7d3d60a66d8a28e30dacaa82be59e13cbf2d4c4535c88f7c567e2e7e3b0d22af",
+    "src/monitor_cv/application.py": "c2dbd3b9ad7686d665f3190ac1e9b9c0a785b71b5aecee8369e7f39e0e2b0574",
+    "src/monitor_cv/camera.py": "6b0f8dad0cb009b0048e16600b579a967349d093bbcb0450355a83e6a603823a",
+    "src/monitor_cv/confidence.py": "f5e1bc9618cf6f942d3dc70a53ac91d311f0366acc1136280212c33a69fc4a40",
+    "src/monitor_cv/config.py": "7ca1c1186cc74d35256945cceff8fd9787819b31d762829ffac4780078ad3cb0",
+    "src/monitor_cv/database.py": "c4eb1af856bb6925b89d7c845c0a7239f683c774c014f5120f87afb8bebef0dd",
+    "src/monitor_cv/detector.py": "8fe9fc1a197a18729aa6d402e5af8fa4212fe0b4f1a8547d715021cf4136bbbf",
+    "src/monitor_cv/events.py": "67cec4ed0a933ba536cccb0e7016ab8bd8025bbc8ae1a4f1f6fe421aff370750",
+    "src/monitor_cv/exporting.py": "55632b33b97673964d33bf7c3f6c9eae821f3cb6178ecc23a044793bb25216c9",
+    "src/monitor_cv/images.py": "07ed3d3689a380d9efefb546ae13e4c5cc0a07ffb17e114054d09e405300781d",
+    "src/monitor_cv/main.py": "5c563bb7e73e11a7dfb530ba537a3cc1d6d5b2880f2d1f4f7954e439cc8a8d6f",
+    "src/monitor_cv/metrics.py": "b65679943769a9662fe24045bef9e0635a9d0b2b76e70022834cccb0de67d193",
+    "src/monitor_cv/query.py": "2f0c0d58fd237f4f8254402bc4fe085b97b71008c2580ee15b24d2f6194704b6",
+    "src/monitor_cv/service.py": "ef14dc87035b6052a47b158ee4f0b8e85380db253b4445e7c843daa8b9b78e55",
+    "src/monitor_cv/sources.py": "ad8ebcf9c0d4afce2bd1a22918e6a712b057d08aeda31b4e575748d5668a2848",
+    "tests/conftest.py": "3aef32e39a895cc07f1802b5f264fcc21ceb9516c1e9696b30a12d0afbe2f313",
+    "tests/test_config_confidence.py": "4bdf928e7d2e7e58ae2a248daffe848186559967b15447d1b0ae01917e8dfcaf",
+    "tests/test_download.py": "5a7e5a809dc2f999baa3e122ee66e4160b90fe674ffb32d441833576c85a25dc",
+    "tests/test_extended.py": "13781f14636eef666d7955dd377438ead3f61d3c4cb3507d58caaa345d7e78ea",
+    "tests/test_metrics_persistence_portal.py": "cea3ba2d75c9aaabe7f32edd84f5a536bb518ac0ef6af5f7aa01de2788a0b9d7",
+    "tests/test_scenarios_real.py": "f414313e3d8a2008d37501c2b8c51cd1285097d5c646677ef9f8e8b83dda62b1",
+    "tests/test_service_faults.py": "71d702bb928f5b63f17ccfb7db544745152eaa1d004feba8e202d7ed241c3400",
+    "tests/test_sources_detector.py": "5832bdf341d2376104ca6187f96cc326c06f725977554f40a06458edffb3695e",
+    "web/static/css/portal.css": "6e79d8e22f3256107cad0e406cee6097c6ec429928e6e020c2823c7173a239a0",
+    "web/static/js/portal.js": "54a6f6af92d88ea92894b29df20a76d52f4f80ac0d14b702c6da62fae5787289",
+    "web/templates/portal.html": "d3143265c1ec782da98b7d132b2b82e0a413e3f30dcf8cc4de944c2f1f34e77a"
+  },
+  "method": "Sin scores inyectados. S1 usa interrupción real de archivo; solo S7 simula un fallo técnico.",
+  "academic_points_confirmed": null,
+  "academic_note": "Potencial de extras sujeto a evaluación docente; no autoasignado"
+}

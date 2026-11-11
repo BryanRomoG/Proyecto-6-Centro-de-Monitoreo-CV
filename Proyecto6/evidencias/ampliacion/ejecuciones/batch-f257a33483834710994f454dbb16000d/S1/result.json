@@ -1,0 +1,28 @@
+{
+  "scenario": "S1",
+  "run_id": "run-5537f01575dc4e3194e13b7743c24bbc",
+  "expectation": "Archivo interrumpido produce source_error y siguientes frames reales recuperan el procesamiento",
+  "observed": true,
+  "event_statuses": [
+    "ok",
+    "source_error",
+    "ok",
+    "ok"
+  ],
+  "event_ids": [
+    "evt-3510ba917fc748f9934de3de248af43c",
+    "evt-b1a2340941ff4b7997cced6a9686e2cf",
+    "evt-830800fc1f934985b1d1c9a39b300e7c",
+    "evt-9137fd910d6e46cf9af29ed720f189cb"
+  ],
+  "alert_ids": [
+    "alert-b9571ac3b97f4b2fb4f099e0ec4f97cc",
+    "alert-47776078f75f44d2ad70d9e7b694fc33",
+    "alert-791b42e004b94ea2924c911977544ba7"
+  ],
+  "config_sha256": "8444943ebd75e68a9d80a893716ceab1484eda6922146046245da71338d6cca8",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

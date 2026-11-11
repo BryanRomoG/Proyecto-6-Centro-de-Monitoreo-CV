@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-11-11T00:05:42.880763+00:00",
+  "protected_files": 106,
+  "changed_or_missing": [],
+  "broken_links": [],
+  "code_changes_since_selected_runs": {
+    "C1": false,
+    "C2": false,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4": false,
+    "S5": false,
+    "S6-v1": false,
+    "S6-v2": false,
+    "S7": false,
+    "Video": false
+  },
+  "server_state": "stopped",
+  "final_run": "run-9197cff5c13848fb8485d295eca202d6",
+  "screenshots": 17
+}

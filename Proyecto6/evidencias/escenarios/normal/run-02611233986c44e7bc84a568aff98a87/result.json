@@ -1,0 +1,16 @@
+{
+  "scenario": "C1",
+  "run_id": "run-02611233986c44e7bc84a568aff98a87",
+  "inference_chain_observed": true,
+  "portal_verification": "HTML/imagen por HTTP y recorrido observado en navegador; ver evidencias/portal",
+  "status": "observed_locally",
+  "events": 10,
+  "successful_frames": 10,
+  "low_frames": 10,
+  "low_alerts": 10,
+  "config_sha256": "47ef8471213b05e3b60aa0a91352aa0d3c76c4c1a036535790954e5cc0367106",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "command": ".\\.venv\\Scripts\\python.exe scripts/run_demo.py --scenario C1",
+  "metric_recalculation": true,
+  "academic_grade": "No asignada; la evidencia local no es una calificaci\u00f3n docente"
+}

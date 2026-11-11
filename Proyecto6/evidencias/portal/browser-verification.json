@@ -1,0 +1,38 @@
+{
+  "C1": {
+    "timestamp_documented": "2026-11-10T22:11:36.956063+00:00",
+    "run_id": "run-02611233986c44e7bc84a568aff98a87",
+    "tool": "Navegador integrado, snapshots accesibles y Playwright",
+    "event_url": "http://127.0.0.1:8006/events/evt-8dc816d8d72448d2a7ad99bdd77ade9f",
+    "alert_url": "http://127.0.0.1:8006/alerts/alert-46f7efdb4e2244e784d5711146f8dc08",
+    "observed": [
+      "HTML de evento renderizado",
+      "imagen cargada (complete=true,naturalWidth>0)",
+      "puntuaciones y zonas por detección",
+      "alerta muestra severidad, regla y acción",
+      "enlace de alerta a evento coincide"
+    ],
+    "screenshots": [
+      "C1-evento-verificado.png",
+      "C1-alerta-verificada.png"
+    ]
+  },
+  "C2": {
+    "timestamp_documented": "2026-11-10T22:11:36.956063+00:00",
+    "run_id": "run-a6497225005a48ba99f7f5b52429ff82",
+    "tool": "Navegador integrado, snapshots accesibles y Playwright",
+    "event_url": "http://127.0.0.1:8006/events/evt-0a38174a0c704752bdeb952ca9111398",
+    "alert_url": "http://127.0.0.1:8006/alerts/alert-578c4011dfd345ed930c99dcbd57887f",
+    "observed": [
+      "HTML de evento renderizado",
+      "imagen cargada (complete=true,naturalWidth>0)",
+      "puntuaciones y zonas por detección",
+      "alerta muestra severidad, regla y acción",
+      "enlace de alerta a evento coincide"
+    ],
+    "screenshots": [
+      "C2-evento-verificado.png",
+      "C2-alerta-verificada.png"
+    ]
+  }
+}

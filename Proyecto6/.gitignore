@@ -1,0 +1,25 @@
+# Extiende la política raíz; permite usar Proyecto6 como entrega independiente.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.sqlite*
+*.db*
+*.log
+*.tmp
+*.parcial
+*.onnx
+/data/runtime/
+/data/tmp/
+/evidencias/tmp/
+# Entradas generadas de escenarios: se regeneran; las capturas seleccionadas sí se conservan.
+/data/scenarios/*
+!/data/scenarios/README.md

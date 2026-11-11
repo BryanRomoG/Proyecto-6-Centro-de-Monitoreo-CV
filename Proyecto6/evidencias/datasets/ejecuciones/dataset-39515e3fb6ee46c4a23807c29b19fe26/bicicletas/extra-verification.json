@@ -1,0 +1,178 @@
+{
+  "ok": true,
+  "matches": {
+    "M01": true,
+    "M02": true,
+    "M03": true,
+    "M04": true,
+    "M05": true,
+    "M06": true,
+    "M07": true,
+    "M08": true,
+    "M09": true,
+    "M10": true,
+    "M11": true,
+    "M12": true,
+    "M13": true,
+    "M14": true,
+    "M15": true,
+    "M16": true,
+    "M17": true,
+    "M18": true,
+    "M19": true,
+    "M20": true
+  },
+  "values": {
+    "M01": {
+      "p50": 12.272399999346817,
+      "p95": 12.850429998616164
+    },
+    "M02": 0.0,
+    "M03": 0,
+    "M04": 4.163450921259479,
+    "M05": 0,
+    "M06": 65.70445985112615,
+    "M07": 112.26953125,
+    "M08": {
+      "bicycle": 6,
+      "motorcycle": 3,
+      "person": 14,
+      "potted plant": 1,
+      "boat": 16,
+      "kite": 1,
+      "umbrella": 1,
+      "car": 6,
+      "truck": 2,
+      "bus": 1,
+      "bird": 1,
+      "bottle": 1
+    },
+    "M09": {
+      "edges": [
+        0.0,
+        0.1,
+        0.2,
+        0.30000000000000004,
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "counts": [
+        0,
+        15,
+        9,
+        8,
+        3,
+        4,
+        7,
+        3,
+        4,
+        0
+      ]
+    },
+    "M10": 0.0,
+    "M11": 5.3,
+    "M12": 0.18867924528301888,
+    "M13": 0.0,
+    "M14": 1.0,
+    "M15": {
+      "source-8c1805223f9d4743b2c73486838fe1ef / run-cf7ce3acfeff4cb69701d5ea99e82c0b": 10
+    },
+    "M16": 249.80705527556873,
+    "M17": null,
+    "M18": null,
+    "M19": 9,
+    "M20": [
+      {
+        "run_id": "run-cf7ce3acfeff4cb69701d5ea99e82c0b",
+        "window_id": "window-a6d2be15c0784791a2d18a9a565ce8a7",
+        "reference_window_ids": [
+          "window-a6d2be15c0784791a2d18a9a565ce8a7",
+          "window-a76da9d2e35d44c0b520d0b787d9b173"
+        ],
+        "event_ids": [
+          "evt-527562794ebf48109a60bc4eee763e15",
+          "evt-21047903f6584c58847733f5e9d944fe",
+          "evt-d5b8abf7c7364d7ba0a0a1916f2897ca",
+          "evt-b5730eda350e42ea958c73fda900dc8d",
+          "evt-344bd7c4bcd94ea794c1dc20857b3145"
+        ],
+        "reference_event_ids": [
+          "evt-527562794ebf48109a60bc4eee763e15",
+          "evt-21047903f6584c58847733f5e9d944fe",
+          "evt-d5b8abf7c7364d7ba0a0a1916f2897ca",
+          "evt-b5730eda350e42ea958c73fda900dc8d",
+          "evt-344bd7c4bcd94ea794c1dc20857b3145",
+          "evt-6951ea88cc124501a9e68b5217a2be98",
+          "evt-c5d68eb4d23f47c6b19c34f617829863",
+          "evt-095282fcfb5a4b32b484b608d49f4ad4",
+          "evt-1650661206b24d85bc7d2413f2cfa6da",
+          "evt-7c43e9e36375407f8d990cfd1331617a"
+        ],
+        "reference_count": 53,
+        "sample_count": 33,
+        "state": "reference",
+        "distance": null
+      },
+      {
+        "run_id": "run-cf7ce3acfeff4cb69701d5ea99e82c0b",
+        "window_id": "window-a76da9d2e35d44c0b520d0b787d9b173",
+        "reference_window_ids": [
+          "window-a6d2be15c0784791a2d18a9a565ce8a7",
+          "window-a76da9d2e35d44c0b520d0b787d9b173"
+        ],
+        "event_ids": [
+          "evt-6951ea88cc124501a9e68b5217a2be98",
+          "evt-c5d68eb4d23f47c6b19c34f617829863",
+          "evt-095282fcfb5a4b32b484b608d49f4ad4",
+          "evt-1650661206b24d85bc7d2413f2cfa6da",
+          "evt-7c43e9e36375407f8d990cfd1331617a"
+        ],
+        "reference_event_ids": [
+          "evt-527562794ebf48109a60bc4eee763e15",
+          "evt-21047903f6584c58847733f5e9d944fe",
+          "evt-d5b8abf7c7364d7ba0a0a1916f2897ca",
+          "evt-b5730eda350e42ea958c73fda900dc8d",
+          "evt-344bd7c4bcd94ea794c1dc20857b3145",
+          "evt-6951ea88cc124501a9e68b5217a2be98",
+          "evt-c5d68eb4d23f47c6b19c34f617829863",
+          "evt-095282fcfb5a4b32b484b608d49f4ad4",
+          "evt-1650661206b24d85bc7d2413f2cfa6da",
+          "evt-7c43e9e36375407f8d990cfd1331617a"
+        ],
+        "reference_count": 53,
+        "sample_count": 20,
+        "state": "reference",
+        "distance": null
+      }
+    ]
+  },
+  "event_ids": [
+    "evt-527562794ebf48109a60bc4eee763e15",
+    "evt-21047903f6584c58847733f5e9d944fe",
+    "evt-d5b8abf7c7364d7ba0a0a1916f2897ca",
+    "evt-b5730eda350e42ea958c73fda900dc8d",
+    "evt-344bd7c4bcd94ea794c1dc20857b3145",
+    "evt-6951ea88cc124501a9e68b5217a2be98",
+    "evt-c5d68eb4d23f47c6b19c34f617829863",
+    "evt-095282fcfb5a4b32b484b608d49f4ad4",
+    "evt-1650661206b24d85bc7d2413f2cfa6da",
+    "evt-7c43e9e36375407f8d990cfd1331617a"
+  ],
+  "alert_ids": [
+    "alert-1eda5535c4144b0f8af9e46ae5b7291e",
+    "alert-3014b3d94af348369c399f2dadb633d6",
+    "alert-ebdb58cd56404ae9aad6147edd2141d8",
+    "alert-06a1dcd616de41079999975991fbc3c3",
+    "alert-f01faf4944f34473bb19708f5e8cc408",
+    "alert-882b8714d7db453dafb73a9c5d6707eb",
+    "alert-f304a9de1b514bf0a719141e18942d0a",
+    "alert-844cc701d47949bb8207105520f326fa",
+    "alert-6f59d36c3a3c4963a9cb49cedb3a3f32",
+    "alert-b8649fdefe85433985d6cd8720413dee"
+  ]
+}

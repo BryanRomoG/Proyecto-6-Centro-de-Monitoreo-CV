@@ -1,0 +1,16 @@
+{
+  "C1": {
+    "run_id": "run-02611233986c44e7bc84a568aff98a87",
+    "event_id": "evt-8dc816d8d72448d2a7ad99bdd77ade9f",
+    "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+    "code_files_changed_since_execution": [],
+    "exact_output_reproduced_from_saved_png": true
+  },
+  "C2": {
+    "run_id": "run-a6497225005a48ba99f7f5b52429ff82",
+    "event_id": "evt-0a38174a0c704752bdeb952ca9111398",
+    "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+    "code_files_changed_since_execution": [],
+    "exact_output_reproduced_from_saved_png": true
+  }
+}

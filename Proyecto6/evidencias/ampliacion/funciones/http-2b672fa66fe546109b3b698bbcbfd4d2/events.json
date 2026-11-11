@@ -1,0 +1,511 @@
+[
+  {
+    "application_version": "0.2.0",
+    "attempt_elapsed_s": 0.08021559999906458,
+    "candidates": [
+      {
+        "anchor": 318,
+        "class_id": 0,
+        "confidence": 0.10186312224343652
+      },
+      {
+        "anchor": 398,
+        "class_id": 2,
+        "confidence": 0.1118111732192375
+      },
+      {
+        "anchor": 399,
+        "class_id": 2,
+        "confidence": 0.2308265462736756
+      },
+      {
+        "anchor": 2799,
+        "class_id": 2,
+        "confidence": 0.41300322812959145
+      },
+      {
+        "anchor": 2800,
+        "class_id": 2,
+        "confidence": 0.781963393591667
+      },
+      {
+        "anchor": 2801,
+        "class_id": 2,
+        "confidence": 0.8288441980503336
+      },
+      {
+        "anchor": 2802,
+        "class_id": 2,
+        "confidence": 0.7818302975856568
+      },
+      {
+        "anchor": 2825,
+        "class_id": 2,
+        "confidence": 0.6050940526152147
+      },
+      {
+        "anchor": 2826,
+        "class_id": 2,
+        "confidence": 0.7924684291817883
+      },
+      {
+        "anchor": 2827,
+        "class_id": 2,
+        "confidence": 0.821697867877532
+      },
+      {
+        "anchor": 2828,
+        "class_id": 2,
+        "confidence": 0.8003896005258184
+      },
+      {
+        "anchor": 2829,
+        "class_id": 2,
+        "confidence": 0.4075733422475949
+      },
+      {
+        "anchor": 2831,
+        "class_id": 2,
+        "confidence": 0.1296329562520846
+      },
+      {
+        "anchor": 2853,
+        "class_id": 2,
+        "confidence": 0.7521956883961138
+      },
+      {
+        "anchor": 2854,
+        "class_id": 2,
+        "confidence": 0.7413841141504491
+      },
+      {
+        "anchor": 2997,
+        "class_id": 16,
+        "confidence": 0.5706071027488413
+      },
+      {
+        "anchor": 2998,
+        "class_id": 16,
+        "confidence": 0.6684439771515827
+      },
+      {
+        "anchor": 2999,
+        "class_id": 16,
+        "confidence": 0.1455162307267699
+      },
+      {
+        "anchor": 3022,
+        "class_id": 15,
+        "confidence": 0.2624949392512974
+      },
+      {
+        "anchor": 3023,
+        "class_id": 16,
+        "confidence": 0.8186615319487629
+      },
+      {
+        "anchor": 3024,
+        "class_id": 16,
+        "confidence": 0.8327274128514617
+      },
+      {
+        "anchor": 3025,
+        "class_id": 16,
+        "confidence": 0.7442026973888289
+      },
+      {
+        "anchor": 3048,
+        "class_id": 16,
+        "confidence": 0.3728169787358979
+      },
+      {
+        "anchor": 3049,
+        "class_id": 16,
+        "confidence": 0.7898860030852006
+      },
+      {
+        "anchor": 3050,
+        "class_id": 16,
+        "confidence": 0.8430682759373695
+      },
+      {
+        "anchor": 3051,
+        "class_id": 16,
+        "confidence": 0.256688656074644
+      },
+      {
+        "anchor": 3074,
+        "class_id": 15,
+        "confidence": 0.11692544050214337
+      },
+      {
+        "anchor": 3075,
+        "class_id": 16,
+        "confidence": 0.38017955258650815
+      },
+      {
+        "anchor": 3076,
+        "class_id": 16,
+        "confidence": 0.3435629535981626
+      },
+      {
+        "anchor": 3401,
+        "class_id": 7,
+        "confidence": 0.18960668484464094
+      },
+      {
+        "anchor": 3402,
+        "class_id": 7,
+        "confidence": 0.18258984727169647
+      },
+      {
+        "anchor": 3403,
+        "class_id": 7,
+        "confidence": 0.15515177783728973
+      },
+      {
+        "anchor": 3414,
+        "class_id": 7,
+        "confidence": 0.18019429837075052
+      },
+      {
+        "anchor": 3415,
+        "class_id": 7,
+        "confidence": 0.20055763878897892
+      },
+      {
+        "anchor": 3416,
+        "class_id": 7,
+        "confidence": 0.15919099989555718
+      },
+      {
+        "anchor": 3423,
+        "class_id": 1,
+        "confidence": 0.1252663046131488
+      },
+      {
+        "anchor": 3424,
+        "class_id": 1,
+        "confidence": 0.2290773626116902
+      },
+      {
+        "anchor": 3425,
+        "class_id": 1,
+        "confidence": 0.36420061097116907
+      },
+      {
+        "anchor": 3436,
+        "class_id": 1,
+        "confidence": 0.3318842490136369
+      },
+      {
+        "anchor": 3437,
+        "class_id": 1,
+        "confidence": 0.7718737107227298
+      },
+      {
+        "anchor": 3438,
+        "class_id": 1,
+        "confidence": 0.7819291866439926
+      },
+      {
+        "anchor": 3439,
+        "class_id": 1,
+        "confidence": 0.39751354706387687
+      },
+      {
+        "anchor": 3449,
+        "class_id": 1,
+        "confidence": 0.25520550696285227
+      },
+      {
+        "anchor": 3450,
+        "class_id": 1,
+        "confidence": 0.8022555027599196
+      },
+      {
+        "anchor": 3451,
+        "class_id": 1,
+        "confidence": 0.7707184401372587
+      },
+      {
+        "anchor": 3452,
+        "class_id": 1,
+        "confidence": 0.5533529598049824
+      },
+      {
+        "anchor": 3463,
+        "class_id": 1,
+        "confidence": 0.22790040944467904
+      },
+      {
+        "anchor": 3464,
+        "class_id": 1,
+        "confidence": 0.690762853248188
+      }
+    ],
+    "captured_at": "2026-11-10T23:28:23.017497+00:00",
+    "confidence_state": "insufficient_evidence",
+    "config": {
+      "alerts": {
+        "low_min_detections": 1
+      },
+      "confidence": {
+        "increase": 0.2,
+        "lower": 0.6,
+        "min_detections": 5,
+        "reference_windows": 2,
+        "sustained_windows": 2,
+        "upper": 0.8,
+        "window_frames": 5
+      },
+      "detector": {
+        "descriptor": "modelo/descriptor.yaml",
+        "input_size": 416,
+        "max_detections": 100,
+        "model": "modelo/yolox_nano.onnx",
+        "nms_iou": 0.45,
+        "padding": 114,
+        "score_floor": 0.1
+      },
+      "media_roots": [
+        "data/demo",
+        "data/media",
+        "data/scenarios"
+      ],
+      "metrics": {
+        "window_seconds": 60.0
+      },
+      "server": {
+        "autostart": false
+      },
+      "source": {
+        "images_dir": "data/demo/normal",
+        "kind": "video",
+        "loop": true,
+        "retry_seconds": 2.0,
+        "sample_hz": 2.0,
+        "source_id": "source-0955e9c790964433aed93a32f2d86938",
+        "timeout_seconds": 5.0,
+        "url": null,
+        "video_file": "C:\\Users\\enano\\OneDrive - ITESO\\8vo Semestre\\MACHINE LEARNING\\Proyecto 6\\Proyecto-6-Centro-de-Monitoreo-CV\\Proyecto6\\data\\media\\demo.mp4"
+      },
+      "storage": {
+        "data_dir": "data/runtime",
+        "database": "monitor.sqlite3"
+      },
+      "version": 1
+    },
+    "config_sha256": "90c60a425b98f3cf77d100858c2a0bf0b95e209b3848034b95cbf9670b00b2e4",
+    "cpu_percent": 136.35128329311937,
+    "cpu_seconds_delta": 0.109375,
+    "detections": [
+      {
+        "bbox": [
+          110.29,
+          172.26,
+          270.75,
+          451.37
+        ],
+        "class_id": 16,
+        "class_name": "dog",
+        "confidence": 0.8430682759373695,
+        "zone": "accepted"
+      },
+      {
+        "bbox": [
+          387.99,
+          65.08,
+          572.39,
+          142.99
+        ],
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.8288441980503336,
+        "zone": "accepted"
+      },
+      {
+        "bbox": [
+          19.38,
+          108.09,
+          478.02,
+          356.24
+        ],
+        "class_id": 1,
+        "class_name": "bicycle",
+        "confidence": 0.8022555027599196,
+        "zone": "accepted"
+      },
+      {
+        "bbox": [
+          108.15,
+          171.85,
+          267.49,
+          454.76
+        ],
+        "class_id": 15,
+        "class_name": "cat",
+        "confidence": 0.2624949392512974,
+        "zone": "low"
+      },
+      {
+        "bbox": [
+          384.48,
+          62.9,
+          566.32,
+          144.06
+        ],
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.20055763878897892,
+        "zone": "low"
+      },
+      {
+        "bbox": [
+          571.87,
+          94.73,
+          600.04,
+          128.92
+        ],
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.1296329562520846,
+        "zone": "low"
+      },
+      {
+        "bbox": [
+          50.79,
+          60.25,
+          93.59,
+          102.44
+        ],
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.10186312224343652,
+        "zone": "low"
+      }
+    ],
+    "discarded_frames": 0,
+    "error": null,
+    "frame_id": "frame-e727d039af834da8bc3c0e61b8e32deb",
+    "frame_index": 0,
+    "height": 480,
+    "id": "evt-1e3793771b694b6b87cbae459052c4df",
+    "image_ref": "images/evt-1e3793771b694b6b87cbae459052c4df.png",
+    "image_sha256": "6b2e4e6626a3042391c43e870a0b86a2cc4c2b7fb8f03e757bb8dffc4f126949",
+    "inference_executed": true,
+    "inference_ms": 13.324799998372328,
+    "input_name": "demo.mp4",
+    "input_sha256": "6b2e4e6626a3042391c43e870a0b86a2cc4c2b7fb8f03e757bb8dffc4f126949",
+    "model": {
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "motorcycle",
+        "airplane",
+        "bus",
+        "train",
+        "truck",
+        "boat",
+        "traffic light",
+        "fire hydrant",
+        "stop sign",
+        "parking meter",
+        "bench",
+        "bird",
+        "cat",
+        "dog",
+        "horse",
+        "sheep",
+        "cow",
+        "elephant",
+        "bear",
+        "zebra",
+        "giraffe",
+        "backpack",
+        "umbrella",
+        "handbag",
+        "tie",
+        "suitcase",
+        "frisbee",
+        "skis",
+        "snowboard",
+        "sports ball",
+        "kite",
+        "baseball bat",
+        "baseball glove",
+        "skateboard",
+        "surfboard",
+        "tennis racket",
+        "bottle",
+        "wine glass",
+        "cup",
+        "fork",
+        "knife",
+        "spoon",
+        "bowl",
+        "banana",
+        "apple",
+        "sandwich",
+        "orange",
+        "broccoli",
+        "carrot",
+        "hot dog",
+        "pizza",
+        "donut",
+        "cake",
+        "chair",
+        "couch",
+        "potted plant",
+        "bed",
+        "dining table",
+        "toilet",
+        "tv",
+        "laptop",
+        "mouse",
+        "remote",
+        "keyboard",
+        "cell phone",
+        "microwave",
+        "oven",
+        "toaster",
+        "sink",
+        "refrigerator",
+        "book",
+        "clock",
+        "vase",
+        "scissors",
+        "teddy bear",
+        "hair drier",
+        "toothbrush"
+      ],
+      "descriptor_sha256": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+      "name": "yolox_nano",
+      "preprocessing": "Pillow bilinear letterbox top-left 416 padding114 BGR NCHW float32 0-255",
+      "providers": [
+        "CPUExecutionProvider"
+      ],
+      "runtime": "onnxruntime==1.22.0",
+      "sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "version": "0.1.1rc0"
+    },
+    "paused_seconds_excluded": 0.0,
+    "position_seconds": 0.0,
+    "postprocess_ms": 3.9489000009780284,
+    "preprocess_ms": 2.7563000003283378,
+    "processing_ms": 44.454099999711616,
+    "read_elapsed_s": 0.002836600000591716,
+    "read_frames": 1,
+    "rss_bytes": 149569536,
+    "run_id": "run-c24e0b08d67446c493b2d1920799c423",
+    "source_id": "source-0955e9c790964433aed93a32f2d86938",
+    "source_kind": "video",
+    "status": "ok",
+    "synthetic": false,
+    "task": "object_detection",
+    "timestamp": "2026-11-10T23:28:23.080865+00:00",
+    "total_frames": 40,
+    "width": 640
+  }
+]

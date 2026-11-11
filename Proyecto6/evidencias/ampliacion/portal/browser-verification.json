@@ -1,0 +1,203 @@
+{
+  "timestamp": "2026-11-11T00:05:42.436720+00:00",
+  "screenshots": {
+    "F1-dashboard.png": {
+      "sha256": "7339ea34efda2aef3c64a26ac9fefb837d06cea49667a833a5db99d141e40e7a",
+      "size_px": [
+        1781,
+        1683
+      ],
+      "file_timestamp_utc": "2026-11-10T23:29:55.344151+00:00"
+    },
+    "F1-edge-dashboard.png": {
+      "sha256": "99b87af28c4a28d6ee6775b47dffbf3e23be907eac874c0a0066e5c71abf89c8",
+      "size_px": [
+        1366,
+        1100
+      ],
+      "file_timestamp_utc": "2026-11-11T00:02:47.029499+00:00"
+    },
+    "F2-edge-reproduccion.png": {
+      "sha256": "9e1499ac5d905a89dd463c1eb3aa0b427174f3dffff77a2332fca725f57d37c5",
+      "size_px": [
+        1366,
+        1100
+      ],
+      "file_timestamp_utc": "2026-11-11T00:02:53.866894+00:00"
+    },
+    "F2-reproduccion-final.png": {
+      "sha256": "f5c2aee06a158f4ac9ff8b9ce85c747a04540430a9a8affd5b8d7d6abb46f157",
+      "size_px": [
+        1781,
+        2140
+      ],
+      "file_timestamp_utc": "2026-11-10T23:28:23.881835+00:00"
+    },
+    "F2-reproduccion-pausada.png": {
+      "sha256": "e50f6c96a9036bed6b408d72fb1ea2c0ffd968a7bf506cd693090b12a7eac44d",
+      "size_px": [
+        1781,
+        2040
+      ],
+      "file_timestamp_utc": "2026-11-10T23:20:12.723282+00:00"
+    },
+    "F3-edge-escritorio.png": {
+      "sha256": "9afdfbd27fba68085c7ec143429b9d8ee3a84dfaf5894ba7f7ac5d0ce4059060",
+      "size_px": [
+        1366,
+        1000
+      ],
+      "file_timestamp_utc": "2026-11-11T00:01:51.618531+00:00"
+    },
+    "F3-escritorio.png": {
+      "sha256": "92082674c4fb38dd3da8f17b2b1b631d2611f68225699f27182cb9f42c72fffa",
+      "size_px": [
+        1581,
+        6345
+      ],
+      "file_timestamp_utc": "2026-11-10T23:57:18.630128+00:00"
+    },
+    "F3-historicos-final.png": {
+      "sha256": "92082674c4fb38dd3da8f17b2b1b631d2611f68225699f27182cb9f42c72fffa",
+      "size_px": [
+        1581,
+        6345
+      ],
+      "file_timestamp_utc": "2026-11-10T23:55:52.768022+00:00"
+    },
+    "F3-historicos.png": {
+      "sha256": "689ff7a161ab8c20077b4ee929289aa5543075954fa71f8c5eaf3250774190ad",
+      "size_px": [
+        1781,
+        4001
+      ],
+      "file_timestamp_utc": "2026-11-10T23:26:33.068011+00:00"
+    },
+    "F4-filtros.png": {
+      "sha256": "a72d6cca70e1b5bbc8f9c28565b8573833f67631247b40d76dc552c66d439a5c",
+      "size_px": [
+        1800,
+        1375
+      ],
+      "file_timestamp_utc": "2026-11-10T23:34:14.023915+00:00"
+    },
+    "F5-galeria.png": {
+      "sha256": "9983855d4edfbe440c7bca9b86adbeb626080d83cdc040bd3d0040f6b34f9973",
+      "size_px": [
+        1781,
+        2801
+      ],
+      "file_timestamp_utc": "2026-11-10T23:28:12.890674+00:00"
+    },
+    "F7-intento-puntero.png": {
+      "sha256": "5b3354d664bc6df94402dec4a2e9ebcb99ff53a8772c4efa27b0f579e6c9aa6d",
+      "size_px": [
+        414,
+        1978
+      ],
+      "file_timestamp_utc": "2026-11-10T23:30:38.775665+00:00"
+    },
+    "F7-reconocida.png": {
+      "sha256": "edea66dc07863f884323ccea6da65fbf63ceeb21c66583fd0ca35f50ae6dcf7e",
+      "size_px": [
+        1800,
+        1375
+      ],
+      "file_timestamp_utc": "2026-11-10T23:30:27.667464+00:00"
+    },
+    "F7-resuelta.png": {
+      "sha256": "6c33e6bbdf585bf1a061b837699ee851444d20edd97a2634bca73a19a8b6711d",
+      "size_px": [
+        414,
+        2153
+      ],
+      "file_timestamp_utc": "2026-11-10T23:32:23.834856+00:00"
+    },
+    "F8-edge-fuentes.png": {
+      "sha256": "47a90276e4a74781a5ab06672ddf698b8443c4078ff5a9ff102c5e14c1a57b64",
+      "size_px": [
+        1366,
+        1100
+      ],
+      "file_timestamp_utc": "2026-11-11T00:02:58.957940+00:00"
+    },
+    "F8-fuentes.png": {
+      "sha256": "fc27614970c8a26e5d67d6a7d165efc1947c35eae8cee15436e889e58f56a8b6",
+      "size_px": [
+        1800,
+        1375
+      ],
+      "file_timestamp_utc": "2026-11-10T23:50:27.658808+00:00"
+    },
+    "F8-movil.png": {
+      "sha256": "0025eed15fd8aa26fce2cb4710529786e499bc4fb2cfc8add9eaaa02c60f4917",
+      "size_px": [
+        469,
+        2353
+      ],
+      "file_timestamp_utc": "2026-11-10T23:51:59.710226+00:00"
+    }
+  },
+  "desktop_selected": [
+    "F1-edge-dashboard.png",
+    "F2-edge-reproduccion.png",
+    "F3-edge-escritorio.png",
+    "F8-edge-fuentes.png"
+  ],
+  "desktop_tool": "Microsoft Edge headless, perfil nuevo en data/tmp/edge-review; screenshots de páginas HTTP reales, sin modificar DOM/datos",
+  "desktop_window_size": {
+    "history": [
+      1366,
+      1000
+    ],
+    "other_selected": [
+      1366,
+      1100
+    ]
+  },
+  "integrated_narrow_observed": {
+    "innerWidth": 314,
+    "contentWidth": 298,
+    "horizontal_page_overflow": false,
+    "pages": [
+      "/sources",
+      "/history"
+    ]
+  },
+  "history_dom_observed": {
+    "run_id": "run-747a89d404d942c2bcf761965f760a1b",
+    "charts": 9,
+    "circle_points": 94,
+    "M20_present": true
+  },
+  "final_playback": {
+    "run_id": "run-9197cff5c13848fb8485d295eca202d6",
+    "event_id": "evt-3a18ac5eab1841359de040bc9990d76e",
+    "frame_index": 8,
+    "state_at_capture": "paused",
+    "annotated_url": "/images/evt-3a18ac5eab1841359de040bc9990d76e/annotated",
+    "observed_events": 3,
+    "detections": 18,
+    "http_report": "../funciones/http-d3e69037e2d0405c981240ed593673b0/verification.json",
+    "final_state": "stopped"
+  },
+  "integrated_operations": [
+    "Registro/selección de video local, inicio, pausa y continuación",
+    "Registro de secuencia de imágenes mediante formulario",
+    "Consulta de dashboard, históricos, filtros combinados y galería",
+    "Reconocimiento y resolución con comentarios por navegador, evento conservado"
+  ],
+  "alert_review": {
+    "run_id": "run-c24e0b08d67446c493b2d1920799c423",
+    "alert_id": "alert-ecf83ef7fdca44cfa97d1e323b65347b",
+    "acknowledged_at": "2026-11-10T23:30:12.026255+00:00",
+    "resolved_at": "2026-11-10T23:31:11.167486+00:00",
+    "http_report": "../funciones/http-e875c88699ad42e7a533beaa51731017/verification.json"
+  },
+  "limitations": [
+    "Descarga nativa del navegador integrado no confirmada; bytes ZIP/CSV/JSON sí verificados por HTTP.",
+    "Un clic Resolver fue interceptado por la herramienta; resolución completada con Enter.",
+    "Capturas integradas durante resize pueden conservar lienzo grande con disposición estrecha; para escritorio usar Edge seleccionado.",
+    "Headless acredita render visual; las acciones interactivas se observaron en navegador integrado y se prueban por API."
+  ]
+}

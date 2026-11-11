@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="17.738" timestamp="2026-11-10T19:27:52.346411-06:00" hostname="Bryan"><testcase classname="browser_tests.test_portal" name="test_collections_gallery_recovery_and_real_controls" time="17.531" /></testsuite></testsuites>

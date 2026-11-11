@@ -1,0 +1,426 @@
+{
+  "cutoff": "2026-11-11T01:06:49.593056+00:00",
+  "values": {
+    "M01": {
+      "p50": 12.371749999147141,
+      "p95": 14.069034998283314
+    },
+    "M02": 0.0,
+    "M03": 0,
+    "M04": 3.744671659883547,
+    "M05": 0,
+    "M06": 63.77643920739166,
+    "M07": 111.7109375,
+    "M08": {
+      "person": 13,
+      "car": 34,
+      "truck": 16,
+      "handbag": 2,
+      "train": 1,
+      "airplane": 1,
+      "bus": 1
+    },
+    "M09": {
+      "edges": [
+        0.0,
+        0.1,
+        0.2,
+        0.30000000000000004,
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "counts": [
+        0,
+        19,
+        12,
+        8,
+        4,
+        4,
+        4,
+        5,
+        9,
+        3
+      ]
+    },
+    "M10": 0.0,
+    "M11": 6.8,
+    "M12": 0.1323529411764706,
+    "M13": 0.0,
+    "M14": 1.0,
+    "M15": {
+      "source-cea187e9ce104278a038e242681d1949 / run-4103a7a9287945499b37e46c94cb5f6e": 10
+    },
+    "M16": 224.68029959301282,
+    "M17": null,
+    "M18": null,
+    "M19": 9,
+    "M20": [
+      {
+        "run_id": "run-4103a7a9287945499b37e46c94cb5f6e",
+        "window_id": "window-1b2020b926914e63a20453e8cf470095",
+        "reference_window_ids": [
+          "window-1b2020b926914e63a20453e8cf470095",
+          "window-1ad8ec086f574e309e7b2ab8f66f5129"
+        ],
+        "event_ids": [
+          "evt-a0a7582b516b4906ade8dd53c9f9a8b5",
+          "evt-8e7f07fcf0cb43b486846bb069c4fa5d",
+          "evt-ded213833e87491ab9cb192edeaed5a0",
+          "evt-c942daa9e1a24973b7d38642e42ef92a",
+          "evt-e939fd8222da45b79e0b0031d8bef764"
+        ],
+        "reference_event_ids": [
+          "evt-a0a7582b516b4906ade8dd53c9f9a8b5",
+          "evt-8e7f07fcf0cb43b486846bb069c4fa5d",
+          "evt-ded213833e87491ab9cb192edeaed5a0",
+          "evt-c942daa9e1a24973b7d38642e42ef92a",
+          "evt-e939fd8222da45b79e0b0031d8bef764",
+          "evt-35228cb8b4fc4ee7ad311966e51065d8",
+          "evt-fbdf8510c70c4fdead367f617be085ed",
+          "evt-8ec69b89091641bf9038b9edfe7ed337",
+          "evt-48c1f947b9824bc1895f642dbb587753",
+          "evt-1db640e41b5e4f40b96c32a2c99714ea"
+        ],
+        "reference_count": 68,
+        "sample_count": 47,
+        "state": "reference",
+        "distance": null
+      },
+      {
+        "run_id": "run-4103a7a9287945499b37e46c94cb5f6e",
+        "window_id": "window-1ad8ec086f574e309e7b2ab8f66f5129",
+        "reference_window_ids": [
+          "window-1b2020b926914e63a20453e8cf470095",
+          "window-1ad8ec086f574e309e7b2ab8f66f5129"
+        ],
+        "event_ids": [
+          "evt-35228cb8b4fc4ee7ad311966e51065d8",
+          "evt-fbdf8510c70c4fdead367f617be085ed",
+          "evt-8ec69b89091641bf9038b9edfe7ed337",
+          "evt-48c1f947b9824bc1895f642dbb587753",
+          "evt-1db640e41b5e4f40b96c32a2c99714ea"
+        ],
+        "reference_event_ids": [
+          "evt-a0a7582b516b4906ade8dd53c9f9a8b5",
+          "evt-8e7f07fcf0cb43b486846bb069c4fa5d",
+          "evt-ded213833e87491ab9cb192edeaed5a0",
+          "evt-c942daa9e1a24973b7d38642e42ef92a",
+          "evt-e939fd8222da45b79e0b0031d8bef764",
+          "evt-35228cb8b4fc4ee7ad311966e51065d8",
+          "evt-fbdf8510c70c4fdead367f617be085ed",
+          "evt-8ec69b89091641bf9038b9edfe7ed337",
+          "evt-48c1f947b9824bc1895f642dbb587753",
+          "evt-1db640e41b5e4f40b96c32a2c99714ea"
+        ],
+        "reference_count": 68,
+        "sample_count": 21,
+        "state": "reference",
+        "distance": null
+      }
+    ]
+  },
+  "catalog": {
+    "M01": {
+      "id": "M01",
+      "name": "Distribución de latencia",
+      "definition": "Distribución de latencia",
+      "formula": "percentile(inference_ms,[50,95],linear)",
+      "unit": "ms",
+      "primary_observations": "inference_ms en éxitos",
+      "missing": "null sin inferencias temporizadas",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M02": {
+      "id": "M02",
+      "name": "Tasa de errores técnicos",
+      "definition": "Tasa de errores técnicos",
+      "formula": "errores(source/decode/inference)/intentos",
+      "unit": "proporción",
+      "primary_observations": "status por evento",
+      "missing": "null sin intentos",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M03": {
+      "id": "M03",
+      "name": "Descartes por muestreo",
+      "definition": "Descartes por muestreo",
+      "formula": "sum(discarded_frames)",
+      "unit": "frames",
+      "primary_observations": "contadores de lectura video por evento",
+      "missing": "null sin instrumentación de lectura; 0 observado es válido",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M04": {
+      "id": "M04",
+      "name": "FPS de lectura",
+      "definition": "FPS de lectura",
+      "formula": "sum(read_frames)/sum(attempt_elapsed_s)",
+      "unit": "frames/s",
+      "primary_observations": "lecturas reales incluidas las no inferidas",
+      "missing": "null sin lectura o duración; elegible como extra de etapa con video",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M05": {
+      "id": "M05",
+      "name": "Fallos de lectura",
+      "definition": "Fallos de lectura",
+      "formula": "count(status=source_error)",
+      "unit": "intentos",
+      "primary_observations": "status de fuente",
+      "missing": "0 si no se registraron fallos; población e IDs conservados",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M06": {
+      "id": "M06",
+      "name": "CPU del productor",
+      "definition": "CPU del productor",
+      "formula": "100*sum(cpu_seconds_delta)/sum(attempt_elapsed_s)",
+      "unit": "% de un núcleo",
+      "primary_observations": "psutil cpu_times; se excluye tiempo/CPU pausado",
+      "missing": "null sin instrumentación; puede superar 100 con varios núcleos",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M07": {
+      "id": "M07",
+      "name": "Pico RSS muestreado",
+      "definition": "Pico RSS muestreado",
+      "formula": "max(rss_bytes)/1048576",
+      "unit": "MiB",
+      "primary_observations": "RSS observado, no pico continuo",
+      "missing": "null sin muestras; mismo instrumento de G3, no se reclama bono independiente por parametrización",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": false
+    },
+    "M08": {
+      "id": "M08",
+      "name": "Distribución por clase",
+      "definition": "Distribución por clase",
+      "formula": "count(detecciones finales) agrupado por class_name",
+      "unit": "detecciones",
+      "primary_observations": "clase por detección después de NMS",
+      "missing": "mapa vacío sin detecciones",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M09": {
+      "id": "M09",
+      "name": "Histograma de confianza",
+      "definition": "Histograma de confianza",
+      "formula": "histogram(scores,edges=0,.1,...,1)",
+      "unit": "detecciones/bin",
+      "primary_observations": "confidence original por detección final",
+      "missing": "null sin scores; ceros de bins observados no son puntos inventados",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M10": {
+      "id": "M10",
+      "name": "Frames sin detecciones",
+      "definition": "Frames sin detecciones",
+      "formula": "count(no_detections)/frames exitosos",
+      "unit": "proporción",
+      "primary_observations": "status y detecciones por frame",
+      "missing": "null sin éxitos; no equivale a baja confianza",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M11": {
+      "id": "M11",
+      "name": "Detecciones por imagen",
+      "definition": "Detecciones por imagen",
+      "formula": "count(detecciones finales)/frames exitosos",
+      "unit": "detecciones/frame",
+      "primary_observations": "lista de detecciones, incluido vacío",
+      "missing": "null sin éxitos",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M12": {
+      "id": "M12",
+      "name": "Proporción de duda",
+      "definition": "Proporción de duda",
+      "formula": "count(lower<=score<upper)/detecciones finales",
+      "unit": "proporción",
+      "primary_observations": "score y zona/config originales",
+      "missing": "null sin detecciones",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M13": {
+      "id": "M13",
+      "name": "Entradas inválidas",
+      "definition": "Entradas inválidas",
+      "formula": "count(decode_error)/intentos con bytes recibidos",
+      "unit": "proporción",
+      "primary_observations": "decode_error; excluye source_error sin bytes",
+      "missing": "null sin entradas recibidas",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M14": {
+      "id": "M14",
+      "name": "Cobertura de imágenes",
+      "definition": "Cobertura de imágenes",
+      "formula": "capturas existentes/frames decodificados",
+      "unit": "proporción",
+      "primary_observations": "image_ref en ok/no_detections/inference_error; existencia y ruta permitida",
+      "missing": "null sin frames decodificados; distinta de integridad/metadatos G5",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M15": {
+      "id": "M15",
+      "name": "Actividad por fuente y ejecución",
+      "definition": "Actividad por fuente y ejecución",
+      "formula": "count(eventos) por(source_id,run_id)",
+      "unit": "eventos",
+      "primary_observations": "identificadores persistidos",
+      "missing": "mapa vacío sin observaciones; no se multiplican bonos por segmentación",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M16": {
+      "id": "M16",
+      "name": "Alertas por tiempo observado",
+      "definition": "Alertas por tiempo observado",
+      "formula": "60*count(alertas creadas)/sum(attempt_elapsed_s)",
+      "unit": "alertas/min",
+      "primary_observations": "timestamp de creación; todas las alertas aunque se resolvieran después",
+      "missing": "null sin duración de intentos; no equivale a alertas abiertas G7",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M17": {
+      "id": "M17",
+      "name": "Tiempo medio de reconocimiento",
+      "definition": "Tiempo medio de reconocimiento",
+      "formula": "mean(acknowledge.timestamp-alert.timestamp)",
+      "unit": "s",
+      "primary_observations": "historial de cambios de alerta",
+      "missing": "null sin reconocimientos antes del corte",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M18": {
+      "id": "M18",
+      "name": "Tiempo medio de resolución de alerta",
+      "definition": "Tiempo medio de resolución de alerta",
+      "formula": "mean(resolve.timestamp-alert.timestamp)",
+      "unit": "s",
+      "primary_observations": "historial de cambios; no se afirma recuperación del servicio",
+      "missing": "null sin resoluciones antes del corte",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M19": {
+      "id": "M19",
+      "name": "Alertas repetidas",
+      "definition": "Alertas repetidas",
+      "formula": "count(misma ejecución/regla con separación <=10 s)",
+      "unit": "alertas",
+      "primary_observations": "timestamps originales ordenados por run/regla",
+      "missing": "0 si no se observan repeticiones; no elimina alertas válidas por frame",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    },
+    "M20": {
+      "id": "M20",
+      "name": "Distancia KS de scores frente a referencia",
+      "definition": "Distancia KS de scores frente a referencia",
+      "formula": "max_s |CDF_referencia(s)-CDF_ventana(s)|",
+      "unit": "D en [0,1]",
+      "primary_observations": "scores finales, event_ids y ventanas persistidas de la misma configuración/modelo",
+      "missing": "null con referencia/ventana insuficiente; referencia no se puntúa como muestra nueva; sin p-value ni conclusión de drift",
+      "population_window": "Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
+      "instrumentation": "Productor y SQLite; ver eventos, alertas e historial por sus IDs",
+      "verification": "python scripts/verify_extras.py <paquete>; tests/test_extended.py y test_extra_metrics.py",
+      "bonus_requested": true
+    }
+  },
+  "event_ids": [
+    "evt-1db640e41b5e4f40b96c32a2c99714ea",
+    "evt-48c1f947b9824bc1895f642dbb587753",
+    "evt-8ec69b89091641bf9038b9edfe7ed337",
+    "evt-fbdf8510c70c4fdead367f617be085ed",
+    "evt-35228cb8b4fc4ee7ad311966e51065d8",
+    "evt-e939fd8222da45b79e0b0031d8bef764",
+    "evt-c942daa9e1a24973b7d38642e42ef92a",
+    "evt-ded213833e87491ab9cb192edeaed5a0",
+    "evt-8e7f07fcf0cb43b486846bb069c4fa5d",
+    "evt-a0a7582b516b4906ade8dd53c9f9a8b5"
+  ],
+  "alert_ids": [
+    "alert-bcf439ed323c46efa27f152a7f722e2d",
+    "alert-a2f190946d7f4345bad7ecc32d574883",
+    "alert-efe2de9e653b42f5ae72b8d28fa16ed0",
+    "alert-1508ef67f20043529883078a143416bf",
+    "alert-f01a65f837c64fa2bed5c7dd9cb521b9",
+    "alert-0c5f1dea747b4f02bc3f8a7a7133b965",
+    "alert-07034a6222cd4e3f93217e14c0807d9d",
+    "alert-d3b122a9439547f38b01e155afc11e58",
+    "alert-c723cc3b96ba47f9b861d352f3390127",
+    "alert-de787e0ad4fb4eaf8bfeda8b341211c9"
+  ],
+  "primary": {
+    "attempts": 10,
+    "successful_frames": 10,
+    "detections": 68,
+    "observed_seconds": 2.670461100002285,
+    "acknowledgments": [],
+    "resolutions": [],
+    "decoded_frames": 10,
+    "linked_images": 10
+  },
+  "run_configs": {
+    "run-4103a7a9287945499b37e46c94cb5f6e": "b1f8171befc1451f647573af355e5ac592a75ed9efb8b3ad6c1dc1bb144efd48"
+  }
+}

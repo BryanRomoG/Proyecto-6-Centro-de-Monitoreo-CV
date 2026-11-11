@@ -1,0 +1,495 @@
+{
+  "timestamp": "2026-11-11T01:00:51.434710+00:00",
+  "manifest_sha256": "2951fab70efa719d00afea01f1e2f8570baba2b770c34dc7b008c12b4b81a716",
+  "collections": {
+    "escenas_despejadas": {
+      "run_id": "run-caefe1918056474b958c975fb47b2e13",
+      "source_id": "source-e42e079d54784bfd83111081d126a9c3",
+      "collection": "escenas_despejadas",
+      "events": 10,
+      "detections": 23,
+      "classes": {
+        "potted plant": 3,
+        "bird": 1,
+        "person": 1,
+        "car": 7,
+        "bed": 1,
+        "cat": 1,
+        "apple": 3,
+        "orange": 3,
+        "elephant": 1,
+        "bear": 1,
+        "cow": 1
+      },
+      "zones": {
+        "low": 20,
+        "doubt": 3
+      },
+      "no_detections": [
+        "evt-20a178bf2eb44eec9bb78f738dd645d8"
+      ],
+      "alerts": 8,
+      "all_real": true,
+      "all_inputs_seen_once": true,
+      "extras_recalculated": true,
+      "mean_inference_ms": 12.27807000032044
+    },
+    "baja_confianza": {
+      "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+      "source_id": "source-be88f031dbee47298b7e9050faa1ce9e",
+      "collection": "baja_confianza",
+      "events": 10,
+      "detections": 86,
+      "classes": {
+        "car": 37,
+        "person": 24,
+        "truck": 15,
+        "parking meter": 1,
+        "motorcycle": 3,
+        "bus": 1,
+        "dog": 1,
+        "chair": 1,
+        "kite": 1,
+        "boat": 2
+      },
+      "zones": {
+        "accepted": 6,
+        "doubt": 10,
+        "low": 70
+      },
+      "no_detections": [
+        "evt-66354d0f32434a6b878f68fab52c2d76"
+      ],
+      "alerts": 9,
+      "all_real": true,
+      "all_inputs_seen_once": true,
+      "extras_recalculated": true,
+      "mean_inference_ms": 12.024489999748766
+    },
+    "escenas_multiples": {
+      "run_id": "run-252a3b896e3a4d57bc6c171217be3e44",
+      "source_id": "source-84443865a3be46ef874831f535c12270",
+      "collection": "escenas_multiples",
+      "events": 10,
+      "detections": 161,
+      "classes": {
+        "person": 106,
+        "car": 2,
+        "bench": 3,
+        "chair": 7,
+        "dining table": 2,
+        "potted plant": 1,
+        "frisbee": 1,
+        "surfboard": 1,
+        "baseball bat": 1,
+        "handbag": 2,
+        "suitcase": 1,
+        "umbrella": 1,
+        "bicycle": 7,
+        "motorcycle": 1,
+        "sports ball": 2,
+        "tie": 2,
+        "zebra": 4,
+        "bird": 1,
+        "cup": 6,
+        "bowl": 8,
+        "pizza": 1,
+        "cake": 1
+      },
+      "zones": {
+        "accepted": 11,
+        "doubt": 27,
+        "low": 123
+      },
+      "no_detections": [],
+      "alerts": 10,
+      "all_real": true,
+      "all_inputs_seen_once": true,
+      "extras_recalculated": true,
+      "mean_inference_ms": 12.711149999086047
+    },
+    "objetos": {
+      "run_id": "run-7ec387260623462ea94ae93519996c15",
+      "source_id": "source-56fa891ef6a1407c8d1063dab34945bd",
+      "collection": "objetos",
+      "events": 10,
+      "detections": 80,
+      "classes": {
+        "bottle": 9,
+        "cup": 7,
+        "dining table": 8,
+        "clock": 3,
+        "chair": 24,
+        "person": 4,
+        "parking meter": 1,
+        "bed": 2,
+        "carrot": 1,
+        "bowl": 1,
+        "couch": 2,
+        "book": 7,
+        "potted plant": 1,
+        "suitcase": 1,
+        "vase": 3,
+        "wine glass": 1,
+        "tv": 3,
+        "oven": 1,
+        "bench": 1
+      },
+      "zones": {
+        "low": 70,
+        "doubt": 10
+      },
+      "no_detections": [],
+      "alerts": 10,
+      "all_real": true,
+      "all_inputs_seen_once": true,
+      "extras_recalculated": true,
+      "mean_inference_ms": 12.729140000374173
+    },
+    "bicicletas": {
+      "run_id": "run-e725956dc2ae4c0e9903b11932b72942",
+      "source_id": "source-8c1805223f9d4743b2c73486838fe1ef",
+      "collection": "bicicletas",
+      "events": 10,
+      "detections": 53,
+      "classes": {
+        "bicycle": 6,
+        "motorcycle": 3,
+        "person": 14,
+        "potted plant": 1,
+        "boat": 16,
+        "kite": 1,
+        "umbrella": 1,
+        "car": 6,
+        "truck": 2,
+        "bus": 1,
+        "bird": 1,
+        "bottle": 1
+      },
+      "zones": {
+        "doubt": 10,
+        "low": 39,
+        "accepted": 4
+      },
+      "no_detections": [],
+      "alerts": 10,
+      "all_real": true,
+      "all_inputs_seen_once": true,
+      "extras_recalculated": true,
+      "mean_inference_ms": 12.364119999983814
+    },
+    "vehiculos": {
+      "run_id": "run-933b1aa01c7c4d1bb375918c8dede7ec",
+      "source_id": "source-cea187e9ce104278a038e242681d1949",
+      "collection": "vehiculos",
+      "events": 10,
+      "detections": 68,
+      "classes": {
+        "car": 34,
+        "person": 13,
+        "truck": 16,
+        "bus": 1,
+        "airplane": 1,
+        "train": 1,
+        "handbag": 2
+      },
+      "zones": {
+        "accepted": 12,
+        "doubt": 9,
+        "low": 47
+      },
+      "no_detections": [],
+      "alerts": 10,
+      "all_real": true,
+      "all_inputs_seen_once": true,
+      "extras_recalculated": true,
+      "mean_inference_ms": 12.730530000044382
+    },
+    "animales": {
+      "run_id": "run-2716c09f7fe7419994bf45a5c91a19e7",
+      "source_id": "source-1228eedc85084823abf2aa00585ab359",
+      "collection": "animales",
+      "events": 10,
+      "detections": 28,
+      "classes": {
+        "dog": 9,
+        "bed": 2,
+        "cat": 4,
+        "person": 4,
+        "couch": 2,
+        "book": 3,
+        "bench": 1,
+        "sheep": 1,
+        "bear": 1,
+        "bird": 1
+      },
+      "zones": {
+        "accepted": 3,
+        "low": 21,
+        "doubt": 4
+      },
+      "no_detections": [],
+      "alerts": 6,
+      "all_real": true,
+      "all_inputs_seen_once": true,
+      "extras_recalculated": true,
+      "mean_inference_ms": 12.282270000650897
+    },
+    "personas": {
+      "run_id": "run-381da60eec5f475180297a68438c901c",
+      "source_id": "source-b4c7d349969347c5aa43ca402d89c1e2",
+      "collection": "personas",
+      "events": 10,
+      "detections": 70,
+      "classes": {
+        "person": 36,
+        "potted plant": 2,
+        "couch": 2,
+        "suitcase": 1,
+        "cell phone": 2,
+        "kite": 2,
+        "umbrella": 1,
+        "book": 4,
+        "laptop": 2,
+        "dining table": 1,
+        "boat": 1,
+        "dog": 1,
+        "skis": 1,
+        "baseball bat": 1,
+        "toothbrush": 1,
+        "scissors": 1,
+        "chair": 11
+      },
+      "zones": {
+        "accepted": 11,
+        "doubt": 9,
+        "low": 50
+      },
+      "no_detections": [],
+      "alerts": 8,
+      "all_real": true,
+      "all_inputs_seen_once": true,
+      "extras_recalculated": true,
+      "mean_inference_ms": 12.941710000450257
+    }
+  },
+  "registration": {
+    "registered": [],
+    "existing": [
+      "source-b4c7d349969347c5aa43ca402d89c1e2",
+      "source-1228eedc85084823abf2aa00585ab359",
+      "source-cea187e9ce104278a038e242681d1949",
+      "source-8c1805223f9d4743b2c73486838fe1ef",
+      "source-56fa891ef6a1407c8d1063dab34945bd",
+      "source-84443865a3be46ef874831f535c12270",
+      "source-be88f031dbee47298b7e9050faa1ce9e",
+      "source-e42e079d54784bfd83111081d126a9c3"
+    ],
+    "errors": []
+  },
+  "events": 80,
+  "unique_inputs": 80,
+  "classes": {
+    "potted plant": 8,
+    "bird": 4,
+    "person": 202,
+    "car": 86,
+    "bed": 5,
+    "cat": 5,
+    "apple": 3,
+    "orange": 3,
+    "elephant": 1,
+    "bear": 2,
+    "cow": 1,
+    "truck": 33,
+    "parking meter": 2,
+    "motorcycle": 7,
+    "bus": 3,
+    "dog": 11,
+    "chair": 43,
+    "kite": 4,
+    "boat": 19,
+    "bench": 5,
+    "dining table": 11,
+    "frisbee": 1,
+    "surfboard": 1,
+    "baseball bat": 2,
+    "handbag": 4,
+    "suitcase": 3,
+    "umbrella": 3,
+    "bicycle": 13,
+    "sports ball": 2,
+    "tie": 2,
+    "zebra": 4,
+    "cup": 13,
+    "bowl": 9,
+    "pizza": 1,
+    "cake": 1,
+    "bottle": 10,
+    "clock": 3,
+    "carrot": 1,
+    "couch": 6,
+    "book": 14,
+    "vase": 3,
+    "wine glass": 1,
+    "tv": 3,
+    "oven": 1,
+    "airplane": 1,
+    "train": 1,
+    "sheep": 1,
+    "cell phone": 2,
+    "laptop": 2,
+    "skis": 1,
+    "toothbrush": 1,
+    "scissors": 1
+  },
+  "zones": {
+    "low": 440,
+    "doubt": 82,
+    "accepted": 47
+  },
+  "alerts": 71,
+  "examples": {
+    "accepted": [
+      {
+        "event_id": "evt-a95fd01c5276408fb09bc0919dd339f1",
+        "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+        "image_id": "00e5682d509f4b26",
+        "class": "car",
+        "score": 0.8225570135957696,
+        "zone": "accepted"
+      },
+      {
+        "event_id": "evt-e6aa6307bd2042678d82a32e6fd304bf",
+        "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+        "image_id": "0438dea0e3cd161a",
+        "class": "car",
+        "score": 0.9368935464443382,
+        "zone": "accepted"
+      },
+      {
+        "event_id": "evt-d93ba12db86e4636ab9ebf2a435288c1",
+        "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+        "image_id": "c3d40b7732cc566b",
+        "class": "person",
+        "score": 0.8057160169840643,
+        "zone": "accepted"
+      },
+      {
+        "event_id": "evt-7e71ee862b3048eb9e760a482ea393bd",
+        "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+        "image_id": "cf0ce8fb5da5c0f4",
+        "class": "person",
+        "score": 0.8361962868942499,
+        "zone": "accepted"
+      },
+      {
+        "event_id": "evt-6b588a48fa2645879596b5e15187e174",
+        "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+        "image_id": "f91c08e69ab7d786",
+        "class": "car",
+        "score": 0.8859516800943368,
+        "zone": "accepted"
+      }
+    ],
+    "doubt": [
+      {
+        "event_id": "evt-895824fb74fb41e691906df9717833e7",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "6326a56a4639ab40",
+        "class": "bird",
+        "score": 0.7148917044779637,
+        "zone": "doubt"
+      },
+      {
+        "event_id": "evt-15e1d3cc95394539846ff07353b6f29d",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "9d67e0779ade6975",
+        "class": "car",
+        "score": 0.6847641839011942,
+        "zone": "doubt"
+      },
+      {
+        "event_id": "evt-1e7582bcff8e45ed86f01c1ea7463cd8",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "a2c00378a4c34811",
+        "class": "bed",
+        "score": 0.73678621667068,
+        "zone": "doubt"
+      },
+      {
+        "event_id": "evt-a95fd01c5276408fb09bc0919dd339f1",
+        "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+        "image_id": "00e5682d509f4b26",
+        "class": "car",
+        "score": 0.6972548588563185,
+        "zone": "doubt"
+      },
+      {
+        "event_id": "evt-a95fd01c5276408fb09bc0919dd339f1",
+        "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+        "image_id": "00e5682d509f4b26",
+        "class": "car",
+        "score": 0.6117798460809283,
+        "zone": "doubt"
+      }
+    ],
+    "low": [
+      {
+        "event_id": "evt-8e179d2b808b4de39af6c4784b3ebc77",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "0d2511cb18af9beb",
+        "class": "potted plant",
+        "score": 0.2280340003566863,
+        "zone": "low"
+      },
+      {
+        "event_id": "evt-f99fc422968b441192bd6c2ad0770b66",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "3e01ca21fb4fd86e",
+        "class": "potted plant",
+        "score": 0.15353757976478022,
+        "zone": "low"
+      },
+      {
+        "event_id": "evt-0c7828fbd93a431ba87505d8d33ac05e",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "53c93a2c1825ae4b",
+        "class": "potted plant",
+        "score": 0.20169130902385746,
+        "zone": "low"
+      },
+      {
+        "event_id": "evt-450b8b9e274e4977b4358777ac4deb55",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "890fb7cf89a435ba",
+        "class": "person",
+        "score": 0.1203549706535938,
+        "zone": "low"
+      },
+      {
+        "event_id": "evt-15e1d3cc95394539846ff07353b6f29d",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "9d67e0779ade6975",
+        "class": "car",
+        "score": 0.5204773549784036,
+        "zone": "low"
+      }
+    ],
+    "no_detections": [
+      {
+        "event_id": "evt-20a178bf2eb44eec9bb78f738dd645d8",
+        "run_id": "run-caefe1918056474b958c975fb47b2e13",
+        "image_id": "aa89c2f098416d87"
+      },
+      {
+        "event_id": "evt-66354d0f32434a6b878f68fab52c2d76",
+        "run_id": "run-07a674e563894e5facaa904fb2ea0a47",
+        "image_id": "dbee805a3f0a0b7c"
+      }
+    ]
+  },
+  "ok": true,
+  "limits": "No scores alterados, ni filtro de salida para construir casos. Las categorías/etiquetas del dataset no son predicciones ni evaluación de accuracy.",
+  "command": "python scripts/run_dataset_demo.py --sample-hz 4.0"
+}

@@ -1,0 +1,39 @@
+{
+  "comparison": "Contra manifiesto de primera entrega C1; no es diff Git porque aún no hay commit",
+  "created": [
+    "scripts/prepare_media.py",
+    "scripts/run_scenarios.py",
+    "scripts/verify_extras.py",
+    "scripts/verify_features.py",
+    "src/monitor_cv/analytics.py",
+    "src/monitor_cv/application.py",
+    "src/monitor_cv/distribution.py",
+    "src/monitor_cv/exporting.py",
+    "src/monitor_cv/images.py",
+    "src/monitor_cv/metric_specs.py",
+    "src/monitor_cv/presentation.py",
+    "src/monitor_cv/query.py",
+    "src/monitor_cv/sources.py",
+    "tests/test_additional_scenarios.py",
+    "tests/test_distribution.py",
+    "tests/test_extended.py",
+    "tests/test_extra_metrics.py"
+  ],
+  "modified": [
+    "config/settings.yaml",
+    "pyproject.toml",
+    "scripts/verify_metrics.py",
+    "src/monitor_cv/__init__.py",
+    "src/monitor_cv/camera.py",
+    "src/monitor_cv/config.py",
+    "src/monitor_cv/database.py",
+    "src/monitor_cv/main.py",
+    "src/monitor_cv/metrics.py",
+    "src/monitor_cv/service.py",
+    "web/static/css/portal.css",
+    "web/static/js/portal.js",
+    "web/templates/portal.html"
+  ],
+  "removed": [],
+  "documentation": "README raíz/P6, METRICAS, PROCEDENCIA actualizados; ARQUITECTURA, MANUAL_USUARIO, ENTREGA_AMPLIACION, Docs/EXTRAS y evidencias/ampliacion nuevos; .env.example, .gitignore P6 actualizados"
+}

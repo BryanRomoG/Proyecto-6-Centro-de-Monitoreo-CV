@@ -1,0 +1,3 @@
+# Opcional: prueba E2E con Microsoft Edge instalado; no se descarga otro navegador.
+playwright==1.65.0
+greenlet==3.5.6
