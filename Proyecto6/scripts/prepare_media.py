@@ -1,5 +1,6 @@
 """Prepara un MP4 reproducible desde la escena pública; no requiere cámara física."""
 import hashlib
+import argparse
 import json
 from pathlib import Path
 
@@ -12,10 +13,11 @@ from prepare_demo import prepare
 ROOT=Path(__file__).resolve().parents[1]
 
 
-def prepare_media():
-    if not (ROOT/'data/demo/manifest.json').exists():
-        prepare(ROOT/'data/demo')
-    folder=ROOT/'data/media'
+def prepare_media(*,demo_dir=None,destination=None):
+    demo_dir=demo_dir or ROOT/'data/demo'
+    if not (demo_dir/'manifest.json').exists():
+        raise ValueError('Preparar una demo autorizada con prepare_authorized_demo.py; no se descarga dog.jpg')
+    folder=destination or ROOT/'data/media'
     folder.mkdir(parents=True,exist_ok=True)
     output=folder/'demo.mp4'
     # No sobreescribir entradas previas si su archivo ya es verificable.
@@ -30,7 +32,7 @@ def prepare_media():
     inputs=[]
     try:
         for name in ['normal','baja-confianza']:
-            for path in sorted((ROOT/'data/demo'/name).glob('*.png')):
+            for path in sorted((demo_dir/name).glob('*.png')):
                 with Image.open(path) as im:
                     rgb=np.asarray(im.convert('RGB').resize((640,480),Image.Resampling.BILINEAR))
                 for _ in range(2):
@@ -39,11 +41,16 @@ def prepare_media():
                                'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'repetitions':2})
     finally:
         writer.release()
-    manifest={'path':'data/media/demo.mp4','fps':8,'frames':40,'source':'Archivo generado de imágenes públicas, no cámara',
+    manifest={'path':output.relative_to(ROOT).as_posix(),'fps':8,'frames':40,'source':'Archivo generado de imágenes identificadas en la atribución, no cámara',
               'codec':'mp4v','size':[640,480],'inputs':inputs,'sha256':hashlib.sha256(output.read_bytes()).hexdigest()}
+    manifest['attribution']=json.loads((demo_dir/'manifest.json').read_text(encoding='utf-8'))['origin']
     (folder/'manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
     return manifest
 
 
 if __name__=='__main__':
-    print(json.dumps(prepare_media(),indent=2))
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--demo-dir',type=Path,default=ROOT/'data/demo')
+    parser.add_argument('--output',type=Path,default=ROOT/'data/media')
+    args=parser.parse_args()
+    print(json.dumps(prepare_media(demo_dir=args.demo_dir.resolve(),destination=args.output.resolve()),indent=2))

@@ -1,0 +1,505 @@
+{
+  "timestamp": "2026-11-12T03:33:48.195439+00:00",
+  "protected_files": 2718,
+  "protected_changed": [],
+  "preexisting_database_rows_checked": 3086,
+  "preexisting_database_rows_changed": [],
+  "teacher_documents_sha256": {
+    "guia-proyecto-6.html": "cafc1b184b7c0b4538b521b7fa93d7da376e837bcf70385eb5d530ba9fb18863",
+    "prompt-evaluacion-proyecto-6.md": "8b5f691f7ed4d30aecc04cb0cb99f60c5487805f97a6a48be3e93ee707f51d3f"
+  },
+  "P1_to_P5_changed": [],
+  "head": "0b0a7b459d299e4741753e08f4c7133da65f76f4",
+  "branch": "main",
+  "staged": [],
+  "git_diff_check_exit_code": 0,
+  "code_worktree_sha256": {
+    "browser_tests/test_portal.py": "1a191dbdadd445494367af5c74e9828fbba5897c1fc9d4447ee4141e31779c80",
+    "browser_tests/test_reviews_portal.py": "337d00a7de1af19582cfc0edf6334747f1589fa377e024b9093c9b31a604297e",
+    "config/academic.json": "43142125af8f522771dcd2093648c581f7af68f43e769736ba1d4490ffb9c8f3",
+    "config/dataset-selection-public.json": "71d378549932fa1bbc4f28d7406497783a35a4a1fbcc952a006c6fdb39a535d6",
+    "config/dataset-selection.json": "e1498a0f69dd0d3a6479e90a5219e1a91fd681e5be46ea84171461e76248a3d6",
+    "config/settings.yaml": "3862c361502405e198ad1a0d2ab26ad42d117922ad97bf404656ab4d3dc9f193",
+    "modelo/descriptor.yaml": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+    "pyproject.toml": "6a21d9e8b6cad5329c0c4bcdbed1f89ebd29e838b7beb700f34181a5c5bc2b09",
+    "requirements-lock-windows.txt": "f24ffd7864efcea5fba8c5efbb2f9a6abc1580cf51b8a445368620a233f2aee9",
+    "requirements.txt": "5654fa3d2e66f585e7a23ceb9fb4c1de68ca830b734abca3994fd2b1dcf29d38",
+    "scripts/audit_gallery.py": "6fc0ba19da46eeb9fc945b045f5dd360c291df2d0c5038e56206d07f02dbf9e8",
+    "scripts/audit_repository.py": "1512ca781ddc791478d5d147bf6bc0dd28426836ffba91021f0aeb7fe788120b",
+    "scripts/check_camera.py": "5050b5a89f6e8885dcb67e7bc24faa6b86f853519e2ef9cc34e810ab88bb8e8b",
+    "scripts/code_revision_map.py": "cf6ff54068388ada3194f319b718504391c55368c258346ebb6e942dc5554594",
+    "scripts/download_demo_dataset.py": "e12e60747edb5559020dcefc3c6f41ff1deaec73c313b33187acc3988a1a9c97",
+    "scripts/download_model.py": "d7adaf60f0146291f20cc984cd0cf188ec402d61ccfaba1bf0574c320dbc20da",
+    "scripts/final_audit.py": "790205065b5a65dadfe8cc2b64d879a19e37f9f8f030a831352d283c386c41f3",
+    "scripts/prepare_authorized_demo.py": "03c273aab36587a8a449b033e9e9f3bffc44541a903104e46ad531e9220c426c",
+    "scripts/prepare_demo.py": "5cc7fc68970e27e0e0f8cdd0e9007004d9bb2e8c2b48717a92b63c55c7e54292",
+    "scripts/prepare_git_plan.py": "58a5edd9e77bfda0c722870c31cafc947dec09b6fab6905e4da0d9248d1f6c64",
+    "scripts/prepare_media.py": "8d8421cfba8be726ce63b34a6bd3986eb93b108ebf4f0806ff8b44c72eeec138",
+    "scripts/prepare_public_release.py": "c7e5e7d07b3871bbd52b752d8d02fac0446d50acb796a95a944c414ca586ef4c",
+    "scripts/run_authorized_scenarios.py": "48f122adc5f26ba2a8bacf81fb363f418a1e6a01b6f80ff3767a0a4c89ffe738",
+    "scripts/run_dataset_demo.py": "b5127cca885310c38cb53ff7548c08f2fc994f15151494f152c37f8312baa61a",
+    "scripts/run_demo.py": "edb0bc162bdaf57ede43e32fa8f7b15b2afd5265d67525d954e4459ed2078db2",
+    "scripts/run_public_scenarios.py": "151157ebb373f1d29639a787cda3faae6df055b52e3fd11720a29ffcbc86cd3d",
+    "scripts/run_scenarios.py": "f988fa4b2ae9aeb077799505bfe5f3eea2440f35e168b89c0287aef8a9163572",
+    "scripts/run_technical_demo.py": "abbf481e24ce1a171438a34f49e524436b9cdd5db0697b396237b48c41f7ebae",
+    "scripts/verify_extras.py": "e7414bc9acf4f4b58d3bf9e57bd65ed1a7e63c74b186056548bb6274c8bb9ac3",
+    "scripts/verify_features.py": "dee4d7d95894673d6f75801d84c320d9a8bc00383f166ced1ef14ca93b97b10c",
+    "scripts/verify_metrics.py": "f5dd8faf8b5ea20fec7325f9c796704c029022fbd6201589596c127011021f59",
+    "scripts/verify_portal.py": "6537ac3dd25a707e6548061459306469fb271ce0ac39b1f5579d9a0c7261a25a",
+    "scripts/verify_public_portal.py": "4e35de397b31d8e6568acbc8eb4db566dc6928c7962c7eaebf6bec27cdbdc44a",
+    "src/monitor_cv/__init__.py": "4703c903f615cd8b2e78f2d5533f9564797f360a5b3d9da9f773bf473df2967a",
+    "src/monitor_cv/_mjpeg.py": "3923c37ccbea6d28ebca22cb2086c34f4f6c4a981a0c71ca4571d16fb15a1271",
+    "src/monitor_cv/_yolox.py": "4b2f6cfef5c3d7aa59a333cd66e157d9f8a90d6d15033b60cc90ffa97fd7ea23",
+    "src/monitor_cv/alerts.py": "93e5734b553706655ac9143b2516f04f38afd71b3443316dc77fd937fdc00b35",
+    "src/monitor_cv/analytics.py": "8750ad062c7491f0c8aa4b27ac572666eb84b141369da0f5c43965255d8e0801",
+    "src/monitor_cv/application.py": "c5484843d1950ce5a35fc753a9f449a45c15d17a5bf8e17a3c40ec61118a616d",
+    "src/monitor_cv/camera.py": "6b0f8dad0cb009b0048e16600b579a967349d093bbcb0450355a83e6a603823a",
+    "src/monitor_cv/confidence.py": "f5e1bc9618cf6f942d3dc70a53ac91d311f0366acc1136280212c33a69fc4a40",
+    "src/monitor_cv/config.py": "cb0e21b1126b49b7a9be763c69bc7ae248b688ef57cefe93420b25f9c73164c4",
+    "src/monitor_cv/database.py": "d00fd49751d511a59bc67a77e42fbb0f7e7c3a8f6183c6c492b226715f2e9750",
+    "src/monitor_cv/datasets.py": "ad10db9e36e96524b6877457205b7652537b6d4f6c91ac6c5c574cdefd7b543a",
+    "src/monitor_cv/detector.py": "8fe9fc1a197a18729aa6d402e5af8fa4212fe0b4f1a8547d715021cf4136bbbf",
+    "src/monitor_cv/distribution.py": "8e9b165ca6e28dfea64593cc5e45faced555b0e65073a4a9325a626ef2cfde03",
+    "src/monitor_cv/events.py": "67cec4ed0a933ba536cccb0e7016ab8bd8025bbc8ae1a4f1f6fe421aff370750",
+    "src/monitor_cv/exporting.py": "55632b33b97673964d33bf7c3f6c9eae821f3cb6178ecc23a044793bb25216c9",
+    "src/monitor_cv/gallery.py": "cf83039f3d9354253ce271f9cdf2a0c574e06e8ff5d01e390dfb1777c98c374d",
+    "src/monitor_cv/images.py": "0b18bb2125db7c24ade1d454de4fa7f1ef8ce8a0bdca1ca82bd03f6c23b017ad",
+    "src/monitor_cv/main.py": "5c563bb7e73e11a7dfb530ba537a3cc1d6d5b2880f2d1f4f7954e439cc8a8d6f",
+    "src/monitor_cv/metric_specs.py": "30f36ae2b4b531fa71b2ec1a4521ad5dd3362576bec998cd71ee01c7edba0d54",
+    "src/monitor_cv/metrics.py": "b65679943769a9662fe24045bef9e0635a9d0b2b76e70022834cccb0de67d193",
+    "src/monitor_cv/presentation.py": "f2c9b3e7e47f336aa86cfa0dfbbbe9893d1af8f33278f3f23d52e9da10787c03",
+    "src/monitor_cv/query.py": "33b590aa860b59ce61e364a303cfc6c1f1d366b9a246a64f7a6c610c60e1e252",
+    "src/monitor_cv/reviews.py": "00b630a974a957937c5df02950cc6160b1a0621c2840e8d0fe230ec269e31c5b",
+    "src/monitor_cv/service.py": "651a7ab3a7c3e45bd844f9228fbf026c516c25b576de0c93cbbd820d78c603b6",
+    "src/monitor_cv/sources.py": "733a6937ffc29673ffdea8ac17bb61c1f17d49efabcd99b0f5cba19735aa75aa",
+    "tests/conftest.py": "3aef32e39a895cc07f1802b5f264fcc21ceb9516c1e9696b30a12d0afbe2f313",
+    "tests/test_additional_scenarios.py": "e7b91dacfcadd961c827ce7a025fccd571e1e6a5613f5af81ed23f021685fb14",
+    "tests/test_config_confidence.py": "4bdf928e7d2e7e58ae2a248daffe848186559967b15447d1b0ae01917e8dfcaf",
+    "tests/test_datasets_gallery.py": "70c87cfcdf8065974f14766a67fc723cdfb1bbdf9c852984e69acc337dd2d155",
+    "tests/test_distribution.py": "8e1fc6fd6b3603fdb96de7fc141c410d8449012a462ce399d15578e359e77da5",
+    "tests/test_download.py": "5a7e5a809dc2f999baa3e122ee66e4160b90fe674ffb32d441833576c85a25dc",
+    "tests/test_extended.py": "65022bcf4ceaa910047626a0ff7ad9ea0673b7ea23848ccba652efbc19707474",
+    "tests/test_extra_metrics.py": "42f336c6a0492fc09c91b4c63b7f338e8685f962b52306f9c4d5997ec37e843d",
+    "tests/test_metrics_persistence_portal.py": "cea3ba2d75c9aaabe7f32edd84f5a536bb518ac0ef6af5f7aa01de2788a0b9d7",
+    "tests/test_public_release.py": "de4e034856062994fb0506c40eeed9d8af15c3abaee0632b8b54dd1387ed24df",
+    "tests/test_public_scenarios.py": "405aff71b4ee45d10e341e1d2c2be14e42fadfe233759fb74bb4fb437734c53d",
+    "tests/test_reviews.py": "a17ec04f07ea8261407c9cbdd4016d711601d5d7ec758f14106ea723a0a29faa",
+    "tests/test_scenarios_real.py": "14b60590f4d161b85f2f7d0a93870dcdd845567263d518855a10ab7ef32bb415",
+    "tests/test_service_faults.py": "71d702bb928f5b63f17ccfb7db544745152eaa1d004feba8e202d7ed241c3400",
+    "tests/test_sources_detector.py": "b038ca507db545273e72745e2048aafafecd89f82d4e4bb86b185a43a3a682f5",
+    "web/static/css/portal.css": "567771be0684105e2fcb3df251fb811adba39a3045481e82638c9adfc122902d",
+    "web/static/js/portal.js": "58670935ad5ede6a21d08c677b249bfd606c83b2a304765f19f43187938561ef",
+    "web/templates/portal.html": "f67fb4d017798bde30ca501a972890328c7aba9b82d8514e42e1dd0b923e30e3"
+  },
+  "tracked_input_images_and_video_unchanged_vs_HEAD": [
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/000.png",
+      "sha256": "d05dd00b41f78a7b3dc8930fb4b1de67522708de474d6b5f23c697ae82929f34"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/001.png",
+      "sha256": "4f64cdae673c8f67643b24f065263018b0124d5f44f14fb5aef69d8edde51090"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/002.png",
+      "sha256": "e58f5e995dadac2bf36627b8937d3f55679d0255a512c08f4930b69d5f5117c4"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/003.png",
+      "sha256": "0aa332404a46d084a592fe428aaff3d9a5f861188b596708f11475a6ae1174c9"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/004.png",
+      "sha256": "217246fe5019754096a852cacac4d85c718318cddc718495a08b4299ace15d02"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/005.png",
+      "sha256": "c1e3f765f0cb2294d22fef715c1b723e3e81b9ad1da8c34ab2eb0cfa7d7cb192"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/006.png",
+      "sha256": "e9e931d05ec9abfa790753e3a811bacf917cb315ea3564e5a1b1bca4fbae368e"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/007.png",
+      "sha256": "0fbd00496400a111a997e08298a2949c363c4645ab615e2d14358463caec4709"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/008.png",
+      "sha256": "634f322753945406d5f060d946ab7033ccbcd91db63e5c9877af2779f089b9af"
+    },
+    {
+      "path": "Proyecto6/data/demo/baja-confianza/009.png",
+      "sha256": "1da048eb4e7b29261442bc6ea9b43a47d016a76ee7aae5b257ed5969cd8d7ae5"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/000.png",
+      "sha256": "4d3266810b258c178340ecbbd30e2ffe50e1ff5d1410a4e553d48c635547949c"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/001.png",
+      "sha256": "d47e3f3a40a7c2edb9f289c464faf797ef73f51ec9f31170451a0a55c054cf47"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/002.png",
+      "sha256": "51c5bb66b9fd846fb783186105d0fec52186dea5da0cf41a4e40642c2446f60e"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/003.png",
+      "sha256": "77060f07835b8f53b8130d6304a873eb72a97067197361a87c2a1ef52c4a9af7"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/004.png",
+      "sha256": "a3de36c0e2de85244cf0b03be49283b252114b7c856130da045a51696c7e7879"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/005.png",
+      "sha256": "77118dbe9ab4baa97c4ed75fd9f2a42ac8d9ce86307702ad550d8a75a73b267c"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/006.png",
+      "sha256": "094b129e7540fbd958d2ca18c1ee09dfa5327373d29d77ba4328cb644401eab4"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/007.png",
+      "sha256": "985e83132cfdaac9a972513a35ffbf9c5616dcda7782dacc85b596fc82bc8a47"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/008.png",
+      "sha256": "36ee3e55866f3018808d79f0c4a6ac4ebe26fa7137de7034f59e641766fb5f5d"
+    },
+    {
+      "path": "Proyecto6/data/demo/normal/009.png",
+      "sha256": "4d3266810b258c178340ecbbd30e2ffe50e1ff5d1410a4e553d48c635547949c"
+    },
+    {
+      "path": "Proyecto6/data/demo/source.jpg",
+      "sha256": "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/1fd0ea22fe6fcfb6.jpg",
+      "sha256": "e259c6c8aec450dd8efd7bfe859274c4dc8b7ead34d62ad908f1c7e3c3192618"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/488d4412c71bf3f1.jpg",
+      "sha256": "aa89797fc16b5f2b3bca981e1b1c8a355e7fd73ab1ec48d42c45b0b463b2e4e2"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/48dc28e785a9479b.jpg",
+      "sha256": "bf349ee86a294db030953609bf5c7407129b74c8d18a3e409274f6259e4ac500"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/5f07a2aed668c901.jpg",
+      "sha256": "87b0c1d2387da0e924d391451f2670fc95c6087a1966b39979034c8825d9350e"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/87f4252180bcecc5.jpg",
+      "sha256": "d6f5d64e8f7c701bff3933c8740a4493b672e5514987a96972ae5a37bf5b88a6"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/97b34e4a6b934a2b.jpg",
+      "sha256": "d760a0c2c1a026abed84c6cb16e9e53476c0627be9e0cbe580d4aa2798b071c2"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/bbb60c5612dec65e.jpg",
+      "sha256": "c82ea9d2df6c46ba185c4436761d1662e098826ecbda70cca01b44565a6f9994"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/bdf391a6f4b1840a.jpg",
+      "sha256": "29f217984e75806200272d827c8e09c462740b088e937e8184ecd7dd9c9bdf45"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/d5e5d445aa2d0cb5.jpg",
+      "sha256": "2f8589d5bdfadac0381faab83e3e1541796061cead6989d5198f34900065b72f"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/animales/f3cfa3ad09945dea.jpg",
+      "sha256": "cd0fda61b05d18b24ff0a21f0da170ba584b8bf75c464f252ad719cad9f7f233"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/00e5682d509f4b26.jpg",
+      "sha256": "d3cb048e1186ceff4901b19f86a81a99a7b38021ae71f7495fc02498cb27286b"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/0438dea0e3cd161a.jpg",
+      "sha256": "abd79c390d11842116b50683fa3b562c8b45a67b35bd7b41f032a8356144636d"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/0727983dd5f9e4e6.jpg",
+      "sha256": "7642aa3d981ca7cd97b198cfb58ae4677432171b6a0ce1605c2e8061b8e4d757"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/0cce331e7f66f6ea.jpg",
+      "sha256": "a6526160dbd0e59668faf19807b964f2f1546e098fee70a6031e33e1bad6db40"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/4fecd2bd6904a731.jpg",
+      "sha256": "1c308f1c3093224718e52577abe376a872fc5b4df309792adf126b1592060390"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/c3d40b7732cc566b.jpg",
+      "sha256": "e39272650f3547b90af31c547293da67f6aacb0eb8c88c7ac42b429f282b1586"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/cf0ce8fb5da5c0f4.jpg",
+      "sha256": "ba70e751d1732ad4e23d6a98d45c59da2481e8b6e0f84bf8e59333f85b19f7f5"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/dbee805a3f0a0b7c.jpg",
+      "sha256": "990b53457e4b9e389511c42c86b21ff6f53c295ee31dbdd44baaf112983a2ad4"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/ee919c85410376f1.jpg",
+      "sha256": "2bd8ae92c795ea539461108a036657583cd3f8f28da939e84485c226977004dc"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/baja_confianza/f91c08e69ab7d786.jpg",
+      "sha256": "652db55ef8681ee6ed09ba13c8f004591e369d4e63e3159a7a0eb79cd3f2d797"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/049b2fae5ca8aa8b.jpg",
+      "sha256": "84e893a43360b5b49f0934d48fa372b81264aee3050476f01e992fe368bca7d0"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/1456ab6503fda3b7.jpg",
+      "sha256": "8f98beb7f0b608323bcb5e5aa9cd91384c560203579a1d9392a8305059ecad3d"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/272781f2753c00a1.jpg",
+      "sha256": "549f0cb8736cf17033e3ccaaea00758290e3a03c9fea12b6a91c9c3d8c35af43"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/30b2dd3d699128e6.jpg",
+      "sha256": "12eb83bcfa39cb505da236e09b7dcbc28bdac27a30e9952dbdebefc38fb4a96b"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/3bcc6c1f70986de8.jpg",
+      "sha256": "3f0a64c3de752201f886d2ddf51b3e0bb18d8454211e486271373ab4fc88b1b4"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/4925ad38f1167993.jpg",
+      "sha256": "e83d7dd535083473bb4e4b057e54b92f76f065cefd7438bddd8e48412651eea7"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/4f76d507fd32eace.jpg",
+      "sha256": "3704906a590343244ce513714134e173a84fe9ecfa68958e8de6955cd1067918"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/80b0465320aad7b5.jpg",
+      "sha256": "2639df2810b0e0bde1ceba0488dd0733c0c3f2ded4fbba0c5a394a50fc8cdb1c"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/a0017de072ca374e.jpg",
+      "sha256": "b7fe5c0d32960944954fcf44d78c16b9f341e5f3725e89b239931326bb35bfb4"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/bicicletas/b7b8279ee5925bbc.jpg",
+      "sha256": "bb55bcf8451e78776ffea40d87552c0fa45d48754892f24dfa7c8ac0c89768b1"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/0d2511cb18af9beb.jpg",
+      "sha256": "77a84f82b87aeb1380dc8e75497f6463e0acd1e1af68621baac7e0ea95a9dfb0"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/3e01ca21fb4fd86e.jpg",
+      "sha256": "4784af69ef4aaaf42ac969a15c7a64388919431a427f68487b67fde1ab533785"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/53c93a2c1825ae4b.jpg",
+      "sha256": "7c89e61430d2929be2fbc94c2cd68b2bad713cb8b2e54aaddecaad961abb7474"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/6326a56a4639ab40.jpg",
+      "sha256": "a1de96308f5d2b8ee890310e50fc7273750a3b28c26cb363626c1e9c2c3a4e06"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/890fb7cf89a435ba.jpg",
+      "sha256": "6add2d50b2a799e8b83a2253cc5eafee50d724a3234fac98c8b6dccf8b64937c"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/9d67e0779ade6975.jpg",
+      "sha256": "7c0584ca1f215d90d313aab8753400987d0ae73bc1a3184d61144011f17abd78"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/a2c00378a4c34811.jpg",
+      "sha256": "425c6bc398b0c01e8a5fa9336db8fe0bccb029fe7857b4dc62d0a1b4c754e1b5"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/aa89c2f098416d87.jpg",
+      "sha256": "22d65e1cd254fb534f801d8a521c62c09ecfa77fe6fb36ec9cd531bd4c6ed9d1"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/adad22cf678d94c1.jpg",
+      "sha256": "fc671f0b5f73294a4d9f66264d0e8c41ab96b537a24f8d42cc7430c9bf5f096b"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_despejadas/b7f09ff2d8d5de62.jpg",
+      "sha256": "ef4f8003126c121491f5aea56a736afbff882cff04511ae4401962aa4a8c9790"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/10e35627dac58772.jpg",
+      "sha256": "22befb5c691665a68558177cac01b87b0aac81d8bd4ed7d018c083893ec37cd3"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/147bc1b2a07abe88.jpg",
+      "sha256": "91e4c09d2ca5482cb9dd381755ecc0232811235ee6e24dc3de76b8b8f90b76c4"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/1bea4a97a9cfe442.jpg",
+      "sha256": "4b591b887580aaa9df1a43247ca9938395e8bf3db55fe58c32ba2dc12c2e8859"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/26557008b4fcf408.jpg",
+      "sha256": "803c246822dbf27f51204f0f9fcf80a4a20ab9447d592a4d459e8894ae0f2974"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/33425d3e9058ce29.jpg",
+      "sha256": "53d0b5e2330a1cb408ec987d61225086b9250c727554cfed7e2f5c4292ba6036"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/8987951815d36f77.jpg",
+      "sha256": "fe6d50eb104e533322591eb81412f61eaaf1bf0e61c0899ff13b4fce01ec5ec3"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/be67e17ec45f009e.jpg",
+      "sha256": "059aa95a634a0ab9489e21af667cb096f8561ebf56e3746c64e72953bb123107"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/c94d9db0b0191c20.jpg",
+      "sha256": "83e9f7d7d1dfe0ae69165e91ee7ba0a0c94453f8e7a417b909928b850df70867"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/e4b0c13b5e349670.jpg",
+      "sha256": "45fb6999da16cca2232d4887ac70eab7c87eabbcd03edb7b60155563c57ac344"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/escenas_multiples/ec2afeae6f6fcbf9.jpg",
+      "sha256": "aad43ccf4d7ea5af5cee80bfb18968145500a738f39c5aaefcdabe99f06f14d4"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/179f6966eec24e2a.jpg",
+      "sha256": "aa87b78851d08510cde5d4eac74755e938cc3e6113424c33f284abb9ca9674c5"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/208fcde7b90bcbf8.jpg",
+      "sha256": "da185591cfee3304609158176b2a614ae476fe31fbd5d7308867ab810dfa72a2"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/2110e5d8ca7e5a99.jpg",
+      "sha256": "e2e26291317aae9aa831909d924a4fbfbecf0106c546363808ff3bd56211125c"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/23c4936af39bedc9.jpg",
+      "sha256": "a00fbce79f3fee7a261a79fc2a657fc5de1b9752006db940f10b1d281f29f23a"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/34aebaebe39bfaf0.jpg",
+      "sha256": "b43cc96718b4edee827705d4bf11859cf044bd3e3e28540cd4233122bd3a3b1d"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/5ea13fbbd1a1474f.jpg",
+      "sha256": "315441acb69ea0944856677553b1cc8d21db7bf3fdd568bc3b284547d5bfa8c7"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/720bb6cc50390263.jpg",
+      "sha256": "22987221d94fa9a32d65b462ae146f6d80ab4eefdf62ca0094f9c8f3f2a70303"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/ee322603860d9c7a.jpg",
+      "sha256": "fd41eb48afa0280736ac670ecc1f7d9cbc46e97d6d3b4f56f1dc77974b00f3d1"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/fcd24d055c332d81.jpg",
+      "sha256": "d17d7155dbcc190b477aa9ff515826882762e9b4a718cfdb1e95b205fb121efe"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/objetos/fdd6b016045ea8bf.jpg",
+      "sha256": "d3f29623a732d146f06fb567a71edc767e13f0aea9715f9e4d29662fd4ea13fb"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/16f352b006a890cd.jpg",
+      "sha256": "1abbc48ba4c08811fa1361a52ec10a0a74a99c98db1e6531e4fe61caf979da7a"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/226e69267d97c413.jpg",
+      "sha256": "ee25659967e1c3a70de68d2534eb30e8d0ea1485d9a6eebb6c5fd1732af9ecf0"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/2ed9c820a178c0e8.jpg",
+      "sha256": "4a4a5c8c9001f90031dc4938cb0fece9064b734781a67af57107d59fa03b784d"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/6d8503ab68ba6fa3.jpg",
+      "sha256": "44e25e7de7842ffa3333a43f7005d9c08ba2fba174c74d84d2d69e692152391b"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/a561b6cbba31deae.jpg",
+      "sha256": "0e500d611e65f52867ffc07f3f2bc93640091068f18aa97178d7ad166d33c202"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/ac1d9f4001b2bb0e.jpg",
+      "sha256": "67b2d40d49457b70cf3ae9ae6486c61dc13372451374c4e383f9a542429c9472"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/c65555e49c2cd626.jpg",
+      "sha256": "c291af0afd8c384f3b82c82f25886f4201951370fba65d981791b26847bc574b"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/d50348e28655a286.jpg",
+      "sha256": "35a1b8aa42fc3f1e0b271ff6d0e18a503af2c1cee653f5f41ec36b642cf1a491"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/e8900b7ce86475c5.jpg",
+      "sha256": "6068d21be703d434556bf4d4bcf5a24d040ca660769b561e26c163839f0b9d75"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/personas/fb9a5a2b70231659.jpg",
+      "sha256": "80b40c7b781130322f4c228531833225e14235658caf665d7e98834dd425f20e"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/0552ac7ed0de822f.jpg",
+      "sha256": "ce3ca0a3cb7b96b01e8e8fe96dc3d9c7ee76a28da1313ecf27acbabc6d9a74c9"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/22bb6b4ef6c256fe.jpg",
+      "sha256": "7a3646e1a72ea6e461bb519526ec94a5078a7ee1328b2f720c76c89231bc41b4"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/28c0d7634bf53ab5.jpg",
+      "sha256": "054c87e681882ab86478f7be5dd8348a06c99a026d6268cb09456deab2236ae2"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/3ec724375056fed7.jpg",
+      "sha256": "80fc89c9efc7769336cc4aaade0b0c382261e6c1a6f06997eec5713981844530"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/4b345ec8bcf17706.jpg",
+      "sha256": "6ae67a40ab98e8f3690447d340fc8a719791b0ca8802194e0f8f26f4b4299f65"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/747a3785bf1d3b97.jpg",
+      "sha256": "6b0059e40dced452b48ea1562c30832deb3a3e8c7b845610cd2f93088c3787ce"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/759bc93ae6cbd7a4.jpg",
+      "sha256": "1c4772388e3cf2ea0bcf8755537039e0a5b7dd1afc66b6037ee4c7c1522b3222"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/a1011a724439eeb7.jpg",
+      "sha256": "04ca4b23030ff4a6f1f1801ba741a43eca9595ce9eab8cc21f9be6f154c9ce58"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/e5e277ddc85c291a.jpg",
+      "sha256": "ccf73cfad1825ba70a9e5d357532d3f95c9d31a8d95d038938a7b87092d5e138"
+    },
+    {
+      "path": "Proyecto6/data/media/datasets/vehiculos/ef295afcf17ed57f.jpg",
+      "sha256": "05cb9d2ad263b0fd91ebf6839fd3920df2a0999ed5ac1385a94dc643c0b9e4ba"
+    },
+    {
+      "path": "Proyecto6/data/media/demo.mp4",
+      "sha256": "501dbd22650fe4920dfb0f3655ec3c6dc6b78f320a7258c3872001ebdedc0583"
+    }
+  ],
+  "original_dataset_80_sha_verified": true
+}

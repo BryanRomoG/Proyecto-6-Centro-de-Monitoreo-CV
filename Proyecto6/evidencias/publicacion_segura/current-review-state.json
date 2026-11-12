@@ -1,0 +1,49 @@
+{
+  "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+  "history_count": 3,
+  "decisions": [
+    {
+      "detection_id": "det-fd97dffcf5378fd37b5ba286",
+      "original": {
+        "bbox": [
+          0.0,
+          0.0,
+          806.36,
+          680.84
+        ],
+        "class_id": 16,
+        "class_name": "dog",
+        "confidence": 0.6565653975020709,
+        "zone": "doubt"
+      },
+      "status": "confirmed"
+    },
+    {
+      "detection_id": "det-1093ac595592d31e841a3656",
+      "original": {
+        "bbox": [
+          23.56,
+          13.97,
+          817.71,
+          683.73
+        ],
+        "class_id": 15,
+        "class_name": "cat",
+        "confidence": 0.17536601693758413,
+        "zone": "low"
+      },
+      "status": "false_positive"
+    }
+  ],
+  "review_ids": [
+    "review-87171c3b988543bdb95d6c32ac1dda06",
+    "review-1ab6802cd62d4153999f17963e37e4bb",
+    "review-67b151e7d6f944dfbb93d9b1177f6b66"
+  ],
+  "validated_classes": [
+    "dog"
+  ],
+  "image_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+  "scores_unchanged": true,
+  "timestamp_scope": "Lectura actual después de Edge; historial anterior completo se conserva en SQLite; no borra la tercera revisión."
+}

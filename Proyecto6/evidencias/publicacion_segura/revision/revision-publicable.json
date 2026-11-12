@@ -1,0 +1,409 @@
+{
+  "projection_only": true,
+  "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+  "run_id": "run-2716c09f7fe7419994bf45a5c91a19e7",
+  "timestamp": "2026-11-11T01:00:46.091879+00:00",
+  "source_id": "source-1228eedc85084823abf2aa00585ab359",
+  "model": {
+    "classes": [
+      "person",
+      "bicycle",
+      "car",
+      "motorcycle",
+      "airplane",
+      "bus",
+      "train",
+      "truck",
+      "boat",
+      "traffic light",
+      "fire hydrant",
+      "stop sign",
+      "parking meter",
+      "bench",
+      "bird",
+      "cat",
+      "dog",
+      "horse",
+      "sheep",
+      "cow",
+      "elephant",
+      "bear",
+      "zebra",
+      "giraffe",
+      "backpack",
+      "umbrella",
+      "handbag",
+      "tie",
+      "suitcase",
+      "frisbee",
+      "skis",
+      "snowboard",
+      "sports ball",
+      "kite",
+      "baseball bat",
+      "baseball glove",
+      "skateboard",
+      "surfboard",
+      "tennis racket",
+      "bottle",
+      "wine glass",
+      "cup",
+      "fork",
+      "knife",
+      "spoon",
+      "bowl",
+      "banana",
+      "apple",
+      "sandwich",
+      "orange",
+      "broccoli",
+      "carrot",
+      "hot dog",
+      "pizza",
+      "donut",
+      "cake",
+      "chair",
+      "couch",
+      "potted plant",
+      "bed",
+      "dining table",
+      "toilet",
+      "tv",
+      "laptop",
+      "mouse",
+      "remote",
+      "keyboard",
+      "cell phone",
+      "microwave",
+      "oven",
+      "toaster",
+      "sink",
+      "refrigerator",
+      "book",
+      "clock",
+      "vase",
+      "scissors",
+      "teddy bear",
+      "hair drier",
+      "toothbrush"
+    ],
+    "descriptor_sha256": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+    "name": "yolox_nano",
+    "preprocessing": "Pillow bilinear letterbox top-left 416 padding114 BGR NCHW float32 0-255",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "runtime": "onnxruntime==1.22.0",
+    "sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+    "version": "0.1.1rc0"
+  },
+  "original_detections": [
+    {
+      "bbox": [
+        0.0,
+        0.0,
+        806.36,
+        680.84
+      ],
+      "class_id": 16,
+      "class_name": "dog",
+      "confidence": 0.6565653975020709,
+      "zone": "doubt"
+    },
+    {
+      "bbox": [
+        23.56,
+        13.97,
+        817.71,
+        683.73
+      ],
+      "class_id": 15,
+      "class_name": "cat",
+      "confidence": 0.17536601693758413,
+      "zone": "low"
+    }
+  ],
+  "original_config_sha256": "7ee4a5d956ccd8ab6d99eb22dfd23cf4fcbcd46bb99ea584ab064fac9125c9d3",
+  "original_event_canonical_sha256": "cff2aa43da5e8327ac1e1f6bde81b951ff2a7854281a85ecad706152735129db",
+  "configuration_policy": {
+    "detector": {
+      "descriptor": "modelo/descriptor.yaml",
+      "input_size": 416,
+      "max_detections": 100,
+      "model": "modelo/yolox_nano.onnx",
+      "nms_iou": 0.45,
+      "padding": 114,
+      "score_floor": 0.1
+    },
+    "confidence": {
+      "increase": 0.2,
+      "lower": 0.6,
+      "min_detections": 5,
+      "reference_windows": 2,
+      "sustained_windows": 2,
+      "upper": 0.8,
+      "window_frames": 5
+    },
+    "alerts": {
+      "low_min_detections": 1
+    },
+    "metrics": {
+      "window_seconds": 60.0
+    }
+  },
+  "local_path_configuration_omitted": true,
+  "capture": "evt-37c2579bd3af445fb8a683807642e8ee.png",
+  "capture_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+  "reviews": {
+    "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+    "detections": [
+      {
+        "id": "det-fd97dffcf5378fd37b5ba286",
+        "index": 0,
+        "original": {
+          "bbox": [
+            0.0,
+            0.0,
+            806.36,
+            680.84
+          ],
+          "class_id": 16,
+          "class_name": "dog",
+          "confidence": 0.6565653975020709,
+          "zone": "doubt"
+        },
+        "review": {
+          "actor": "revisor-local",
+          "corrected_label": null,
+          "detection_id": "det-fd97dffcf5378fd37b5ba286",
+          "detection_index": 0,
+          "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+          "id": "review-87171c3b988543bdb95d6c32ac1dda06",
+          "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+          "original_label": "dog",
+          "previous_review_id": null,
+          "reason": "Observación visual de la captura: corresponde a un perro.",
+          "request_id": "6fa78665-d202-4153-966c-a8a7d636cccb",
+          "status": "confirmed",
+          "timestamp": "2026-11-12T00:54:11.066370+00:00",
+          "version": 1
+        },
+        "status": "confirmed",
+        "version": 1,
+        "history": [
+          {
+            "actor": "revisor-local",
+            "corrected_label": null,
+            "detection_id": "det-fd97dffcf5378fd37b5ba286",
+            "detection_index": 0,
+            "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+            "id": "review-87171c3b988543bdb95d6c32ac1dda06",
+            "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+            "original_label": "dog",
+            "previous_review_id": null,
+            "reason": "Observación visual de la captura: corresponde a un perro.",
+            "request_id": "6fa78665-d202-4153-966c-a8a7d636cccb",
+            "status": "confirmed",
+            "timestamp": "2026-11-12T00:54:11.066370+00:00",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "id": "det-1093ac595592d31e841a3656",
+        "index": 1,
+        "original": {
+          "bbox": [
+            23.56,
+            13.97,
+            817.71,
+            683.73
+          ],
+          "class_id": 15,
+          "class_name": "cat",
+          "confidence": 0.17536601693758413,
+          "zone": "low"
+        },
+        "review": {
+          "actor": "revisor-local",
+          "corrected_label": null,
+          "detection_id": "det-1093ac595592d31e841a3656",
+          "detection_index": 1,
+          "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+          "id": "review-1ab6802cd62d4153999f17963e37e4bb",
+          "original_detection_sha256": "a0c9946fae92093c9c5a15dc2a077e3cf137d6fa6e6d3b91626ec359b53f2d20",
+          "original_label": "cat",
+          "previous_review_id": null,
+          "reason": "La caja cat se superpone al mismo perro; no se observa un gato en esta captura.",
+          "request_id": "980665a0-b6b9-47bc-adbf-ad480dccd5ae",
+          "status": "false_positive",
+          "timestamp": "2026-11-12T00:54:12.387302+00:00",
+          "version": 1
+        },
+        "status": "false_positive",
+        "version": 1,
+        "history": [
+          {
+            "actor": "revisor-local",
+            "corrected_label": null,
+            "detection_id": "det-1093ac595592d31e841a3656",
+            "detection_index": 1,
+            "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+            "id": "review-1ab6802cd62d4153999f17963e37e4bb",
+            "original_detection_sha256": "a0c9946fae92093c9c5a15dc2a077e3cf137d6fa6e6d3b91626ec359b53f2d20",
+            "original_label": "cat",
+            "previous_review_id": null,
+            "reason": "La caja cat se superpone al mismo perro; no se observa un gato en esta captura.",
+            "request_id": "980665a0-b6b9-47bc-adbf-ad480dccd5ae",
+            "status": "false_positive",
+            "timestamp": "2026-11-12T00:54:12.387302+00:00",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "history": [
+      {
+        "actor": "revisor-local",
+        "corrected_label": null,
+        "detection_id": "det-fd97dffcf5378fd37b5ba286",
+        "detection_index": 0,
+        "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+        "id": "review-87171c3b988543bdb95d6c32ac1dda06",
+        "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+        "original_label": "dog",
+        "previous_review_id": null,
+        "reason": "Observación visual de la captura: corresponde a un perro.",
+        "request_id": "6fa78665-d202-4153-966c-a8a7d636cccb",
+        "status": "confirmed",
+        "timestamp": "2026-11-12T00:54:11.066370+00:00",
+        "version": 1
+      },
+      {
+        "actor": "revisor-local",
+        "corrected_label": null,
+        "detection_id": "det-1093ac595592d31e841a3656",
+        "detection_index": 1,
+        "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+        "id": "review-1ab6802cd62d4153999f17963e37e4bb",
+        "original_detection_sha256": "a0c9946fae92093c9c5a15dc2a077e3cf137d6fa6e6d3b91626ec359b53f2d20",
+        "original_label": "cat",
+        "previous_review_id": null,
+        "reason": "La caja cat se superpone al mismo perro; no se observa un gato en esta captura.",
+        "request_id": "980665a0-b6b9-47bc-adbf-ad480dccd5ae",
+        "status": "false_positive",
+        "timestamp": "2026-11-12T00:54:12.387302+00:00",
+        "version": 1
+      }
+    ],
+    "validated": [
+      {
+        "id": "det-fd97dffcf5378fd37b5ba286",
+        "index": 0,
+        "original": {
+          "bbox": [
+            0.0,
+            0.0,
+            806.36,
+            680.84
+          ],
+          "class_id": 16,
+          "class_name": "dog",
+          "confidence": 0.6565653975020709,
+          "zone": "doubt"
+        },
+        "review": {
+          "actor": "revisor-local",
+          "corrected_label": null,
+          "detection_id": "det-fd97dffcf5378fd37b5ba286",
+          "detection_index": 0,
+          "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+          "id": "review-87171c3b988543bdb95d6c32ac1dda06",
+          "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+          "original_label": "dog",
+          "previous_review_id": null,
+          "reason": "Observación visual de la captura: corresponde a un perro.",
+          "request_id": "6fa78665-d202-4153-966c-a8a7d636cccb",
+          "status": "confirmed",
+          "timestamp": "2026-11-12T00:54:11.066370+00:00",
+          "version": 1
+        },
+        "status": "confirmed",
+        "version": 1,
+        "history": [
+          {
+            "actor": "revisor-local",
+            "corrected_label": null,
+            "detection_id": "det-fd97dffcf5378fd37b5ba286",
+            "detection_index": 0,
+            "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+            "id": "review-87171c3b988543bdb95d6c32ac1dda06",
+            "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+            "original_label": "dog",
+            "previous_review_id": null,
+            "reason": "Observación visual de la captura: corresponde a un perro.",
+            "request_id": "6fa78665-d202-4153-966c-a8a7d636cccb",
+            "status": "confirmed",
+            "timestamp": "2026-11-12T00:54:11.066370+00:00",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "overlaps": [
+      {
+        "detection_ids": [
+          "det-fd97dffcf5378fd37b5ba286",
+          "det-1093ac595592d31e841a3656"
+        ],
+        "iou": 0.934080154222185,
+        "message": "Cajas superpuestas: revisar; pueden ser objetos distintos."
+      }
+    ],
+    "overlap_threshold": 0.5,
+    "notice": "Revisión humana; conserva puntuaciones, zonas y métricas originales. No mide accuracy."
+  },
+  "alert_history": [
+    {
+      "id": "alert-75e89e2ac05841dda4ebc8dc04347dea",
+      "rule_id": "low-confidence-v1",
+      "reason": "1 detecciones con s < 0.6; mínimo por frame: 1",
+      "status": "resolved",
+      "history": [
+        {
+          "action": "acknowledge",
+          "actor": "revisor-local",
+          "alert_id": "alert-75e89e2ac05841dda4ebc8dc04347dea",
+          "comment": "Revisión humana: cat se rechaza y dog se confirma. La baja confianza automática fue real; se cierra la gestión de esta alerta.",
+          "from_state": "active",
+          "id": "change-15a46f3b64834f349ce2e015725511c2",
+          "reason_code": "false_positive",
+          "request_id": "6723245f-797a-4028-ad38-d22b73c24042",
+          "review_ids": [
+            "review-1ab6802cd62d4153999f17963e37e4bb"
+          ],
+          "timestamp": "2026-11-12T00:54:12.980200+00:00",
+          "to_state": "acknowledged",
+          "version": 1
+        },
+        {
+          "action": "resolve",
+          "actor": "revisor-local",
+          "alert_id": "alert-75e89e2ac05841dda4ebc8dc04347dea",
+          "comment": "Revisión humana: cat se rechaza y dog se confirma. La baja confianza automática fue real; se cierra la gestión de esta alerta.",
+          "from_state": "acknowledged",
+          "id": "change-84a96a792fff47f081bf3e32a773f7a4",
+          "reason_code": "false_positive",
+          "request_id": "e7a749a2-4d6d-4013-b2b4-85e6e92b1de1",
+          "review_ids": [
+            "review-1ab6802cd62d4153999f17963e37e4bb"
+          ],
+          "timestamp": "2026-11-12T00:54:13.197304+00:00",
+          "to_state": "resolved",
+          "version": 2
+        }
+      ]
+    }
+  ],
+  "notice": "Proyección publicable que omite rutas personales; no reemplaza el original, no es el JSON original completo ni una nueva inferencia."
+}

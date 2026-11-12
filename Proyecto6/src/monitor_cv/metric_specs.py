@@ -23,7 +23,11 @@ ROWS = [
  ("M20","Distancia KS de scores frente a referencia","max_s |CDF_referencia(s)-CDF_ventana(s)|","D en [0,1]","scores finales, event_ids y ventanas persistidas de la misma configuración/modelo","null con referencia/ventana insuficiente; referencia no se puntúa como muestra nueva; sin p-value ni conclusión de drift"),
 ]
 
-CATALOG = {identity:{"id":identity,"name":name,"definition":name,"formula":formula,"unit":unit,
+GROUPS={'M01':'G1','M02':'G1','M03':'G2','M04':'G2','M05':'G2','M06':'G3','M07':'G3',
+        'M08':'G4','M09':'G4','M10':'G4','M11':'G4','M12':'G4','M13':'G5','M14':'G5',
+        'M15':'G6','M16':'G7','M17':'G7','M18':'G7','M19':'G7','M20':'G4'}
+
+CATALOG = {identity:{"id":identity,"group":GROUPS[identity],"name":name,"definition":name,"formula":formula,"unit":unit,
            "primary_observations":primary,"missing":missing,
            "population_window":"Eventos/alertas filtrados, hasta cutoff; ejecuciones identificadas por run_id/config_sha256",
            "instrumentation":"Productor y SQLite; ver eventos, alertas e historial por sus IDs",

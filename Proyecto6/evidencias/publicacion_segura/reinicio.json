@@ -1,0 +1,51 @@
+{
+  "before": {
+    "historical": {
+      "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+      "reviews": 3,
+      "validated": [
+        "dog"
+      ],
+      "view_sha256": "29b8bc7d6ecdd10d7ff707a8798edf3c8280635bf0c1231d1e2524d8551dec89",
+      "event_sha256": "92abd033eec45f2dde47fba0892332d1e5b551b164c16b8f2bc445bf0f111482",
+      "capture_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+      "group_confirmed_in_portal": true
+    },
+    "independent": {
+      "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+      "reviews": 2,
+      "validated": [
+        "dog"
+      ],
+      "view_sha256": "0dd3ec0b2dcc496d525c7df54ee5860f246c14d9b389896b5785b3c39de50dca",
+      "event_sha256": "ada352b58c872cc79655badfd28326982b2db30fc1d6c54b089fee5d4687da34",
+      "capture_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+      "group_confirmed_in_portal": true
+    }
+  },
+  "after": {
+    "historical": {
+      "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+      "reviews": 3,
+      "validated": [
+        "dog"
+      ],
+      "view_sha256": "29b8bc7d6ecdd10d7ff707a8798edf3c8280635bf0c1231d1e2524d8551dec89",
+      "event_sha256": "92abd033eec45f2dde47fba0892332d1e5b551b164c16b8f2bc445bf0f111482",
+      "capture_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+      "group_confirmed_in_portal": true
+    },
+    "independent": {
+      "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+      "reviews": 2,
+      "validated": [
+        "dog"
+      ],
+      "view_sha256": "0dd3ec0b2dcc496d525c7df54ee5860f246c14d9b389896b5785b3c39de50dca",
+      "event_sha256": "ada352b58c872cc79655badfd28326982b2db30fc1d6c54b089fee5d4687da34",
+      "capture_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+      "group_confirmed_in_portal": true
+    }
+  },
+  "identical_after_actual_restart": true
+}

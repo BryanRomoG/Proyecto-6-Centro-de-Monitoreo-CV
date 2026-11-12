@@ -911,74 +911,6 @@
       "downloaded_at": "2026-11-11T00:46:01.405949+00:00"
     },
     {
-      "image_id": "26557008b4fcf408",
-      "original_name": "14709685750_b2307657b5_o.jpg",
-      "dataset": "Open Images V7 / validation (CVDF pixels V4/V5)",
-      "original_url": "https://c1.staticflickr.com/6/5570/14709685750_b2307657b5_o.jpg",
-      "landing_url": "https://www.flickr.com/photos/linvoyage/14709685750",
-      "download_url": "https://open-images-dataset.s3.amazonaws.com/validation/26557008b4fcf408.jpg",
-      "author": "Phuket@photographer.net",
-      "author_url": "https://www.flickr.com/people/linvoyage/",
-      "title": "Long legged beach volleyball girl     THX_8891s-new",
-      "license_url": "https://creativecommons.org/licenses/by/2.0/",
-      "license_name": "CC BY 2.0",
-      "license_evidence": "https://storage.googleapis.com/openimages/2018_04/validation/validation-images-with-rotation.csv",
-      "redistribution": "allowed_with_attribution; unmodified CVDF file (official resize <=1024px)",
-      "upstream_original_md5": "yN/S/TsYei5IKZIEXM1eKg==",
-      "original_size_reported": "953531",
-      "category": "escenas_multiples",
-      "category_label": "Varias clases anotadas",
-      "dataset_labels": [
-        "Clothing",
-        "Girl",
-        "Human face",
-        "Human hair",
-        "Human head",
-        "Human leg",
-        "Human mouth",
-        "Human nose",
-        "Mammal",
-        "Man",
-        "Person",
-        "Shorts",
-        "Swimwear",
-        "Volleyball (Ball)",
-        "Woman"
-      ],
-      "annotation_summary": {
-        "box_classes": [
-          "Clothing",
-          "Girl",
-          "Human face",
-          "Human hair",
-          "Human head",
-          "Human leg",
-          "Human mouth",
-          "Human nose",
-          "Mammal",
-          "Man",
-          "Person",
-          "Shorts",
-          "Swimwear",
-          "Volleyball (Ball)",
-          "Woman"
-        ],
-        "boxes": 42,
-        "occluded_boxes": 26
-      },
-      "rotation_metadata": "0.0",
-      "category_is_prediction": false,
-      "width": 721,
-      "height": 1024,
-      "bytes": 946544,
-      "sha256": "803c246822dbf27f51204f0f9fcf80a4a20ab9447d592a4d459e8894ae0f2974",
-      "phash": "02ce8e9cdaec6436",
-      "mean_luminance_0_255": 157.16221366808253,
-      "format": "JPEG",
-      "path": "data/media/datasets/escenas_multiples/26557008b4fcf408.jpg",
-      "downloaded_at": "2026-11-11T00:46:01.926059+00:00"
-    },
-    {
       "image_id": "1bea4a97a9cfe442",
       "original_name": "850054138_60bf9c9373_o.jpg",
       "dataset": "Open Images V7 / validation (CVDF pixels V4/V5)",
@@ -3859,5 +3791,6 @@
       "path": "data/media/datasets/personas/fb9a5a2b70231659.jpg",
       "downloaded_at": "2026-11-11T00:46:14.471882+00:00"
     }
-  ]
+  ],
+  "publication_note": "79 fotos seleccionadas; se omite una foto cuyo crédito incorpora un contacto. Original íntegro conservado localmente. No se inventa otra atribución."
 }

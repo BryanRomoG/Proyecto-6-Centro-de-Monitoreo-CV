@@ -1,0 +1,45 @@
+{
+  "alert_id": "alert-75e89e2ac05841dda4ebc8dc04347dea",
+  "event_id": "evt-37c2579bd3af445fb8a683807642e8ee",
+  "created_at": "2026-11-11T01:00:46.091879+00:00",
+  "history": [
+    {
+      "action": "acknowledge",
+      "actor": "revisor-local",
+      "alert_id": "alert-75e89e2ac05841dda4ebc8dc04347dea",
+      "comment": "Revisión humana: cat se rechaza y dog se confirma. La baja confianza automática fue real; se cierra la gestión de esta alerta.",
+      "from_state": "active",
+      "id": "change-15a46f3b64834f349ce2e015725511c2",
+      "reason_code": "false_positive",
+      "request_id": "6723245f-797a-4028-ad38-d22b73c24042",
+      "review_ids": [
+        "review-1ab6802cd62d4153999f17963e37e4bb"
+      ],
+      "timestamp": "2026-11-12T00:54:12.980200+00:00",
+      "to_state": "acknowledged",
+      "version": 1
+    },
+    {
+      "action": "resolve",
+      "actor": "revisor-local",
+      "alert_id": "alert-75e89e2ac05841dda4ebc8dc04347dea",
+      "comment": "Revisión humana: cat se rechaza y dog se confirma. La baja confianza automática fue real; se cierra la gestión de esta alerta.",
+      "from_state": "acknowledged",
+      "id": "change-84a96a792fff47f081bf3e32a773f7a4",
+      "reason_code": "false_positive",
+      "request_id": "e7a749a2-4d6d-4013-b2b4-85e6e92b1de1",
+      "review_ids": [
+        "review-1ab6802cd62d4153999f17963e37e4bb"
+      ],
+      "timestamp": "2026-11-12T00:54:13.197304+00:00",
+      "to_state": "resolved",
+      "version": 2
+    }
+  ],
+  "M17": 86006.888321,
+  "M18": 86007.105425,
+  "unit": "seconds from automatic alert creation",
+  "scope": "Gestión humana de alerta; no recuperación del servicio ni nueva inferencia.",
+  "source_sha256": "8b5037feca24c8a36d0eb6cdbc7f87f9bc8750feccf77c4de68b0dbe4b36eb42",
+  "original_alert_payload_sha256": "97a6f34139612c1c7b75e9cb10a001b395ea8219f715e87117cc1b575bd26ec9"
+}

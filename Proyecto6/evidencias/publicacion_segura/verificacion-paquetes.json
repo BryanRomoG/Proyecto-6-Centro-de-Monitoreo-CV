@@ -1,0 +1,1801 @@
+{
+  "C1": {
+    "base": {
+      "run_id": "run-bfa9566f585c4c3f9e3d778b9f8c16b7",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 18.961919999856036,
+        "G2": 4.975180565471629,
+        "G3": 132.146875,
+        "G4": 0.0,
+        "G7": 0,
+        "G6": 0.3373749256134033,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 18.961919999856036,
+        "G2": 4.975180565471629,
+        "G3": 132.146875,
+        "G4": 0.0,
+        "G5": 1.0,
+        "G6": 0.3373749256134033,
+        "G7": 0
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 17.445399998905486,
+          "p95": 27.582340000571996
+        },
+        "M02": 0.0,
+        "M03": 0,
+        "M04": 4.975180565471629,
+        "M05": 0,
+        "M06": 108.05470290633694,
+        "M07": 132.73828125,
+        "M08": {
+          "bird": 10
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 1.0,
+        "M12": 1.0,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "C1-imagenes / run-bfa9566f585c4c3f9e3d778b9f8c16b7": 10
+        },
+        "M16": 0.0,
+        "M17": null,
+        "M18": null,
+        "M19": 0,
+        "M20": [
+          {
+            "run_id": "run-bfa9566f585c4c3f9e3d778b9f8c16b7",
+            "window_id": "window-290cdcd2fef64ad2a23ce6c7487486b2",
+            "reference_window_ids": [
+              "window-290cdcd2fef64ad2a23ce6c7487486b2",
+              "window-57c43a2584bc4591b357566600c32298"
+            ],
+            "event_ids": [
+              "evt-7f31d678cfaa46f88e453a3ef781e64d",
+              "evt-ffca1df085954cb89474d35abaa9135d",
+              "evt-c19b915500c34a58bd1b41b6a7f11fa8",
+              "evt-6ccb3987bad044eab88e8ec21a37d859",
+              "evt-c52137f809de40edb388832ed13c485d"
+            ],
+            "reference_event_ids": [
+              "evt-7f31d678cfaa46f88e453a3ef781e64d",
+              "evt-ffca1df085954cb89474d35abaa9135d",
+              "evt-c19b915500c34a58bd1b41b6a7f11fa8",
+              "evt-6ccb3987bad044eab88e8ec21a37d859",
+              "evt-c52137f809de40edb388832ed13c485d",
+              "evt-420f989c951f44ce89f89e9a113956e6",
+              "evt-241ed928b9b344a29657647b7b310060",
+              "evt-1775b22e2fa9432f8b7fbd35bec9b83a",
+              "evt-e67934ca5c3e411a828feae5f9f6fd7c",
+              "evt-cdaafd6c7ce0404a89f0da763e7fbf62"
+            ],
+            "reference_count": 10,
+            "sample_count": 5,
+            "state": "reference",
+            "distance": null
+          },
+          {
+            "run_id": "run-bfa9566f585c4c3f9e3d778b9f8c16b7",
+            "window_id": "window-57c43a2584bc4591b357566600c32298",
+            "reference_window_ids": [
+              "window-290cdcd2fef64ad2a23ce6c7487486b2",
+              "window-57c43a2584bc4591b357566600c32298"
+            ],
+            "event_ids": [
+              "evt-420f989c951f44ce89f89e9a113956e6",
+              "evt-241ed928b9b344a29657647b7b310060",
+              "evt-1775b22e2fa9432f8b7fbd35bec9b83a",
+              "evt-e67934ca5c3e411a828feae5f9f6fd7c",
+              "evt-cdaafd6c7ce0404a89f0da763e7fbf62"
+            ],
+            "reference_event_ids": [
+              "evt-7f31d678cfaa46f88e453a3ef781e64d",
+              "evt-ffca1df085954cb89474d35abaa9135d",
+              "evt-c19b915500c34a58bd1b41b6a7f11fa8",
+              "evt-6ccb3987bad044eab88e8ec21a37d859",
+              "evt-c52137f809de40edb388832ed13c485d",
+              "evt-420f989c951f44ce89f89e9a113956e6",
+              "evt-241ed928b9b344a29657647b7b310060",
+              "evt-1775b22e2fa9432f8b7fbd35bec9b83a",
+              "evt-e67934ca5c3e411a828feae5f9f6fd7c",
+              "evt-cdaafd6c7ce0404a89f0da763e7fbf62"
+            ],
+            "reference_count": 10,
+            "sample_count": 5,
+            "state": "reference",
+            "distance": null
+          }
+        ]
+      },
+      "event_ids": [
+        "evt-7f31d678cfaa46f88e453a3ef781e64d",
+        "evt-ffca1df085954cb89474d35abaa9135d",
+        "evt-c19b915500c34a58bd1b41b6a7f11fa8",
+        "evt-6ccb3987bad044eab88e8ec21a37d859",
+        "evt-c52137f809de40edb388832ed13c485d",
+        "evt-420f989c951f44ce89f89e9a113956e6",
+        "evt-241ed928b9b344a29657647b7b310060",
+        "evt-1775b22e2fa9432f8b7fbd35bec9b83a",
+        "evt-e67934ca5c3e411a828feae5f9f6fd7c",
+        "evt-cdaafd6c7ce0404a89f0da763e7fbf62"
+      ],
+      "alert_ids": []
+    }
+  },
+  "C2": {
+    "base": {
+      "run_id": "run-c5eea01816fe4897916525c1ec07bfee",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 17.275460000382736,
+        "G2": 4.8422646807067675,
+        "G3": 133.875390625,
+        "G4": 1.0,
+        "G7": 10,
+        "G6": 0.29996180534362793,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 17.275460000382736,
+        "G2": 4.8422646807067675,
+        "G3": 133.875390625,
+        "G4": 1.0,
+        "G5": 1.0,
+        "G6": 0.29996180534362793,
+        "G7": 10
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 17.302749999544176,
+          "p95": 20.620185000552734
+        },
+        "M02": 0.0,
+        "M03": 0,
+        "M04": 4.8422646807067675,
+        "M05": 0,
+        "M06": 101.38491675229795,
+        "M07": 134.17578125,
+        "M08": {
+          "elephant": 10,
+          "car": 10,
+          "bear": 10,
+          "cow": 10
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            20,
+            10,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 4.0,
+        "M12": 0.0,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "C2-imagenes / run-c5eea01816fe4897916525c1ec07bfee": 10
+        },
+        "M16": 290.5358808424061,
+        "M17": null,
+        "M18": null,
+        "M19": 9,
+        "M20": [
+          {
+            "run_id": "run-c5eea01816fe4897916525c1ec07bfee",
+            "window_id": "window-c607469d2bb14a2199e6c9ce785fa7aa",
+            "reference_window_ids": [
+              "window-c607469d2bb14a2199e6c9ce785fa7aa",
+              "window-3c1360b5cf1a4b6690e53090da44a8d6"
+            ],
+            "event_ids": [
+              "evt-6dd6e489abbd46f9b5675faa331b2099",
+              "evt-bf04ef877bd943da868d9602222dd169",
+              "evt-dc76afcc3e664bfa941327cc49bd4f15",
+              "evt-77dd42ca8e14485fb9b82404a96be645",
+              "evt-964a464dbced481e9588a9d0d22fc8f5"
+            ],
+            "reference_event_ids": [
+              "evt-6dd6e489abbd46f9b5675faa331b2099",
+              "evt-bf04ef877bd943da868d9602222dd169",
+              "evt-dc76afcc3e664bfa941327cc49bd4f15",
+              "evt-77dd42ca8e14485fb9b82404a96be645",
+              "evt-964a464dbced481e9588a9d0d22fc8f5",
+              "evt-52a0f2b732144b13ae44bbf085c93ce0",
+              "evt-5a659d88ada042a2bd8ebbb928b7a750",
+              "evt-54590396f8bd456e84525d18e719b901",
+              "evt-e10d9e93092845b79746565f3f461f87",
+              "evt-e6267c5a7e034e3eb0e55eae04737bf7"
+            ],
+            "reference_count": 40,
+            "sample_count": 20,
+            "state": "reference",
+            "distance": null
+          },
+          {
+            "run_id": "run-c5eea01816fe4897916525c1ec07bfee",
+            "window_id": "window-3c1360b5cf1a4b6690e53090da44a8d6",
+            "reference_window_ids": [
+              "window-c607469d2bb14a2199e6c9ce785fa7aa",
+              "window-3c1360b5cf1a4b6690e53090da44a8d6"
+            ],
+            "event_ids": [
+              "evt-52a0f2b732144b13ae44bbf085c93ce0",
+              "evt-5a659d88ada042a2bd8ebbb928b7a750",
+              "evt-54590396f8bd456e84525d18e719b901",
+              "evt-e10d9e93092845b79746565f3f461f87",
+              "evt-e6267c5a7e034e3eb0e55eae04737bf7"
+            ],
+            "reference_event_ids": [
+              "evt-6dd6e489abbd46f9b5675faa331b2099",
+              "evt-bf04ef877bd943da868d9602222dd169",
+              "evt-dc76afcc3e664bfa941327cc49bd4f15",
+              "evt-77dd42ca8e14485fb9b82404a96be645",
+              "evt-964a464dbced481e9588a9d0d22fc8f5",
+              "evt-52a0f2b732144b13ae44bbf085c93ce0",
+              "evt-5a659d88ada042a2bd8ebbb928b7a750",
+              "evt-54590396f8bd456e84525d18e719b901",
+              "evt-e10d9e93092845b79746565f3f461f87",
+              "evt-e6267c5a7e034e3eb0e55eae04737bf7"
+            ],
+            "reference_count": 40,
+            "sample_count": 20,
+            "state": "reference",
+            "distance": null
+          }
+        ]
+      },
+      "event_ids": [
+        "evt-6dd6e489abbd46f9b5675faa331b2099",
+        "evt-bf04ef877bd943da868d9602222dd169",
+        "evt-dc76afcc3e664bfa941327cc49bd4f15",
+        "evt-77dd42ca8e14485fb9b82404a96be645",
+        "evt-964a464dbced481e9588a9d0d22fc8f5",
+        "evt-52a0f2b732144b13ae44bbf085c93ce0",
+        "evt-5a659d88ada042a2bd8ebbb928b7a750",
+        "evt-54590396f8bd456e84525d18e719b901",
+        "evt-e10d9e93092845b79746565f3f461f87",
+        "evt-e6267c5a7e034e3eb0e55eae04737bf7"
+      ],
+      "alert_ids": [
+        "alert-6905ca76d9f845969084bdd9660a7acc",
+        "alert-ecca2c9f6b9244fd8671ace0b5726e16",
+        "alert-1895b335d89344b0976829eae81d2164",
+        "alert-7cee6029ec2b4b90ac29b3d2f4fdb54a",
+        "alert-8d38eea94d8e43d59f323342b35fefe3",
+        "alert-65c086da578c44c381dd36c603c2bfc2",
+        "alert-b9020bbda9684207b782dfebd96ee266",
+        "alert-69633e271dc140f9b77ddbb1442e0e9c",
+        "alert-4deb67a64dc8426aa6af1d7738bff757",
+        "alert-dfde92db8cd14f8398ea5b5bf3ad135a"
+      ]
+    }
+  },
+  "Video": {
+    "base": {
+      "run_id": "run-d406caeab0e349489a01bcd5163c986b",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 17.46695238051914,
+        "G2": 3.323312859300391,
+        "G3": 156.83668154761904,
+        "G4": 0.5957446808510638,
+        "G7": 12,
+        "G6": 0.42397308349609375,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 17.46695238051914,
+        "G2": 3.323312859300391,
+        "G3": 156.83668154761904,
+        "G4": 0.5957446808510638,
+        "G5": 1.0,
+        "G6": 0.42397308349609375,
+        "G7": 12
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 15.817699999388424,
+          "p95": 23.820499998691957
+        },
+        "M02": 0.0,
+        "M03": 19,
+        "M04": 6.330119732000744,
+        "M05": 0,
+        "M06": 67.2575221525079,
+        "M07": 161.0078125,
+        "M08": {
+          "bird": 10,
+          "elephant": 11,
+          "horse": 2,
+          "car": 11,
+          "bear": 11,
+          "cow": 2
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            4,
+            22,
+            0,
+            0,
+            2,
+            9,
+            10,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 2.238095238095238,
+        "M12": 0.40425531914893614,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "video-local / run-d406caeab0e349489a01bcd5163c986b": 21
+        },
+        "M16": 113.9421551760134,
+        "M17": null,
+        "M18": null,
+        "M19": 10,
+        "M20": [
+          {
+            "run_id": "run-d406caeab0e349489a01bcd5163c986b",
+            "window_id": "window-e60267ffcb6141bfa0b415156e5c37c4",
+            "reference_window_ids": [
+              "window-e60267ffcb6141bfa0b415156e5c37c4",
+              "window-cfb7932d7c1844e2817af1c35cab7c33"
+            ],
+            "event_ids": [
+              "evt-65979f3e35f942dfbd380a9ee8354563",
+              "evt-414ce86d51fb4f46a10e5d7b9228a669",
+              "evt-f86d75959f52442da1ba2a4bf67cff1b",
+              "evt-bd94dbc473674638bdbc8b6ea90715e9",
+              "evt-cfaae9f10a01437a8b5faf3088ab2a95"
+            ],
+            "reference_event_ids": [
+              "evt-65979f3e35f942dfbd380a9ee8354563",
+              "evt-414ce86d51fb4f46a10e5d7b9228a669",
+              "evt-f86d75959f52442da1ba2a4bf67cff1b",
+              "evt-bd94dbc473674638bdbc8b6ea90715e9",
+              "evt-cfaae9f10a01437a8b5faf3088ab2a95",
+              "evt-046d18f82c134b7ca60d14a4ea9fd81f",
+              "evt-a231a3e38d7844f1933b43e836ca5985",
+              "evt-6b87d5cbd8ca42e3b5cc48b1166a3f1e",
+              "evt-e11385caa9c74f05b22bb6c2b1f492f3",
+              "evt-ab2f2f483c5940f3805373f629ea6f7e"
+            ],
+            "reference_count": 10,
+            "sample_count": 5,
+            "state": "reference",
+            "distance": null
+          },
+          {
+            "run_id": "run-d406caeab0e349489a01bcd5163c986b",
+            "window_id": "window-cfb7932d7c1844e2817af1c35cab7c33",
+            "reference_window_ids": [
+              "window-e60267ffcb6141bfa0b415156e5c37c4",
+              "window-cfb7932d7c1844e2817af1c35cab7c33"
+            ],
+            "event_ids": [
+              "evt-046d18f82c134b7ca60d14a4ea9fd81f",
+              "evt-a231a3e38d7844f1933b43e836ca5985",
+              "evt-6b87d5cbd8ca42e3b5cc48b1166a3f1e",
+              "evt-e11385caa9c74f05b22bb6c2b1f492f3",
+              "evt-ab2f2f483c5940f3805373f629ea6f7e"
+            ],
+            "reference_event_ids": [
+              "evt-65979f3e35f942dfbd380a9ee8354563",
+              "evt-414ce86d51fb4f46a10e5d7b9228a669",
+              "evt-f86d75959f52442da1ba2a4bf67cff1b",
+              "evt-bd94dbc473674638bdbc8b6ea90715e9",
+              "evt-cfaae9f10a01437a8b5faf3088ab2a95",
+              "evt-046d18f82c134b7ca60d14a4ea9fd81f",
+              "evt-a231a3e38d7844f1933b43e836ca5985",
+              "evt-6b87d5cbd8ca42e3b5cc48b1166a3f1e",
+              "evt-e11385caa9c74f05b22bb6c2b1f492f3",
+              "evt-ab2f2f483c5940f3805373f629ea6f7e"
+            ],
+            "reference_count": 10,
+            "sample_count": 5,
+            "state": "reference",
+            "distance": null
+          },
+          {
+            "run_id": "run-d406caeab0e349489a01bcd5163c986b",
+            "window_id": "window-c7895537a2844d77b885ab0289bb1a6b",
+            "reference_window_ids": [
+              "window-e60267ffcb6141bfa0b415156e5c37c4",
+              "window-cfb7932d7c1844e2817af1c35cab7c33"
+            ],
+            "event_ids": [
+              "evt-5f770b8e77d24e85aa4976ccdbfd2abe",
+              "evt-434ad14218264bada5f65ec86dd4008d",
+              "evt-dc09fe2e495840c4b0bd4b8ff9e4bc1f",
+              "evt-893f002f6f754ea486763624beff8e1e",
+              "evt-aca0c41edaad476d871e1c8b2b9b47f8"
+            ],
+            "reference_event_ids": [
+              "evt-65979f3e35f942dfbd380a9ee8354563",
+              "evt-414ce86d51fb4f46a10e5d7b9228a669",
+              "evt-f86d75959f52442da1ba2a4bf67cff1b",
+              "evt-bd94dbc473674638bdbc8b6ea90715e9",
+              "evt-cfaae9f10a01437a8b5faf3088ab2a95",
+              "evt-046d18f82c134b7ca60d14a4ea9fd81f",
+              "evt-a231a3e38d7844f1933b43e836ca5985",
+              "evt-6b87d5cbd8ca42e3b5cc48b1166a3f1e",
+              "evt-e11385caa9c74f05b22bb6c2b1f492f3",
+              "evt-ab2f2f483c5940f3805373f629ea6f7e"
+            ],
+            "reference_count": 10,
+            "sample_count": 19,
+            "state": "observed",
+            "distance": 1.0
+          },
+          {
+            "run_id": "run-d406caeab0e349489a01bcd5163c986b",
+            "window_id": "window-6e096cf42fcc4409b8143ffaaf0b7575",
+            "reference_window_ids": [
+              "window-e60267ffcb6141bfa0b415156e5c37c4",
+              "window-cfb7932d7c1844e2817af1c35cab7c33"
+            ],
+            "event_ids": [
+              "evt-1ae4909f3cfd42e2ab793941b7245f64",
+              "evt-2c6aa3d355874b8086632913cae50d05",
+              "evt-92282b33035548bfa6be426dc84994f7",
+              "evt-d5cc7399f2de406ca06d9cb611acbe85",
+              "evt-4ba7f946f545455bbdf03d33b038d091"
+            ],
+            "reference_event_ids": [
+              "evt-65979f3e35f942dfbd380a9ee8354563",
+              "evt-414ce86d51fb4f46a10e5d7b9228a669",
+              "evt-f86d75959f52442da1ba2a4bf67cff1b",
+              "evt-bd94dbc473674638bdbc8b6ea90715e9",
+              "evt-cfaae9f10a01437a8b5faf3088ab2a95",
+              "evt-046d18f82c134b7ca60d14a4ea9fd81f",
+              "evt-a231a3e38d7844f1933b43e836ca5985",
+              "evt-6b87d5cbd8ca42e3b5cc48b1166a3f1e",
+              "evt-e11385caa9c74f05b22bb6c2b1f492f3",
+              "evt-ab2f2f483c5940f3805373f629ea6f7e"
+            ],
+            "reference_count": 10,
+            "sample_count": 15,
+            "state": "observed",
+            "distance": 1.0
+          }
+        ]
+      },
+      "event_ids": [
+        "evt-65979f3e35f942dfbd380a9ee8354563",
+        "evt-414ce86d51fb4f46a10e5d7b9228a669",
+        "evt-f86d75959f52442da1ba2a4bf67cff1b",
+        "evt-bd94dbc473674638bdbc8b6ea90715e9",
+        "evt-cfaae9f10a01437a8b5faf3088ab2a95",
+        "evt-046d18f82c134b7ca60d14a4ea9fd81f",
+        "evt-a231a3e38d7844f1933b43e836ca5985",
+        "evt-6b87d5cbd8ca42e3b5cc48b1166a3f1e",
+        "evt-e11385caa9c74f05b22bb6c2b1f492f3",
+        "evt-ab2f2f483c5940f3805373f629ea6f7e",
+        "evt-5f770b8e77d24e85aa4976ccdbfd2abe",
+        "evt-434ad14218264bada5f65ec86dd4008d",
+        "evt-dc09fe2e495840c4b0bd4b8ff9e4bc1f",
+        "evt-893f002f6f754ea486763624beff8e1e",
+        "evt-aca0c41edaad476d871e1c8b2b9b47f8",
+        "evt-1ae4909f3cfd42e2ab793941b7245f64",
+        "evt-2c6aa3d355874b8086632913cae50d05",
+        "evt-92282b33035548bfa6be426dc84994f7",
+        "evt-d5cc7399f2de406ca06d9cb611acbe85",
+        "evt-4ba7f946f545455bbdf03d33b038d091",
+        "evt-6737457a9f2342a39bbc8d61e8725c05"
+      ],
+      "alert_ids": [
+        "alert-488b8d1ec91b4765b1a0d7b077b7f3b1",
+        "alert-0772da2d6a3c4e9a8a859d1b6f249d69",
+        "alert-82fa9d45e83b4e20ba1ce977fbb1a8fc",
+        "alert-cb7615c4a2c34a8793d369bd4ad194d7",
+        "alert-88e2cf569f50459c97e1a250b2fa3068",
+        "alert-6f4ea0eedcef4a808d226ff323181d98",
+        "alert-d8f0f0aff5d34178998febd3ee3ee055",
+        "alert-765f6c70bc9241bc8041427a90daccd8",
+        "alert-459c0206e7eb49aca6568b38043ab077",
+        "alert-77ddac7fb8ff4025843c6dd03d0a6d19",
+        "alert-949463c827a348e09ebafcfcfbacbb36",
+        "alert-5753082e17164ee1868c865866a39e1a"
+      ]
+    }
+  },
+  "S1": {
+    "base": {
+      "run_id": "run-e1617f3f4a16433bbc6953c2e81eb8f7",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 19.86816666734133,
+        "G2": 4.830350833215334,
+        "G3": 135.3330078125,
+        "G4": 0.0,
+        "G7": 0,
+        "G6": 0.263045072555542,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 19.86816666734133,
+        "G2": 4.830350833215334,
+        "G3": 135.3330078125,
+        "G4": 0.0,
+        "G5": 1.0,
+        "G6": 0.263045072555542,
+        "G7": 0
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 19.095400000878726,
+          "p95": 21.754900000814814
+        },
+        "M02": 0.25,
+        "M03": 0,
+        "M04": 4.830350833215334,
+        "M05": 1,
+        "M06": 98.11650129968648,
+        "M07": 136.87890625,
+        "M08": {
+          "bird": 3
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 1.0,
+        "M12": 1.0,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "S1-interrupcion / run-e1617f3f4a16433bbc6953c2e81eb8f7": 4
+        },
+        "M16": 0.0,
+        "M17": null,
+        "M18": null,
+        "M19": 0,
+        "M20": null
+      },
+      "event_ids": [
+        "evt-8d403fd920494cb090077007e94ef606",
+        "evt-bf47583bdadc400e822e89ecf2b863d0",
+        "evt-f7b14ad1edf443078c3621ab172c9374",
+        "evt-85d1bdd10af7448190cf7be258dc7884"
+      ],
+      "alert_ids": []
+    }
+  },
+  "S2": {
+    "base": {
+      "run_id": "run-d7743d0bb5a2480b8d8d55d02a3bf9e0",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 15.891699998974218,
+        "G2": 6.162159697312233,
+        "G3": 136.31119791666666,
+        "G4": null,
+        "G7": 0,
+        "G6": 0.23876404762268066,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 15.891699998974218,
+        "G2": 6.162159697312233,
+        "G3": 136.31119791666666,
+        "G4": null,
+        "G5": 1.0,
+        "G6": 0.23876404762268066,
+        "G7": 0
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 15.886999999565887,
+          "p95": 16.592959998888546
+        },
+        "M02": 0.0,
+        "M03": 0,
+        "M04": 6.162159697312233,
+        "M05": 0,
+        "M06": 102.70266162187055,
+        "M07": 137.45703125,
+        "M08": {},
+        "M09": null,
+        "M10": 1.0,
+        "M11": 0.0,
+        "M12": null,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "S2-sin-objetos / run-d7743d0bb5a2480b8d8d55d02a3bf9e0": 3
+        },
+        "M16": 0.0,
+        "M17": null,
+        "M18": null,
+        "M19": 0,
+        "M20": null
+      },
+      "event_ids": [
+        "evt-8a0ecc5599994c7da688bc99b2c90fc6",
+        "evt-965c64edf1ca47ed97a4e0bfcc6ebbf0",
+        "evt-2abb2af58c37427bbb443b58de294381"
+      ],
+      "alert_ids": []
+    }
+  },
+  "S3": {
+    "base": {
+      "run_id": "run-497c141f357148e5bb9818c3adfe0b66",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 19.649300000310177,
+        "G2": 5.882224916247964,
+        "G3": 134.3515625,
+        "G4": 0.0,
+        "G7": 0,
+        "G6": 0.23996996879577637,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 19.649300000310177,
+        "G2": 5.882224916247964,
+        "G3": 134.3515625,
+        "G4": 0.0,
+        "G5": 1.0,
+        "G6": 0.23996996879577637,
+        "G7": 0
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 19.649300000310177,
+          "p95": 19.649300000310177
+        },
+        "M02": 0.0,
+        "M03": 0,
+        "M04": 5.882224916247964,
+        "M05": 0,
+        "M06": 91.90976431637444,
+        "M07": 134.3515625,
+        "M08": {
+          "bird": 1
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 1.0,
+        "M12": 1.0,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "S3-poca-evidencia / run-497c141f357148e5bb9818c3adfe0b66": 1
+        },
+        "M16": 0.0,
+        "M17": null,
+        "M18": null,
+        "M19": 0,
+        "M20": null
+      },
+      "event_ids": [
+        "evt-9aa7459ed7414d92a6659b437f2035ad"
+      ],
+      "alert_ids": []
+    }
+  },
+  "S4": {
+    "base": {
+      "run_id": "run-4e3dd5857838469c859cc6fed6957e67",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 15.874972000237904,
+        "G2": 4.630741093247752,
+        "G3": 138.23203125,
+        "G4": 0.7272727272727273,
+        "G7": 11,
+        "G6": 0.34790778160095215,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 15.874972000237904,
+        "G2": 4.630741093247752,
+        "G3": 138.23203125,
+        "G4": 0.7272727272727273,
+        "G5": 1.0,
+        "G6": 0.34790778160095215,
+        "G7": 11
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 16.44800000030955,
+          "p95": 19.855939999979455
+        },
+        "M02": 0.0,
+        "M03": 0,
+        "M04": 4.630741093247752,
+        "M05": 0,
+        "M06": 97.53498427653079,
+        "M07": 138.625,
+        "M08": {
+          "bird": 15,
+          "elephant": 10,
+          "car": 10,
+          "bear": 10,
+          "cow": 10
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            20,
+            10,
+            0,
+            0,
+            10,
+            0,
+            15,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 2.2,
+        "M12": 0.2727272727272727,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "S4-cambio-sostenido / run-4e3dd5857838469c859cc6fed6957e67": 25
+        },
+        "M16": 122.25156486174066,
+        "M17": null,
+        "M18": null,
+        "M19": 9,
+        "M20": [
+          {
+            "run_id": "run-4e3dd5857838469c859cc6fed6957e67",
+            "window_id": "window-3b18ee9ca08f48228eb3bb1eb240794f",
+            "reference_window_ids": [
+              "window-3b18ee9ca08f48228eb3bb1eb240794f",
+              "window-a214689cf51849fd90c7ea41f617d187"
+            ],
+            "event_ids": [
+              "evt-620300285cf64ef8a360b319e95ae5c3",
+              "evt-4cd58879e5544e38882f12d646bd7fed",
+              "evt-bb8315f9c5da4d67bb1885945aef9691",
+              "evt-57a0263086d64f4098beb9cd1c8a2936",
+              "evt-ff9dc3b0e6ee48d49532029943c3e379"
+            ],
+            "reference_event_ids": [
+              "evt-620300285cf64ef8a360b319e95ae5c3",
+              "evt-4cd58879e5544e38882f12d646bd7fed",
+              "evt-bb8315f9c5da4d67bb1885945aef9691",
+              "evt-57a0263086d64f4098beb9cd1c8a2936",
+              "evt-ff9dc3b0e6ee48d49532029943c3e379",
+              "evt-05260459c9bf49c6a1d28fa5b368ded2",
+              "evt-eb66c01c3a3a4738830422e6bd910a69",
+              "evt-d59b0c3863294be5a11666ed96941860",
+              "evt-f48be1fe2082465ea8c189e3e28269b4",
+              "evt-acb332832dac467a8e67eb87b364c167"
+            ],
+            "reference_count": 10,
+            "sample_count": 5,
+            "state": "reference",
+            "distance": null
+          },
+          {
+            "run_id": "run-4e3dd5857838469c859cc6fed6957e67",
+            "window_id": "window-a214689cf51849fd90c7ea41f617d187",
+            "reference_window_ids": [
+              "window-3b18ee9ca08f48228eb3bb1eb240794f",
+              "window-a214689cf51849fd90c7ea41f617d187"
+            ],
+            "event_ids": [
+              "evt-05260459c9bf49c6a1d28fa5b368ded2",
+              "evt-eb66c01c3a3a4738830422e6bd910a69",
+              "evt-d59b0c3863294be5a11666ed96941860",
+              "evt-f48be1fe2082465ea8c189e3e28269b4",
+              "evt-acb332832dac467a8e67eb87b364c167"
+            ],
+            "reference_event_ids": [
+              "evt-620300285cf64ef8a360b319e95ae5c3",
+              "evt-4cd58879e5544e38882f12d646bd7fed",
+              "evt-bb8315f9c5da4d67bb1885945aef9691",
+              "evt-57a0263086d64f4098beb9cd1c8a2936",
+              "evt-ff9dc3b0e6ee48d49532029943c3e379",
+              "evt-05260459c9bf49c6a1d28fa5b368ded2",
+              "evt-eb66c01c3a3a4738830422e6bd910a69",
+              "evt-d59b0c3863294be5a11666ed96941860",
+              "evt-f48be1fe2082465ea8c189e3e28269b4",
+              "evt-acb332832dac467a8e67eb87b364c167"
+            ],
+            "reference_count": 10,
+            "sample_count": 5,
+            "state": "reference",
+            "distance": null
+          },
+          {
+            "run_id": "run-4e3dd5857838469c859cc6fed6957e67",
+            "window_id": "window-adf2bce6ec7d40e1bdace729337b6e19",
+            "reference_window_ids": [
+              "window-3b18ee9ca08f48228eb3bb1eb240794f",
+              "window-a214689cf51849fd90c7ea41f617d187"
+            ],
+            "event_ids": [
+              "evt-0978347a735f445885ae5079316c2878",
+              "evt-f1fe1aceee5e471ea263011a8c7b1a26",
+              "evt-7404b05143ad40898887c986bdbbb0fb",
+              "evt-0814ebd7e42649129d64702375004aa5",
+              "evt-0897dd7ab84f49c2b7e8fc97571cbd73"
+            ],
+            "reference_event_ids": [
+              "evt-620300285cf64ef8a360b319e95ae5c3",
+              "evt-4cd58879e5544e38882f12d646bd7fed",
+              "evt-bb8315f9c5da4d67bb1885945aef9691",
+              "evt-57a0263086d64f4098beb9cd1c8a2936",
+              "evt-ff9dc3b0e6ee48d49532029943c3e379",
+              "evt-05260459c9bf49c6a1d28fa5b368ded2",
+              "evt-eb66c01c3a3a4738830422e6bd910a69",
+              "evt-d59b0c3863294be5a11666ed96941860",
+              "evt-f48be1fe2082465ea8c189e3e28269b4",
+              "evt-acb332832dac467a8e67eb87b364c167"
+            ],
+            "reference_count": 10,
+            "sample_count": 20,
+            "state": "observed",
+            "distance": 1.0
+          },
+          {
+            "run_id": "run-4e3dd5857838469c859cc6fed6957e67",
+            "window_id": "window-19fea35d1b734f1ebeab3779cf01d4ec",
+            "reference_window_ids": [
+              "window-3b18ee9ca08f48228eb3bb1eb240794f",
+              "window-a214689cf51849fd90c7ea41f617d187"
+            ],
+            "event_ids": [
+              "evt-e6ff6d19136a452fa0690bcc19dc4e86",
+              "evt-fdd4a41c47dc46488a766afceb8a14cd",
+              "evt-03afc666fef7437cb35b715178027a38",
+              "evt-86f1230fe33049f2b3c8e421c0b98b80",
+              "evt-a6fca4543a6f4221915609c4bf38c3ad"
+            ],
+            "reference_event_ids": [
+              "evt-620300285cf64ef8a360b319e95ae5c3",
+              "evt-4cd58879e5544e38882f12d646bd7fed",
+              "evt-bb8315f9c5da4d67bb1885945aef9691",
+              "evt-57a0263086d64f4098beb9cd1c8a2936",
+              "evt-ff9dc3b0e6ee48d49532029943c3e379",
+              "evt-05260459c9bf49c6a1d28fa5b368ded2",
+              "evt-eb66c01c3a3a4738830422e6bd910a69",
+              "evt-d59b0c3863294be5a11666ed96941860",
+              "evt-f48be1fe2082465ea8c189e3e28269b4",
+              "evt-acb332832dac467a8e67eb87b364c167"
+            ],
+            "reference_count": 10,
+            "sample_count": 20,
+            "state": "observed",
+            "distance": 1.0
+          },
+          {
+            "run_id": "run-4e3dd5857838469c859cc6fed6957e67",
+            "window_id": "window-4f52e502a025407ea3fe037fd817908b",
+            "reference_window_ids": [
+              "window-3b18ee9ca08f48228eb3bb1eb240794f",
+              "window-a214689cf51849fd90c7ea41f617d187"
+            ],
+            "event_ids": [
+              "evt-a9c1e8e5189e4895ae8b8e114592ff26",
+              "evt-6a7668de79084b0c90c008d2155f1f08",
+              "evt-0fec2e4f280d49a9b95a17530e1d4857",
+              "evt-e7ca7f81b1f64355aa7dade32f95b3f5",
+              "evt-1011d4cc865b4dc08dd857cbf8e8bf9c"
+            ],
+            "reference_event_ids": [
+              "evt-620300285cf64ef8a360b319e95ae5c3",
+              "evt-4cd58879e5544e38882f12d646bd7fed",
+              "evt-bb8315f9c5da4d67bb1885945aef9691",
+              "evt-57a0263086d64f4098beb9cd1c8a2936",
+              "evt-ff9dc3b0e6ee48d49532029943c3e379",
+              "evt-05260459c9bf49c6a1d28fa5b368ded2",
+              "evt-eb66c01c3a3a4738830422e6bd910a69",
+              "evt-d59b0c3863294be5a11666ed96941860",
+              "evt-f48be1fe2082465ea8c189e3e28269b4",
+              "evt-acb332832dac467a8e67eb87b364c167"
+            ],
+            "reference_count": 10,
+            "sample_count": 5,
+            "state": "observed",
+            "distance": 0.0
+          }
+        ]
+      },
+      "event_ids": [
+        "evt-620300285cf64ef8a360b319e95ae5c3",
+        "evt-4cd58879e5544e38882f12d646bd7fed",
+        "evt-bb8315f9c5da4d67bb1885945aef9691",
+        "evt-57a0263086d64f4098beb9cd1c8a2936",
+        "evt-ff9dc3b0e6ee48d49532029943c3e379",
+        "evt-05260459c9bf49c6a1d28fa5b368ded2",
+        "evt-eb66c01c3a3a4738830422e6bd910a69",
+        "evt-d59b0c3863294be5a11666ed96941860",
+        "evt-f48be1fe2082465ea8c189e3e28269b4",
+        "evt-acb332832dac467a8e67eb87b364c167",
+        "evt-0978347a735f445885ae5079316c2878",
+        "evt-f1fe1aceee5e471ea263011a8c7b1a26",
+        "evt-7404b05143ad40898887c986bdbbb0fb",
+        "evt-0814ebd7e42649129d64702375004aa5",
+        "evt-0897dd7ab84f49c2b7e8fc97571cbd73",
+        "evt-e6ff6d19136a452fa0690bcc19dc4e86",
+        "evt-fdd4a41c47dc46488a766afceb8a14cd",
+        "evt-03afc666fef7437cb35b715178027a38",
+        "evt-86f1230fe33049f2b3c8e421c0b98b80",
+        "evt-a6fca4543a6f4221915609c4bf38c3ad",
+        "evt-a9c1e8e5189e4895ae8b8e114592ff26",
+        "evt-6a7668de79084b0c90c008d2155f1f08",
+        "evt-0fec2e4f280d49a9b95a17530e1d4857",
+        "evt-e7ca7f81b1f64355aa7dade32f95b3f5",
+        "evt-1011d4cc865b4dc08dd857cbf8e8bf9c"
+      ],
+      "alert_ids": [
+        "alert-379b885035954ab2be352a5563ddd7df",
+        "alert-33f1866f94834e3c8887994f4a51bf68",
+        "alert-974f302b21d34f5881be77c2ffb5481d",
+        "alert-94078715db20430595bca14299107ac7",
+        "alert-de966fef7f1c422ba887c93c7e0e2d65",
+        "alert-fc42868c5df548b68ab85bffaedabf08",
+        "alert-855440c7eed242f3ab15faed510f1b9b",
+        "alert-49d51d2b5cb74126a5243c68c92b7936",
+        "alert-b4dd05f982494dcca3521d1d74b67cb6",
+        "alert-fefbd88c2039417ab6fd43013d2f4a75",
+        "alert-5ee267a736ef4d2c884024caf127cc7c"
+      ]
+    }
+  },
+  "S5": {
+    "base": {
+      "run_id": "run-a29eb353cb064c518392697bc6ec2c69",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 15.728200000012293,
+        "G2": 4.856797330708372,
+        "G3": 135.33984375,
+        "G4": 0.0,
+        "G7": 0,
+        "G6": 0.23485898971557617,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 15.728200000012293,
+        "G2": 4.856797330708372,
+        "G3": 135.33984375,
+        "G4": 0.0,
+        "G5": 1.0,
+        "G6": 0.23485898971557617,
+        "G7": 0
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 15.728200000012293,
+          "p95": 17.857780000304047
+        },
+        "M02": 0.3333333333333333,
+        "M03": 0,
+        "M04": 7.285195996062558,
+        "M05": 0,
+        "M06": 106.24244160924565,
+        "M07": 137.45703125,
+        "M08": {
+          "bird": 2
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 1.0,
+        "M12": 1.0,
+        "M13": 0.3333333333333333,
+        "M14": 1.0,
+        "M15": {
+          "S5-corrupta / run-a29eb353cb064c518392697bc6ec2c69": 3
+        },
+        "M16": 0.0,
+        "M17": null,
+        "M18": null,
+        "M19": 0,
+        "M20": null
+      },
+      "event_ids": [
+        "evt-bedf18f3f54a411fbbd1a19f0e09b50a",
+        "evt-7ad11262647542c4bd635ed68910f582",
+        "evt-799da4db00d74c408e1ea452aa598195"
+      ],
+      "alert_ids": []
+    }
+  },
+  "S6-v1": {
+    "base": {
+      "run_id": "run-7400c24e97bc4dd58e1759040762dbb4",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 20.63579999958165,
+        "G2": 5.436225867567822,
+        "G3": 136.037109375,
+        "G4": 0.0,
+        "G7": 0,
+        "G6": 0.2502319812774658,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 20.63579999958165,
+        "G2": 5.436225867567822,
+        "G3": 136.037109375,
+        "G4": 0.0,
+        "G5": 1.0,
+        "G6": 0.2502319812774658,
+        "G7": 0
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 20.63579999958165,
+          "p95": 21.308549999776005
+        },
+        "M02": 0.0,
+        "M03": 0,
+        "M04": 5.436225867567822,
+        "M05": 0,
+        "M06": 106.17628647593403,
+        "M07": 137.828125,
+        "M08": {
+          "bird": 2
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 1.0,
+        "M12": 1.0,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "S6-versiones / run-7400c24e97bc4dd58e1759040762dbb4": 2
+        },
+        "M16": 0.0,
+        "M17": null,
+        "M18": null,
+        "M19": 0,
+        "M20": null
+      },
+      "event_ids": [
+        "evt-52f002f661f24f8d8bb2671710710183",
+        "evt-d8c27b6eb4954badbc3ead5096eaacc0"
+      ],
+      "alert_ids": []
+    }
+  },
+  "S6-v2": {
+    "base": {
+      "run_id": "run-93917d70b1f7481fa73d846edaf1b6b3",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 24.74065000023984,
+        "G2": 5.8862690413388465,
+        "G3": 136.255859375,
+        "G4": 0.0,
+        "G7": 0,
+        "G6": 0.2496168613433838,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 24.74065000023984,
+        "G2": 5.8862690413388465,
+        "G3": 136.255859375,
+        "G4": 0.0,
+        "G5": 1.0,
+        "G6": 0.2496168613433838,
+        "G7": 0
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 24.74065000023984,
+          "p95": 25.54205500109674
+        },
+        "M02": 0.0,
+        "M03": 0,
+        "M04": 5.8862690413388465,
+        "M05": 0,
+        "M06": 124.1634875907413,
+        "M07": 137.90234375,
+        "M08": {
+          "bird": 2
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 1.0,
+        "M12": 1.0,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "S6-versiones / run-93917d70b1f7481fa73d846edaf1b6b3": 2
+        },
+        "M16": 0.0,
+        "M17": null,
+        "M18": null,
+        "M19": 0,
+        "M20": null
+      },
+      "event_ids": [
+        "evt-55acf1c0435742f581a7db61cf5f7ca9",
+        "evt-c8f7b0971ddf40c3a9ddacf8ef9ae49c"
+      ],
+      "alert_ids": []
+    }
+  },
+  "S7": {
+    "base": {
+      "run_id": "run-03a88e8e3f4d4757a79d4af0021b1494",
+      "matches": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true
+      },
+      "independent_values": {
+        "G1": 18.15629999934269,
+        "G2": 4.746023662720644,
+        "G3": 136.08984375,
+        "G4": 0.0,
+        "G7": 0,
+        "G6": 0.1906731128692627,
+        "G5": 1.0
+      },
+      "independent_ok": true,
+      "values": {
+        "G1": 18.15629999934269,
+        "G2": 4.746023662720644,
+        "G3": 136.08984375,
+        "G4": 0.0,
+        "G5": 1.0,
+        "G6": 0.1906731128692627,
+        "G7": 0
+      },
+      "ok": true
+    },
+    "extras": {
+      "ok": true,
+      "matches": {
+        "M01": true,
+        "M02": true,
+        "M03": true,
+        "M04": true,
+        "M05": true,
+        "M06": true,
+        "M07": true,
+        "M08": true,
+        "M09": true,
+        "M10": true,
+        "M11": true,
+        "M12": true,
+        "M13": true,
+        "M14": true,
+        "M15": true,
+        "M16": true,
+        "M17": true,
+        "M18": true,
+        "M19": true,
+        "M20": true
+      },
+      "values": {
+        "M01": {
+          "p50": 14.427999998588348,
+          "p95": 25.079949999781093
+        },
+        "M02": 0.25,
+        "M03": 0,
+        "M04": 6.328031550294191,
+        "M05": 0,
+        "M06": 101.3473802976804,
+        "M07": 137.75,
+        "M08": {
+          "bird": 3
+        },
+        "M09": {
+          "edges": [
+            0.0,
+            0.1,
+            0.2,
+            0.30000000000000004,
+            0.4,
+            0.5,
+            0.6000000000000001,
+            0.7000000000000001,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0
+          ]
+        },
+        "M10": 0.0,
+        "M11": 1.0,
+        "M12": 1.0,
+        "M13": 0.0,
+        "M14": 1.0,
+        "M15": {
+          "S7-fallo-inyectado / run-03a88e8e3f4d4757a79d4af0021b1494": 4
+        },
+        "M16": 0.0,
+        "M17": null,
+        "M18": null,
+        "M19": 0,
+        "M20": null
+      },
+      "event_ids": [
+        "evt-6a31e20e2c714aef84ea385806d5c15b",
+        "evt-3889fc83bced40838b655d7df6cfca25",
+        "evt-ef13f7ec14af4a678480f5b45820c3ad",
+        "evt-cd09a04920384a0fa82b0cf9dcac925f"
+      ],
+      "alert_ids": []
+    }
+  }
+}

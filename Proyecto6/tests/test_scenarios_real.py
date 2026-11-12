@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 import pytest
 
@@ -11,9 +12,10 @@ from verify_metrics import verify
 @pytest.mark.real
 @pytest.mark.parametrize("scenario,folder", [("C1", "normal"), ("C2", "baja-confianza")])
 def test_real_scenario_and_independent_recalculation(tmp_path, scenario, folder):
-    if not (ROOT / "modelo/yolox_nano.onnx").is_file() or not (ROOT / f"data/demo/{folder}").is_dir():
+    demo=os.getenv('P6_TEST_DEMO_DIR','data/demo')
+    if not (ROOT / "modelo/yolox_nano.onnx").is_file() or not (ROOT / demo / folder).is_dir():
         pytest.skip("Requiere download_model.py y prepare_demo.py")
-    settings = Settings.model_validate({"source": {"images_dir": f"data/demo/{folder}", "sample_hz": 60},
+    settings = Settings.model_validate({"source": {"images_dir": f"{demo}/{folder}", "sample_hz": 60},
                                         "storage": {"data_dir": str(tmp_path / "runtime")}})
     service = MonitorService(settings)
     run_id = service.start(max_frames=3)

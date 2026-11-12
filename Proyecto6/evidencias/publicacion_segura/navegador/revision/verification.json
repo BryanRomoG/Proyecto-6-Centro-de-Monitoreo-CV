@@ -1,0 +1,888 @@
+{
+  "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+  "mocked_responses": false,
+  "ok": true,
+  "checks": {
+    "dog_confirmed_cat_rejected_and_overlap_warning": true,
+    "reload_persists_review": true,
+    "alert_resolution_keeps_automatic_condition_and_review_links": true,
+    "original_event_and_capture_unchanged": true,
+    "all_nine_sections_render_real_data": true,
+    "unknown_run_stays_empty_after_client_initialization": true,
+    "native_filtered_csv_download_verified": true,
+    "real_technical_event_has_explicit_empty_review": true,
+    "mobile_review_no_document_overflow": true
+  },
+  "original_scores": {
+    "dog": 0.6565653975020709,
+    "cat": 0.17536601693758413
+  },
+  "csv_download": {
+    "filename": "events.csv",
+    "sha256": "2f10dfbfba73d3bcc35a27fd7fb0b9222dd6734146ce6f4329de67d006c844fa",
+    "rows": 10
+  },
+  "review": {
+    "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+    "detections": [
+      {
+        "id": "det-a82571e71079ef6d1fb414f1",
+        "index": 0,
+        "original": {
+          "bbox": [
+            0.0,
+            0.0,
+            806.36,
+            680.84
+          ],
+          "class_id": 16,
+          "class_name": "dog",
+          "confidence": 0.6565653975020709,
+          "zone": "doubt"
+        },
+        "review": {
+          "actor": "revisor-local",
+          "corrected_label": null,
+          "detection_id": "det-a82571e71079ef6d1fb414f1",
+          "detection_index": 0,
+          "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+          "id": "review-f4ea1b1554284eac819df85a853760b6",
+          "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+          "original_label": "dog",
+          "previous_review_id": null,
+          "reason": "Observación visual de la captura: corresponde a un perro.",
+          "request_id": "3466afa6-ea85-4197-9183-bb77949e221d",
+          "status": "confirmed",
+          "timestamp": "2026-11-12T03:24:12.827731+00:00",
+          "version": 1
+        },
+        "status": "confirmed",
+        "version": 1,
+        "history": [
+          {
+            "actor": "revisor-local",
+            "corrected_label": null,
+            "detection_id": "det-a82571e71079ef6d1fb414f1",
+            "detection_index": 0,
+            "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+            "id": "review-f4ea1b1554284eac819df85a853760b6",
+            "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+            "original_label": "dog",
+            "previous_review_id": null,
+            "reason": "Observación visual de la captura: corresponde a un perro.",
+            "request_id": "3466afa6-ea85-4197-9183-bb77949e221d",
+            "status": "confirmed",
+            "timestamp": "2026-11-12T03:24:12.827731+00:00",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "id": "det-c9e42bbfeb16502806ef3d9d",
+        "index": 1,
+        "original": {
+          "bbox": [
+            23.56,
+            13.97,
+            817.71,
+            683.73
+          ],
+          "class_id": 15,
+          "class_name": "cat",
+          "confidence": 0.17536601693758413,
+          "zone": "low"
+        },
+        "review": {
+          "actor": "revisor-local",
+          "corrected_label": null,
+          "detection_id": "det-c9e42bbfeb16502806ef3d9d",
+          "detection_index": 1,
+          "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+          "id": "review-7a056d3946e34568b5572d9809db1201",
+          "original_detection_sha256": "a0c9946fae92093c9c5a15dc2a077e3cf137d6fa6e6d3b91626ec359b53f2d20",
+          "original_label": "cat",
+          "previous_review_id": null,
+          "reason": "La caja cat se superpone al mismo perro; no se observa un gato en esta captura.",
+          "request_id": "30d1e8a9-9d30-4f5d-8ea0-9963ebd2b440",
+          "status": "false_positive",
+          "timestamp": "2026-11-12T03:24:12.925823+00:00",
+          "version": 1
+        },
+        "status": "false_positive",
+        "version": 1,
+        "history": [
+          {
+            "actor": "revisor-local",
+            "corrected_label": null,
+            "detection_id": "det-c9e42bbfeb16502806ef3d9d",
+            "detection_index": 1,
+            "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+            "id": "review-7a056d3946e34568b5572d9809db1201",
+            "original_detection_sha256": "a0c9946fae92093c9c5a15dc2a077e3cf137d6fa6e6d3b91626ec359b53f2d20",
+            "original_label": "cat",
+            "previous_review_id": null,
+            "reason": "La caja cat se superpone al mismo perro; no se observa un gato en esta captura.",
+            "request_id": "30d1e8a9-9d30-4f5d-8ea0-9963ebd2b440",
+            "status": "false_positive",
+            "timestamp": "2026-11-12T03:24:12.925823+00:00",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "history": [
+      {
+        "actor": "revisor-local",
+        "corrected_label": null,
+        "detection_id": "det-a82571e71079ef6d1fb414f1",
+        "detection_index": 0,
+        "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+        "id": "review-f4ea1b1554284eac819df85a853760b6",
+        "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+        "original_label": "dog",
+        "previous_review_id": null,
+        "reason": "Observación visual de la captura: corresponde a un perro.",
+        "request_id": "3466afa6-ea85-4197-9183-bb77949e221d",
+        "status": "confirmed",
+        "timestamp": "2026-11-12T03:24:12.827731+00:00",
+        "version": 1
+      },
+      {
+        "actor": "revisor-local",
+        "corrected_label": null,
+        "detection_id": "det-c9e42bbfeb16502806ef3d9d",
+        "detection_index": 1,
+        "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+        "id": "review-7a056d3946e34568b5572d9809db1201",
+        "original_detection_sha256": "a0c9946fae92093c9c5a15dc2a077e3cf137d6fa6e6d3b91626ec359b53f2d20",
+        "original_label": "cat",
+        "previous_review_id": null,
+        "reason": "La caja cat se superpone al mismo perro; no se observa un gato en esta captura.",
+        "request_id": "30d1e8a9-9d30-4f5d-8ea0-9963ebd2b440",
+        "status": "false_positive",
+        "timestamp": "2026-11-12T03:24:12.925823+00:00",
+        "version": 1
+      }
+    ],
+    "validated": [
+      {
+        "id": "det-a82571e71079ef6d1fb414f1",
+        "index": 0,
+        "original": {
+          "bbox": [
+            0.0,
+            0.0,
+            806.36,
+            680.84
+          ],
+          "class_id": 16,
+          "class_name": "dog",
+          "confidence": 0.6565653975020709,
+          "zone": "doubt"
+        },
+        "review": {
+          "actor": "revisor-local",
+          "corrected_label": null,
+          "detection_id": "det-a82571e71079ef6d1fb414f1",
+          "detection_index": 0,
+          "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+          "id": "review-f4ea1b1554284eac819df85a853760b6",
+          "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+          "original_label": "dog",
+          "previous_review_id": null,
+          "reason": "Observación visual de la captura: corresponde a un perro.",
+          "request_id": "3466afa6-ea85-4197-9183-bb77949e221d",
+          "status": "confirmed",
+          "timestamp": "2026-11-12T03:24:12.827731+00:00",
+          "version": 1
+        },
+        "status": "confirmed",
+        "version": 1,
+        "history": [
+          {
+            "actor": "revisor-local",
+            "corrected_label": null,
+            "detection_id": "det-a82571e71079ef6d1fb414f1",
+            "detection_index": 0,
+            "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+            "id": "review-f4ea1b1554284eac819df85a853760b6",
+            "original_detection_sha256": "4a779fa1501007ae26f8b35fd8267ce9d61b1b556926c0ee70e74d8a3e6f5997",
+            "original_label": "dog",
+            "previous_review_id": null,
+            "reason": "Observación visual de la captura: corresponde a un perro.",
+            "request_id": "3466afa6-ea85-4197-9183-bb77949e221d",
+            "status": "confirmed",
+            "timestamp": "2026-11-12T03:24:12.827731+00:00",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "overlaps": [
+      {
+        "detection_ids": [
+          "det-a82571e71079ef6d1fb414f1",
+          "det-c9e42bbfeb16502806ef3d9d"
+        ],
+        "iou": 0.934080154222185,
+        "message": "Cajas superpuestas: revisar; pueden ser objetos distintos."
+      }
+    ],
+    "overlap_threshold": 0.5,
+    "notice": "Revisión humana; conserva puntuaciones, zonas y métricas originales. No mide accuracy.",
+    "original": {
+      "application_version": "0.4.0",
+      "attempt_elapsed_s": 0.22407569999995758,
+      "candidates": [
+        {
+          "anchor": 2922,
+          "class_id": 15,
+          "confidence": 0.15887849080823635
+        },
+        {
+          "anchor": 2923,
+          "class_id": 15,
+          "confidence": 0.1718266020080801
+        },
+        {
+          "anchor": 2949,
+          "class_id": 15,
+          "confidence": 0.17536601693758413
+        },
+        {
+          "anchor": 2950,
+          "class_id": 15,
+          "confidence": 0.10037814239676379
+        },
+        {
+          "anchor": 3423,
+          "class_id": 16,
+          "confidence": 0.32243896545006834
+        },
+        {
+          "anchor": 3424,
+          "class_id": 16,
+          "confidence": 0.4166244044588332
+        },
+        {
+          "anchor": 3436,
+          "class_id": 16,
+          "confidence": 0.5988298635511313
+        },
+        {
+          "anchor": 3437,
+          "class_id": 16,
+          "confidence": 0.6251378801094276
+        },
+        {
+          "anchor": 3438,
+          "class_id": 16,
+          "confidence": 0.6224374010525935
+        },
+        {
+          "anchor": 3449,
+          "class_id": 16,
+          "confidence": 0.5722915461118276
+        },
+        {
+          "anchor": 3450,
+          "class_id": 16,
+          "confidence": 0.6565653975020709
+        },
+        {
+          "anchor": 3451,
+          "class_id": 16,
+          "confidence": 0.6333980088423274
+        },
+        {
+          "anchor": 3463,
+          "class_id": 16,
+          "confidence": 0.3560906195457534
+        },
+        {
+          "anchor": 3464,
+          "class_id": 16,
+          "confidence": 0.23009071678056614
+        }
+      ],
+      "captured_at": "2026-11-12T03:21:08.744306+00:00",
+      "collection": "animales",
+      "confidence_state": "insufficient_evidence",
+      "config": {
+        "alerts": {
+          "low_min_detections": 1
+        },
+        "confidence": {
+          "increase": 0.2,
+          "lower": 0.6,
+          "min_detections": 5,
+          "reference_windows": 2,
+          "sustained_windows": 2,
+          "upper": 0.8,
+          "window_frames": 5
+        },
+        "detector": {
+          "descriptor": "modelo/descriptor.yaml",
+          "input_size": 416,
+          "max_detections": 100,
+          "model": "modelo/yolox_nano.onnx",
+          "nms_iou": 0.45,
+          "padding": 114,
+          "score_floor": 0.1
+        },
+        "media_roots": [
+          "data/demo",
+          "data/media",
+          "data/scenarios"
+        ],
+        "metrics": {
+          "window_seconds": 60.0
+        },
+        "server": {
+          "autostart": false
+        },
+        "source": {
+          "collection": "animales",
+          "dataset_manifest": "data/media/datasets/manifest.json",
+          "images_dir": "data/media/datasets/animales",
+          "kind": "images",
+          "loop": false,
+          "retry_seconds": 2.0,
+          "sample_hz": 4.0,
+          "source_id": "source-e934f7058100410b9eb1c4a74331caeb",
+          "timeout_seconds": 5.0,
+          "url": null,
+          "video_file": "data/media/demo.mp4"
+        },
+        "storage": {
+          "data_dir": "data/runtime",
+          "database": "monitor.sqlite3"
+        },
+        "version": 1
+      },
+      "config_sha256": "869884cce9c8d1533e6e52646340073f163d483bd7fe7123a19d73be5f39aedc",
+      "cpu_percent": 83.67707877294838,
+      "cpu_seconds_delta": 0.1875,
+      "detections": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            806.36,
+            680.84
+          ],
+          "class_id": 16,
+          "class_name": "dog",
+          "confidence": 0.6565653975020709,
+          "zone": "doubt"
+        },
+        {
+          "bbox": [
+            23.56,
+            13.97,
+            817.71,
+            683.73
+          ],
+          "class_id": 15,
+          "class_name": "cat",
+          "confidence": 0.17536601693758413,
+          "zone": "low"
+        }
+      ],
+      "discarded_frames": 0,
+      "error": null,
+      "frame_id": "frame-5a439b21635648369061ccb952dc502e",
+      "frame_index": 1,
+      "height": 686,
+      "id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+      "image_ref": "images/evt-2d5cbf167b2e439582e45ee26f0ba536.png",
+      "image_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+      "inference_executed": true,
+      "inference_ms": 15.158500000325148,
+      "input_image": {
+        "author": "Marco",
+        "author_url": "https://www.flickr.com/people/ggould75/",
+        "category": "animales",
+        "dataset": "Open Images V7 / validation (CVDF pixels V4/V5)",
+        "image_id": "488d4412c71bf3f1",
+        "landing_url": "https://www.flickr.com/photos/ggould75/731829314",
+        "license_name": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "original_url": "https://farm2.staticflickr.com/1231/731829314_3ba517517a_o.jpg",
+        "path": "data/media/datasets/animales/488d4412c71bf3f1.jpg",
+        "redistribution": "allowed_with_attribution; unmodified CVDF file (official resize <=1024px)",
+        "sha256": "aa89797fc16b5f2b3bca981e1b1c8a355e7fd73ab1ec48d42c45b0b463b2e4e2",
+        "title": "lucky B0000011"
+      },
+      "input_name": "488d4412c71bf3f1.jpg",
+      "input_sha256": "aa89797fc16b5f2b3bca981e1b1c8a355e7fd73ab1ec48d42c45b0b463b2e4e2",
+      "model": {
+        "classes": [
+          "person",
+          "bicycle",
+          "car",
+          "motorcycle",
+          "airplane",
+          "bus",
+          "train",
+          "truck",
+          "boat",
+          "traffic light",
+          "fire hydrant",
+          "stop sign",
+          "parking meter",
+          "bench",
+          "bird",
+          "cat",
+          "dog",
+          "horse",
+          "sheep",
+          "cow",
+          "elephant",
+          "bear",
+          "zebra",
+          "giraffe",
+          "backpack",
+          "umbrella",
+          "handbag",
+          "tie",
+          "suitcase",
+          "frisbee",
+          "skis",
+          "snowboard",
+          "sports ball",
+          "kite",
+          "baseball bat",
+          "baseball glove",
+          "skateboard",
+          "surfboard",
+          "tennis racket",
+          "bottle",
+          "wine glass",
+          "cup",
+          "fork",
+          "knife",
+          "spoon",
+          "bowl",
+          "banana",
+          "apple",
+          "sandwich",
+          "orange",
+          "broccoli",
+          "carrot",
+          "hot dog",
+          "pizza",
+          "donut",
+          "cake",
+          "chair",
+          "couch",
+          "potted plant",
+          "bed",
+          "dining table",
+          "toilet",
+          "tv",
+          "laptop",
+          "mouse",
+          "remote",
+          "keyboard",
+          "cell phone",
+          "microwave",
+          "oven",
+          "toaster",
+          "sink",
+          "refrigerator",
+          "book",
+          "clock",
+          "vase",
+          "scissors",
+          "teddy bear",
+          "hair drier",
+          "toothbrush"
+        ],
+        "descriptor_sha256": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+        "name": "yolox_nano",
+        "preprocessing": "Pillow bilinear letterbox top-left 416 padding114 BGR NCHW float32 0-255",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "runtime": "onnxruntime==1.22.0",
+        "sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+        "version": "0.1.1rc0"
+      },
+      "paused_seconds_excluded": 0.0,
+      "position_seconds": 0.25,
+      "postprocess_ms": 5.691899999874295,
+      "preprocess_ms": 4.1621999989729375,
+      "processing_ms": 104.14579999996931,
+      "read_elapsed_s": 0.0003426000002946239,
+      "read_frames": 1,
+      "rss_bytes": 112877568,
+      "run_id": "run-40f685a6e5c043bb9d991049e6ae047a",
+      "source_id": "source-e934f7058100410b9eb1c4a74331caeb",
+      "source_kind": "images",
+      "status": "ok",
+      "synthetic": false,
+      "task": "object_detection",
+      "timestamp": "2026-11-12T03:21:08.845993+00:00",
+      "total_frames": 10,
+      "width": 1024
+    },
+    "image_state": "available",
+    "image_reason": "Captura disponible",
+    "alerts": [
+      "alert-a8e2c0b4202d4057bfe23073fbcc4692"
+    ]
+  },
+  "alert": {
+    "config_sha256": "869884cce9c8d1533e6e52646340073f163d483bd7fe7123a19d73be5f39aedc",
+    "event_id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+    "event_ids": [
+      "evt-2d5cbf167b2e439582e45ee26f0ba536"
+    ],
+    "id": "alert-a8e2c0b4202d4057bfe23073fbcc4692",
+    "reason": "1 detecciones con s < 0.6; mínimo por frame: 1",
+    "rule_id": "low-confidence-v1",
+    "run_id": "run-40f685a6e5c043bb9d991049e6ae047a",
+    "severity": "warning",
+    "status": "resolved",
+    "suggested_action": "Revisar imágenes, iluminación, oclusión y preprocesamiento; no inferir acierto ni drift solo por confianza.",
+    "timestamp": "2026-11-12T03:21:08.845993+00:00",
+    "window_id": null,
+    "version": 2,
+    "history": [
+      {
+        "action": "acknowledge",
+        "actor": "revisor-local",
+        "alert_id": "alert-a8e2c0b4202d4057bfe23073fbcc4692",
+        "comment": "Revisión humana: cat se rechaza y dog se confirma. La baja confianza automática fue real; se cierra la gestión de esta alerta.",
+        "from_state": "active",
+        "id": "change-d984dbcd5a8c431ba26e4d60575505ca",
+        "reason_code": "false_positive",
+        "request_id": "ebf17869-27c8-4acc-9357-07d0b99203e7",
+        "review_ids": [
+          "review-7a056d3946e34568b5572d9809db1201"
+        ],
+        "timestamp": "2026-11-12T03:24:13.405569+00:00",
+        "to_state": "acknowledged",
+        "version": 1
+      },
+      {
+        "action": "resolve",
+        "actor": "revisor-local",
+        "alert_id": "alert-a8e2c0b4202d4057bfe23073fbcc4692",
+        "comment": "Revisión humana: cat se rechaza y dog se confirma. La baja confianza automática fue real; se cierra la gestión de esta alerta.",
+        "from_state": "acknowledged",
+        "id": "change-d9d0d69837e64c1ba019e964988d8b17",
+        "reason_code": "false_positive",
+        "request_id": "74cbe7dd-c00f-4f9b-92d3-ceb5d6269636",
+        "review_ids": [
+          "review-7a056d3946e34568b5572d9809db1201"
+        ],
+        "timestamp": "2026-11-12T03:24:13.489206+00:00",
+        "to_state": "resolved",
+        "version": 2
+      }
+    ],
+    "acknowledged_at": "2026-11-12T03:24:13.405569+00:00",
+    "resolved_at": "2026-11-12T03:24:13.489206+00:00"
+  },
+  "original_event": {
+    "application_version": "0.4.0",
+    "attempt_elapsed_s": 0.22407569999995758,
+    "candidates": [
+      {
+        "anchor": 2922,
+        "class_id": 15,
+        "confidence": 0.15887849080823635
+      },
+      {
+        "anchor": 2923,
+        "class_id": 15,
+        "confidence": 0.1718266020080801
+      },
+      {
+        "anchor": 2949,
+        "class_id": 15,
+        "confidence": 0.17536601693758413
+      },
+      {
+        "anchor": 2950,
+        "class_id": 15,
+        "confidence": 0.10037814239676379
+      },
+      {
+        "anchor": 3423,
+        "class_id": 16,
+        "confidence": 0.32243896545006834
+      },
+      {
+        "anchor": 3424,
+        "class_id": 16,
+        "confidence": 0.4166244044588332
+      },
+      {
+        "anchor": 3436,
+        "class_id": 16,
+        "confidence": 0.5988298635511313
+      },
+      {
+        "anchor": 3437,
+        "class_id": 16,
+        "confidence": 0.6251378801094276
+      },
+      {
+        "anchor": 3438,
+        "class_id": 16,
+        "confidence": 0.6224374010525935
+      },
+      {
+        "anchor": 3449,
+        "class_id": 16,
+        "confidence": 0.5722915461118276
+      },
+      {
+        "anchor": 3450,
+        "class_id": 16,
+        "confidence": 0.6565653975020709
+      },
+      {
+        "anchor": 3451,
+        "class_id": 16,
+        "confidence": 0.6333980088423274
+      },
+      {
+        "anchor": 3463,
+        "class_id": 16,
+        "confidence": 0.3560906195457534
+      },
+      {
+        "anchor": 3464,
+        "class_id": 16,
+        "confidence": 0.23009071678056614
+      }
+    ],
+    "captured_at": "2026-11-12T03:21:08.744306+00:00",
+    "collection": "animales",
+    "confidence_state": "insufficient_evidence",
+    "config": {
+      "alerts": {
+        "low_min_detections": 1
+      },
+      "confidence": {
+        "increase": 0.2,
+        "lower": 0.6,
+        "min_detections": 5,
+        "reference_windows": 2,
+        "sustained_windows": 2,
+        "upper": 0.8,
+        "window_frames": 5
+      },
+      "detector": {
+        "descriptor": "modelo/descriptor.yaml",
+        "input_size": 416,
+        "max_detections": 100,
+        "model": "modelo/yolox_nano.onnx",
+        "nms_iou": 0.45,
+        "padding": 114,
+        "score_floor": 0.1
+      },
+      "media_roots": [
+        "data/demo",
+        "data/media",
+        "data/scenarios"
+      ],
+      "metrics": {
+        "window_seconds": 60.0
+      },
+      "server": {
+        "autostart": false
+      },
+      "source": {
+        "collection": "animales",
+        "dataset_manifest": "data/media/datasets/manifest.json",
+        "images_dir": "data/media/datasets/animales",
+        "kind": "images",
+        "loop": false,
+        "retry_seconds": 2.0,
+        "sample_hz": 4.0,
+        "source_id": "source-e934f7058100410b9eb1c4a74331caeb",
+        "timeout_seconds": 5.0,
+        "url": null,
+        "video_file": "data/media/demo.mp4"
+      },
+      "storage": {
+        "data_dir": "data/runtime",
+        "database": "monitor.sqlite3"
+      },
+      "version": 1
+    },
+    "config_sha256": "869884cce9c8d1533e6e52646340073f163d483bd7fe7123a19d73be5f39aedc",
+    "cpu_percent": 83.67707877294838,
+    "cpu_seconds_delta": 0.1875,
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          0.0,
+          806.36,
+          680.84
+        ],
+        "class_id": 16,
+        "class_name": "dog",
+        "confidence": 0.6565653975020709,
+        "zone": "doubt"
+      },
+      {
+        "bbox": [
+          23.56,
+          13.97,
+          817.71,
+          683.73
+        ],
+        "class_id": 15,
+        "class_name": "cat",
+        "confidence": 0.17536601693758413,
+        "zone": "low"
+      }
+    ],
+    "discarded_frames": 0,
+    "error": null,
+    "frame_id": "frame-5a439b21635648369061ccb952dc502e",
+    "frame_index": 1,
+    "height": 686,
+    "id": "evt-2d5cbf167b2e439582e45ee26f0ba536",
+    "image_ref": "images/evt-2d5cbf167b2e439582e45ee26f0ba536.png",
+    "image_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+    "inference_executed": true,
+    "inference_ms": 15.158500000325148,
+    "input_image": {
+      "author": "Marco",
+      "author_url": "https://www.flickr.com/people/ggould75/",
+      "category": "animales",
+      "dataset": "Open Images V7 / validation (CVDF pixels V4/V5)",
+      "image_id": "488d4412c71bf3f1",
+      "landing_url": "https://www.flickr.com/photos/ggould75/731829314",
+      "license_name": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "original_url": "https://farm2.staticflickr.com/1231/731829314_3ba517517a_o.jpg",
+      "path": "data/media/datasets/animales/488d4412c71bf3f1.jpg",
+      "redistribution": "allowed_with_attribution; unmodified CVDF file (official resize <=1024px)",
+      "sha256": "aa89797fc16b5f2b3bca981e1b1c8a355e7fd73ab1ec48d42c45b0b463b2e4e2",
+      "title": "lucky B0000011"
+    },
+    "input_name": "488d4412c71bf3f1.jpg",
+    "input_sha256": "aa89797fc16b5f2b3bca981e1b1c8a355e7fd73ab1ec48d42c45b0b463b2e4e2",
+    "model": {
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "motorcycle",
+        "airplane",
+        "bus",
+        "train",
+        "truck",
+        "boat",
+        "traffic light",
+        "fire hydrant",
+        "stop sign",
+        "parking meter",
+        "bench",
+        "bird",
+        "cat",
+        "dog",
+        "horse",
+        "sheep",
+        "cow",
+        "elephant",
+        "bear",
+        "zebra",
+        "giraffe",
+        "backpack",
+        "umbrella",
+        "handbag",
+        "tie",
+        "suitcase",
+        "frisbee",
+        "skis",
+        "snowboard",
+        "sports ball",
+        "kite",
+        "baseball bat",
+        "baseball glove",
+        "skateboard",
+        "surfboard",
+        "tennis racket",
+        "bottle",
+        "wine glass",
+        "cup",
+        "fork",
+        "knife",
+        "spoon",
+        "bowl",
+        "banana",
+        "apple",
+        "sandwich",
+        "orange",
+        "broccoli",
+        "carrot",
+        "hot dog",
+        "pizza",
+        "donut",
+        "cake",
+        "chair",
+        "couch",
+        "potted plant",
+        "bed",
+        "dining table",
+        "toilet",
+        "tv",
+        "laptop",
+        "mouse",
+        "remote",
+        "keyboard",
+        "cell phone",
+        "microwave",
+        "oven",
+        "toaster",
+        "sink",
+        "refrigerator",
+        "book",
+        "clock",
+        "vase",
+        "scissors",
+        "teddy bear",
+        "hair drier",
+        "toothbrush"
+      ],
+      "descriptor_sha256": "f0529758ac41a87b916767656a0bd8d70d541b8cf986dc692fb3514c72fa1ba7",
+      "name": "yolox_nano",
+      "preprocessing": "Pillow bilinear letterbox top-left 416 padding114 BGR NCHW float32 0-255",
+      "providers": [
+        "CPUExecutionProvider"
+      ],
+      "runtime": "onnxruntime==1.22.0",
+      "sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+      "version": "0.1.1rc0"
+    },
+    "paused_seconds_excluded": 0.0,
+    "position_seconds": 0.25,
+    "postprocess_ms": 5.691899999874295,
+    "preprocess_ms": 4.1621999989729375,
+    "processing_ms": 104.14579999996931,
+    "read_elapsed_s": 0.0003426000002946239,
+    "read_frames": 1,
+    "rss_bytes": 112877568,
+    "run_id": "run-40f685a6e5c043bb9d991049e6ae047a",
+    "source_id": "source-e934f7058100410b9eb1c4a74331caeb",
+    "source_kind": "images",
+    "status": "ok",
+    "synthetic": false,
+    "task": "object_detection",
+    "timestamp": "2026-11-12T03:21:08.845993+00:00",
+    "total_frames": 10,
+    "width": 1024
+  },
+  "original_capture_sha256": "3cfc4c8afade41cc0bd86d81c86fbe42d083b4f565d0ce73ee55142d4777ba52",
+  "javascript_errors": []
+}

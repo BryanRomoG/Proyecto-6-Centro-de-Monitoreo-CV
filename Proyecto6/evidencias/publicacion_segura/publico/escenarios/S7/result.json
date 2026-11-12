@@ -1,0 +1,24 @@
+{
+  "scenario": "S7",
+  "run_id": "run-03a88e8e3f4d4757a79d4af0021b1494",
+  "expectation": "Fallo controlado identificado, captura/diagnóstico y ONNX real antes/después",
+  "observed": true,
+  "event_statuses": [
+    "ok",
+    "inference_error",
+    "ok",
+    "ok"
+  ],
+  "event_ids": [
+    "evt-6a31e20e2c714aef84ea385806d5c15b",
+    "evt-3889fc83bced40838b655d7df6cfca25",
+    "evt-ef13f7ec14af4a678480f5b45820c3ad",
+    "evt-cd09a04920384a0fa82b0cf9dcac925f"
+  ],
+  "alert_ids": [],
+  "config_sha256": "6600ef04df87254cbf464d53a74a788f475879c501785046cd320db915ce56f0",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": true,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

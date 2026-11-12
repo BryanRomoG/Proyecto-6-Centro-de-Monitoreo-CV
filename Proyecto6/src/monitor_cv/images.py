@@ -34,7 +34,7 @@ def render(path: Path, event: dict, *, limit=None, annotated=True, output_format
         color = COLORS[d["zone"]]
         box = tuple(v*scale for v in d["bbox"])
         draw.rectangle(box, outline=color, width=max(2, round(image.width/300)))
-        label = f"{d['class_name']} {d['confidence']:.3f}"
+        label = d.get('review_label') or f"{d['class_name']} {d['confidence']:.3f}"
         x, y = box[0], max(0, box[1]-size-6)
         text_box = draw.textbbox((x,y),label,font=font)
         draw.rectangle(text_box, fill=color)

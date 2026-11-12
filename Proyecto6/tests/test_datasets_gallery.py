@@ -157,7 +157,10 @@ def test_real_dataset_collections_switch_and_persist(tmp_path):
     path=ROOT/'data/media/datasets/manifest.json'
     if not path.is_file():pytest.skip('Ejecutar download_demo_dataset.py; sin fotos no se acredita inferencia')
     manifest=json.loads(path.read_text(encoding='utf-8'))
-    assert len(manifest['images'])==len({r['sha256'] for r in manifest['images']})==80
+    observed={r['sha256'] for r in manifest['images']}
+    expected=[{r['sha256'] for r in json.loads((ROOT/'config'/name).read_text(encoding='utf-8'))['images']}
+              for name in ['dataset-selection.json','dataset-selection-public.json']]
+    assert len(manifest['images'])==len(observed) and observed in expected
     assert all(permitted_license(r['license_url']) and r['author'] and hashlib.sha256((ROOT/r['path']).read_bytes()).hexdigest()==r['sha256'] for r in manifest['images'])
     values=Settings().model_dump();values['storage']['data_dir']=str(tmp_path/'runtime')
     settings=Settings.model_validate(values);db=Database(settings.data_dir/'monitor.sqlite3')
@@ -171,4 +174,6 @@ def test_real_dataset_collections_switch_and_persist(tmp_path):
         event=db.list('events',run)[0]
         assert event['inference_executed'] and not event['synthetic'] and event['collection']==source['collection']
         assert event['input_image']['sha256']==event['input_sha256'] and trace_complete(event,settings.data_dir)
+        assert not Path(event['config']['source']['images_dir']).is_absolute()
+        assert not Path(event['config']['source']['dataset_manifest']).is_absolute()
     assert len(db.list('runs'))==2

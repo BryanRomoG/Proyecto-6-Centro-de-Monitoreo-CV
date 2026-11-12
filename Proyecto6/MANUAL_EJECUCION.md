@@ -1,5 +1,10 @@
 # Manual de ejecución · PowerShell sin hardware
 
+Entrega actual: [identidad](Docs/IDENTIDAD.md), [informe](ENTREGA_FINAL.md) y
+[plan Git](Docs/PLAN_GIT.md). Para una instalación nueva en Windows conviene una
+ruta corta (por ejemplo C:\src\monitor-cv): un venv dentro de una ruta muy profunda
+puede fallar con WinError 206. La prueba aislada sí instaló desde el lock en ruta corta.
+
 La instalación completa y versiones están en [README](README.md). Ejecutar los
 comandos desde Proyecto6; se invoca Python del entorno directamente, sin cambiar
 ExecutionPolicy. Los antecedentes no se instalan ni importan.
@@ -12,23 +17,42 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip check
 if (!(Test-Path .env)) { Copy-Item .env.example .env }
 .\.venv\Scripts\python.exe scripts/download_model.py --destino modelo
-.\.venv\Scripts\python.exe scripts/prepare_media.py
+.\.venv\Scripts\python.exe scripts/download_demo_dataset.py --selection config/dataset-selection-public.json --max-mb 200
+.\.venv\Scripts\python.exe scripts/prepare_authorized_demo.py --output data/media/authorized_demo
+.\.venv\Scripts\python.exe scripts/prepare_media.py --demo-dir data/media/authorized_demo --output data/media/authorized_video
+$env:MONITOR_IMAGES_DIR='data/media/authorized_demo/normal'
+$env:MONITOR_VIDEO_FILE='data/media/authorized_video/demo.mp4'
+$env:P6_TEST_DEMO_DIR='data/media/authorized_demo'
 .\.venv\Scripts\python.exe -m uvicorn monitor_cv.main:create_app --factory --app-dir src --host 127.0.0.1 --port 8006
 ```
 
-Abrir <http://127.0.0.1:8006>. Fuentes → registrar Secuencia `data/demo/normal` o
-Video `data/media/demo.mp4` → seleccionar → Iniciar. El video de ejemplo es generado
+Abrir <http://127.0.0.1:8006>. Fuentes → registrar Secuencia `data/media/authorized_demo/normal` o
+Video `data/media/authorized_video/demo.mp4` → seleccionar → Iniciar. El video de ejemplo es generado
 con imágenes, identificado como reproducción local. No necesita ESP32-CAM.
 Reproducción muestra el frame procesado; Pausar/Continuar/Detener controlan el
 productor. Ctrl+C termina el servidor. Más recorridos en [manual de usuario](MANUAL_USUARIO.md).
 
 ## Pruebas y nuevos escenarios
 
+Los [casos públicos complementarios](Docs/ESCENARIOS.md) pueden generarse sin el
+ejemplo fotográfico legado:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/download_demo_dataset.py --selection config/dataset-selection-public.json --target-per-category 10 --max-mb 200
+.\.venv\Scripts\python.exe scripts/run_public_scenarios.py --sample-hz 4
+```
+
+El segundo comando usa un almacén nuevo independiente. Su summary.json indica
+runtime_data_dir; usar ese valor en MONITOR_DATA_DIR y un puerto libre para consultar
+sus eventos en otro portal. El [informe final](ENTREGA_FINAL.md) tiene comandos exactos,
+rutas del lote probado, prueba Edge y recálculos. No añade las mismas fotos a la base
+principal ni las presenta como originales nuevos.
+
 En otra terminal, desde Proyecto6:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pytest -q
-.\.venv\Scripts\python.exe scripts/run_scenarios.py
+.\.venv\Scripts\python.exe scripts/run_authorized_scenarios.py
 ```
 
 El segundo comando imprime una carpeta nueva: copiar su ruta exacta. Los escenarios
@@ -95,3 +119,15 @@ ejecutar `python -m pytest browser_tests -q`. No necesita instalar otro navegado
 Los reportes/screenshot/ZIP nativo se guardan en evidencias/datasets/navegador.
 `python scripts/audit_gallery.py` clasifica referencias sin alterar eventos.
 `--restore-exact` permite restituir únicamente bytes con el SHA ya conservado.
+
+
+## Actualización para publicación segura
+
+Grupo confirmado **O2026_ESI3906B**, [Canvas](https://canvas.iteso.mx/courses/57431).
+La selección pública y sus límites vigentes se describen en [PUBLICACION_SEGURA](Docs/PUBLICACION_SEGURA.md)
+y el [índice GitHub](evidencias/publicacion_segura/INDICE_GITHUB.md). Hay 80 fotografías
+locales conservadas y 79 seleccionadas para distribución/reproducción pública; una
+se omite por contacto en su atribución, sin modificar el original. C1/C2, video y S1–S7
+tienen alternativas reales con licencia identificada. Los 366 puntos son estimados,
+no calificación oficial. Los archivos antiguos ya públicos requieren una decisión
+posterior sobre la selección Git; no se ejecutó add, commit ni push.

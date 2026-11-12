@@ -1,4 +1,19 @@
+> Copia pública derivada: los enlaces a registros locales se sustituyeron por notas explícitas. El original se conserva.
+
 # Dataset público de demostración · 80 fotografías distintas
+
+La auditoría de cierre (registro local o recurso regenerable; consultar el índice público) comprobó de nuevo los
+80 SHA y originales, licencias identificadas por fila, formatos, ausencia de pares
+cercanos y ocho registros de colección. **No descargó fotos de nuevo**. La imagen
+488d4412c71bf3f1 sirve para [revisión humana](REVISION_MANUAL.md): su categoría animales
+no se convierte en una predicción ni su revisión cambia scores de YOLOX.
+
+Los metadatos oficiales incluyen URL/autor/licencia por imagen, según las
+[descargas oficiales V7](https://storage.googleapis.com/openimages/web/download_v7.html).
+La selección usa esas licencias individuales, no una licencia inferida para todo el
+dataset. Las comprobaciones técnicas no son una garantía jurídica sobre derechos
+de terceros. El [plan Git](PLAN_GIT.md) separa las fotos Open Images identificadas
+de la licencia fotográfica aún no acreditada del ejemplo legado de YOLOX.
 
 Entrega individual. Las categorías son **objetivos de selección**, no las clases
 predichas ni etiquetas creadas por YOLOX. Las fotografías no se modificaron para
@@ -37,13 +52,13 @@ no un objetivo artificial. La reanudación validó los 80 archivos con **cero by
 
 ## Procedencia y licencia por fotografía
 
-- [Manifiesto JSON](../data/media/datasets/manifest.json) y
-  [CSV](../data/media/datasets/manifest.csv): identidad, nombre original, dataset,
+- Manifiesto JSON (registro local o recurso regenerable; consultar el índice público) y
+  CSV (registro local o recurso regenerable; consultar el índice público): identidad, nombre original, dataset,
   URLs original/página/espejo, autor/perfil, título, licencia y fuente de la licencia,
   fecha de descarga UTC, SHA-256, bytes, resolución y categoría prevista.
 - [Selección congelada](../config/dataset-selection.json): IDs/URLs y SHA esperados,
   semilla y metadatos con sus hashes. Permite repetir la misma adquisición.
-- [Reportes de descarga](../evidencias/datasets/descargas/): éxitos, reusos, errores,
+- Reportes de descarga (registro local o recurso regenerable; consultar el índice público): éxitos, reusos, errores,
   omisiones, duplicados, déficits por categoría y presupuesto de cada invocación.
 
 Se consultó la **fila individual** de `validation-images-with-rotation.csv`. Las 80
@@ -129,7 +144,7 @@ Para preparar **todas** las ejecuciones históricas y recálculos automáticamen
 
 El lote CLI registra resultados históricos en la misma base. Para visualizar un
 procesamiento activo en Reproducción, iniciarlo desde el portal; no se presenta un
-lote CLI finalizado como video en vivo. El [índice de evidencias](../evidencias/datasets/indice.md)
+lote CLI finalizado como video en vivo. El índice de evidencias (registro local o recurso regenerable; consultar el índice público)
 enlaza la ejecución final, eventos/alertas/ventanas, capturas, código y recálculos.
 Cada ejecución puede volver a usar las mismas 80 imágenes sin contarlas como nuevas.
 
@@ -165,3 +180,8 @@ La categoría despejada no garantiza ausencia de salidas: el piso 0.10 también 
 predicciones débiles. La confianza no es probabilidad calibrada de acierto. Etiquetas
 de Open Images y comprobación visual de ejemplos no constituyen evaluación formal
 de accuracy/mAP. Las diferencias de tiempo observadas no prueban causalidad por clase.
+
+
+## Selección pública vigente
+
+Ver [publicación segura](PUBLICACION_SEGURA.md) e [índice GitHub](../evidencias/publicacion_segura/INDICE_GITHUB.md): 79 fotos autorizadas para la selección, nuevos C1/C2/S1–S7 reales y copias derivadas con trazabilidad. Los registros anteriores se conservan localmente; no equivalen a bytes aprobados para publicar.

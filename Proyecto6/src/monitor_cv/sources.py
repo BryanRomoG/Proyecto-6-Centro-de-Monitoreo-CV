@@ -7,7 +7,7 @@ import sqlite3
 from pydantic import BaseModel, ConfigDict, Field
 
 from .camera import ImageSource, VideoSource, decode
-from .config import Settings
+from .config import ROOT, Settings
 from .events import uid, utc_now
 
 
@@ -39,7 +39,10 @@ def settings_for(settings: Settings, source: dict) -> Settings:
     values["source"].update(kind=source["kind"], source_id=source["id"],
                              sample_hz=source["sample_hz"], loop=source["loop"],
                              collection=source.get("collection"),dataset_manifest=source.get("dataset_manifest"))
-    values["source"]["images_dir" if source["kind"] == "images" else "video_file"] = str(path)
+    values["source"]["images_dir" if source["kind"] == "images" else "video_file"] = path.relative_to(ROOT).as_posix() if path.is_relative_to(ROOT) else str(path)
+    if source.get('dataset_manifest'):
+        manifest=allowed_path(settings,source['dataset_manifest'])
+        values['source']['dataset_manifest']=manifest.relative_to(ROOT).as_posix() if manifest.is_relative_to(ROOT) else str(manifest)
     return Settings.model_validate(values)
 
 
@@ -50,11 +53,13 @@ class SourceRegistry:
     def register(self, request: SourceRequest) -> dict:
         path = allowed_path(self.settings, request.path)
         if request.dataset_manifest:
-            allowed_path(self.settings,request.dataset_manifest)
+            manifest=allowed_path(self.settings,request.dataset_manifest)
         for old in self.db.list("sources"):
             if self.settings.path(old["path"]) == path and old["kind"] == request.kind:
                 raise ValueError("Esta fuente ya está registrada; usar su identificador")
         record = {**request.model_dump(), "id": uid("source"), "created_at": utc_now()}
+        if request.dataset_manifest:
+            record['dataset_manifest']=manifest.relative_to(ROOT).as_posix() if manifest.is_relative_to(ROOT) else str(manifest)
         config = settings_for(self.settings, record)
         source = ImageSource(config) if request.kind == "images" else VideoSource(config)
         try:
@@ -83,7 +88,6 @@ class SourceRegistry:
         finally:
             source.close()
         # Normalizar a ruta relativa si está dentro del proyecto; nunca publicar otras rutas.
-        from .config import ROOT
         record["path"] = path.relative_to(ROOT).as_posix() if path.is_relative_to(ROOT) else str(path)
         try:
             self.db.insert_record("sources", record)

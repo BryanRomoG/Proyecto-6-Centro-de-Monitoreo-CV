@@ -1,3 +1,5 @@
+> Copia pública derivada: los enlaces a registros locales se sustituyeron por notas explícitas. El original se conserva.
+
 # Entrega ampliada · Centro de Monitoreo de CV
 
 Entrega individual con asistencia de Codex. Nombre académico y matrícula pendientes.
@@ -6,7 +8,7 @@ Este es un reporte técnico del desarrollo, no un reporte docente de calificaci�
 
 ## 1. Archivos creados y modificados
 
-El [inventario exacto de código](evidencias/ampliacion/archivos-codigo.json) compara
+El inventario exacto de código (registro local o recurso regenerable; consultar el índice público) compara
 el manifiesto anterior con el actual: 17 nuevos, 13 modificados,
 ningún original eliminado. No se usa un diff de Git inexistente para inventar un historial.
 Se añadieron fuentes/consultas/analítica/distribución/exportación/derivados y aplicación;
@@ -17,7 +19,7 @@ scripts de medios/escenarios/verificación y pruebas. Documentación actualizada
 El [manual de ejecución](MANUAL_EJECUCION.md) detalla instalación, recálculo y diagnóstico.
 En raíz se actualizó el README. Configuración y exclusión de entradas generadas de
 P6 cambiaron sin excluir completos los antecedentes. Las nuevas evidencias están en
-[ampliacion](evidencias/ampliacion/indice.md).
+ampliacion (registro local o recurso regenerable; consultar el índice público).
 
 ## 2. Funcionalidades implementadas
 
@@ -29,7 +31,7 @@ inferencia exitosa sin detecciones.
 
 ## 3. Estado R1–R7
 
-Los siete criterios tienen implementación y verificación local. La [matriz](evidencias/ampliacion/cumplimiento.md)
+Los siete criterios tienen implementación y verificación local. La matriz (registro local o recurso regenerable; consultar el índice público)
 enlaza pruebas y límites; G1–G7 se recalcularon en todas las ejecuciones seleccionadas.
 La nota base y los puntos adicionales requieren evaluación, no se autoasignan.
 
@@ -45,12 +47,12 @@ M01–M20 instrumentadas y recalculadas, con contrato/IDs/corte/denominador; M07
 mantiene informativa sin bono independiente. p50/p95 forman una sola familia. G2/G6
 no se vuelven a reclamar como throughput/frescura. M17/M18 usan cambios reales
 de alerta; M20 compara distribuciones de scores sin inferir drift ni calidad.
-Ver [resultados por caso](evidencias/ampliacion/verificacion-final.json) y [métricas](METRICAS.md).
+Ver resultados por caso (registro local o recurso regenerable; consultar el índice público) y [métricas](METRICAS.md).
 
 ## 6. Escenarios ejecutados
 
 C1, C2, Video y S1–S7 cumplieron las condiciones técnicas; S6 tiene dos ejecuciones.
-[Lote final](evidencias/ampliacion/ejecuciones/batch-f257a33483834710994f454dbb16000d/summary.json).
+Lote final (registro local o recurso regenerable; consultar el índice público).
 S1 interrumpe un archivo; S2 usa un recorte fotográfico sin detecciones; S3 conserva
 insuficiencia; S4 observa cambio sostenido y recuperación; S5 corrupción; S6 versiones;
 S7 excepción declarada del adaptador con ONNX real antes/después. No se fabricaron
@@ -60,7 +62,7 @@ scores ni alertas para cumplirlos. No se evalúa calidad predictiva.
 
 Auditoría inicial: las 39 pruebas previas volvieron a pasar antes de ampliar.
 Cierre: **68 aprobadas, 0 fallos, 0 errores, 0 omitidas** (95.190 s).
-[JUnit](evidencias/ampliacion/pruebas/pytest.xml). Incluye video real, imágenes/ONNX,
+JUnit (registro local o recurso regenerable; consultar el índice público). Incluye video real, imágenes/ONNX,
 pausa/sincronización, filtros/exportaciones, seguridad de rutas, SQL persistido,
 concurrencia/idempotencia y escenarios. Los casos sintéticos unitarios comprueban
 mecanismos/aritmética; los marcados real ejecutan pesos verificados. `pip check`
@@ -81,7 +83,7 @@ se completó con teclado. No se ocultan esos límites de observación del navega
 
 Nuevo lote con resultados/primarios/PNG/config/hash y recálculos; reportes HTTP,
 CSV/JSON y ZIP comparados; screenshots; JUnit; inventario y auditoría de conservación.
-[Índice completo](evidencias/ampliacion/indice.md). Las 106 evidencias/documentos
+Índice completo (registro local o recurso regenerable; consultar el índice público). Las 106 evidencias/documentos
 protegidos conservan su SHA, sin modificar C1/C2 anteriores. Proyecto1–5 y los dos
 documentos originales de Docs no cambiaron; solo se agregó EXTRAS autorizado.
 

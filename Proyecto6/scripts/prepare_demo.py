@@ -6,7 +6,6 @@ from io import BytesIO
 import hashlib
 import json
 from pathlib import Path
-import urllib.request
 
 from PIL import Image, ImageEnhance, ImageFilter
 
@@ -16,18 +15,15 @@ DEMO_SHA256 = "5a9522051c3cec2bbd2f6323fccba32e8fbf3ddcc2b3e2fd46b04c720bc6f866"
 
 
 def prepare(destination: Path, input_path: Path | None = None) -> dict:
+    if not input_path:
+        raise ValueError('No se descarga dog.jpg sin licencia individual acreditada; usar prepare_authorized_demo.py o proporcionar --input autorizado en un destino nuevo')
+    if destination.exists() and any(destination.iterdir()):
+        raise ValueError('Conservar la demostración existente; elegir un destino nuevo y vacío')
     destination.mkdir(parents=True, exist_ok=True)
     source_path = destination / "source.jpg"
     if input_path:
         original = input_path.read_bytes()
         origin = {"kind": "user_image", "name": input_path.name}
-    elif source_path.exists():
-        original = source_path.read_bytes()
-        origin = {"kind": "public_demo", "url": URL}
-    else:
-        with urllib.request.urlopen(URL, timeout=30) as response:
-            original = response.read(10 * 1024 * 1024)
-        origin = {"kind": "public_demo", "url": URL}
     if not input_path and hashlib.sha256(original).hexdigest() != DEMO_SHA256:
         raise ValueError("La entrada pública cambió: no corresponde al SHA-256 de referencia")
     source_path.write_bytes(original)

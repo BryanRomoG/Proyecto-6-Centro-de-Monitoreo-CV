@@ -23,3 +23,8 @@ __pycache__/
 # Entradas generadas de escenarios: se regeneran; las capturas seleccionadas sí se conservan.
 /data/scenarios/*
 !/data/scenarios/README.md
+# Recursos autorizados regenerables y salidas originales locales de esta preparación.
+/data/media/authorized_demo/
+/data/media/authorized_video/
+/data/media/technical-*/
+/evidencias/publicacion_segura/escenarios/

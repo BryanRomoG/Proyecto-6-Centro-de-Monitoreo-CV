@@ -1,3 +1,5 @@
+> Copia pública derivada: los enlaces a registros locales se sustituyeron por notas explícitas. El original se conserva.
+
 # Informe de la primera implementación · 10 de noviembre de 2026
 
 1. **Archivos y estructura.** Se creó el paquete `src/monitor_cv` con main, detector,
@@ -5,7 +7,7 @@
    internas `_yolox` y `_mjpeg`; portal HTML/CSS/JS; configuración YAML; descargador,
    preparación/replay, verificadores de métricas/portal/cámara y auditoría; pruebas,
    dependencias, lock Windows, .env.example y evidencias. Los PNG y registros reales
-   están agrupados por ejecución. [Índice completo](evidencias/indice.md).
+   están agrupados por ejecución. Índice completo (registro local o recurso regenerable; consultar el índice público).
 2. **Reutilización.** Se adaptaron el detector YOLOX-Nano, Detection, lector MJPEG,
    reloj anclado, descriptor y descargador del Proyecto 5. Se eliminaron dependencias
    de `p5` y políticas del carrito. [Procedencia exacta](PROCEDENCIA.md).
@@ -28,7 +30,7 @@
    de imágenes. Referencia temporal persistida; cambio sostenido probado por unitarios
    identificados como sintéticos. R7 tiene instalación/procedencia y evidencias, con
    revisión Git y datos académicos pendientes. No se asigna una nota ni se reclaman
-   extras. [Matriz detallada](evidencias/cumplimiento.md).
+   extras. Matriz detallada (registro local o recurso regenerable; consultar el índice público).
 8. **Bloqueos/límites.** La cámara configurada no entregó un JPEG fresco en las dos
    comprobaciones, incluida una fuera del sandbox. Falta verificar hardware/red,
    nombre académico y matrícula, un clon limpio en otra máquina y CI remoto.
@@ -52,4 +54,4 @@
     Después, ampliar pruebas prolongadas, cuotas y resolución de alertas si se desea.
 
 No se realizaron commits, push ni cambios en configuración Git. Los hashes de los
-antecedentes y documentos originales se contrastan en la [auditoría](evidencias/auditoria_repositorio.json).
+antecedentes y documentos originales se contrastan en la auditoría (registro local o recurso regenerable; consultar el índice público).

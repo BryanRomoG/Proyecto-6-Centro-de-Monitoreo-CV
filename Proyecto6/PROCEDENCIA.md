@@ -1,6 +1,9 @@
+> Copia pública derivada: los enlaces a registros locales se sustituyeron por notas explícitas. El original se conserva.
+
 # Procedencia y aportación individual
 
-Estudiante: nombre académico completo y matrícula pendientes de confirmación.
+Estudiante: **Bryan Edgardo Romo Gonzalez · 745268**.
+[Ficha académica definitiva](Docs/IDENTIDAD.md). Entrega individual de Machine Learning, ITESO.
 Entrega individual preparada con asistencia de Codex; revisar código y evidencia antes
 de presentar. No se atribuye al estudiante entrenamiento ni autoría original de YOLOX.
 
@@ -16,11 +19,19 @@ de presentar. No se atribuye al estudiante entrenamiento ni autoría original de
 | `../Proyecto5/modelo/descriptor.yaml` | `modelo/descriptor.yaml` | Se retiran clases de política de obstáculos; se conservan artefacto, URL, hash, clases COCO y contrato. No se copia el modelo binario de P5: se descarga de la fuente oficial. |
 
 Las fuentes originales se revisaron en lectura y sus hashes anteriores están en
-[integridad_inicial.json](evidencias/integridad_inicial.json). La comprobación final
-está en [auditoria_repositorio.json](evidencias/auditoria_repositorio.json).
+integridad_inicial.json (registro local o recurso regenerable; consultar el índice público). La comprobación final
+está en auditoria_repositorio.json (registro local o recurso regenerable; consultar el índice público).
 Los documentos originales de Docs están cubiertos por la misma verificación.
 
 ## Desarrollo de esta entrega
+
+La edición 0.4 añade el [módulo de revisión](src/monitor_cv/reviews.py), integración
+de Eventos/Alertas, capa de imagen validada, historial SQLite independiente, pruebas,
+normalización de nuevas rutas de colecciones y auditoría final. Es desarrollo de
+esta entrega individual asistido por Codex; no se atribuye al estudiante autoría
+de YOLOX, fotografías o librerías. El actor técnico local no replica la identidad
+académica en cada registro. La ficha y fecha definitivas están en
+[IDENTIDAD](Docs/IDENTIDAD.md). No se usó hardware ni cámara para estas evidencias.
 
 Configuración Pydantic y hash efectivo, fuentes reproducibles y muestreo, wrapper ONNX,
 eventos de monitoreo, ventanas y referencia fija, reglas de baja confianza/cambio sostenido,
@@ -50,7 +61,7 @@ La ejecución predeterminada usa secuencias o video local. El lector MJPEG hered
 queda como código opcional de compatibilidad; no se requiere cámara ni carrito y
 el portal solo permite iniciar imágenes/video. Los originales anteriores permanecen
 sin cambios. La auditoría vigente está en
-[auditoria_repositorio.json](evidencias/ampliacion/auditoria_repositorio.json).
+auditoria_repositorio.json (registro local o recurso regenerable; consultar el índice público).
 
 Se añadieron lectura/muestreo de video, registro de fuentes y validación de rutas,
 control de pausa y sincronización por ID, portal en español, consultas y gráficas,
@@ -67,20 +78,38 @@ con inferencia real antes/después. Las pruebas unitarias con scores prefijados 
 identifican como pruebas de mecanismos, nunca como evidencia del modelo.
 
 Las evidencias de la primera entrega se conservan byte a byte. El manifiesto
-[preexistentes-sha256.json](evidencias/ampliacion/preexistentes-sha256.json) y la
-[verificación de conservación](evidencias/ampliacion/conservacion.json) registran esa
+preexistentes-sha256.json (registro local o recurso regenerable; consultar el índice público) y la
+verificación de conservación (registro local o recurso regenerable; consultar el índice público) registran esa
 comprobación. Los nuevos lotes tienen sus propios IDs, configuración y hashes de código.
 
 
 ## Fotografías públicas incorporadas · 0.3
 
 Se adquirieron 80 escenas distintas de Open Images desde el espejo oficial CVDF.
-Autor, título, URLs y licencia de cada fila están en el [manifiesto](data/media/datasets/manifest.json)
+Autor, título, URLs y licencia de cada fila están en el manifiesto (registro local o recurso regenerable; consultar el índice público)
 y [documentación](Docs/DATASETS.md). No se deduce licencia de fotografía desde licencia
 de código. Se conservan bytes del espejo; PNG, anotaciones y miniaturas son derivados
 identificados. Los ZIP de capturas del dataset conservan atribución.
 Adquisición/licencias/hash, fuente con identidad de entrada, consultas SQL, inventario
 derivado de capturas, miniaturas/cache/reintento y pruebas Edge son desarrollo de
-esta entrega asistido, no autoría del dataset o del modelo. La [auditoría](evidencias/datasets/auditoria-repositorio.json)
-y [conservación](evidencias/datasets/cierre.json) comprueban los originales/evidencias
+esta entrega asistido, no autoría del dataset o del modelo. La auditoría (registro local o recurso regenerable; consultar el índice público)
+y conservación (registro local o recurso regenerable; consultar el índice público) comprueban los originales/evidencias
 y payloads históricos. Las nuevas fuentes no importan código de los antecedentes.
+
+
+## Identificación académica vigente
+
+Grupo **O2026_ESI3906B**. [Canvas del curso](https://canvas.iteso.mx/courses/57431).
+Identidad completa en [IDENTIDAD.md](Docs/IDENTIDAD.md).
+
+
+## Actualización para publicación segura
+
+Grupo confirmado **O2026_ESI3906B**, [Canvas](https://canvas.iteso.mx/courses/57431).
+La selección pública y sus límites vigentes se describen en [PUBLICACION_SEGURA](Docs/PUBLICACION_SEGURA.md)
+y el [índice GitHub](evidencias/publicacion_segura/INDICE_GITHUB.md). Hay 80 fotografías
+locales conservadas y 79 seleccionadas para distribución/reproducción pública; una
+se omite por contacto en su atribución, sin modificar el original. C1/C2, video y S1–S7
+tienen alternativas reales con licencia identificada. Los 366 puntos son estimados,
+no calificación oficial. Los archivos antiguos ya públicos requieren una decisión
+posterior sobre la selección Git; no se ejecutó add, commit ni push.

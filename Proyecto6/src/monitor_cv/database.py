@@ -93,7 +93,7 @@ class Database:
             args.extend([limit, offset])
         with self.connect() as db:
             result = [json.loads(row[0]) for row in db.execute(query, args)]
-        return [self.enrich_alert(a) for a in result] if table == "alerts" else result
+        return self.enrich_alerts(result) if table == "alerts" else result
 
     def insert_record(self, table: str, record: dict):
         if table not in {"sources", "actions"}:
@@ -155,6 +155,20 @@ class Database:
         with self.connect() as db:
             changes = [json.loads(row[0]) for row in db.execute(
                 "SELECT payload FROM alert_changes WHERE alert_id=? ORDER BY version", (alert["id"],))]
+        return self.alert_projection(alert,changes)
+
+    def enrich_alerts(self, alerts):
+        """Una consulta de historial por lote; evita abrir una conexión por alerta."""
+        if not alerts:return []
+        groups={a['id']:[] for a in alerts}
+        with self.connect() as db:
+            rows=db.execute('SELECT alert_id,payload FROM alert_changes WHERE alert_id IN (SELECT value FROM json_each(?)) ORDER BY version',
+                            (json.dumps(list(groups)),)).fetchall()
+        for identity,payload in rows:groups[identity].append(json.loads(payload))
+        return [self.alert_projection(a,groups[a['id']]) for a in alerts]
+
+    @staticmethod
+    def alert_projection(alert, changes):
         result = dict(alert)
         result.update(version=0, history=[], acknowledged_at=None, resolved_at=None)
         for change in changes:
@@ -168,20 +182,42 @@ class Database:
         return result
 
     def transition_alert(self, identity: str, *, action: str, comment: str,
-                         request_id: str, expected_version: int) -> dict:
+                         request_id: str, expected_version: int, reason_code: str | None = None,
+                         review_ids: list[str] | None = None, actor: str = 'revisor-local') -> dict:
         from .events import uid, utc_now
+        review_ids=list(dict.fromkeys(review_ids or []))
+        reasons={'false_positive','validated','reviewed_unchanged','technical_verified'}
+        if reason_code is not None and reason_code not in reasons:raise ValueError('Motivo de revisión inválido')
+        if not actor.strip():raise ValueError('Actor vacío')
+        if review_ids and not reason_code:raise ValueError('Los vínculos de revisión requieren un motivo')
+        if reason_code and not comment.strip():raise ValueError('Explica la decisión de revisión')
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
             existing = db.execute("SELECT payload FROM alert_changes WHERE request_id=?", (request_id,)).fetchone()
             if existing:
                 old = json.loads(existing[0])
-                if old["alert_id"] != identity or old["action"] != action or old["comment"] != comment:
+                if (old["alert_id"] != identity or old["action"] != action or old["comment"] != comment
+                    or old.get('reason_code')!=reason_code or old.get('review_ids',[])!=review_ids
+                    or old.get('actor','revisor-local')!=actor):
                     raise ValueError("Idempotencia: identificador reutilizado con otra acción")
                 return old
             row = db.execute("SELECT payload FROM alerts WHERE id=?", (identity,)).fetchone()
             if not row:
                 raise KeyError(identity)
             original = json.loads(row[0])
+            linked_reviews=[]
+            for review_id in review_ids:
+                row=db.execute('SELECT payload FROM detection_reviews WHERE id=?',(review_id,)).fetchone()
+                review=json.loads(row[0]) if row else None
+                if not review or review['event_id'] not in original['event_ids']:
+                    raise ValueError('La revisión no corresponde a un evento de esta alerta')
+                linked_reviews.append(review)
+            if reason_code in {'false_positive','validated'} and not review_ids:
+                raise ValueError('Este motivo requiere revisiones de detecciones vinculadas')
+            if reason_code=='false_positive' and not any(r['status']=='false_positive' for r in linked_reviews):
+                raise ValueError('Vincula la revisión que confirmó el falso positivo')
+            if reason_code=='validated' and not any(r['status'] in {'confirmed','corrected'} for r in linked_reviews):
+                raise ValueError('Vincula una detección validada')
             previous = db.execute("SELECT payload FROM alert_changes WHERE alert_id=? ORDER BY version DESC LIMIT 1", (identity,)).fetchone()
             last = json.loads(previous[0]) if previous else None
             state, version = (last["to_state"], last["version"]) if last else (original["status"], 0)
@@ -197,7 +233,8 @@ class Database:
                 raise ValueError("Transición de alerta no permitida")
             change = {"id": uid("change"), "alert_id": identity, "timestamp": utc_now(),
                       "action": action, "from_state": state, "to_state": target,
-                      "comment": comment, "version": version+1, "request_id": request_id}
+                      "comment": comment, "version": version+1, "request_id": request_id,
+                      'reason_code':reason_code,'review_ids':review_ids,'actor':actor}
             db.execute("INSERT INTO alert_changes VALUES(?,?,?,?,?)",
                        (change["id"], identity, change["version"], request_id, json_text(change)))
         return change

@@ -1,0 +1,22 @@
+{
+  "scenario": "S2",
+  "run_id": "run-d7743d0bb5a2480b8d8d55d02a3bf9e0",
+  "expectation": "Recorte fotográfico real sin detecciones ni alerta baja",
+  "observed": true,
+  "event_statuses": [
+    "no_detections",
+    "no_detections",
+    "no_detections"
+  ],
+  "event_ids": [
+    "evt-8a0ecc5599994c7da688bc99b2c90fc6",
+    "evt-965c64edf1ca47ed97a4e0bfcc6ebbf0",
+    "evt-2abb2af58c37427bbb443b58de294381"
+  ],
+  "alert_ids": [],
+  "config_sha256": "c385d660a8689abe8873f6644b81d2a731f0da7222cfaf794c0a20d29e856f14",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

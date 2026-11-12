@@ -1,7 +1,10 @@
+> Copia pública derivada: los enlaces a registros locales se sustituyeron por notas explícitas. El original se conserva.
+
 ﻿# Proyecto 6 · Centro de monitoreo de computer vision
 
-Entrega **individual**, ITESO. **Nombre académico completo y matrícula pendientes**.
-Versión 0.3.0: inferencia real sobre **secuencias de imágenes y archivos de video**,
+Entrega **individual**, ITESO. **Bryan Edgardo Romo Gonzalez · 745268**.
+[Datos académicos completos](Docs/IDENTIDAD.md), profesor Victor Hugo Martinez Sanchez.
+Versión 0.4.0: inferencia real sobre **secuencias de imágenes y archivos de video**,
 sin cámara física ni carrito. El código y los resultados de los proyectos anteriores
 se conservan como antecedentes y no son dependencias de ejecución.
 
@@ -10,16 +13,27 @@ eventos y alertas trazables. Incluye dashboard con polling, reproducción anotad
 nueve gráficas históricas, filtros, galería, exportaciones, gestión de alertas y fuentes.
 La confianza alta significa “aceptada por política”, no necesariamente correcta.
 
-La demostración principal incorpora **80 fotografías públicas diferentes de Open
-Images**, diez por cada una de ocho colecciones, con autor/licencia individual y
+La edición 0.4 añade [revisión humana individual](Docs/REVISION_MANUAL.md), historial
+persistente, vista original/validada y decisiones vinculadas a alertas. El
+[informe final](ENTREGA_FINAL.md), [evaluación interna](EVALUACION_ESTIMADA.md) e
+índice de cierre (registro local o recurso regenerable; consultar el índice público) son las referencias actuales.
+Los reportes 0.1–0.3 conservan resultados de sus fechas, incluidos pendientes que
+posteriormente quedaron resueltos. Revisar el [plan Git](Docs/PLAN_GIT.md) antes de publicar.
+
+La demostración local conserva **80 fotografías diferentes de Open
+Images**; la selección pública tiene **79**, nueve en escenas_multiples y diez en las otras siete colecciones, con autor/licencia individual y
 SHA-256. [Dataset, licencias y adquisición](Docs/DATASETS.md),
 [reporte de esta ampliación](ENTREGA_DATASETS.md) e
-[índice actual](evidencias/datasets/indice.md). El material anterior se conserva para
+índice actual (registro local o recurso regenerable; consultar el índice público). El material anterior se conserva para
 comparar y reproducir resultados; ya no es la única fuente de demostración.
+
+La adquisición pública siguiente se ejecuta en una copia nueva de la selección.
+En el árbol local que ya conserva 80 fotos, usar las fuentes existentes: no reemplazar
+su manifiesto original por el de 79. El paquete revisado separa ambos conjuntos.
 
 ```powershell
 # Desde Proyecto6, después de instalar las dependencias del proyecto:
-.\.venv\Scripts\python.exe scripts/download_demo_dataset.py --target-per-category 10 --max-mb 200
+.\.venv\Scripts\python.exe scripts/download_demo_dataset.py --selection config/dataset-selection-public.json --target-per-category 10 --max-mb 200
 .\.venv\Scripts\python.exe scripts/run_dataset_demo.py --sample-hz 4
 .\.venv\Scripts\python.exe scripts/audit_gallery.py
 ```
@@ -33,9 +47,9 @@ cancelación/reintento. Separa errores técnicos sin captura de archivos perdido
 
 - [Manual de usuario](MANUAL_USUARIO.md), [manual de ejecución](MANUAL_EJECUCION.md), [arquitectura](ARQUITECTURA.md).
 - [Métricas base y adicionales](METRICAS.md), [procedencia](PROCEDENCIA.md).
-- [Inventario de extras](Docs/EXTRAS.md), [índice actual de evidencias](evidencias/ampliacion/indice.md).
-- [Matriz R1–R7 actual](evidencias/ampliacion/cumplimiento.md).
-- [Entrega inicial conservada](ENTREGA_INICIAL.md) e [índice histórico](evidencias/indice.md).
+- [Inventario de extras](Docs/EXTRAS.md), índice actual de evidencias (registro local o recurso regenerable; consultar el índice público).
+- Matriz R1–R7 actual (registro local o recurso regenerable; consultar el índice público).
+- [Entrega inicial conservada](ENTREGA_INICIAL.md) e índice histórico (registro local o recurso regenerable; consultar el índice público).
   Sus resultados se mantienen como evidencia de la versión anterior, sin modificarlos.
 
 ## Instalación reproducible · Windows 11 / PowerShell
@@ -50,7 +64,12 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip check
 if (!(Test-Path .env)) { Copy-Item .env.example .env }
 .\.venv\Scripts\python.exe scripts/download_model.py --destino modelo
-.\.venv\Scripts\python.exe scripts/prepare_media.py
+.\.venv\Scripts\python.exe scripts/download_demo_dataset.py --selection config/dataset-selection-public.json --max-mb 200
+.\.venv\Scripts\python.exe scripts/prepare_authorized_demo.py --output data/media/authorized_demo
+.\.venv\Scripts\python.exe scripts/prepare_media.py --demo-dir data/media/authorized_demo --output data/media/authorized_video
+$env:MONITOR_IMAGES_DIR='data/media/authorized_demo/normal'
+$env:MONITOR_VIDEO_FILE='data/media/authorized_video/demo.mp4'
+$env:P6_TEST_DEMO_DIR='data/media/authorized_demo'
 ```
 
 No se necesita activar el entorno ni modificar ExecutionPolicy. El lock corresponde
@@ -59,10 +78,10 @@ en [requirements.txt](requirements.txt); en Linux con Python 3.12 usar ese archi
 porque el lock Windows incluye pyreadline3. El CI local del proyecto usa CPU.
 No son necesarios PyTorch, GPU, Docker, AWS, servicios de pago ni los entornos de P1–P5.
 
-`prepare_media.py` reutiliza las imágenes públicas pequeñas de la demostración o las
-descarga si faltan; verifica el SHA de origen y genera un MP4 de 40 frames a 8 FPS
-con códec mp4v. [Manifest de video](data/media/manifest.json) y
-[manifest de imágenes](data/demo/manifest.json) identifican entradas y transformaciones.
+El adquiridor recupera solo las fotos seleccionadas y verifica su SHA; el preparador
+autorizado conserva el crédito de Marco/CC BY 2.0 y no sobrescribe entradas antiguas.
+El preparador de video genera 40 frames a 8 FPS con códec mp4v, manifiesto y atribución
+en data/media/authorized_video. El preparador legado ya no descarga dog.jpg automáticamente.
 Es un archivo generado, **no una cámara en vivo**. La disponibilidad de otros códecs
 depende de OpenCV/FFmpeg; se prueban AVI/MJPEG y MP4/mp4v.
 
@@ -81,8 +100,8 @@ una ejecución anterior, detener esa terminal con Ctrl+C. Tras cambiar código P
 o filtros de plantillas, reiniciar el servidor.
 
 En **Fuentes**, registrar:
-- Imágenes: nombre, tipo “Secuencia de imágenes”, ruta `data/demo/normal`.
-- Video: nombre, tipo “Archivo de video”, ruta `data/media/demo.mp4`.
+- Imágenes: nombre, tipo “Secuencia de imágenes”, ruta `data/media/authorized_demo/normal`, o una colección descargada.
+- Video: nombre, tipo “Archivo de video”, ruta `data/media/authorized_video/demo.mp4`.
 
 Elegir fuente, muestreo y repetición; pulsar **Iniciar**. En **Reproducción** se muestran
 captura, cajas, clases, confianza, número de frame, posición y progreso.
@@ -144,7 +163,7 @@ técnicos. Las primeras 2 ventanas elegibles forman una referencia fija por ejec
 Un aumento de al menos 0.20 en proporción baja durante 2 ventanas consecutivas produce
 una alerta alta. Una ventana insuficiente rompe continuidad; no declara normalidad.
 La referencia, ventanas y eventos se conservan; el cambio de confianza no confirma drift.
-[Justificación y observaciones iniciales](evidencias/referencia_confianza.md).
+Justificación y observaciones iniciales (registro local o recurso regenerable; consultar el índice público).
 
 ## Métricas y portal
 
@@ -278,9 +297,10 @@ Datos locales en data/runtime se excluyen de Git; las evidencias seleccionadas s
 conservan junto a JSON/JSONL y pueden versionarse. Las entradas generadas de escenarios
 se regeneran por código y se excluyen para evitar copias repetidas de calibración.
 
-No se afirma una calificación de 100 ni bonos confirmados. El inventario separa nivel
-potencial, evidencia y revisión pendiente. Nombre/matrícula, vinculación a un commit
-autorizado y CI remoto permanecen pendientes. No se hicieron commits ni push.
+La [evaluación interna](EVALUACION_ESTIMADA.md) separa puntos sustentados, reservas y
+límites; no es una calificación oficial. Grupo: O2026_ESI3906B. La publicación
+de los cambios actuales y el CI remoto requieren una decisión posterior del estudiante.
+En esta intervención no se hicieron commits ni push. Se conserva el commit previo.
 
 Límites: servicio local sin autenticación ni notificaciones externas; sin prueba de
 carga prolongada. Consultas históricas filtran JSON en Python; la galería/polling y la
@@ -289,3 +309,21 @@ detener una ejecución y dejar una captura huérfana para revisión. Las anotaci
 alertas son revisiones técnicas, no etiquetas de verdad. Los formatos dependen de los
 códecs disponibles. No se reclama evaluación de accuracy, IoU, precision/recall ni mAP.
 
+
+
+## Identificación académica vigente
+
+Grupo **O2026_ESI3906B**. [Canvas del curso](https://canvas.iteso.mx/courses/57431).
+Identidad completa en [IDENTIDAD.md](Docs/IDENTIDAD.md).
+
+
+## Actualización para publicación segura
+
+Grupo confirmado **O2026_ESI3906B**, [Canvas](https://canvas.iteso.mx/courses/57431).
+La selección pública y sus límites vigentes se describen en [PUBLICACION_SEGURA](Docs/PUBLICACION_SEGURA.md)
+y el [índice GitHub](evidencias/publicacion_segura/INDICE_GITHUB.md). Hay 80 fotografías
+locales conservadas y 79 seleccionadas para distribución/reproducción pública; una
+se omite por contacto en su atribución, sin modificar el original. C1/C2, video y S1–S7
+tienen alternativas reales con licencia identificada. Los 366 puntos son estimados,
+no calificación oficial. Los archivos antiguos ya públicos requieren una decisión
+posterior sobre la selección Git; no se ejecutó add, commit ni push.

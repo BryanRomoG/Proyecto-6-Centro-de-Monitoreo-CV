@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def test_collections_gallery_recovery_and_real_controls():
-    output=ROOT/'evidencias/datasets/navegador'/('edge-'+uuid.uuid4().hex);output.mkdir(parents=True)
+    output=ROOT/os.getenv('MONITOR_BROWSER_EVIDENCE','evidencias/datasets/navegador')/('edge-'+uuid.uuid4().hex);output.mkdir(parents=True)
     base=os.getenv('MONITOR_TEST_URL','http://127.0.0.1:8006')
     report={'timestamp':datetime.now(timezone.utc).isoformat(),'base_url':base,'ok':False,'checks':{},'mocked_responses':False,
             'test_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
@@ -36,13 +36,13 @@ def test_collections_gallery_recovery_and_real_controls():
             checks['paged_25']=True;checks['no_full_images_on_open']=not full_images
             checks['thumbnail_concurrency_at_most_4']=maximum[0]<=4
             report['initial_thumbnail_requests']=len(thumbs);report['maximum_thumbnail_concurrency']=maximum[0]
-            page.screenshot(path=str(output/'galeria-escritorio.png'),full_page=False)
+            page.screenshot(mask=[page.locator('aside small')],path=str(output/'galeria-escritorio.png'),full_page=False)
             assert checks['no_full_images_on_open'] and checks['thumbnail_concurrency_at_most_4']
             # Un error real de validación, seguido de reintento desde el botón visible.
             page.locator('[name=min_score]').fill('0.9');page.locator('[name=max_score]').fill('0.1')
             page.get_by_role('button',name='Aplicar filtros',exact=True).click()
             expect(page.locator('#gallery-retry')).to_be_visible()
-            page.screenshot(path=str(output/'galeria-error-y-reintento.png'))
+            page.screenshot(mask=[page.locator('aside small')],path=str(output/'galeria-error-y-reintento.png'))
             page.locator('[name=min_score]').fill('');page.locator('[name=max_score]').fill('')
             page.locator('#gallery-retry').click();expect(page.locator('#gallery-retry')).to_be_hidden()
             expect(page.locator('#gallery-load-state')).to_contain_text('Página cargada')
@@ -56,6 +56,10 @@ def test_collections_gallery_recovery_and_real_controls():
             page.reload();expect(page.locator('#collection-filter')).to_have_value('animales')
             expect(page.locator('#gallery-grid article').first).to_contain_text('Colección prevista: animales')
             checks['reload_keeps_filters']=True
+            # Una colección nueva tiene diez escenas; paginar sobre la galería completa
+            # evita exigir repeticiones históricas de animales para alcanzar una segunda página.
+            page.goto(base+'/gallery')
+            expect(page.locator('#gallery-grid article')).to_have_count(25)
             page.get_by_role('button',name='Siguiente',exact=True).click()
             expect(page.locator('#page-label')).to_have_text('Página 2')
             assert 'offset=25' in page.url;checks['page_2_url_and_backend']=True
@@ -95,7 +99,7 @@ def test_collections_gallery_recovery_and_real_controls():
                 expect(page.locator('#processed-frame')).to_have_attribute('data-event-id',event['id'])
                 page.wait_for_function("document.querySelector('#processed-frame').complete&&document.querySelector('#processed-frame').naturalWidth>0")
                 assert page.locator('#processed-frame').get_attribute('data-event-id')==event['id']
-                page.screenshot(path=str(output/(category+'-reproduccion.png')))
+                page.screenshot(mask=[page.locator('aside small')],path=str(output/(category+'-reproduccion.png')))
                 page.get_by_role('button',name='Continuar',exact=True).click()
                 page.wait_for_function('(old)=>document.querySelector("#processed-frame").dataset.eventId!==old',arg=event['id'])
                 page.get_by_role('button',name='Detener',exact=True).click();expect(page.locator('#global-status')).to_have_text('Detenida')
@@ -106,7 +110,7 @@ def test_collections_gallery_recovery_and_real_controls():
             assert size['content']<=size['viewport'];checks['mobile_no_horizontal_overflow']=True;report['mobile']=size
             page.locator('#gallery-grid img').first.scroll_into_view_if_needed()
             page.wait_for_function("document.querySelector('#gallery-grid img').naturalWidth>0")
-            page.screenshot(path=str(output/'galeria-movil.png'))
+            page.screenshot(mask=[page.locator('aside small')],path=str(output/'galeria-movil.png'))
             report['browser']=browser.version;report['ok']=all(checks.values())
         finally:
             state=api.get('/api/status').json()

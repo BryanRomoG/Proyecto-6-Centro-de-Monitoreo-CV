@@ -1,0 +1,90 @@
+[
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "animales-reproduccion.png",
+    "original_sha256": "bdb92488ba74e9235e65aeb4e81ae885976c36f9c7976e452e49c7d6efe210f0",
+    "copy": "evidencias/publicacion_segura/navegador/galeria/animales-reproduccion.png",
+    "copy_sha256": "bdb92488ba74e9235e65aeb4e81ae885976c36f9c7976e452e49c7d6efe210f0",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "galeria-error-y-reintento.png",
+    "original_sha256": "22f2419d60f1ac91cbfcdb1edd6cfc1952587f30b1dfb4d853318ee060df3fc5",
+    "copy": "evidencias/publicacion_segura/navegador/galeria/galeria-error-y-reintento.png",
+    "copy_sha256": "22f2419d60f1ac91cbfcdb1edd6cfc1952587f30b1dfb4d853318ee060df3fc5",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "galeria-escritorio.png",
+    "original_sha256": "282843f333e0d593a09741800a179a290c9ab15d82d7b8aa7dc6fc12966ac8e0",
+    "copy": "evidencias/publicacion_segura/navegador/galeria/galeria-escritorio.png",
+    "copy_sha256": "282843f333e0d593a09741800a179a290c9ab15d82d7b8aa7dc6fc12966ac8e0",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "galeria-movil.png",
+    "original_sha256": "bd3a065ff7c207f6b080a660e93de8ce125bb40824f3cfb635757da095cdbefc",
+    "copy": "evidencias/publicacion_segura/navegador/galeria/galeria-movil.png",
+    "copy_sha256": "bd3a065ff7c207f6b080a660e93de8ce125bb40824f3cfb635757da095cdbefc",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "vehiculos-reproduccion.png",
+    "original_sha256": "d18b39fd039b4fe188e5ed54e9ea317d5f132c7f13a7626892ca4f6df0f5e5e2",
+    "copy": "evidencias/publicacion_segura/navegador/galeria/vehiculos-reproduccion.png",
+    "copy_sha256": "d18b39fd039b4fe188e5ed54e9ea317d5f132c7f13a7626892ca4f6df0f5e5e2",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "verification.json",
+    "original_sha256": "b34e88dfbdd282b923e7abf62aa7a7dfc61687a9a02eaa3ef130b75ba7cc76b4",
+    "copy": "evidencias/publicacion_segura/navegador/galeria/verification.json",
+    "copy_sha256": "f534f1203f3cd8bb9e582eed30d418aa84c105e3154babea180aa4c4fa6e3c12",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "alerta-revisada.png",
+    "original_sha256": "77e2f584f18636c9aba17e17212eee467063565b08530543beffe692f0f6f6e0",
+    "copy": "evidencias/publicacion_segura/navegador/revision/alerta-revisada.png",
+    "copy_sha256": "77e2f584f18636c9aba17e17212eee467063565b08530543beffe692f0f6f6e0",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "predicciones-originales.png",
+    "original_sha256": "e5d62c8d80c1da771eddfbdf34cee473b1f8969ffe45ce009eb6e7959ccaa0c0",
+    "copy": "evidencias/publicacion_segura/navegador/revision/predicciones-originales.png",
+    "copy_sha256": "e5d62c8d80c1da771eddfbdf34cee473b1f8969ffe45ce009eb6e7959ccaa0c0",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "revision-movil.png",
+    "original_sha256": "52614a9bf5219d29e9e9a70ae9bbd771de905a7391f1081c2c8ec31d5b0f7865",
+    "copy": "evidencias/publicacion_segura/navegador/revision/revision-movil.png",
+    "copy_sha256": "52614a9bf5219d29e9e9a70ae9bbd771de905a7391f1081c2c8ec31d5b0f7865",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "revision-validada.png",
+    "original_sha256": "58197b6ea99e1d899f7962e13b9e6b68004bf28e04c8003e52d937a51a5f6e63",
+    "copy": "evidencias/publicacion_segura/navegador/revision/revision-validada.png",
+    "copy_sha256": "58197b6ea99e1d899f7962e13b9e6b68004bf28e04c8003e52d937a51a5f6e63",
+    "changes": []
+  },
+  {
+    "original_scope": "copia independiente autorizada, no clone remoto",
+    "original_file": "verification.json",
+    "original_sha256": "6e0045baf452db7610e19874f53b97c9ed671f9a992e74f9145e57336dc0b7af",
+    "copy": "evidencias/publicacion_segura/navegador/revision/verification.json",
+    "copy_sha256": "f7f32d580c7d7d79014e7f2927ed42eed21427b8e79dc5897e82f17c9464ad7e",
+    "changes": []
+  }
+]

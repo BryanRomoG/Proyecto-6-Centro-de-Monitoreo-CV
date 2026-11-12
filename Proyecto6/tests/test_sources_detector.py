@@ -1,5 +1,6 @@
 from io import BytesIO
 from pathlib import Path
+import os
 import threading
 
 import numpy as np
@@ -78,7 +79,7 @@ def test_real_detector_contract():
     if not settings.path(settings.detector.model).is_file():
         pytest.skip("Pesos ausentes; ejecutar download_model.py")
     detector = Detector(settings)
-    image = ROOT / "data/demo/normal/000.png"
+    image = ROOT / os.getenv('P6_TEST_DEMO_DIR','data/demo') / 'normal/000.png'
     if not image.is_file():
         pytest.skip("Entrada ausente; ejecutar prepare_demo.py")
     output = detector.infer(decode(image.read_bytes()))

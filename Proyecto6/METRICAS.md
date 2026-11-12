@@ -1,4 +1,10 @@
+> Copia pública derivada: los enlaces a registros locales se sustituyeron por notas explícitas. El original se conserva.
+
 # Inventario base G1–G7
+
+Edición actual: [auditoría y estimación interna](EVALUACION_ESTIMADA.md),
+evidencia de cierre (registro local o recurso regenerable; consultar el índice público). Los resultados históricos
+se recalculan al corte guardado; no se sustituyen por los valores de la hora actual.
 
 Los siete grupos aplican: hay inferencia, entrada visual, proceso local, detecciones,
 persistencia, una fuente identificada y alertas. No se excluye ningún grupo. No se
@@ -55,7 +61,7 @@ M1–M5 de evaluación de la rúbrica. El contrato completo, consumido por los e
 y exportaciones, está en [metric_specs.py](src/monitor_cv/metric_specs.py). Cada fila
 incluye definición, fórmula, unidad, población/ventana, adquisición, observaciones
 primarias, ausencia de datos y recálculo. Los resultados concretos se conservan en
-`extras.json` de cada paquete enlazado en el [índice actual](evidencias/ampliacion/indice.md).
+`extras.json` de cada paquete enlazado en el índice actual (registro local o recurso regenerable; consultar el índice público).
 
 | ID | Indicador | Diferencia respecto a la base |
 | --- | --- | --- |
@@ -117,5 +123,33 @@ La galería separa disponibles, técnicos sin captura, pendientes y anomalías. 
 sin bytes decodificables puede estar completo para G5 por su identidad/diagnóstico;
 un éxito con PNG ausente/hash incorrecto falla G5. M14 usa frames decodificados como
 denominador, no todos los intentos. No se inventan capturas ni se reclaman estos
-conteos como nuevos bonos. Ver [lote y recálculos](evidencias/datasets/indice.md).
+conteos como nuevos bonos. Ver lote y recálculos (registro local o recurso regenerable; consultar el índice público).
 Las diferencias de latencia son observaciones, sin causalidad por clase ni accuracy.
+
+## Revisión humana · 0.4
+
+Las decisiones de `detection_reviews` no entran en G1–G6 ni M01–M20 como nuevas
+inferencias, etiquetas reales o puntuaciones. Las clases, cajas, zonas y confianzas
+de la población original permanecen intactas. No se publican métricas de accuracy,
+precision, recall o mAP a partir de dos opiniones sobre una foto.
+
+Resolver explícitamente una alerta cambia legítimamente G7 al nuevo corte, y aporta
+observaciones humanas a M17/M18; no reescribe snapshots anteriores ni la condición
+que originó la alerta. El historial permite reconstruir el estado al corte antiguo.
+No se agregó otro bono por contar revisiones o fotos. M07 sigue informativa y sin
+bono por compartir el instrumento RSS de G3. M08 se estima en 3 por conteos simples,
+aunque el inventario anterior aspiraba a 5. Todos los M tienen grupo explícito en
+[metric_specs.py](src/monitor_cv/metric_specs.py); resultados y controles de doble
+conteo por fila en evaluacion.json (registro local o recurso regenerable; consultar el índice público).
+
+
+## Actualización para publicación segura
+
+Grupo confirmado **O2026_ESI3906B**, [Canvas](https://canvas.iteso.mx/courses/57431).
+La selección pública y sus límites vigentes se describen en [PUBLICACION_SEGURA](Docs/PUBLICACION_SEGURA.md)
+y el [índice GitHub](evidencias/publicacion_segura/INDICE_GITHUB.md). Hay 80 fotografías
+locales conservadas y 79 seleccionadas para distribución/reproducción pública; una
+se omite por contacto en su atribución, sin modificar el original. C1/C2, video y S1–S7
+tienen alternativas reales con licencia identificada. Los 366 puntos son estimados,
+no calificación oficial. Los archivos antiguos ya públicos requieren una decisión
+posterior sobre la selección Git; no se ejecutó add, commit ni push.

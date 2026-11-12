@@ -1,5 +1,28 @@
 # Manual de usuario
 
+Edición actual: [revisión humana](Docs/REVISION_MANUAL.md),
+[cierre y evidencias](ENTREGA_FINAL.md). Identificación académica definitiva en
+[IDENTIDAD](Docs/IDENTIDAD.md); grupo confirmado O2026_ESI3906B.
+
+## Revisar una detección y gestionar su alerta
+
+En Galería abre el evento y pulsa **Revisar detecciones individualmente**. Selecciona
+la detección por ID, el estado humano, motivo y actor local; si corriges la etiqueta,
+escribe la clase revisada. Guardar conserva el score y etiqueta originales. La tabla
+separa estado humano y predicción; el selector de vista alterna cajas originales con
+las confirmadas/corregidas. Las pendientes y falsos positivos no aparecen como validadas.
+
+El historial muestra cada cambio. Una recarga o reinicio conserva las revisiones.
+Si otro revisor guardó primero, pulsa Actualizar revisión antes de decidir de nuevo.
+Sin detecciones no hay nada que confirmar; sin imagen íntegra la validación se bloquea.
+La advertencia de superposición no afirma que dos cajas sean el mismo objeto.
+
+Desde la revisión abre una alerta vinculada. Selecciona motivo, revisiones pertinentes
+y comentario; Reconocer y después Resolver. Resolver cierra la gestión, sin borrar la
+alerta ni afirmar que la condición automática de baja confianza fuera errónea. El
+[caso perro/gato](Docs/REVISION_MANUAL.md) conserva las dos predicciones originales
+y muestra solo el perro en la capa humana. No se requiere cargar fotografías manualmente.
+
 ## Colecciones públicas incorporadas en 0.3
 
 En Fuentes aparecen ocho colecciones nuevas de diez fotografías distintas cada una.
@@ -93,3 +116,15 @@ El CSV neutraliza fórmulas de texto; conservar JSON para fidelidad de tipos y e
 **Ejecuciones** enlaza fuente, modelo y consulta por ID. **Configuración** es una vista
 del estado efectivo y raíces permitidas; los cambios globales se realizan en YAML/.env
 con el servidor detenido. No hay botón de guardar decorativo.
+
+
+## Actualización para publicación segura
+
+Grupo confirmado **O2026_ESI3906B**, [Canvas](https://canvas.iteso.mx/courses/57431).
+La selección pública y sus límites vigentes se describen en [PUBLICACION_SEGURA](Docs/PUBLICACION_SEGURA.md)
+y el [índice GitHub](evidencias/publicacion_segura/INDICE_GITHUB.md). Hay 80 fotografías
+locales conservadas y 79 seleccionadas para distribución/reproducción pública; una
+se omite por contacto en su atribución, sin modificar el original. C1/C2, video y S1–S7
+tienen alternativas reales con licencia identificada. Los 366 puntos son estimados,
+no calificación oficial. Los archivos antiguos ya públicos requieren una decisión
+posterior sobre la selección Git; no se ejecutó add, commit ni push.

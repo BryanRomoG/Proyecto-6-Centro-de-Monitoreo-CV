@@ -4,6 +4,7 @@ from io import BytesIO
 import json
 import re
 from typing import Literal
+from urllib.parse import urlencode
 import zipfile
 
 from fastapi import Body, FastAPI, HTTPException, Query, Request
@@ -22,6 +23,7 @@ from .query import Filters, filter_records, search
 from .presentation import spanish
 from .service import MonitorService
 from .sources import SourceRegistry, SourceRequest, sync_collections
+from .reviews import Reviews, ReviewRequest, validated_event
 
 
 class StartRequest(BaseModel):
@@ -37,6 +39,9 @@ class ChangeRequest(BaseModel):
     comment: str = Field(default="", max_length=2000)
     request_id: str = Field(min_length=8, max_length=100)
     expected_version: int = Field(ge=0)
+    reason_code: Literal['false_positive', 'validated', 'reviewed_unchanged', 'technical_verified'] | None = None
+    review_ids: list[str] = Field(default_factory=list, max_length=100)
+    actor: str = Field(default='revisor-local', min_length=1, max_length=100)
 
 
 class Selection(BaseModel):
@@ -50,9 +55,11 @@ def create_app(settings: Settings | None = None, *, service: MonitorService | No
     db = service.db
     registry = SourceRegistry(settings, db)
     gallery_store=Gallery(db,settings.data_dir)
+    reviews=Reviews(db)
     if auto_collections:sync_collections(settings,db)
     templates = Jinja2Templates(directory=ROOT/"web/templates")
     templates.env.filters["es"] = spanish
+    templates.env.globals['academic']=json.loads((ROOT/'config/academic.json').read_text(encoding='utf-8'))
 
     @asynccontextmanager
     async def lifespan(app):
@@ -63,7 +70,7 @@ def create_app(settings: Settings | None = None, *, service: MonitorService | No
         finally:
             service.stop()
 
-    app = FastAPI(title="Centro de monitoreo CV · Imágenes y video", version="0.3.0", lifespan=lifespan)
+    app = FastAPI(title="Centro de monitoreo CV · Imágenes y video", version="0.4.0", lifespan=lifespan)
     app.state.service = service
     app.mount("/static", StaticFiles(directory=ROOT/"web/static"), name="static")
 
@@ -92,8 +99,10 @@ def create_app(settings: Settings | None = None, *, service: MonitorService | No
         return alerts
 
     def render(request,title,view,**context):
+        export_query=urlencode({key:value for key,value in request.query_params.items()
+                                if key not in {'format','limit','offset','page','interval_seconds','kind'}})
         return templates.TemplateResponse(request=request,name="portal.html",
-            context={"title":title,"view":view,**context})
+            context={"title":title,"view":view,"export_query":export_query,**context})
 
     @app.get("/",response_class=HTMLResponse)
     def home(request:Request):
@@ -119,6 +128,39 @@ def create_app(settings: Settings | None = None, *, service: MonitorService | No
         item=require('events',identity)
         image_state=gallery_store.classify(item['status'],item.get('image_ref'),item.get('image_sha256'))[0]
         return render(request,"Detalle del evento","event",item=item,image_state=image_state,image_reason=STATES[image_state])
+
+    @app.get('/events/{identity}/review',response_class=HTMLResponse)
+    def review_page(request:Request,identity:str):
+        item=require('events',identity)
+        return render(request,'Revisión humana de detecciones','review',item=item)
+
+    @app.get('/api/events/{identity}/reviews')
+    def review_view(identity:str):
+        item=require('events',identity)
+        state,_,reason=gallery_store.classify(item['status'],item.get('image_ref'),item.get('image_sha256'))
+        result=reviews.view(item)
+        result.update(original=item,image_state=state,image_reason=reason,alerts=db.alert_links([identity]).get(identity,[]))
+        return result
+
+    @app.post('/api/events/{identity}/detections/{detection}/reviews')
+    def review_detection(identity:str,detection:str,body:ReviewRequest):
+        item=require('events',identity)
+        state=gallery_store.classify(item['status'],item.get('image_ref'),item.get('image_sha256'))[0]
+        if state!='available':raise HTTPException(409,'Captura no disponible o no íntegra: no es posible validar visualmente')
+        try:
+            result=reviews.save(item,detection,body)
+            return {'review':result,'view':reviews.view(item)}
+        except KeyError as exc:raise HTTPException(404,'Detección no encontrada') from exc
+        except ValueError as exc:raise HTTPException(409,str(exc)) from exc
+
+    @app.get('/images/{identity}/reviewed')
+    def reviewed_image(identity:str):
+        item=require('events',identity)
+        state=gallery_store.classify(item['status'],item.get('image_ref'),item.get('image_sha256'))[0]
+        if state!='available':raise HTTPException(404,'Captura no disponible o no íntegra')
+        view=reviews.view(item)
+        return Response(annotate(image_path(settings.data_dir,item),validated_event(item,view)),media_type='image/png',
+                        headers={'X-Event-ID':identity,'X-Image-Layer':'human-review','Cache-Control':'no-store'})
 
     @app.get("/alerts",response_class=HTMLResponse)
     def alerts(request:Request):
@@ -293,7 +335,7 @@ def create_app(settings: Settings | None = None, *, service: MonitorService | No
     @app.get("/api/configuration")
     def configuration():
         return {"settings":service.settings.model_dump(),"config_sha256":service.settings.fingerprint,
-                "allowed_media_roots":settings.media_roots,"author":"Nombre completo y matrícula pendientes"}
+                "allowed_media_roots":settings.media_roots,"author":"Entrega individual; identificación académica en el portal"}
 
     @app.get("/api/gallery")
     def gallery(request:Request,response:Response):

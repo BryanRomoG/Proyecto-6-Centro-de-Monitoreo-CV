@@ -1,0 +1,43 @@
+{
+  "results": {
+    "python_local": {
+      "tests": 115,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 36.14
+    },
+    "browser_local": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 29.047
+    },
+    "python_independent": {
+      "tests": 115,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 37.361
+    },
+    "browser_independent": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 13.371
+    }
+  },
+  "warning": "Deprecación Starlette/anyio BlockingPortal, sin fallo. Mensaje moov atom not found: prueba deliberada de video inválido.",
+  "resolved_intermediate_failures": [
+    "Suposición de 80 imágenes: ahora exige exactamente el conjunto congelado local (80) o público (79) y SHA por imagen.",
+    "Paginación Edge filtrada a diez animales: ahora prueba página 2 sobre la galería completa, conservando el test de filtros."
+  ],
+  "no_tests_removed": true,
+  "baseline_previous": {
+    "python": 107,
+    "browser": 2
+  },
+  "new_python_tests": 8
+}

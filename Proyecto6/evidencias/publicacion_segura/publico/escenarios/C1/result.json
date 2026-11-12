@@ -1,0 +1,36 @@
+{
+  "scenario": "C1",
+  "run_id": "run-bfa9566f585c4c3f9e3d778b9f8c16b7",
+  "expectation": "Fuente progresiva y 10 inferencias reales persistidas",
+  "observed": true,
+  "event_statuses": [
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+  ],
+  "event_ids": [
+    "evt-7f31d678cfaa46f88e453a3ef781e64d",
+    "evt-ffca1df085954cb89474d35abaa9135d",
+    "evt-c19b915500c34a58bd1b41b6a7f11fa8",
+    "evt-6ccb3987bad044eab88e8ec21a37d859",
+    "evt-c52137f809de40edb388832ed13c485d",
+    "evt-420f989c951f44ce89f89e9a113956e6",
+    "evt-241ed928b9b344a29657647b7b310060",
+    "evt-1775b22e2fa9432f8b7fbd35bec9b83a",
+    "evt-e67934ca5c3e411a828feae5f9f6fd7c",
+    "evt-cdaafd6c7ce0404a89f0da763e7fbf62"
+  ],
+  "alert_ids": [],
+  "config_sha256": "1d808fd61174e82b45cb8e613b3cafefde4fdd715beaae322408a3be36b719bd",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

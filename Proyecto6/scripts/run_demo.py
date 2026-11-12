@@ -19,6 +19,8 @@ from monitor_cv.service import MonitorService
 def code_manifest() -> dict:
     paths = list((ROOT / "src").rglob("*.py")) + list((ROOT / "scripts").glob("*.py"))
     paths += list((ROOT / "tests").glob("*.py"))
+    paths += list((ROOT / "browser_tests").glob("*.py"))
+    paths += list((ROOT / "config").glob("*.json"))
     paths += list((ROOT / "web").rglob("*.html")) + list((ROOT / "web").rglob("*.css")) + list((ROOT / "web").rglob("*.js"))
     paths += [ROOT / "config/settings.yaml", ROOT / "requirements.txt", ROOT / "pyproject.toml", ROOT / "modelo/descriptor.yaml"]
     if (ROOT / "requirements-lock-windows.txt").is_file():

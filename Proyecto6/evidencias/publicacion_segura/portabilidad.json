@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-11-12T03:33:47.345560+00:00",
+  "windows_python": "3.12.10",
+  "fresh_venv": true,
+  "installed_from_lock": true,
+  "pip_check": "No broken requirements found",
+  "editable_install": true,
+  "independent_copy": true,
+  "git_clone_performed": false,
+  "remote_CI_observed": false,
+  "model_downloaded_from_official_release": true,
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "dataset_acquisition": {
+    "id": "2026-11-12T03-14-40.950686+00-00",
+    "started_at": "2026-11-12T03:14:40.950686+00:00",
+    "downloaded": 79,
+    "reused": 0,
+    "exact_duplicates": 0,
+    "near_duplicates": 0,
+    "skipped": [],
+    "errors": [],
+    "finished_at": "2026-11-12T03:15:05.370924+00:00",
+    "network_bytes": 25430005,
+    "limit_bytes": 200000000,
+    "accepted": 79,
+    "categories": {
+      "escenas_despejadas": 10,
+      "escenas_multiples": 9,
+      "baja_confianza": 10,
+      "animales": 10,
+      "vehiculos": 10,
+      "bicicletas": 10,
+      "objetos": 10,
+      "personas": 10
+    },
+    "deficits": {
+      "personas": 0,
+      "animales": 0,
+      "vehiculos": 0,
+      "bicicletas": 0,
+      "objetos": 0,
+      "escenas_multiples": 1,
+      "baja_confianza": 0,
+      "escenas_despejadas": 0
+    },
+    "unique_sha256": 79,
+    "manifest_sha256": "7ce7cd79cca9378f040da4dbdd027aa75e6bb63f8c03146d5576d503a8fea03a"
+  },
+  "code_files_compared": 68,
+  "code_differences": [],
+  "tests": {
+    "python_local": {
+      "tests": 115,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 36.14
+    },
+    "browser_local": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 29.047
+    },
+    "python_independent": {
+      "tests": 115,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 37.361
+    },
+    "browser_independent": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 13.371
+    }
+  },
+  "source_original_images": 80,
+  "public_selection_unique_images": 79,
+  "new_original_scenes": 0,
+  "limits": [
+    "Solo Windows/Python 3.12 verificados; CI Ubuntu no observado.",
+    "Copia materializada local, no clone remoto de cambios sin commit.",
+    "Red HTTPS necesaria para dependencias/modelo/fotos ausentes.",
+    "Usar rutas cortas: intento inicial de materialización bajo OneDrive encontró WinError 3 por longitud."
+  ]
+}

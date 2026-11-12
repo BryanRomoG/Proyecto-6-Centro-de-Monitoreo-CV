@@ -195,6 +195,26 @@ def test_api_filters_exports_gallery_and_missing_states(seeded,event,settings):
         assert client.get('/images/e-1').status_code==404
 
 
+@pytest.mark.parametrize('kind',['events','alerts'])
+def test_export_links_apply_filters_before_javascript(seeded,event,settings,kind):
+    """SSR no debe ofrecer una descarga global mientras hidrata un listado filtrado."""
+    from html import unescape
+    import re
+    db,alert=seeded
+    other={**event,'id':'e-other','run_id':'r-other'}
+    db.save_run({'id':'r-other','started_at':event['timestamp'],'status':'completed'})
+    other_alert={**alert,'id':'alert-other','run_id':'r-other','event_id':'e-other','event_ids':['e-other']}
+    db.save_observation(other,[other_alert],None)
+    with TestClient(create_app(settings,service=MonitorService(settings,database=db))) as client:
+        page=client.get('/'+kind,params={'run_id':'r-1','format':'ignored-on-page'}).text
+        for format in ['json','csv']:
+            href=unescape(re.search(r'id="export-'+format+r'"[^>]*href="([^"]+)"',page).group(1))
+            assert 'run_id=r-1' in href and 'ignored-on-page' not in href
+            response=client.get(href);assert response.status_code==200
+            rows=response.json() if format=='json' else list(csv.DictReader(StringIO(response.text.lstrip('\ufeff'))))
+            assert len(rows)==1 and rows[0]['run_id']=='r-1'
+
+
 def test_additional_metrics_and_historical_calculations(event,settings):
     other=deepcopy(event)
     other.update(id='e-2',inference_ms=40,cpu_seconds_delta=.1,read_frames=5,discarded_frames=4)
@@ -224,7 +244,8 @@ def test_real_pause_resume_snapshot_and_video(tmp_path):
     if not (ROOT/'modelo/yolox_nano.onnx').is_file():
         pytest.skip('Requiere pesos reales')
     data=Settings().model_dump()
-    data['source'].update(images_dir='data/demo/normal',sample_hz=10,loop=True)
+    import os
+    data['source'].update(images_dir=os.getenv('P6_TEST_DEMO_DIR','data/demo')+'/normal',sample_hz=10,loop=True)
     data['storage']['data_dir']=str(tmp_path/'runtime')
     settings=Settings.model_validate(data)
     service=MonitorService(settings)

@@ -1,5 +1,31 @@
 # Arquitectura y manual de ejecución
 
+La referencia de cierre es el [informe final](ENTREGA_FINAL.md). Se conserva la
+arquitectura de inferencia y se añade una capa humana independiente.
+
+## Revisión humana e integridad
+
+`reviews.py` proyecta IDs individuales estables a partir de evento+índice sin editar
+las listas históricas. SQLite añade `detection_reviews` con clave única de petición
+y versión por detección. `BEGIN IMMEDIATE` serializa guardados; una versión vieja
+produce 409 y un reintento idéntico devuelve la misma revisión. El historial es
+append-only, con actor local, motivo, fecha, clase original, corregida opcional y hash.
+
+La vista original conserva cajas/scores/zonas. La revisada dibuja solo confirmadas o
+corregidas y etiqueta explícitamente la capa humana; no genera nuevas predicciones.
+Sin imagen íntegra se bloquea guardar una validación visual. Un IoU >=0.5 solo avisa
+de cajas superpuestas; no suprime ni cambia NMS. El registro original nunca se actualiza.
+
+La gestión de alertas conserva su tabla original y añade motivo/review_ids al historial
+de cambios. Las revisiones deben pertenecer a eventos de esa alerta y corresponder
+al motivo. La condición automática histórica y la decisión humana son campos distintos.
+Las consultas de alertas cargan historiales en un lote, evitando una conexión SQLite
+por cada alerta. La galería conserva SQL paginado, derivados en caché y control de
+concurrencia del cliente. Nuevos runs de colecciones usan rutas relativas a la raíz;
+las fuentes históricas y sus configuraciones originales no se reescriben.
+
+## Flujo de inferencia conservado
+
 ```mermaid
 flowchart LR
   A[Carpeta de imágenes] --> C[Productor con pausa y muestreo]

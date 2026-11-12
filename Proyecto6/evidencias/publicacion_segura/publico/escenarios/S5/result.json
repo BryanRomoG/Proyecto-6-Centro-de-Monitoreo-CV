@@ -1,0 +1,22 @@
+{
+  "scenario": "S5",
+  "run_id": "run-a29eb353cb064c518392697bc6ec2c69",
+  "expectation": "Imagen corrupta genera decode_error y el siguiente frame sigue con ONNX real",
+  "observed": true,
+  "event_statuses": [
+    "ok",
+    "decode_error",
+    "ok"
+  ],
+  "event_ids": [
+    "evt-bedf18f3f54a411fbbd1a19f0e09b50a",
+    "evt-7ad11262647542c4bd635ed68910f582",
+    "evt-799da4db00d74c408e1ea452aa598195"
+  ],
+  "alert_ids": [],
+  "config_sha256": "d31d67e152717a17fcae7090d7b74112e10abbee796e737dba2a8ace2a1ee905",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "fault_simulated": false,
+  "portal_verification": "Pendiente de recorrido HTTP/navegador en esta nueva ejecución",
+  "scope": "Éxitos con YOLOX real; cada intento fallido indica inference_executed=false"
+}

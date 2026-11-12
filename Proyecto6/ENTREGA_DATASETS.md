@@ -1,3 +1,5 @@
+> Copia pública derivada: los enlaces a registros locales se sustituyeron por notas explícitas. El original se conserva.
+
 # Ampliación del dataset y portal · reporte de entrega
 
 Entrega individual. Nombre académico y matrícula pendientes. Sin commits ni push.
@@ -8,7 +10,7 @@ Implementación local Windows/Python 3.12, FastAPI/SQLite/YOLOX-Nano CPU, sin c�
 **80 fotografías distintas**, 80 IDs, 80 URLs originales, 80 SHA-256 y MD5 de origen
 distintos. Diez por categoría: personas, animales, vehículos, bicicletas/transporte,
 objetos, múltiples, difíciles/oclusión y despejadas. Se conservaron los JPEG del espejo,
-sin crear ochenta modificaciones de dog.jpg. [Manifiesto](data/media/datasets/manifest.json).
+sin crear ochenta modificaciones de dog.jpg. Manifiesto (registro local o recurso regenerable; consultar el índice público).
 
 ## 2. Duplicados y volumen
 
@@ -32,7 +34,7 @@ Ocho colecciones nuevas, cada una con diez archivos y un ID persistente, junto a
 dos fuentes locales anteriores. Se registran al iniciar normalmente el portal o
 ejecutar el lote. Los SHA se verifican antes de registrar y antes de inferir. Las
 fuentes pueden seleccionarse, pausarse, continuarse, detenerse y consultar su historial.
-[IDs y configuración](evidencias/datasets/verificacion-final.json).
+IDs y configuración (registro local o recurso regenerable; consultar el índice público).
 
 ## 5. Inferencias reales y escenarios
 
@@ -45,13 +47,13 @@ un escenario ni que las 52 clases sean correctas. No se calculó accuracy/mAP.
 
 Como comprobación visual puntual, el evento `evt-b42b4f6a634f4f40802620282a03f1e2`
 contiene personas (scores 0.837741, 0.829614 y 0.807278) y mesa (0.802495), clases
-presentes en su [captura conservada](evidencias/datasets/ejecuciones/dataset-f316f59912a04cf1bb4a2bf2a1f3bc9a/escenas_multiples/images/evt-b42b4f6a634f4f40802620282a03f1e2.png).
+presentes en su captura conservada (registro local o recurso regenerable; consultar el índice público).
 También se revisaron visualmente perro/persona en la galería y automóvil en la
 reproducción de vehículos de Edge. Son ejemplos de reconocimiento semántico, no
 validación cuantitativa de todas las cajas o de las 52 clases.
 
-[Ejecuciones seleccionadas](evidencias/datasets/indice.md) y
-[ejemplos con IDs/score original](evidencias/datasets/ejecuciones/dataset-f316f59912a04cf1bb4a2bf2a1f3bc9a/summary.json).
+Ejecuciones seleccionadas (registro local o recurso regenerable; consultar el índice público) y
+ejemplos con IDs/score original (registro local o recurso regenerable; consultar el índice público).
 Cada run conserva fuente, modelo/version/hash, configuración, hora, entradas/IDs,
 eventos, ventanas, PNG, alertas y métricas. G1–G7 y M01–M20 se recalcularon en los ocho
 paquetes. Las latencias medias varían por escena/fuente sin demostrar causalidad.
@@ -63,9 +65,9 @@ como otras fotografías. El dataset sigue teniendo 80 originales.
 La pantalla anterior agrupaba fallos técnicos y archivos perdidos. Al comenzar se
 encontraron 10 eventos sin referencia:
 cinco source_error y cinco decode_error, incluyendo los ocho históricos más antiguos.
-No había un PNG declarado faltante ni ruta que reparar. [IDs originales](evidencias/datasets/referencias-iniciales.json).
+No había un PNG declarado faltante ni ruta que reparar. IDs originales (registro local o recurso regenerable; consultar el índice público).
 Las suites agregaron eventos técnicos nuevos; el contador actual se documenta en
-[auditoría](evidencias/datasets/referencias/audit-0614f874bdc64bb3a5a1adbd9f5093ed.json).
+auditoría (registro local o recurso regenerable; consultar el índice público).
 No se fabricaron capturas, cambiaron hashes/payloads ni borraron evidencias.
 
 El portal separa capturas disponibles, técnicos sin captura, pendientes de comprobación
@@ -92,7 +94,7 @@ el polling de un segundo; no se exige respuesta visual instantánea al backend.
 
 Las 68 pruebas anteriores se ejecutaron primero y pasaron. Cierre: **87
 aprobadas, cero fallos/errores/omisiones** (27.020 s), más **1 prueba
-E2E aprobada en Edge** (17.738 s). JUnit en el [índice](evidencias/datasets/indice.md).
+E2E aprobada en Edge** (17.738 s). JUnit en el índice (registro local o recurso regenerable; consultar el índice público).
 Incluyen HTTP simulado solo en pruebas unitarias del descargador, datos corruptos,
 licencias, hashes, similitud, SQL, paginación, referencias/restauración, thumbnails,
 fuentes y ejecución real de YOLOX. La E2E usa servidor/modelo/descarga reales, sin mocks.
@@ -109,16 +111,16 @@ Cinco consultas reales de 25 elementos con 1133 capturas disponibles:
 375.6, 364.2, 446.1, 483.2, 394.6 ms; respuesta de
 52609 bytes. Es una medición local sin prueba de carga ni
 comparativa controlada con la edición anterior. El primer inventario puede tardar más
-porque verifica hashes/formatos. [Observaciones](evidencias/datasets/verificacion-final.json).
+porque verifica hashes/formatos. Observaciones (registro local o recurso regenerable; consultar el índice público).
 
 ## 10. Archivos y evidencias
 
-[Inventario](evidencias/datasets/archivos.json), [índice](evidencias/datasets/indice.md),
+Inventario (registro local o recurso regenerable; consultar el índice público), índice (registro local o recurso regenerable; consultar el índice público),
 [dataset/licencias](Docs/DATASETS.md), [manual](MANUAL_USUARIO.md) y [extras](Docs/EXTRAS.md).
 Nuevos scripts download_demo_dataset/run_dataset_demo/audit_gallery, módulos datasets/gallery,
 pruebas unitarias/E2E y selección congelada. Configuración/fuentes/productor, SQL,
 derivados, endpoints, interfaz y documentación adaptados. Proyecto1–5 y Docs oficiales
-intactos. Evidencias anteriores y payloads previos comparados por SHA en [cierre](evidencias/datasets/cierre.json).
+intactos. Evidencias anteriores y payloads previos comparados por SHA en cierre (registro local o recurso regenerable; consultar el índice público).
 
 ## 11. Comandos exactos de PowerShell y demostración
 

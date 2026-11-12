@@ -52,7 +52,8 @@ def export(service,run_id,output):
 def settings_for(base,folder,source_id,*,video=False):
     data=base.model_dump()
     data['source'].update(kind='video' if video else 'images',source_id=source_id,sample_hz=20,loop=False)
-    data['source']['video_file' if video else 'images_dir']=str(folder.resolve())
+    resolved=folder.resolve()
+    data['source']['video_file' if video else 'images_dir']=(resolved.relative_to(ROOT).as_posix() if resolved.is_relative_to(ROOT) else str(resolved))
     return Settings.model_validate(data)
 
 
@@ -129,14 +130,24 @@ class InjectedFailureDetector(Detector):
         return super().infer(rgb)
 
 
-def run_suite(output:Path,*,base:Settings|None=None):
-    prepare_media()
+def run_suite(output:Path,*,base:Settings|None=None,authorized_inputs:dict|None=None):
+    if authorized_inputs is None:prepare_media()
     base=base or load_settings(environ=False)
     output.mkdir(parents=True,exist_ok=False)
     inputs=ROOT/'data/scenarios'/output.name
     inputs.mkdir(parents=True,exist_ok=False)
-    reference,changed,empty,cal=calibration(inputs,base)
-    normal=ROOT/'data/demo/normal/000.png'
+    if authorized_inputs is None:
+        reference,changed,empty,cal=calibration(inputs,base)
+        normal=ROOT/'data/demo/normal/000.png'
+        normal_folder=ROOT/'data/demo/normal'
+        changed_folder=ROOT/'data/demo/baja-confianza'
+        video_path=ROOT/'data/media/demo.mp4'
+    else:
+        reference,changed,empty,cal=[authorized_inputs[k] for k in ['reference','changed','empty','calibration']]
+        normal=Path(reference['path'])
+        normal_folder=sequence(inputs/'C1',[normal]*10)
+        changed_folder=sequence(inputs/'C2',[Path(changed['path'])]*10)
+        video_path=Path(authorized_inputs['video'])
     results={}
     services={}
 
@@ -164,11 +175,11 @@ def run_suite(output:Path,*,base:Settings|None=None):
         return events,alerts,windows
 
     good=lambda es,aa,ww:bool(es) and all(e['status'] in {'ok','no_detections'} and e['inference_executed'] for e in es)
-    execute('C1',settings_for(base,ROOT/'data/demo/normal','C1-imagenes'),expectation='Fuente progresiva y 10 inferencias reales persistidas',accept=good)
-    execute('C2',settings_for(base,ROOT/'data/demo/baja-confianza','C2-imagenes'),
+    execute('C1',settings_for(base,normal_folder,'C1-imagenes'),expectation='Fuente progresiva y 10 inferencias reales persistidas',accept=good)
+    execute('C2',settings_for(base,changed_folder,'C2-imagenes'),
             expectation='Puntuaciones bajas reales, capturas y alertas según configuración fija',
             accept=lambda es,aa,ww:good(es,aa,ww) and any(a['rule_id']=='low-confidence-v1' for a in aa))
-    video=settings_for(base,ROOT/'data/media/demo.mp4','video-local',video=True)
+    video=settings_for(base,video_path,'video-local',video=True)
     values=video.model_dump();values['source']['sample_hz']=4
     execute('Video',Settings.model_validate(values),expectation='MP4 real, posiciones, muestreo y descarte contable',
             accept=lambda es,aa,ww:good(es,aa,ww) and sum(e['read_frames'] for e in es)==40 and sum(e['discarded_frames'] for e in es)>0)

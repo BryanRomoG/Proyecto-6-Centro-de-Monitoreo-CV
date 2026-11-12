@@ -1,0 +1,47 @@
+{
+  "id": "metric-da05c407ae7c4a65b774e042ec280cc9",
+  "run_id": "run-bfa9566f585c4c3f9e3d778b9f8c16b7",
+  "timestamp": "2026-11-12T02:55:48.575142+00:00",
+  "window_seconds": 60.0,
+  "values": {
+    "G1": 18.961919999856036,
+    "G2": 4.975180565471629,
+    "G3": 132.146875,
+    "G4": 0.0,
+    "G5": 1.0,
+    "G6": 0.3373749256134033,
+    "G7": 0
+  },
+  "units": {
+    "G1": "ms",
+    "G2": "frames/s",
+    "G3": "MiB",
+    "G4": "proporción",
+    "G5": "proporción",
+    "G6": "s",
+    "G7": "alertas"
+  },
+  "event_ids": [
+    "evt-cdaafd6c7ce0404a89f0da763e7fbf62",
+    "evt-e67934ca5c3e411a828feae5f9f6fd7c",
+    "evt-1775b22e2fa9432f8b7fbd35bec9b83a",
+    "evt-241ed928b9b344a29657647b7b310060",
+    "evt-420f989c951f44ce89f89e9a113956e6",
+    "evt-c52137f809de40edb388832ed13c485d",
+    "evt-6ccb3987bad044eab88e8ec21a37d859",
+    "evt-c19b915500c34a58bd1b41b6a7f11fa8",
+    "evt-ffca1df085954cb89474d35abaa9135d",
+    "evt-7f31d678cfaa46f88e453a3ef781e64d"
+  ],
+  "last_report_event_id": "evt-cdaafd6c7ce0404a89f0da763e7fbf62",
+  "active_alert_ids": [],
+  "primary": {
+    "successful_frames": 10,
+    "attempt_elapsed_s": 2.0099773000001733,
+    "scored_detections": 10,
+    "low_detections": 0,
+    "traced_events": 10,
+    "eligible_events": 10
+  },
+  "state": "observed"
+}
